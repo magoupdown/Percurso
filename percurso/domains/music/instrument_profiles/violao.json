@@ -1,0 +1,440 @@
+{
+  "id": "violao",
+  "nome": "Violão",
+  "familia": "cordas_dedilhadas",
+  "tessitura": {
+    "inicial": ["E4", "B3", "G3"],
+    "ampliada": "E2–E5"
+  },
+  "postura": [
+    "Sentar na borda da cadeira, com a coluna ereta e sem apoiar as costas; violão de tamanho adequado à criança (1/2, 3/4 ou inteiro).",
+    "Posição clássica: violão na perna esquerda com o pé esquerdo no banquinho ou apoio, braço do instrumento inclinado para cima (cabeça na altura do ombro).",
+    "Posição popular: violão apoiado na perna direita, com o braço levemente inclinado; aceitável desde que o punho esquerdo não fique quebrado.",
+    "O tampo fica levemente afastado do tronco e o antebraço direito apoia na borda superior do bojo, deixando o punho solto.",
+    "Polegar esquerdo atrás do braço, na altura do dedo médio, sem aparecer por cima; dedos curvos tocam com a ponta e próximos ao traste.",
+    "Ombros relaxados e cabeça alinhada; olhar para a mão esquerda só quando necessário, sem inclinar o pescoço.",
+    "Unhas da mão esquerda curtas; na mão direita, unhas curtas ou levemente crescidas conforme a orientação do professor."
+  ],
+  "tecnicas_fundamentais": [
+    "Mão direita com dedos p, i, m, a: polegar nos bordões (6ª, 5ª e 4ª) e i-m-a nas cordas agudas.",
+    "Toque apoiado (o dedo descansa na corda seguinte) e toque sem apoio (livre), alternando i-m em melodias.",
+    "Mão esquerda com dedos 1 a 4, um dedo por casa, pressionando junto ao traste com o mínimo de força.",
+    "Acordes com cordas soltas (Em, Am, E, D, G, C) e troca com dedo pivô e antecipação da mudança.",
+    "Batida (rasgueado) com polegar ou indicador, para baixo e para cima, sustentando a levada.",
+    "Dedilhado com polegar no baixo e i-m-a nas agudas, base para bossa nova e canções de roda.",
+    "Levadas brasileiras (bossa, samba, baião) com acento e abafamento nos lugares certos.",
+    "Pestana com o dedo 1 reto e o polegar na contraposição, para acordes móveis (F, Bm)."
+  ],
+  "pre_requisitos": {
+    "Corda solta: polegar repetido no pulso": ["Corpo: pulso com palmas e batidas no tampo do violão", "Postura: banquinho, apoio e posição do violão"],
+    "Acordes com cordas soltas: Em, Am, E, D, G e C": ["Mão esquerda: dedos 1 a 4 nas primeiras casas", "Diagrama de acorde: cordas, casas e dedos"],
+    "Batida para baixo em semínimas com acorde único": ["Cordas soltas alternadas: baixo e agudas no pulso", "Acordes com cordas soltas: Em, Am, E, D, G e C"],
+    "Troca de acordes com dedo pivô e antecipação": ["Acordes com cordas soltas: Em, Am, E, D, G e C"],
+    "Levada de 4 compassos com troca de acorde": ["Batida para baixo e para cima em colcheias", "Troca de acordes com dedo pivô e antecipação"],
+    "Canção com três acordes e batida simples": ["Canção com dois acordes (Em e Am)", "Levada de 4 compassos com troca de acorde"],
+    "Bossa nova: dedilhado simples com acordes básicos": ["Arpejo p-i-m-a sobre acordes e dedilhado de bossa", "Canção com três acordes e batida simples"],
+    "Pestana: F e Bm com acordes móveis": ["Troca de acordes com dedo pivô e antecipação", "Toque apoiado e sem apoio em escalas de 1ª posição"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Corpo: pulso com palmas e batidas no tampo do violão",
+      "Corda solta: polegar repetido no pulso",
+      "Cordas soltas alternadas: baixo e agudas no pulso",
+      "Batida para baixo em semínimas com acorde único",
+      "Batida para baixo e para cima em colcheias",
+      "Levada de 4 compassos com troca de acorde",
+      "Pulso estável com metrônomo em levadas variadas"
+    ],
+    "leitura": [
+      "Diagrama de acorde: cordas, casas e dedos",
+      "Cifra: letras A a G, maior e menor",
+      "Tablatura: cordas e casas em melodias curtas",
+      "Figuras rítmicas na levada: semínima e colcheia",
+      "Pauta: notas das cordas soltas na clave de sol",
+      "Pauta: primeira posição nas cordas agudas (mi, si, sol)",
+      "Pauta e tablatura juntas em peças simples"
+    ],
+    "tecnica": [
+      "Postura: banquinho, apoio e posição do violão",
+      "Mão direita: p-i-m-a nas cordas soltas",
+      "Mão esquerda: dedos 1 a 4 nas primeiras casas",
+      "Acordes com cordas soltas: Em, Am, E, D, G e C",
+      "Troca de acordes com dedo pivô e antecipação",
+      "Toque apoiado e sem apoio em escalas de 1ª posição",
+      "Arpejo p-i-m-a sobre acordes e dedilhado de bossa",
+      "Pestana: F e Bm com acordes móveis"
+    ],
+    "percepcao": [
+      "Grave e agudo: cordas e direção da escala",
+      "Afinação: comparar corda com referência e ajustar",
+      "Ouvir se o acorde é maior ou menor",
+      "Reconhecer a troca de acorde numa canção",
+      "Levadas brasileiras: bossa, samba e baião de ouvido",
+      "Tirar melodia de ouvido nas cordas agudas",
+      "Perceber I, IV e V e o retorno à tônica"
+    ],
+    "repertorio": [
+      "Melodias em cordas soltas e primeiras casas",
+      "Canção com dois acordes (Em e Am)",
+      "Canção com três acordes e batida simples",
+      "Canção brasileira com levada de samba ou baião",
+      "Bossa nova: dedilhado simples com acordes básicos",
+      "Peça solo em tablatura e partitura (1ª posição)",
+      "Roda de violão: acompanhamento e canto em grupo"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Dor na ponta dos dedos da mão esquerda nas primeiras semanas, levando a pressionar longe do traste ou desistir.",
+    "Cordas abafadas porque o dedo encosta na corda vizinha ou o polegar esquerdo sobe por cima do braço.",
+    "Punho esquerdo quebrado e cotovelo colado ao corpo, principalmente na posição com o violão na perna direita.",
+    "Parar o pulso na troca de acorde: a mão direita espera a esquerda terminar de montar o acorde.",
+    "Batida sempre com a mesma força e sem abafamento, sem o balanço característico das levadas brasileiras.",
+    "Polegar direito tocando cordas erradas ou a mão direita 'olhando' as cordas o tempo todo.",
+    "Violão desafinado e o aluno não percebe, por tocar sem conferir a afinação no início.",
+    "Pestana com o dedo 1 dobrado ou com força excessiva, produzindo cordas que não soam."
+  ],
+  "vocabulario_pt": [
+    "cordas soltas",
+    "casa e traste",
+    "dedilhado",
+    "batida",
+    "rasgueado",
+    "toque apoiado",
+    "toque sem apoio",
+    "p-i-m-a",
+    "pestana",
+    "primeira posição",
+    "cifra",
+    "tablatura",
+    "diagrama de acorde",
+    "afinação",
+    "levada",
+    "bossa nova",
+    "samba",
+    "baião",
+    "dedo pivô",
+    "roda de violão",
+    "violão em grupo",
+    "violão clássico",
+    "violão popular"
+  ],
+  "vocabulario_en": [
+    "open strings",
+    "fret",
+    "fingerpicking",
+    "strumming",
+    "rasgueado",
+    "rest stroke",
+    "free stroke",
+    "p-i-m-a fingering",
+    "barre chord",
+    "first position",
+    "chord symbols",
+    "tablature",
+    "chord diagram",
+    "tuning",
+    "strumming pattern",
+    "bossa nova guitar",
+    "samba guitar",
+    "Brazilian guitar",
+    "pivot finger",
+    "group guitar",
+    "classical guitar",
+    "nylon-string guitar",
+    "beginner guitar method"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Tambor de tampo",
+        "descricao": "Com uma gravação, a turma marca o pulso com palmas, depois batendo no tampo do violão com a mão direita fechada e por fim alternando tampo e palma. Trocar a música e observar quem mantém o pulso.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Corpo: pulso com palmas e batidas no tampo do violão"]
+      },
+      {
+        "titulo": "Polegar no bordão",
+        "descricao": "O polegar direito toca a 6ª corda solta em cada pulso enquanto o professor toca um acompanhamento; a cada 4 pulsos passar para a 5ª e depois a 4ª corda. Em seguida, alternar bordão (p) e cordas agudas (i-m) sem buraco.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Corda solta: polegar repetido no pulso", "Cordas soltas alternadas: baixo e agudas no pulso"]
+      },
+      {
+        "titulo": "Batida para baixo em Em",
+        "descricao": "Com o acorde Em montado, bater para baixo com o polegar (ou indicador) em cada tempo de um compasso de 4, contando em voz alta. Depois acrescentar a batida para cima nas colcheias ('baixo-cima').",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Batida para baixo em semínimas com acorde único", "Batida para baixo e para cima em colcheias"]
+      },
+      {
+        "titulo": "Quatro compassos sem parar",
+        "descricao": "Levada 'baixo, baixo-cima, cima-baixo-cima' por dois compassos em Em e dois em Am, repetindo sem parar. O professor bate o pulso no tampo e a turma não pode interromper na troca.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Levada de 4 compassos com troca de acorde"]
+      },
+      {
+        "titulo": "Metrônomo e levadas",
+        "descricao": "Tocar a mesma sequência de acordes com metrônomo em 60, 80 e 100 bpm, primeiro com batida simples e depois com levada de samba; o aluno avalia em qual andamento manteve a regularidade.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Pulso estável com metrônomo em levadas variadas"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Ler o desenho do acorde",
+        "descricao": "Diagramas de Em, Am e D no quadro: identificar cordas, casas, números dos dedos e 'x' ou 'o'. A turma monta cada acorde e compara com a cifra escrita acima, incluindo a diferença entre maior e menor.",
+        "recursos": ["quadro", "instrumentos", "impressao"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Diagrama de acorde: cordas, casas e dedos", "Cifra: letras A a G, maior e menor"]
+      },
+      {
+        "titulo": "Melodia na tablatura",
+        "descricao": "Ler uma melodia curta em tablatura (cordas 1 a 3, casas 0 a 3), dizendo 'corda-casa' antes de tocar. Depois marcar acima da tablatura o ritmo em semínimas e colcheias e tocar com metrônomo.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Tablatura: cordas e casas em melodias curtas", "Figuras rítmicas na levada: semínima e colcheia"]
+      },
+      {
+        "titulo": "Cordas soltas na pauta",
+        "descricao": "O professor escreve as notas das seis cordas soltas na clave de sol (mi, si, sol, ré, lá, mi); o aluno toca cada uma ao vê-la apontada e, em seguida, lê pequenas sequências só com cordas soltas.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Pauta: notas das cordas soltas na clave de sol"]
+      },
+      {
+        "titulo": "Primeira posição nas agudas",
+        "descricao": "Ler e tocar as notas de sol a sol (cordas 3, 2 e 1, casas 0 a 3) na pauta, com um dedo por casa; depois tocar uma peça simples escrita em pauta e tablatura, conferindo uma pela outra.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Pauta: primeira posição nas cordas agudas (mi, si, sol)", "Pauta e tablatura juntas em peças simples"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Checklist de postura",
+        "descricao": "Antes de tocar, o aluno confere banquinho ou apoio, posição do violão na perna, inclinação do braço, polegar esquerdo atrás e antebraço direito no bojo. Comparar com foto ou espelho.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Postura: banquinho, apoio e posição do violão"]
+      },
+      {
+        "titulo": "p-i-m-a nas soltas",
+        "descricao": "Polegar na 4ª corda e i, m, a nas cordas 3, 2 e 1, em sequência p-i-m-a e depois p-a-m-i, lentamente, sem olhar a mão direita. Manter o polegar à frente dos outros dedos.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Mão direita: p-i-m-a nas cordas soltas"]
+      },
+      {
+        "titulo": "Aranha nas primeiras casas",
+        "descricao": "Na 1ª corda, tocar casas 1, 2, 3 e 4 com os dedos 1, 2, 3 e 4, um dedo por casa, mantendo os dedos anteriores presos; repetir nas outras cordas. Depois montar Em, Am, E, D, G e C, um por vez.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Mão esquerda: dedos 1 a 4 nas primeiras casas", "Acordes com cordas soltas: Em, Am, E, D, G e C"]
+      },
+      {
+        "titulo": "Dedo pivô",
+        "descricao": "Trocar Am–E e C–Am mantendo o dedo que fica na mesma casa e movendo só os outros; depois trocar G–D antecipando a mudança na última colcheia do compasso, sem parar a batida.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Troca de acordes com dedo pivô e antecipação"]
+      },
+      {
+        "titulo": "Escala apoiada e arpejo",
+        "descricao": "Escala de dó maior em primeira posição alternando i-m com toque apoiado e depois sem apoio. Em seguida, arpejo p-i-m-a sobre Am e E e a célula básica de bossa (baixo no polegar, acorde com i-m-a).",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Toque apoiado e sem apoio em escalas de 1ª posição", "Arpejo p-i-m-a sobre acordes e dedilhado de bossa"]
+      },
+      {
+        "titulo": "Pestana sem força",
+        "descricao": "Colocar o dedo 1 reto na casa 5 e depois na casa 1, pressionando com o peso do braço e o polegar atrás; tocar corda por corda até que todas soem. Montar F e Bm e deslocá-los pelo braço.",
+        "recursos": ["instrumentos"],
+        "idade_min": 11,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Pestana: F e Bm com acordes móveis"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Corda grossa, corda fina",
+        "descricao": "De olhos fechados, os alunos dizem se o professor tocou um bordão ou uma corda aguda e se a melodia subiu ou desceu pelo braço. Depois um aluno toca e a turma responde.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 11,
+        "duracao_min": 4,
+        "conteudos": ["Grave e agudo: cordas e direção da escala"]
+      },
+      {
+        "titulo": "Afinar de ouvido",
+        "descricao": "O professor dá a nota de referência (afinador ou violão afinado) e o aluno compara cada corda, dizendo se está 'mais baixa' ou 'mais alta' antes de girar a tarraxa. Conferir depois com o afinador do celular.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Afinação: comparar corda com referência e ajustar"]
+      },
+      {
+        "titulo": "Maior ou menor, trocou ou não?",
+        "descricao": "O professor toca E e Em alternados e os alunos indicam com o polegar para cima ou para baixo; depois toca uma canção com dois acordes e a turma levanta a mão a cada troca.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Ouvir se o acorde é maior ou menor", "Reconhecer a troca de acorde numa canção"]
+      },
+      {
+        "titulo": "Que levada é essa?",
+        "descricao": "Ouvir gravações curtas de bossa nova, samba e baião e imitar a levada batendo no tampo; depois identificar o gênero apenas pela batida do violão do professor.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Levadas brasileiras: bossa, samba e baião de ouvido"]
+      },
+      {
+        "titulo": "Tirar e voltar para casa",
+        "descricao": "Tirar de ouvido uma melodia conhecida nas cordas agudas, começando pela nota dada pelo professor; depois, sobre uma canção com C, F e G, dizer quando o acorde 'sai de casa' e quando 'volta'.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Tirar melodia de ouvido nas cordas agudas", "Perceber I, IV e V e o retorno à tônica"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Melodia nas soltas",
+        "descricao": "Aprender uma cantiga ou tema infantil usando cordas soltas e as três primeiras casas das cordas agudas, tocando com i-m alternados e cantando o nome das notas.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 6,
+        "idade_max": 12,
+        "duracao_min": 8,
+        "conteudos": ["Melodias em cordas soltas e primeiras casas"]
+      },
+      {
+        "titulo": "Dois acordes e uma canção",
+        "descricao": "Acompanhar uma canção folclórica ou infantil com Em e Am em batida simples, enquanto a turma canta; o professor sinaliza a troca até que o aluno a ouça sozinho.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Canção com dois acordes (Em e Am)"]
+      },
+      {
+        "titulo": "Três acordes com batida",
+        "descricao": "Escolher com a turma uma canção com G, C e D (ou Em, Am e D) e montar a batida adequada; depois tocar uma canção brasileira conhecida com levada de samba ou baião.",
+        "recursos": ["instrumentos", "impressao", "caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canção com três acordes e batida simples", "Canção brasileira com levada de samba ou baião"]
+      },
+      {
+        "titulo": "Bossa de dois acordes",
+        "descricao": "Aprender a célula de bossa nova (polegar no baixo, acorde nas agudas) sobre Am7 e Dm7 e depois sobre uma canção de bossa simplificada, cuidando do balanço do polegar.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Bossa nova: dedilhado simples com acordes básicos"]
+      },
+      {
+        "titulo": "Peça solo e roda",
+        "descricao": "Estudar uma peça solo curta em primeira posição (estudo ou tema popular) lida em pauta e tablatura; ao final da aula, organizar uma roda em que uns acompanham, outros tocam a melodia e todos cantam.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Peça solo em tablatura e partitura (1ª posição)", "Roda de violão: acompanhamento e canto em grupo"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Afinar e aquecer",
+        "descricao": "Rotina de início: conferir a afinação com o afinador, alongar dedos e punhos, e tocar as cordas soltas com p-i-m-a devagar.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Afinação: comparar corda com referência e ajustar", "Mão direita: p-i-m-a nas cordas soltas"]
+      },
+      {
+        "titulo": "Improviso em Em",
+        "descricao": "Sobre a batida do professor em Em, o aluno improvisa nas cordas agudas usando notas de mi menor pentatônica nas casas 0, 2 e 3, mantendo o pulso e terminando na nota mi.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Corda solta: polegar repetido no pulso", "Tirar melodia de ouvido nas cordas agudas"]
+      },
+      {
+        "titulo": "Gravar a troca",
+        "descricao": "Gravar no celular a canção da semana e ouvir com o professor, marcando se a batida parou na troca de acorde e se alguma corda ficou abafada.",
+        "recursos": ["celulares", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Troca de acordes com dedo pivô e antecipação", "Canção com três acordes e batida simples"]
+      },
+      {
+        "titulo": "Mostrar para a turma",
+        "descricao": "Cada aluno toca um trecho pronto para os colegas, que dão um elogio e uma sugestão; trabalha entrada, final, postura e afinação antes de tocar.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Melodias em cordas soltas e primeiras casas", "Roda de violão: acompanhamento e canto em grupo"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["ritmo", "leitura", "tecnica", "afinacao", "sonoridade", "percepcao", "autonomia"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Violão 1/2 ou 3/4 com cordas de náilon e ação baixa; sessões curtas para evitar dor nas pontas dos dedos.",
+      "Priorizar cordas soltas, melodias por imitação e batidas no tampo antes de acordes completos.",
+      "Acordes simplificados (Em e Am com dois dedos, versões com cordas soltas) e muitas canções cantadas."
+    ],
+    "9-12": [
+      "Já sustentam Em, Am, E, D, G e C e trocas em levada; introduzir tablatura e pauta em primeira posição.",
+      "Escolher repertório com a turma (canções conhecidas) e trabalhar em roda para manter o pulso comum.",
+      "Introduzir metrônomo, afinador e gravação para autoavaliação."
+    ],
+    "13+": [
+      "Interesse por canções atuais e pela bossa nova e samba; pestana e acordes com sétima entram cedo.",
+      "Atenção a tensão no punho esquerdo e no ombro direito em sessões longas; alongamentos e pausas.",
+      "Valorizar autonomia: tirar músicas de ouvido, ler cifras da internet com senso crítico e tocar em grupo."
+    ]
+  },
+  "editavel": true
+}

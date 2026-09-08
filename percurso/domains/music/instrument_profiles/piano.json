@@ -1,0 +1,430 @@
+{
+  "id": "piano",
+  "nome": "Piano",
+  "familia": "teclado",
+  "tessitura": {
+    "inicial": ["C4", "D4", "E4", "F4", "G4"],
+    "ampliada": "C3–C6"
+  },
+  "postura": [
+    "Sentar na metade da frente do banco, com os pés apoiados no chão (ou em apoio de pés, no caso de crianças).",
+    "Altura do banco ajustada para que os antebraços fiquem paralelos ao teclado e os cotovelos levemente à frente do tronco.",
+    "Ombros relaxados e punho na linha do antebraço, sem quebra para cima ou para baixo.",
+    "Mão arredondada, como se segurasse uma bola pequena; os dedos tocam com a ponta e o polegar com a lateral.",
+    "Distância do teclado que permita alcançar os extremos com o braço, sem inclinar o tronco."
+  ],
+  "tecnicas_fundamentais": [
+    "Toque com peso do braço e transferência de peso entre os dedos (do non legato ao legato).",
+    "Independência dos dedos em posição de cinco dedos.",
+    "Passagem de polegar para escalas e arpejos.",
+    "Legato, staccato e acentos como contrastes básicos de articulação.",
+    "Coordenação entre mãos: alternância, movimento paralelo e melodia com acompanhamento.",
+    "Uso do pedal de sustentação sincronizado com as mudanças de harmonia.",
+    "Controle de dinâmica (p, mf, f) pela velocidade de descida da tecla."
+  ],
+  "pre_requisitos": {
+    "Nota única: tecla repetida no pulso": ["Corpo: pulso com palmas, passos e balanço"],
+    "Cinco dedos: posição fixa tocada no pulso": ["Nota única: tecla repetida no pulso", "Postura ao piano: banco, punho e mão arredondada"],
+    "Alternância de mãos mantendo o pulso": ["Cinco dedos: posição fixa tocada no pulso"],
+    "Pauta dupla: leitura em duas claves": ["Notas do dó central na clave de sol (dó a sol)", "Clave de fá: notas do dó central para baixo"],
+    "Passagem de polegar em escala de uma oitava": ["Legato e staccato em posição de cinco dedos"],
+    "Escala com mãos juntas em movimento paralelo": ["Escalas e arpejos com mãos separadas"],
+    "Peças com bordão ou acordes simples na esquerda": ["Peças com mãos alternadas", "Pauta dupla: leitura em duas claves"],
+    "Acordes de três sons e pedal de sustentação": ["Escalas e arpejos com mãos separadas", "Reconhecer modo maior e menor"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Corpo: pulso com palmas, passos e balanço",
+      "Nota única: tecla repetida no pulso",
+      "Cinco dedos: posição fixa tocada no pulso",
+      "Alternância de mãos mantendo o pulso",
+      "Pequena estrutura: frase de 4 compassos no pulso",
+      "Subdivisão do pulso em colcheias",
+      "Pulso estável com metrônomo em andamentos variados"
+    ],
+    "leitura": [
+      "Figuras rítmicas: semínima, mínima e pausa",
+      "Notas do dó central na clave de sol (dó a sol)",
+      "Clave de fá: notas do dó central para baixo",
+      "Pauta dupla: leitura em duas claves",
+      "Colcheias, ponto de aumento e ligadura",
+      "Acidentes, armadura de clave e sinais de dinâmica",
+      "Leitura à primeira vista de melodias simples"
+    ],
+    "tecnica": [
+      "Postura ao piano: banco, punho e mão arredondada",
+      "Toque non legato com dedos independentes",
+      "Legato e staccato em posição de cinco dedos",
+      "Passagem de polegar em escala de uma oitava",
+      "Escalas e arpejos com mãos separadas",
+      "Escala com mãos juntas em movimento paralelo",
+      "Acordes de três sons e pedal de sustentação"
+    ],
+    "percepcao": [
+      "Grave e agudo no teclado",
+      "Pulso forte e fraco: binário e ternário",
+      "Melodia ascendente, descendente e repetida",
+      "Ouvir e reproduzir motivos de 2 a 4 notas",
+      "Reconhecer modo maior e menor",
+      "Intervalos melódicos: 2ª, 3ª, 5ª e 8ª",
+      "Perceber tônica e dominante em cadências"
+    ],
+    "repertorio": [
+      "Canções infantis em cinco dedos (mão direita)",
+      "Melodias com acompanhamento de nota única",
+      "Peças com mãos alternadas",
+      "Peças com bordão ou acordes simples na esquerda",
+      "Minipeças clássicas de nível iniciante",
+      "Canções brasileiras com acordes na esquerda",
+      "Peça a quatro mãos com professor ou colega"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Punho caído ou levantado demais, com tensão no antebraço.",
+    "Dedos esticados ou 'quebrando' a primeira articulação ao tocar.",
+    "Olhar para as mãos o tempo todo e perder o lugar na partitura.",
+    "Confundir as claves ao ler a pauta dupla, especialmente as notas ao redor do dó central.",
+    "Acelerar nas partes fáceis e desacelerar nas difíceis (pulso instável).",
+    "Mãos que 'grudam' uma na outra ao tentar movimentos diferentes (coordenação).",
+    "Pedal trocado atrasado ou segurado por cima de mudanças de harmonia.",
+    "Tocar tudo no mesmo volume, sem contraste de dinâmica."
+  ],
+  "vocabulario_pt": [
+    "pulso",
+    "posição de cinco dedos",
+    "dedilhado",
+    "passagem de polegar",
+    "legato",
+    "staccato",
+    "pauta dupla",
+    "clave de sol",
+    "clave de fá",
+    "escala maior",
+    "arpejo",
+    "pedal de sustentação",
+    "peso do braço",
+    "independência dos dedos",
+    "leitura à primeira vista",
+    "mãos separadas",
+    "mãos juntas",
+    "iniciação ao piano",
+    "método de piano",
+    "piano em grupo"
+  ],
+  "vocabulario_en": [
+    "beat",
+    "five-finger position",
+    "fingering",
+    "thumb under",
+    "legato",
+    "staccato",
+    "grand staff",
+    "treble clef",
+    "bass clef",
+    "major scale",
+    "arpeggio",
+    "sustain pedal",
+    "arm weight",
+    "finger independence",
+    "sight-reading",
+    "hands separately",
+    "hands together",
+    "beginner piano",
+    "piano method",
+    "group piano"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Pulso no corpo com música",
+        "descricao": "Com uma gravação em andamento moderado, os alunos marcam o pulso com palmas, depois com passos e por fim balançando o tronco sentados no banco. O professor varia a música e observa quem mantém o pulso sem acelerar.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Corpo: pulso com palmas, passos e balanço"]
+      },
+      {
+        "titulo": "Uma tecla, um pulso",
+        "descricao": "O aluno escolhe uma tecla e a repete com o dedo 2 (depois 3) em cada pulso, enquanto o professor toca um acompanhamento simples. Trocar de tecla a cada 4 pulsos sem parar.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Nota única: tecla repetida no pulso"]
+      },
+      {
+        "titulo": "Cinco dedos no metrônomo",
+        "descricao": "Em posição de dó, tocar dó-ré-mi-fá-sol-fá-mi-ré em semínimas com metrônomo lento; depois repetir em colcheias (dois toques por clique). Alternar mão direita e esquerda.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Cinco dedos: posição fixa tocada no pulso", "Subdivisão do pulso em colcheias"]
+      },
+      {
+        "titulo": "Revezamento de mãos",
+        "descricao": "A mão esquerda toca dois pulsos e a direita responde com dois pulsos, sem buraco entre elas. Depois montar uma frase de 4 compassos (pergunta e resposta) que se repete inteira no pulso.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Alternância de mãos mantendo o pulso", "Pequena estrutura: frase de 4 compassos no pulso"]
+      },
+      {
+        "titulo": "Andamentos que mudam",
+        "descricao": "Tocar a mesma frase de 4 compassos em três andamentos (60, 80 e 100 bpm) com metrônomo, mantendo a regularidade. O aluno avalia em qual andamento ficou mais estável.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Pulso estável com metrônomo em andamentos variados", "Pequena estrutura: frase de 4 compassos no pulso"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Cartões de ritmo",
+        "descricao": "Cartões com semínimas, mínimas e pausas são organizados em compassos de 4 tempos no quadro; a turma lê batendo palmas e falando 'tá' e 'ta-a'. Depois tocar o ritmo em uma tecla só.",
+        "recursos": ["impressao", "quadro", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Figuras rítmicas: semínima, mínima e pausa"]
+      },
+      {
+        "titulo": "Dó central e seus vizinhos",
+        "descricao": "O professor escreve o dó central na pauta dupla e acrescenta uma nota por vez, para cima (clave de sol) e para baixo (clave de fá). O aluno nomeia, localiza no teclado e toca cada nota nova.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Notas do dó central na clave de sol (dó a sol)", "Clave de fá: notas do dó central para baixo"]
+      },
+      {
+        "titulo": "Duas claves, duas mãos",
+        "descricao": "Trechos curtos em pauta dupla, com uma mão de cada vez e depois as duas em notas longas. O aluno lê em voz alta antes de tocar, dizendo qual mão toca cada nota.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Pauta dupla: leitura em duas claves"]
+      },
+      {
+        "titulo": "Colcheias, pontos e ligaduras",
+        "descricao": "Leitura rítmica de padrões com colcheias, semínima pontuada e ligaduras usando sílabas rítmicas; em seguida tocar o mesmo padrão em uma melodia de cinco dedos.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Colcheias, ponto de aumento e ligadura"]
+      },
+      {
+        "titulo": "Leitura relâmpago",
+        "descricao": "Melodias de 4 compassos nunca vistas, com um acidente ou armadura simples e sinais de dinâmica. O aluno tem 30 segundos para observar (clave, armadura, dinâmica) e toca uma única vez sem parar.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Acidentes, armadura de clave e sinais de dinâmica", "Leitura à primeira vista de melodias simples"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Checklist da postura",
+        "descricao": "Antes de tocar, o aluno verifica em voz alta: pés, altura do banco, ombros, punho e mão arredondada. O professor fotografa ou mostra no espelho para o aluno comparar.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Postura ao piano: banco, punho e mão arredondada"]
+      },
+      {
+        "titulo": "Dedos que caminham",
+        "descricao": "Em posição de cinco dedos, tocar cada nota com queda e levantada do braço (non legato), depois ligar as notas transferindo o peso (legato) e por fim tocar curto e leve (staccato).",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Toque non legato com dedos independentes", "Legato e staccato em posição de cinco dedos"]
+      },
+      {
+        "titulo": "Polegar viajante",
+        "descricao": "Preparar a passagem de polegar tocando dó-ré-mi e passando o polegar para o fá, ida e volta, lentamente e sem virar o punho. Depois completar a escala de dó maior de uma oitava e o arpejo, com cada mão separadamente.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Passagem de polegar em escala de uma oitava", "Escalas e arpejos com mãos separadas"]
+      },
+      {
+        "titulo": "Escala em paralelo",
+        "descricao": "Tocar a escala de dó maior com as duas mãos em movimento paralelo, uma oitava, em semínimas lentas. Verificar que as passagens de polegar de cada mão acontecem em notas diferentes.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Escala com mãos juntas em movimento paralelo"]
+      },
+      {
+        "titulo": "Três sons e pedal",
+        "descricao": "Tocar acordes de dó, fá e sol maior com a mão esquerda, trocando o pedal logo após cada acorde (pedal sincopado). Ouvir se a harmonia anterior sumiu completamente.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Acordes de três sons e pedal de sustentação"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Passarinho e urso",
+        "descricao": "O professor toca sons em regiões diferentes do piano; os alunos levantam os braços para o agudo e agacham para o grave. Depois um aluno toca e os colegas respondem.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 10,
+        "duracao_min": 4,
+        "conteudos": ["Grave e agudo no teclado"]
+      },
+      {
+        "titulo": "Marcha ou valsa?",
+        "descricao": "Ouvir trechos tocados ou gravados e marcar o tempo forte com palma e os fracos com o dedo na perna; decidir se é binário ou ternário e caminhar de acordo.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Pulso forte e fraco: binário e ternário"]
+      },
+      {
+        "titulo": "Eco melódico",
+        "descricao": "O professor toca um motivo de 2 a 4 notas em posição de cinco dedos; o aluno mostra com a mão se subiu, desceu ou repetiu e depois reproduz o motivo no teclado sem olhar para o professor.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Melodia ascendente, descendente e repetida", "Ouvir e reproduzir motivos de 2 a 4 notas"]
+      },
+      {
+        "titulo": "Alegre ou triste?",
+        "descricao": "Ouvir a mesma melodia curta em maior e em menor e identificar o modo; depois cantar e tocar os intervalos de 2ª, 3ª, 5ª e 8ª a partir do dó, associando cada um a uma canção conhecida.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Reconhecer modo maior e menor", "Intervalos melódicos: 2ª, 3ª, 5ª e 8ª"]
+      },
+      {
+        "titulo": "Casa e fora de casa",
+        "descricao": "O professor toca uma canção com acordes de tônica e dominante; o aluno diz 'casa' ou 'fora' a cada mudança e, em seguida, toca o baixo (dó ou sol) no momento certo.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Perceber tônica e dominante em cadências"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Canção em cinco dedos",
+        "descricao": "Aprender de ouvido uma canção infantil que caiba na posição de cinco dedos (mão direita), cantando o nome das notas; depois conferir na partitura.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 6,
+        "idade_max": 12,
+        "duracao_min": 8,
+        "conteudos": ["Canções infantis em cinco dedos (mão direita)"]
+      },
+      {
+        "titulo": "Melodia com baixo de uma nota",
+        "descricao": "A mão direita toca a melodia enquanto a esquerda sustenta uma nota longa (tônica) por compasso. Trocar para a dominante nos compassos indicados pelo professor.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Melodias com acompanhamento de nota única"]
+      },
+      {
+        "titulo": "Mãos que conversam",
+        "descricao": "Estudar uma peça em que a melodia passa de uma mão para a outra a cada compasso ou frase, marcando na partitura onde ocorre a troca antes de tocar.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Peças com mãos alternadas"]
+      },
+      {
+        "titulo": "Bordão brasileiro",
+        "descricao": "Acompanhar uma canção brasileira conhecida (cantiga, ciranda ou canção popular) com bordão de quinta ou acordes de tônica e dominante na esquerda, enquanto a turma canta e a direita toca a melodia.",
+        "recursos": ["instrumentos", "impressao", "caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Peças com bordão ou acordes simples na esquerda", "Canções brasileiras com acordes na esquerda"]
+      },
+      {
+        "titulo": "Miniatura a quatro mãos",
+        "descricao": "Montar uma minipeça clássica de iniciante (minueto, marcha ou dança) e, em seguida, tocar uma versão a quatro mãos com o professor ou um colega, cuidando da entrada conjunta e do final.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Minipeças clássicas de nível iniciante", "Peça a quatro mãos com professor ou colega"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Aquecimento de braços e mãos",
+        "descricao": "Girar ombros, sacudir as mãos, abrir e fechar os dedos e fazer o movimento de 'queda' do braço sobre a coxa antes de tocar.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Postura ao piano: banco, punho e mão arredondada"]
+      },
+      {
+        "titulo": "Improvisação nas teclas pretas",
+        "descricao": "Sobre um acompanhamento pentatônico do professor, o aluno improvisa usando só as teclas pretas, mantendo o pulso e terminando na nota combinada.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Cinco dedos: posição fixa tocada no pulso", "Ouvir e reproduzir motivos de 2 a 4 notas"]
+      },
+      {
+        "titulo": "Gravar e ouvir",
+        "descricao": "Gravar a peça da semana no celular e ouvir com o professor, apontando um acerto e um ponto para melhorar (pulso, dinâmica ou notas).",
+        "recursos": ["celulares", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Pulso estável com metrônomo em andamentos variados", "Minipeças clássicas de nível iniciante"]
+      },
+      {
+        "titulo": "Roda de apresentação",
+        "descricao": "Cada aluno toca um trecho pronto para os colegas, que dão um comentário positivo e uma sugestão. Trabalha entrada, final e postura de palco.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canções infantis em cinco dedos (mão direita)", "Canções brasileiras com acordes na esquerda"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["leitura", "ritmo", "tecnica", "coordenacao", "percepcao", "sonoridade", "autonomia"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Usar apoio para os pés e banco ajustável; sessões curtas (20–30 min) com troca frequente de atividade.",
+      "Priorizar tocar de ouvido e por imitação antes da pauta; introduzir a leitura a partir do dó central como referência.",
+      "Jogos de pulso corporal, histórias sonoras e teclas pretas mantêm o engajamento."
+    ],
+    "9-12": [
+      "Já sustentam leitura em duas claves e escalas com passagem de polegar.",
+      "Repertório escolhido junto com o aluno (canções conhecidas) aumenta a prática em casa.",
+      "Introduzir metrônomo, gravação e metas semanais mensuráveis."
+    ],
+    "13+": [
+      "Podem avançar rápido em leitura e harmonia; explorar cifras e acompanhamento de canções.",
+      "Atenção a tensões no punho e no ombro em sessões longas; alongamentos e pausas.",
+      "Valorizar autonomia: escolha de repertório, autoavaliação por gravação e tocar em grupo."
+    ]
+  },
+  "editavel": true
+}

@@ -1,0 +1,448 @@
+{
+  "id": "percepcao_musical",
+  "nome": "Percepção musical",
+  "familia": "teoria_percepcao",
+  "tessitura": null,
+  "postura": [
+    "Escuta ativa: silêncio combinado antes de cada audição, olhos no professor ou fechados, sem conversar até o fim do trecho.",
+    "Sentar com a coluna ereta e os pés no chão, ou ficar em pé com o peso distribuído, para cantar e respirar livremente.",
+    "Ombros e mandíbula relaxados; a boca abre sem esforço ao cantar as sílabas de solfejo.",
+    "Mãos livres para a manossolfa ou para marcar o pulso; o lápis fica sobre a mesa até o momento de escrever o ditado.",
+    "Distância adequada da caixa de som ou do instrumento do professor, com volume moderado para preservar a audição.",
+    "Cantar em voz média, sem gritar, escutando a própria voz em relação ao grupo.",
+    "Manter o corpo em movimento leve (balanço, pulso no pé) para sentir o tempo enquanto ouve."
+  ],
+  "tecnicas_fundamentais": [
+    "Imitação vocal (eco) de sons, motivos e frases antes de qualquer nomeação.",
+    "Audiação: ouvir internamente a nota ou a frase antes de cantar ou escrever.",
+    "Solfejo com nomes de notas e manossolfa (dó móvel) ou nomes fixos, conforme a escolha do professor.",
+    "Sílabas rítmicas (tá, ti-ti, tá-a) para ler e ditar padrões de duração.",
+    "Estratégia de ditado: ouvir tudo, cantar por dentro, marcar o pulso, escrever por partes e conferir.",
+    "Referência tonal: cantar a tônica e o acorde antes de identificar intervalos e funções.",
+    "Escuta comparada: ouvir duas versões ou dois trechos e descrever diferenças (timbre, modo, forma)."
+  ],
+  "pre_requisitos": {
+    "Subdivisão do pulso em duas e em três partes": ["Sentir o pulso no corpo ao ouvir músicas variadas"],
+    "Ditado rítmico de 2 compassos com semínimas e pausas": ["Grafia rítmica: semínima, mínima e pausas", "Tempo forte e fraco: binário, ternário e quaternário"],
+    "Solfejo da escala maior completa (dó a dó)": ["Solfejo de dó a sol com nomes de notas e manossolfa"],
+    "Ditado melódico de 3 a 5 notas por graus conjuntos": ["Imitação vocal de sons e motivos curtos (eco)", "Solfejo de dó a sol com nomes de notas e manossolfa"],
+    "Intervalos harmônicos e melódicos até a 8ª": ["Intervalos melódicos: 2ª, 3ª, 5ª e 8ª"],
+    "Tríades maior e menor por audição": ["Escala maior e menor: reconhecer o modo"],
+    "Funções tônica, dominante e subdominante": ["Tríades maior e menor por audição"],
+    "Leitura à primeira vista cantada de 8 compassos": ["Leitura cantada com saltos de 3ª e 5ª", "Audiação: ouvir por dentro antes de cantar"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Sentir o pulso no corpo ao ouvir músicas variadas",
+      "Tempo forte e fraco: binário, ternário e quaternário",
+      "Subdivisão do pulso em duas e em três partes",
+      "Ditado rítmico de 2 compassos com semínimas e pausas",
+      "Ditado rítmico com colcheias e semínima pontuada",
+      "Síncope e contratempo ouvidos e reproduzidos",
+      "Reconhecer compasso e andamento em gravações"
+    ],
+    "leitura": [
+      "Grafia rítmica: semínima, mínima e pausas",
+      "Solfejo de dó a sol com nomes de notas e manossolfa",
+      "Solfejo da escala maior completa (dó a dó)",
+      "Leitura cantada de melodias por graus conjuntos",
+      "Leitura cantada com saltos de 3ª e 5ª",
+      "Solfejo em modo menor e com acidentes ocasionais",
+      "Leitura à primeira vista cantada de 8 compassos"
+    ],
+    "tecnica": [
+      "Escuta ativa: silêncio, foco e posição para cantar",
+      "Imitação vocal de sons e motivos curtos (eco)",
+      "Audiação: ouvir por dentro antes de cantar",
+      "Ditado melódico de 3 a 5 notas por graus conjuntos",
+      "Ditado melódico de 4 compassos com saltos",
+      "Memória musical: reter e cantar frases de 8 compassos",
+      "Ditado a duas vozes e reconhecimento de erros"
+    ],
+    "percepcao": [
+      "Parâmetros do som: altura, duração, intensidade, timbre",
+      "Reconhecer timbres e instrumentos em gravações",
+      "Intervalos melódicos: 2ª, 3ª, 5ª e 8ª",
+      "Intervalos harmônicos e melódicos até a 8ª",
+      "Escala maior e menor: reconhecer o modo",
+      "Tríades maior e menor por audição",
+      "Funções tônica, dominante e subdominante",
+      "Forma: AB, ABA e rondó pela escuta"
+    ],
+    "repertorio": [
+      "Canções infantis e cantigas para eco e solfejo",
+      "Canções brasileiras para identificar pulso e forma",
+      "Peças com timbres contrastantes (orquestra e banda)",
+      "Trechos curtos para ditado e memória",
+      "Repertório popular para ouvir tônica e dominante",
+      "Apreciação guiada de obras com forma ABA e rondó",
+      "Escuta comparada de versões de uma mesma canção"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Tentar escrever o ditado durante a primeira audição, sem ouvir o trecho inteiro.",
+    "Cantar fora do tom por não estabelecer a tônica antes de solfejar.",
+    "Confundir intervalos de tamanho próximo (2ª e 3ª; 5ª e 6ª) sem uma canção de referência.",
+    "Perder o pulso ao subdividir, acelerando nas colcheias e atrasando nas pausas.",
+    "Ouvir apenas a melodia e não perceber a mudança de harmonia (tônica e dominante).",
+    "Associar 'maior' a alegre e 'menor' a triste de forma rígida, errando em andamentos lentos ou rápidos.",
+    "Reconhecer o timbre apenas por associação visual, sem descrever o que ouve.",
+    "Memória curta: esquecer o início da frase ao ouvir o final, por falta de audiação."
+  ],
+  "vocabulario_pt": [
+    "percepção musical",
+    "treinamento auditivo",
+    "solfejo",
+    "dó móvel",
+    "manossolfa",
+    "ditado rítmico",
+    "ditado melódico",
+    "audiação",
+    "memória musical",
+    "intervalo",
+    "tríade",
+    "tônica e dominante",
+    "escala maior e menor",
+    "parâmetros do som",
+    "timbre",
+    "pulso e subdivisão",
+    "apreciação musical",
+    "forma musical",
+    "escuta ativa",
+    "afinação vocal"
+  ],
+  "vocabulario_en": [
+    "ear training",
+    "aural skills",
+    "solfège",
+    "movable do",
+    "Curwen hand signs",
+    "rhythmic dictation",
+    "melodic dictation",
+    "audiation",
+    "musical memory",
+    "interval recognition",
+    "triad quality",
+    "tonic and dominant",
+    "major and minor scales",
+    "elements of sound",
+    "timbre recognition",
+    "beat and subdivision",
+    "music appreciation",
+    "musical form",
+    "active listening",
+    "vocal intonation"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Caminhar com a música",
+        "descricao": "A turma anda pela sala no pulso de gravações em estilos diferentes. Ao sinal, marca o tempo forte com um passo mais pesado e decide se a música é binária, ternária ou quaternária.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Sentir o pulso no corpo ao ouvir músicas variadas", "Tempo forte e fraco: binário, ternário e quaternário"]
+      },
+      {
+        "titulo": "Pés e mãos dividem o pulso",
+        "descricao": "Os pés marcam o pulso e as mãos batem a subdivisão, primeiro em duas partes (ti-ti) e depois em três (tri-o-la). Trocar o papel dos pés e das mãos sem parar.",
+        "recursos": ["nenhum"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Subdivisão do pulso em duas e em três partes"]
+      },
+      {
+        "titulo": "Ditado rítmico com cartões",
+        "descricao": "O professor bate um padrão de 2 compassos; os alunos montam o padrão com cartões de figuras e depois escrevem no caderno. Começar com semínimas e pausas e avançar para colcheias e semínima pontuada.",
+        "recursos": ["impressao", "quadro"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Ditado rítmico de 2 compassos com semínimas e pausas", "Ditado rítmico com colcheias e semínima pontuada"]
+      },
+      {
+        "titulo": "Síncope no corpo",
+        "descricao": "Sobre o pulso marcado nos pés, a turma bate palmas em síncopes e contratempos ditados pelo professor, falando as sílabas rítmicas. Depois cada aluno cria um padrão sincopado para o grupo repetir.",
+        "recursos": ["nenhum"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Síncope e contratempo ouvidos e reproduzidos"]
+      },
+      {
+        "titulo": "Detetive do compasso",
+        "descricao": "Ouvir trechos de 30 segundos e anotar o compasso (2, 3 ou 4 tempos) e o andamento aproximado (lento, moderado, rápido), conferindo com um aplicativo de metrônomo.",
+        "recursos": ["caixa_de_som", "celulares"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Reconhecer compasso e andamento em gravações"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Ler ritmo com sílabas",
+        "descricao": "Leitura de padrões de 4 compassos escritos no quadro com semínimas, mínimas e pausas, falando 'tá', 'tá-a' e 'sh' para as pausas, sempre com o pulso nos pés.",
+        "recursos": ["quadro"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Grafia rítmica: semínima, mínima e pausas"]
+      },
+      {
+        "titulo": "Manossolfa de dó a sol",
+        "descricao": "O professor mostra os sinais de mão e a turma canta as notas correspondentes; depois um aluno conduz. Ampliar para a escala completa, subindo e descendo com o nome das notas.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Solfejo de dó a sol com nomes de notas e manossolfa", "Solfejo da escala maior completa (dó a dó)"]
+      },
+      {
+        "titulo": "Cantar por graus e por saltos",
+        "descricao": "Solfejar melodias de 4 compassos escritas na pauta, primeiro só por graus conjuntos e depois com saltos de 3ª e 5ª, cantando a tônica antes de começar.",
+        "recursos": ["impressao", "quadro"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Leitura cantada de melodias por graus conjuntos", "Leitura cantada com saltos de 3ª e 5ª"]
+      },
+      {
+        "titulo": "A mesma melodia em menor",
+        "descricao": "Solfejar uma melodia conhecida em maior e depois na versão em menor, observando onde entram os acidentes e como muda o sentido da terça.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Solfejo em modo menor e com acidentes ocasionais"]
+      },
+      {
+        "titulo": "Primeira vista cantada",
+        "descricao": "Melodia de 8 compassos nunca vista: 30 segundos para olhar (clave, armadura, ritmo), cantar a tônica e solfejar uma vez sem parar, mantendo o pulso.",
+        "recursos": ["impressao"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Leitura à primeira vista cantada de 8 compassos"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Ritual da escuta",
+        "descricao": "Antes de cada audição a turma faz o 'ritual': silêncio, postura para cantar, três respirações e olhos fechados. Ouvir um trecho curto e dizer uma palavra sobre o que ouviu.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Escuta ativa: silêncio, foco e posição para cantar"]
+      },
+      {
+        "titulo": "Eco vocal",
+        "descricao": "O professor canta motivos de 2 a 4 notas em 'lá' e a turma repete em eco. Na segunda rodada os alunos 'cantam por dentro' primeiro e só depois em voz alta, para treinar a audiação.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Imitação vocal de sons e motivos curtos (eco)", "Audiação: ouvir por dentro antes de cantar"]
+      },
+      {
+        "titulo": "Ditado melódico em etapas",
+        "descricao": "Ouvir o trecho inteiro, cantar por dentro, marcar o pulso, escrever por partes e conferir. Começar com 3 a 5 notas por graus conjuntos e avançar para 4 compassos com saltos.",
+        "recursos": ["quadro", "instrumentos", "impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Ditado melódico de 3 a 5 notas por graus conjuntos", "Ditado melódico de 4 compassos com saltos"]
+      },
+      {
+        "titulo": "Frase na memória",
+        "descricao": "Ouvir uma frase de 8 compassos duas vezes, esperar em silêncio 10 segundos e cantá-la de volta. Aumentar o tempo de espera e acrescentar uma tarefa entre a escuta e a resposta.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Memória musical: reter e cantar frases de 8 compassos"]
+      },
+      {
+        "titulo": "Duas vozes e caça-erros",
+        "descricao": "Ouvir um trecho a duas vozes e escrever primeiro o baixo, depois a voz superior. Em seguida o professor toca uma versão com um erro e a turma aponta o compasso e a nota trocada.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 12,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Ditado a duas vozes e reconhecimento de erros"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Quatro parâmetros",
+        "descricao": "Ouvir pares de sons e dizer o que mudou: altura (grave/agudo), duração (longo/curto), intensidade (forte/fraco) ou timbre (fonte sonora). Registrar com gestos ou fichas coloridas.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 12,
+        "duracao_min": 5,
+        "conteudos": ["Parâmetros do som: altura, duração, intensidade, timbre"]
+      },
+      {
+        "titulo": "Que instrumento é esse?",
+        "descricao": "Ouvir gravações curtas e identificar o instrumento ou a família (cordas, sopros, percussão, voz), descrevendo o timbre com palavras antes de ver a imagem no projetor.",
+        "recursos": ["caixa_de_som", "projetor"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Reconhecer timbres e instrumentos em gravações"]
+      },
+      {
+        "titulo": "Intervalos com canções",
+        "descricao": "Associar cada intervalo a uma canção conhecida (Parabéns, Atirei o pau no gato, Brilha estrelinha) e depois reconhecer os intervalos tocados de forma melódica e harmônica até a oitava.",
+        "recursos": ["instrumentos", "quadro"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Intervalos melódicos: 2ª, 3ª, 5ª e 8ª", "Intervalos harmônicos e melódicos até a 8ª"]
+      },
+      {
+        "titulo": "Maior ou menor?",
+        "descricao": "Ouvir escalas e depois tríades tocadas em maior e em menor, levantando um cartão de cor para cada modo. Cantar a terça de cada acorde para justificar a resposta.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Escala maior e menor: reconhecer o modo", "Tríades maior e menor por audição"]
+      },
+      {
+        "titulo": "Casa, tensão e passeio",
+        "descricao": "Sobre uma canção acompanhada com I, IV e V, os alunos dizem 'casa' na tônica, 'tensão' na dominante e 'passeio' na subdominante; depois cantam a fundamental de cada acorde.",
+        "recursos": ["instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Funções tônica, dominante e subdominante"]
+      },
+      {
+        "titulo": "Mapa da forma",
+        "descricao": "Ouvir uma peça e levantar uma letra (A, B, C) a cada seção nova ou repetida; montar o mapa no quadro e nomear a forma (AB, ABA, rondó).",
+        "recursos": ["caixa_de_som", "quadro"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Forma: AB, ABA e rondó pela escuta"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Cantigas em eco",
+        "descricao": "Cantar cantigas conhecidas (Ciranda cirandinha, O cravo e a rosa) frase por frase em eco, depois com nomes de notas e manossolfa nos trechos mais simples.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 12,
+        "duracao_min": 8,
+        "conteudos": ["Canções infantis e cantigas para eco e solfejo"]
+      },
+      {
+        "titulo": "Pulso e forma na canção brasileira",
+        "descricao": "Ouvir uma canção brasileira popular, marcar o pulso e o tempo forte e desenhar as partes (estrofe, refrão) em uma linha do tempo no quadro.",
+        "recursos": ["caixa_de_som", "quadro"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Canções brasileiras para identificar pulso e forma"]
+      },
+      {
+        "titulo": "Orquestra ou banda?",
+        "descricao": "Ouvir trechos de orquestra, banda de sopros e conjunto popular, listando os instrumentos reconhecidos e comparando os timbres predominantes de cada grupo.",
+        "recursos": ["caixa_de_som", "projetor"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Peças com timbres contrastantes (orquestra e banda)"]
+      },
+      {
+        "titulo": "Trechos para ditado",
+        "descricao": "Selecionar trechos de 2 a 4 compassos de canções conhecidas e usá-los como ditado rítmico ou melódico; ao final revelar a canção e cantar inteira.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Trechos curtos para ditado e memória"]
+      },
+      {
+        "titulo": "Tônica e dominante no popular",
+        "descricao": "Ouvir canções populares com apenas dois acordes e marcar com a mão cada mudança entre tônica e dominante; depois cantar o baixo junto com a gravação.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Repertório popular para ouvir tônica e dominante"]
+      },
+      {
+        "titulo": "Apreciação guiada e versões",
+        "descricao": "Ouvir uma obra curta em forma ABA ou rondó com um roteiro de perguntas (o que muda, o que volta); em seguida comparar duas versões de uma mesma canção e discutir andamento, timbre e caráter.",
+        "recursos": ["caixa_de_som", "impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Apreciação guiada de obras com forma ABA e rondó", "Escuta comparada de versões de uma mesma canção"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Aquecimento vocal para a aula",
+        "descricao": "Espreguiçar, respirar profundamente, fazer sirenes com a voz e cantar a escala em 'lu' antes de solfejar, preparando corpo e ouvido.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Escuta ativa: silêncio, foco e posição para cantar", "Solfejo da escala maior completa (dó a dó)"]
+      },
+      {
+        "titulo": "Diário de escuta",
+        "descricao": "Cada aluno ouve em casa uma música à escolha e anota compasso, instrumentos percebidos e forma; na aula compartilha um trecho pelo celular e a turma confere.",
+        "recursos": ["celulares", "caixa_de_som"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Reconhecer compasso e andamento em gravações", "Reconhecer timbres e instrumentos em gravações", "Forma: AB, ABA e rondó pela escuta"]
+      },
+      {
+        "titulo": "Improviso cantado pergunta e resposta",
+        "descricao": "Sobre a tônica sustentada pelo professor, um aluno canta uma pergunta de 2 compassos com as notas da escala e outro responde terminando na tônica.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Audiação: ouvir por dentro antes de cantar", "Funções tônica, dominante e subdominante"]
+      },
+      {
+        "titulo": "Concurso de ditados em duplas",
+        "descricao": "Em duplas, um aluno canta ou toca um trecho curto e o outro escreve; trocam os papéis e conferem juntos, contando acertos de ritmo e de altura separadamente.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Ditado rítmico com colcheias e semínima pontuada", "Ditado melódico de 3 a 5 notas por graus conjuntos"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["percepcao", "ritmo", "afinacao", "leitura", "memoria", "participacao", "autonomia"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Trabalhar tudo pelo corpo, pela voz e por jogos; a escrita entra só depois de muita imitação e eco.",
+      "Trechos muito curtos (2 a 4 compassos) e respostas por gestos, cartões ou movimento, não por termos técnicos.",
+      "Extensão vocal confortável (ré a lá) e canções conhecidas como material principal de escuta."
+    ],
+    "9-12": [
+      "Já conseguem ditados rítmicos e melódicos escritos, com estratégia de escuta em etapas.",
+      "Introduzir intervalos por canções de referência, modo maior e menor e funções tônica e dominante.",
+      "Apreciação guiada com roteiro de escuta e diário de escuta em casa aumentam a autonomia."
+    ],
+    "13+": [
+      "Podem avançar para ditados a duas vozes, subdominante, cadências e reconhecimento de forma em obras maiores.",
+      "Relacionar a percepção ao instrumento e ao repertório que já tocam ou cantam, inclusive música popular.",
+      "Cuidado com a muda vocal: solfejar em oitava confortável e aceitar o uso de instrumento para conferir alturas."
+    ]
+  },
+  "editavel": true
+}

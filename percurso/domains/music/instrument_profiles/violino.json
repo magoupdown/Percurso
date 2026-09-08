@@ -1,0 +1,449 @@
+{
+  "id": "violino",
+  "nome": "Violino",
+  "familia": "cordas_friccionadas",
+  "tessitura": {
+    "inicial": ["A4", "B4", "C#5", "D5", "E5"],
+    "ampliada": "G3–E6"
+  },
+  "postura": [
+    "Em pé, pés afastados na largura dos ombros, pé esquerdo um pouco à frente; sentado, na borda da cadeira com as costas livres do encosto.",
+    "Violino apoiado entre a clavícula e o queixo, na queixeira, com a cabeça pesando levemente; o ombro esquerdo fica baixo, sem subir para segurar o instrumento.",
+    "Espaleira ou almofada ajustada para preencher o espaço entre o ombro e o violino, de acordo com o pescoço da criança.",
+    "Voluta apontada para a frente e um pouco à esquerda, na altura do nariz, com o violino paralelo ao chão.",
+    "Mão esquerda com pulso reto (sem apoiar no braço do violino), polegar oposto ao dedo 1 e dedos caindo curvados sobre as cordas.",
+    "Braço direito com cotovelo na altura da corda que está sendo tocada; o movimento do arco parte do antebraço.",
+    "Tamanho do violino escolhido pelo comprimento do braço esquerdo: a voluta deve caber na palma da mão com o braço estendido."
+  ],
+  "tecnicas_fundamentais": [
+    "Pegada do arco: polegar curvado encostado na nozinha, dedos arredondados sobre a vareta, mindinho em pé.",
+    "Arco reto, paralelo ao cavalete, no ponto de contato entre o cavalete e o espelho.",
+    "Divisão do arco: metade superior, metade inferior e arco inteiro, com velocidade constante.",
+    "Dedos 1–2–3 na primeira posição com padrão de tom, tom e semitom (dedo 2 alto, dedo 3 encostado no 2), guiados por fitas.",
+    "Pizzicato com o indicador direito, polegar apoiado no canto do espelho.",
+    "Mudança de corda com o nível do braço, sem quebrar o pulso.",
+    "Golpes de arco básicos: détaché, legato (ligadura de duas e quatro notas) e staccato.",
+    "Afinação do instrumento com microafinadores e, mais tarde, com as cravelhas."
+  ],
+  "pre_requisitos": {
+    "Arco em corda solta: uma arcada por pulso": ["Pizzicato em corda solta no pulso", "Pegada do arco: polegar curvado e dedos arredondados"],
+    "Pegada do arco: polegar curvado e dedos arredondados": ["Postura em pé: pés, violino no ombro sem levantar"],
+    "Dedos 1–2–3: padrão de tom e semitom com fitas": ["Mão esquerda: pulso reto e polegar oposto ao dedo 1", "Arco reto no ponto de contato em cordas soltas"],
+    "Dedos 1–2–3 tocados no pulso na corda Lá": ["Dedos 1–2–3: padrão de tom e semitom com fitas", "Ritmos curtos com arco em cordas soltas"],
+    "Notas da corda Lá com dedos 1, 2 e 3": ["Cordas soltas Sol, Ré, Lá e Mi na clave de sol"],
+    "Escalas de Lá e Ré maior em uma oitava": ["Dedos 1–2–3: padrão de tom e semitom com fitas", "Divisão do arco: metade, inteiro e mudança de corda"],
+    "Canções infantis em Lá maior (cordas Lá e Mi)": ["Canções na corda Lá com dedos 1–2–3", "Afinar o dedo por ouvido: alto ou baixo"],
+    "Leitura à primeira vista em Lá e Ré maior": ["Armadura de Lá e Ré maior e sinais de arcada", "Colcheias, ponto de aumento e ligadura"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Corpo: pulso com palmas, passos e balanço",
+      "Pizzicato em corda solta no pulso",
+      "Arco em corda solta: uma arcada por pulso",
+      "Ritmos curtos com arco em cordas soltas",
+      "Dedos 1–2–3 tocados no pulso na corda Lá",
+      "Frase de 4 compassos com dedos e cordas soltas",
+      "Subdivisão em colcheias com metrônomo"
+    ],
+    "leitura": [
+      "Figuras rítmicas: semínima, mínima e pausa",
+      "Cordas soltas Sol, Ré, Lá e Mi na clave de sol",
+      "Notas da corda Lá com dedos 1, 2 e 3",
+      "Notas da corda Ré e Mi na primeira posição",
+      "Colcheias, ponto de aumento e ligadura",
+      "Armadura de Lá e Ré maior e sinais de arcada",
+      "Leitura à primeira vista em Lá e Ré maior"
+    ],
+    "tecnica": [
+      "Postura em pé: pés, violino no ombro sem levantar",
+      "Mão esquerda: pulso reto e polegar oposto ao dedo 1",
+      "Pegada do arco: polegar curvado e dedos arredondados",
+      "Arco reto no ponto de contato em cordas soltas",
+      "Dedos 1–2–3: padrão de tom e semitom com fitas",
+      "Divisão do arco: metade, inteiro e mudança de corda",
+      "Détaché, legato e staccato",
+      "Escalas de Lá e Ré maior em uma oitava"
+    ],
+    "percepcao": [
+      "Grave e agudo nas quatro cordas",
+      "Pulso forte e fraco: binário e ternário",
+      "Ouvir a afinação das cordas soltas em quintas",
+      "Cantar e reproduzir motivos com dedos 1–2–3",
+      "Afinar o dedo por ouvido: alto ou baixo",
+      "Reconhecer modo maior e menor",
+      "Timbre: ponto de contato, peso e velocidade do arco"
+    ],
+    "repertorio": [
+      "Canções em cordas soltas com pizzicato e arco",
+      "Canções na corda Lá com dedos 1–2–3",
+      "Canções infantis em Lá maior (cordas Lá e Mi)",
+      "Melodias em Ré maior usando três cordas",
+      "Duetos com professor ou colega",
+      "Canções brasileiras em Ré e Sol maior",
+      "Peça de conjunto de cordas em uníssono"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Levantar o ombro esquerdo para segurar o violino, com tensão no pescoço e cansaço rápido.",
+    "Pulso esquerdo quebrado para dentro, apoiando o braço do violino na palma da mão ('mão de garçom').",
+    "Polegar direito esticado e dedos rígidos na pegada do arco, com som áspero e pouca flexibilidade.",
+    "Arco torto que desliza em direção ao espelho ou ao cavalete, mudando o timbre ao longo da arcada.",
+    "Dedo 2 baixo ou dedo 3 afastado, desafinando a terça maior e a quarta na corda Lá.",
+    "Tocar cordas vizinhas sem querer por nível de braço errado nas mudanças de corda.",
+    "Violino grande demais para o braço da criança, forçando a extensão e prejudicando a afinação.",
+    "Olhar fixamente para a mão esquerda e perder a leitura e o arco."
+  ],
+  "vocabulario_pt": [
+    "arco",
+    "pegada do arco",
+    "arcada",
+    "arco para cima",
+    "arco para baixo",
+    "détaché",
+    "legato",
+    "staccato",
+    "pizzicato",
+    "cordas soltas",
+    "primeira posição",
+    "padrão de dedos",
+    "fitas no espelho",
+    "ponto de contato",
+    "espaleira",
+    "queixeira",
+    "afinação por quintas",
+    "microafinador",
+    "cravelhas",
+    "tamanho do violino",
+    "método Suzuki",
+    "iniciação ao violino",
+    "cordas em grupo"
+  ],
+  "vocabulario_en": [
+    "bow",
+    "bow hold",
+    "bow stroke",
+    "up bow",
+    "down bow",
+    "détaché",
+    "legato",
+    "staccato",
+    "pizzicato",
+    "open strings",
+    "first position",
+    "finger pattern",
+    "fingerboard tapes",
+    "contact point",
+    "shoulder rest",
+    "chin rest",
+    "tuning in fifths",
+    "fine tuner",
+    "pegs",
+    "violin size",
+    "Suzuki method",
+    "beginning violin",
+    "string class"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Pulso no corpo em posição de violino",
+        "descricao": "Com uma gravação, os alunos marcam o pulso com palmas e passos; depois, com o violino apoiado no ombro e sem arco, balançam o tronco no pulso, treinando a postura enquanto mantêm o ritmo.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Corpo: pulso com palmas, passos e balanço"]
+      },
+      {
+        "titulo": "Pizzicato no pulso",
+        "descricao": "Em posição de violão ou no ombro, o aluno faz pizzicato na corda Lá a cada pulso do metrônomo, depois na corda Mi, trocando de corda a cada 4 pulsos enquanto o professor toca um acompanhamento.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Pizzicato em corda solta no pulso"]
+      },
+      {
+        "titulo": "Um arco por pulso",
+        "descricao": "Arcadas inteiras na corda Lá, uma por pulso lento (60 bpm), alternando para baixo e para cima; depois ritmos curtos como 'ti-ti-ti-ti-tá-tá' na metade superior do arco, em Lá e Mi.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Arco em corda solta: uma arcada por pulso", "Ritmos curtos com arco em cordas soltas"]
+      },
+      {
+        "titulo": "Dedos no pulso",
+        "descricao": "Na corda Lá, colocar os dedos 1, 2 e 3 um por pulso (Lá–Si–Dó#–Ré) e voltar, com arco em semínimas; depois montar uma frase de 4 compassos que misture dedos e a corda Mi solta.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Dedos 1–2–3 tocados no pulso na corda Lá", "Frase de 4 compassos com dedos e cordas soltas"]
+      },
+      {
+        "titulo": "Colcheias no metrônomo",
+        "descricao": "Tocar a mesma frase de 4 compassos em semínimas e depois em colcheias (dois toques de arco por clique) com metrônomo em 60 e 80 bpm, usando pouco arco nas colcheias.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Subdivisão em colcheias com metrônomo", "Frase de 4 compassos com dedos e cordas soltas"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Cartões de ritmo com arco",
+        "descricao": "Cartões com semínimas, mínimas e pausas formam compassos de 4 tempos no quadro; a turma lê batendo palmas e depois toca o ritmo na corda Lá solta, contando a mínima como arco longo.",
+        "recursos": ["impressao", "quadro", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Figuras rítmicas: semínima, mínima e pausa"]
+      },
+      {
+        "titulo": "Quatro cordas na pauta",
+        "descricao": "O professor escreve Sol, Ré, Lá e Mi soltas na clave de sol; os alunos apontam a corda correspondente no violino, dizem o nome e tocam a nota quando ela é mostrada.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Cordas soltas Sol, Ré, Lá e Mi na clave de sol"]
+      },
+      {
+        "titulo": "Escada da corda Lá",
+        "descricao": "Ler Lá, Si, Dó# e Ré na pauta com o número do dedo escrito embaixo; depois ler trechos curtos sem os números. Estender para as cordas Ré e Mi na primeira posição.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Notas da corda Lá com dedos 1, 2 e 3", "Notas da corda Ré e Mi na primeira posição"]
+      },
+      {
+        "titulo": "Colcheias, pontos e ligaduras de arco",
+        "descricao": "Leitura rítmica com colcheias, semínima pontuada e ligadura usando sílabas; depois tocar o padrão na corda Lá, distinguindo ligadura de prolongamento de ligadura de arco.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Colcheias, ponto de aumento e ligadura"]
+      },
+      {
+        "titulo": "Leitura relâmpago com sustenidos",
+        "descricao": "Melodias de 4 compassos nunca vistas em Lá ou Ré maior, com sinais de arco para baixo e para cima. O aluno tem 30 segundos para observar armadura e arcadas e toca uma única vez sem parar.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Armadura de Lá e Ré maior e sinais de arcada", "Leitura à primeira vista em Lá e Ré maior"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Estátua do violinista",
+        "descricao": "Em pé, com pés na largura dos ombros, colocar o violino no ombro com a cabeça e ficar em 'estátua' por 10 segundos com as mãos soltas, sem levantar o ombro; o colega confere se o violino cai ao soltar a mão esquerda.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Postura em pé: pés, violino no ombro sem levantar"]
+      },
+      {
+        "titulo": "Mão de gato e polegar oposto",
+        "descricao": "Colocar a mão esquerda no braço do violino com o pulso reto, polegar de frente para o dedo 1 e dedos curvados como patas de gato; bater levemente os dedos nas fitas sem arco, mantendo o espaço entre a palma e o braço.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Mão esquerda: pulso reto e polegar oposto ao dedo 1"]
+      },
+      {
+        "titulo": "Pegada do arco no lápis",
+        "descricao": "Montar a pegada num lápis: polegar curvado, dedos arredondados, mindinho em pé; passar para o arco e fazer 'limpador de para-brisa' no ar. Depois arcadas na corda Lá olhando no espelho se o arco fica paralelo ao cavalete.",
+        "recursos": ["instrumentos", "nenhum"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Pegada do arco: polegar curvado e dedos arredondados", "Arco reto no ponto de contato em cordas soltas"]
+      },
+      {
+        "titulo": "Tom, tom, semitom",
+        "descricao": "Na corda Lá, colocar dedo 1, dedo 2 alto e dedo 3 encostado no 2, cantando 'Lá, Si, Dó#, Ré' e conferindo cada nota com a fita. Repetir na corda Mi e depois sem olhar.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Dedos 1–2–3: padrão de tom e semitom com fitas"]
+      },
+      {
+        "titulo": "Metade, inteiro e troca de corda",
+        "descricao": "Arcadas na metade superior, na metade inferior e no arco inteiro em Lá, com velocidade constante; depois mudar de Lá para Mi ajustando só o nível do braço, em notas longas e em détaché, legato de duas notas e staccato.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Divisão do arco: metade, inteiro e mudança de corda", "Détaché, legato e staccato"]
+      },
+      {
+        "titulo": "Escalas de Lá e Ré",
+        "descricao": "Tocar a escala de Lá maior (cordas Lá e Mi) e de Ré maior (cordas Ré e Lá) em uma oitava, com uma arcada por nota e depois duas notas ligadas, conferindo a afinação com as cordas soltas.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Escalas de Lá e Ré maior em uma oitava"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Elefante e passarinho nas cordas",
+        "descricao": "O professor toca as cordas Sol e Mi soltas em ordens variadas; os alunos agacham no grave e ficam na ponta dos pés no agudo. Depois identificam de olhos fechados qual das quatro cordas soou.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 10,
+        "duracao_min": 4,
+        "conteudos": ["Grave e agudo nas quatro cordas"]
+      },
+      {
+        "titulo": "Marcha ou valsa?",
+        "descricao": "Ouvir trechos gravados e marcar o tempo forte com arco para baixo e os fracos com pizzicato; decidir se é binário ou ternário e caminhar de acordo.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Pulso forte e fraco: binário e ternário"]
+      },
+      {
+        "titulo": "As quintas do violino",
+        "descricao": "O professor toca duas cordas soltas vizinhas juntas; os alunos cantam as duas notas e dizem se o intervalo está 'limpo'. Depois o professor desafina um microafinador e os alunos apontam quando ouvirem os batimentos.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Ouvir a afinação das cordas soltas em quintas"]
+      },
+      {
+        "titulo": "Eco na corda Lá",
+        "descricao": "O professor toca um motivo de 2 a 4 notas com dedos 1–2–3; o aluno canta o motivo com nome das notas, reproduz no violino e diz se o seu dedo saiu alto, baixo ou certo em relação ao professor.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Cantar e reproduzir motivos com dedos 1–2–3", "Afinar o dedo por ouvido: alto ou baixo"]
+      },
+      {
+        "titulo": "Alegre ou triste, perto ou longe do cavalete",
+        "descricao": "Ouvir a mesma melodia em maior e menor e identificar o modo. Depois o aluno experimenta a mesma nota longa perto do espelho, no meio e perto do cavalete, com mais e menos peso, e descreve o timbre de cada uma.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Reconhecer modo maior e menor", "Timbre: ponto de contato, peso e velocidade do arco"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Canção de cordas soltas",
+        "descricao": "Aprender de ouvido uma canção curta feita só de cordas soltas (por exemplo, Lá–Mi–Lá em ritmo de cantiga), primeiro em pizzicato e depois com arco.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 6,
+        "idade_max": 10,
+        "duracao_min": 8,
+        "conteudos": ["Canções em cordas soltas com pizzicato e arco"]
+      },
+      {
+        "titulo": "Canção na corda Lá",
+        "descricao": "Montar uma canção que caiba em Lá, Si, Dó# e Ré, cantando o nome das notas antes de tocar; depois conferir na partitura e tocar com o professor acompanhando.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 7,
+        "idade_max": 12,
+        "duracao_min": 8,
+        "conteudos": ["Canções na corda Lá com dedos 1–2–3"]
+      },
+      {
+        "titulo": "Lá maior em duas cordas",
+        "descricao": "Estudar uma canção infantil em Lá maior que use as cordas Lá e Mi (como variações de 'Brilha, brilha, estrelinha'), marcando na partitura as mudanças de corda antes de tocar.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canções infantis em Lá maior (cordas Lá e Mi)"]
+      },
+      {
+        "titulo": "Ré maior em dueto",
+        "descricao": "Tocar uma melodia em Ré maior que passe pelas cordas Ré, Lá e Mi, e depois em dueto com o professor ou um colega, que faz uma segunda voz de cordas soltas.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Melodias em Ré maior usando três cordas", "Duetos com professor ou colega"]
+      },
+      {
+        "titulo": "Canção brasileira em uníssono",
+        "descricao": "Ensaiar uma canção brasileira (cantiga de roda ou ciranda) em Ré ou Sol maior com todo o grupo de cordas em uníssono, cuidando da entrada conjunta, das arcadas iguais e do final.",
+        "recursos": ["instrumentos", "impressao", "caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Canções brasileiras em Ré e Sol maior", "Peça de conjunto de cordas em uníssono"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Aquecimento de ombros e dedos",
+        "descricao": "Girar ombros, sacudir os braços, abrir e fechar as mãos e fazer o 'limpador de para-brisa' com o arco no ar antes de colocar o violino no ombro.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Postura em pé: pés, violino no ombro sem levantar", "Pegada do arco: polegar curvado e dedos arredondados"]
+      },
+      {
+        "titulo": "Afinar antes de tocar",
+        "descricao": "Com afinador no celular ou o Lá do professor, cada aluno confere as quatro cordas e ajusta com os microafinadores; o professor usa as cravelhas quando a diferença for grande.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Ouvir a afinação das cordas soltas em quintas"]
+      },
+      {
+        "titulo": "Improviso na corda Lá",
+        "descricao": "Sobre um acompanhamento do professor em Lá maior, cada aluno improvisa uma frase de 4 compassos com dedos 1–2–3 e cordas soltas, mantendo o pulso e terminando em Lá.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Frase de 4 compassos com dedos e cordas soltas", "Cantar e reproduzir motivos com dedos 1–2–3"]
+      },
+      {
+        "titulo": "Gravar e ouvir",
+        "descricao": "Gravar a canção da semana no celular e ouvir com o professor, apontando um acerto e um ponto para melhorar (afinação dos dedos, arco reto ou pulso).",
+        "recursos": ["celulares", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Canções infantis em Lá maior (cordas Lá e Mi)", "Afinar o dedo por ouvido: alto ou baixo"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["postura", "sonoridade", "afinacao", "ritmo", "leitura", "tecnica", "autonomia"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Usar violinos 1/8, 1/4 ou 1/2 conforme o braço; conferir o tamanho a cada semestre e ajustar espaleira e fitas.",
+      "Sessões curtas (20–30 min) alternando postura, pizzicato, arco e jogos de ouvido; muito tempo em pé com o violino cansa.",
+      "Priorizar tocar de ouvido e por imitação (canções em cordas soltas e corda Lá) antes da pauta."
+    ],
+    "9-12": [
+      "Costumam usar violinos 1/2 ou 3/4; já sustentam a primeira posição em três cordas e as escalas de Lá e Ré.",
+      "Introduzir leitura na clave de sol com sinais de arcada, metrônomo e afinação com microafinadores pelo próprio aluno.",
+      "Tocar em grupo em uníssono e em duetos aumenta a prática e a estabilidade do pulso."
+    ],
+    "13+": [
+      "Violino 4/4 na maioria dos casos; podem ampliar para Sol maior, dedo 4, primeiras ligaduras longas e vibrato inicial.",
+      "Atenção a tensões no ombro e no pescoço em sessões longas; ajustar espaleira e fazer pausas.",
+      "Valorizar autonomia: afinar com cravelhas, escolher repertório e autoavaliar por gravação."
+    ]
+  },
+  "editavel": true
+}

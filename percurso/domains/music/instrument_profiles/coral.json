@@ -1,0 +1,439 @@
+{
+  "id": "coral",
+  "nome": "Coral",
+  "familia": "coletivo",
+  "tessitura": {
+    "inicial": ["C4", "D4", "E4", "F4", "G4"],
+    "ampliada": "A3–F5"
+  },
+  "postura": [
+    "Em pé, em semicírculo ou fileiras, com espaço lateral entre os cantores para não encostar os ombros e para que todos vejam o regente.",
+    "Pés na largura dos quadris, joelhos soltos e peso distribuído; evitar travar as pernas em ensaios longos e apresentações.",
+    "Sentado: na borda da cadeira, com o tronco ereto e a partitura levantada na altura do peito, sem curvar o pescoço para ler.",
+    "Cabeça alinhada e olhar no regente acima da partitura; a pasta é segurada com as duas mãos ou com uma, deixando o rosto livre.",
+    "Ombros relaxados ao respirar em conjunto; a inspiração deve acontecer nas costelas, sem que o coro 'suba' visivelmente antes de cada frase.",
+    "Tessitura inicial em uníssono infantil (dó4 a sol4); ao dividir em naipes, as vozes agudas ficam entre ré4 e fá5 e as graves entre lá3 e dó5, ajustando pela realidade do grupo."
+  ],
+  "tecnicas_fundamentais": [
+    "Respiração coletiva: inspirar juntos no gesto de preparação do regente e atacar a primeira nota ao mesmo tempo.",
+    "Aquecimento em grupo: alongamento, respiração, vibração de lábios, sirenes e vocalizes em uníssono antes de qualquer repertório.",
+    "Uníssono afinado a partir de uma nota de referência (piano, diapasão ou voz do regente) antes de qualquer divisão de vozes.",
+    "Mistura e homogeneidade: todos cantam a mesma vogal com a mesma abertura, de modo que nenhuma voz se destaque do naipe.",
+    "Cânone e ostinato vocal como primeiros passos para a independência de vozes.",
+    "Duas vozes (soprano e contralto ou vozes iguais): cada naipe sustenta sua linha enquanto ouve a outra.",
+    "Leitura da regência: entrada, corte, respiração, dinâmica e andamento comunicados pelo gesto, sem contagem falada.",
+    "Escuta do conjunto: ajustar volume, afinação e vogal ao que o naipe e o coro inteiro estão fazendo."
+  ],
+  "pre_requisitos": {
+    "Cantar em uníssono no pulso do regente": ["Corpo em grupo: pulso com passos e palmas juntos", "Uníssono afinado com nota de referência"],
+    "Uníssono afinado com nota de referência": ["Ouvir a nota de referência e reproduzir junto", "Respiração coletiva e ataque conjunto"],
+    "Cânone a duas e três entradas": ["Uníssono afinado com nota de referência", "Ouvir o outro naipe sem perder a própria linha"],
+    "Duas vozes: soprano e contralto ou vozes iguais": ["Cânone a duas e três entradas", "Ler a própria linha em partitura a duas vozes"],
+    "Ostinato vocal em um naipe sobre o pulso": ["Cantar em uníssono no pulso do regente"],
+    "Arranjo a duas vozes de canção brasileira": ["Duas vozes: soprano e contralto ou vozes iguais", "Canção com ostinato vocal de um naipe"],
+    "Canção a capella a duas vozes": ["Arranjo a duas vozes de canção brasileira", "Perceber se o coro subiu ou desceu de tom"],
+    "Seguir a regência: entrada, corte e dinâmica": ["Entradas e cortes conjuntos após o gesto"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Corpo em grupo: pulso com passos e palmas juntos",
+      "Falar o texto em coro no pulso",
+      "Cantar em uníssono no pulso do regente",
+      "Entradas e cortes conjuntos após o gesto",
+      "Ostinato vocal em um naipe sobre o pulso",
+      "Subdivisão: texto em colcheias sem correr",
+      "Andamento estável do coro sem o piano"
+    ],
+    "leitura": [
+      "Letra sob as notas: acompanhar a linha com o dedo",
+      "Contorno melódico na pauta: sobe, desce e repete",
+      "Figuras rítmicas: semínima, mínima e pausa",
+      "Solfejo em uníssono de dó a sol",
+      "Partitura coral: pausas, respirações e repetições",
+      "Ler a própria linha em partitura a duas vozes",
+      "Sinais de dinâmica e andamento na partitura"
+    ],
+    "tecnica": [
+      "Postura coral em pé e sentado",
+      "Respiração coletiva e ataque conjunto",
+      "Aquecimento em grupo: corpo, respiração e voz",
+      "Uníssono afinado com nota de referência",
+      "Mistura: vogais homogêneas entre os cantores",
+      "Cânone a duas e três entradas",
+      "Duas vozes: soprano e contralto ou vozes iguais",
+      "Seguir a regência: entrada, corte e dinâmica"
+    ],
+    "percepcao": [
+      "Ouvir a nota de referência e reproduzir junto",
+      "Escutar o colega e igualar o volume",
+      "Perceber se o coro subiu ou desceu de tom",
+      "Ouvir o outro naipe sem perder a própria linha",
+      "Reconhecer o gesto do regente: forte e piano",
+      "Perceber consonância entre as vozes",
+      "Modo maior e menor em canções corais"
+    ],
+    "repertorio": [
+      "Cantigas de roda e folclore em uníssono",
+      "Canção brasileira em uníssono com acompanhamento",
+      "Cânone folclórico e brincadeira cantada",
+      "Canção com ostinato vocal de um naipe",
+      "Arranjo a duas vozes de canção brasileira",
+      "Canção a capella a duas vozes",
+      "Programa de apresentação com entrada e saída"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Entradas desencontradas porque parte do coro olha a partitura e não vê o gesto do regente.",
+    "O coro inteiro desce de tom ao longo de uma peça a capella, especialmente em frases descendentes e andamentos lentos.",
+    "Vozes individuais que se destacam (mais fortes ou com vogal diferente), quebrando a homogeneidade do naipe.",
+    "Um naipe 'puxado' para a linha do outro ao tentar cantar a duas vozes, voltando ao uníssono sem perceber.",
+    "Cortes de frase que não acontecem juntos, com consoantes finais em momentos diferentes.",
+    "Gritar para cantar forte em vez de usar mais apoio e ressonância, principalmente em canções animadas.",
+    "Respirar no meio das palavras por não combinar os pontos de respiração do naipe.",
+    "Adolescentes em muda vocal deslocados de naipe, forçando notas que não conseguem mais alcançar."
+  ],
+  "vocabulario_pt": [
+    "canto coral",
+    "coro infantil",
+    "coro escolar",
+    "uníssono",
+    "naipe",
+    "soprano",
+    "contralto",
+    "vozes iguais",
+    "cânone",
+    "ostinato vocal",
+    "duas vozes",
+    "mistura vocal",
+    "homogeneidade",
+    "afinação coletiva",
+    "nota de referência",
+    "regência",
+    "gesto de entrada",
+    "corte",
+    "respiração coletiva",
+    "aquecimento coral",
+    "partitura coral",
+    "repertório folclórico",
+    "canção brasileira"
+  ],
+  "vocabulario_en": [
+    "choral singing",
+    "children's choir",
+    "school choir",
+    "unison",
+    "voice section",
+    "soprano",
+    "alto",
+    "equal voices",
+    "canon",
+    "vocal ostinato",
+    "two-part singing",
+    "choral blend",
+    "vowel unification",
+    "ensemble intonation",
+    "pitch reference",
+    "conducting",
+    "preparatory beat",
+    "cut-off",
+    "group breathing",
+    "choral warm-up",
+    "choral score",
+    "folk repertoire",
+    "Brazilian song"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Roda que anda junto",
+        "descricao": "Em roda, o coro caminha no pulso de uma gravação, depois bate palmas e por fim faz os dois. O regente para a música de repente e verifica se todos param no mesmo tempo.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Corpo em grupo: pulso com passos e palmas juntos"]
+      },
+      {
+        "titulo": "Coro falado",
+        "descricao": "O coro fala a letra da canção em ritmo, todos juntos, marcando o pulso com a mão na perna. Em seguida canta a mesma letra em uníssono seguindo o gesto de pulso do regente.",
+        "recursos": ["quadro"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Falar o texto em coro no pulso", "Cantar em uníssono no pulso do regente"]
+      },
+      {
+        "titulo": "Entra e corta",
+        "descricao": "O regente faz o gesto de preparação e o coro ataca uma nota longa em 'u'; ao gesto de corte, todos param juntos. Repetir com frases da canção, variando o tamanho da pausa antes da entrada.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Entradas e cortes conjuntos após o gesto"]
+      },
+      {
+        "titulo": "Naipe motor",
+        "descricao": "Um grupo repete uma célula curta cantada (ostinato de 2 compassos) enquanto o resto canta a melodia. Trocar os grupos e observar se o ostinato manteve o pulso quando a melodia ficou mais lenta ou mais rápida.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Ostinato vocal em um naipe sobre o pulso"]
+      },
+      {
+        "titulo": "Sem piano, sem correr",
+        "descricao": "Falar o trecho da canção em colcheias com sílabas rítmicas sobre o pulso do regente; depois cantar a canção inteira sem acompanhamento, gravando para conferir se o andamento final é igual ao inicial.",
+        "recursos": ["celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Subdivisão: texto em colcheias sem correr", "Andamento estável do coro sem o piano"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Dedo na linha",
+        "descricao": "Com a partitura projetada ou impressa, o coro acompanha com o dedo a letra sob as notas enquanto ouve a gravação, levantando a mão quando a melodia sobe e abaixando quando desce.",
+        "recursos": ["projetor", "impressao", "caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Letra sob as notas: acompanhar a linha com o dedo", "Contorno melódico na pauta: sobe, desce e repete"]
+      },
+      {
+        "titulo": "Ritmo da canção no quadro",
+        "descricao": "O regente escreve o ritmo de uma frase da canção com semínimas, mínimas e pausas; o coro lê com palmas e sílabas rítmicas, depois canta a frase com a letra.",
+        "recursos": ["quadro"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Figuras rítmicas: semínima, mínima e pausa"]
+      },
+      {
+        "titulo": "Escada cantada em coro",
+        "descricao": "Solfejo em uníssono de dó a sol com sinais de mão, lendo na pauta do quadro; o regente aponta notas em ordem diferente e o coro canta o que vê.",
+        "recursos": ["quadro"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Solfejo em uníssono de dó a sol"]
+      },
+      {
+        "titulo": "Caça aos sinais",
+        "descricao": "Antes de cantar uma peça nova, o coro marca na partitura com lápis as pausas, os pontos de respiração, as repetições e os sinais de dinâmica e andamento, e explica em voz alta o que cada um significa.",
+        "recursos": ["impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Partitura coral: pausas, respirações e repetições", "Sinais de dinâmica e andamento na partitura"]
+      },
+      {
+        "titulo": "Minha linha é essa",
+        "descricao": "Em partitura a duas vozes, cada naipe destaca a própria linha com cor, canta só ela com nome de notas e depois com a letra, enquanto o outro naipe acompanha em silêncio com o dedo.",
+        "recursos": ["impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Ler a própria linha em partitura a duas vozes"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Estátua do coro",
+        "descricao": "Em pé, o coro verifica pés, joelhos, ombros e olhar no regente; ao sinal, senta na borda da cadeira mantendo o tronco ereto e a pasta na altura do peito. Alternar as duas posturas várias vezes.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Postura coral em pé e sentado"]
+      },
+      {
+        "titulo": "Aquecimento do coro",
+        "descricao": "Sequência fixa: alongar pescoço e ombros, respirar juntos no gesto do regente soltando em 's', vibrar os lábios em glissando e vocalizar em uníssono por graus conjuntos, subindo meio tom por vez.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Respiração coletiva e ataque conjunto", "Aquecimento em grupo: corpo, respiração e voz"]
+      },
+      {
+        "titulo": "Uma voz só",
+        "descricao": "O regente dá a nota no piano; cada naipe entra em 'u' e ajusta até ninguém se destacar. Depois trocar para 'o', 'a', 'e', 'i' mantendo a mesma abertura de boca, com um cantor de cada vez andando pela sala para ouvir se a mistura se mantém.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Uníssono afinado com nota de referência", "Mistura: vogais homogêneas entre os cantores"]
+      },
+      {
+        "titulo": "Do cânone às duas vozes",
+        "descricao": "Cantar uma canção em uníssono, depois em cânone a duas e três entradas; quando estiver firme, um naipe passa a cantar uma segunda voz simples (terça abaixo ou nota longa) enquanto o outro mantém a melodia.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Cânone a duas e três entradas", "Duas vozes: soprano e contralto ou vozes iguais"]
+      },
+      {
+        "titulo": "Regente mudo",
+        "descricao": "Sem falar, o regente conduz entrada, corte, crescendo e diminuendo em uma nota longa e depois em uma frase da canção; o coro responde só ao gesto. Um aluno pode reger por vez.",
+        "recursos": ["nenhum"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Seguir a regência: entrada, corte e dinâmica"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Nota que chega e nota que fica",
+        "descricao": "O regente toca uma nota no piano ou dá no diapasão; o coro ouve em silêncio, canta junto em 'u' e sustenta enquanto cada cantor ajusta ao ouvir o vizinho, igualando também o volume.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Ouvir a nota de referência e reproduzir junto", "Escutar o colega e igualar o volume"]
+      },
+      {
+        "titulo": "Subiu ou desceu?",
+        "descricao": "O coro canta uma canção a capella e, ao final, o regente toca a tônica no piano; o coro decide se ficou acima, abaixo ou no tom. Repetir tentando corrigir o que fez o coro descer.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Perceber se o coro subiu ou desceu de tom"]
+      },
+      {
+        "titulo": "Ouvido no outro naipe",
+        "descricao": "Um naipe canta sua linha enquanto o outro canta a dele em 'u' bem piano; depois invertem. Em seguida cantam juntos, com o regente pedindo que cada naipe 'aponte' quando ouvir a nota que combina com a sua.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Ouvir o outro naipe sem perder a própria linha", "Perceber consonância entre as vozes"]
+      },
+      {
+        "titulo": "Forte ou piano no gesto",
+        "descricao": "O regente faz gestos grandes e pequenos em uma nota longa e o coro responde com forte e piano; depois um aluno rege e os colegas dizem se o gesto foi claro.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Reconhecer o gesto do regente: forte e piano"]
+      },
+      {
+        "titulo": "Mesma canção, outra cor",
+        "descricao": "Cantar uma cantiga em maior e depois em menor com o piano, identificando a mudança de caráter; procurar no repertório do coro uma canção em cada modo.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Modo maior e menor em canções corais"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Cantiga de roda em uníssono",
+        "descricao": "Aprender de ouvido uma cantiga de roda ou canção folclórica, com gestos ou brincadeira, e cantar em uníssono no tom confortável do grupo, cuidando das vogais iguais.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 12,
+        "duracao_min": 8,
+        "conteudos": ["Cantigas de roda e folclore em uníssono"]
+      },
+      {
+        "titulo": "Canção brasileira com piano",
+        "descricao": "Montar uma canção brasileira em uníssono com acompanhamento de piano ou violão, ensaiando a entrada após a introdução, os cortes de frase e um contraste de dinâmica entre estrofe e refrão.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canção brasileira em uníssono com acompanhamento"]
+      },
+      {
+        "titulo": "Cânone e ostinato brasileiros",
+        "descricao": "Cantar um cânone folclórico em duas e três entradas e, em outra canção, acrescentar um ostinato vocal de um naipe (por exemplo, o refrão repetido) sob a melodia dos demais.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Cânone folclórico e brincadeira cantada", "Canção com ostinato vocal de um naipe"]
+      },
+      {
+        "titulo": "Duas vozes a capella",
+        "descricao": "Montar um arranjo a duas vozes de canção brasileira por naipe, juntar com piano e depois retirar o piano aos poucos, conferindo o tom no final de cada tentativa.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Arranjo a duas vozes de canção brasileira", "Canção a capella a duas vozes"]
+      },
+      {
+        "titulo": "Ensaio geral",
+        "descricao": "Ensaiar o programa completo com entrada no palco, posição, ordem das músicas, pausas entre elas, agradecimento e saída, em uma passagem sem interrupções.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 15,
+        "conteudos": ["Programa de apresentação com entrada e saída"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Chegada do coro",
+        "descricao": "Rotina de início: formar o semicírculo, verificar postura, respirar juntos três vezes no gesto do regente e cantar uma nota longa em uníssono na nota de referência.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Postura coral em pé e sentado", "Uníssono afinado com nota de referência"]
+      },
+      {
+        "titulo": "Naipe visitante",
+        "descricao": "Um cantor de cada naipe troca de lugar e canta sua linha no meio do outro naipe, mantendo a própria parte enquanto ouve a outra de perto.",
+        "recursos": ["nenhum"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Ouvir o outro naipe sem perder a própria linha", "Duas vozes: soprano e contralto ou vozes iguais"]
+      },
+      {
+        "titulo": "Gravação do ensaio",
+        "descricao": "Gravar uma canção do repertório e ouvir em grupo, identificando entradas desencontradas, vogais diferentes ou queda de tom, e escolher um ponto para o próximo ensaio.",
+        "recursos": ["celulares", "caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Entradas e cortes conjuntos após o gesto", "Perceber se o coro subiu ou desceu de tom"]
+      },
+      {
+        "titulo": "Regente por um dia",
+        "descricao": "Um aluno rege uma cantiga conhecida: dá a nota, faz o gesto de entrada, marca o pulso, pede forte e piano e corta no final. O coro comenta o que ajudou a cantar junto.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Seguir a regência: entrada, corte e dinâmica", "Cantigas de roda e folclore em uníssono"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["afinacao", "respiracao", "sonoridade", "ritmo", "leitura", "percepcao", "participacao"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Tessitura infantil confortável entre dó4 e sol4 em uníssono; repertório curto, com gestos e brincadeira cantada.",
+      "Ensaios de 20 a 30 minutos com troca frequente de atividade; a regência usa gestos grandes e claros.",
+      "Cânone só depois do uníssono firme; leitura como acompanhamento da letra, sem exigir pauta."
+    ],
+    "9-12": [
+      "O uníssono se amplia (lá3 a ré5) e a divisão em dois naipes de vozes iguais passa a ser possível.",
+      "Introduzir partitura coral com a própria linha marcada, solfejo em uníssono e repertório brasileiro a duas vozes.",
+      "Início da muda vocal em alguns meninos: observar quebras e realocar de naipe sem constrangimento."
+    ],
+    "13+": [
+      "Muda vocal: vozes masculinas descem cerca de uma oitava; usar arranjos com linha grave limitada e transpor o repertório para o tom adequado.",
+      "Cuidado com saúde vocal em ensaios longos: hidratação, pausas e proibição de gritar para 'cantar forte'.",
+      "Explorar a capella, dinâmica expressiva e responsabilidade de naipe (líderes de naipe, ensaio por naipe)."
+    ]
+  },
+  "editavel": true
+}

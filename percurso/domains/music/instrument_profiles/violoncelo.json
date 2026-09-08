@@ -1,0 +1,440 @@
+{
+  "id": "violoncelo",
+  "nome": "Violoncelo",
+  "familia": "cordas_friccionadas",
+  "tessitura": {
+    "inicial": ["D3", "E3", "F#3", "G3", "A3"],
+    "ampliada": "C2–A4"
+  },
+  "postura": [
+    "Sentar na ponta da cadeira, com os pés apoiados no chão e os joelhos um pouco abaixo do quadril; cadeira sem braços e de altura adequada à criança.",
+    "Espigão ajustado para que a voluta fique perto da orelha esquerda e a cravelha do Dó atrás da orelha, com o instrumento levemente inclinado para a direita.",
+    "Violoncelo apoiado no peito (esterno) e segurado suavemente entre os joelhos, sem apertar; o instrumento não deve ser sustentado pela mão esquerda.",
+    "Coluna alongada e ombros baixos; o tronco pode inclinar-se levemente à frente, sem curvar as costas.",
+    "Braço esquerdo suspenso com o cotovelo afastado do corpo; polegar atrás do braço do instrumento, oposto aos dedos 1 e 2, e dedos curvados caindo do alto.",
+    "Mão direita pronada sobre o arco, com o polegar dobrado sob a nozinha e os dedos relaxados e inclinados em direção à ponta.",
+    "Tamanho do violoncelo escolhido pela altura da criança: 1/4, 1/2, 3/4 ou 4/4, com espigão sempre ajustável."
+  ],
+  "tecnicas_fundamentais": [
+    "Pegada do arco pronada, com polegar dobrado e peso do braço transmitido através do indicador.",
+    "Arco reto e paralelo ao cavalete, com o cotovelo direito abrindo e fechando conforme a corda.",
+    "Mão esquerda em primeira posição com dedos 1–2–3–4 (semitom entre cada dedo) e polegar atrás do braço.",
+    "Extensões para trás (dedo 1) e para frente (dedos 2, 3 e 4) na primeira posição.",
+    "Pizzicato com o indicador direito, polegar apoiado no espelho ou livre.",
+    "Peso do braço para som cheio nas cordas graves Dó e Sol, com arco mais lento.",
+    "Détaché, legato e staccato como golpes de arco básicos.",
+    "Leitura na clave de fá, com passagem posterior para a clave de dó (tenor) em repertório avançado."
+  ],
+  "pre_requisitos": {
+    "Arco em corda solta: uma arcada por pulso": ["Pizzicato em cordas soltas no pulso", "Pegada do arco: mão pronada e polegar dobrado"],
+    "Pegada do arco: mão pronada e polegar dobrado": ["Sentar na ponta da cadeira com espigão ajustado", "Apoio do cello no peito e entre os joelhos"],
+    "Mão esquerda: dedos 1–2–3–4 e polegar atrás do braço": ["Apoio do cello no peito e entre os joelhos", "Arco paralelo ao cavalete em cordas soltas"],
+    "Dedos 1–3–4 na corda Ré no pulso": ["Mão esquerda: dedos 1–2–3–4 e polegar atrás do braço", "Ritmos curtos com arco nas cordas Ré e Lá"],
+    "Notas da corda Ré com dedos 1, 3 e 4": ["Cordas soltas Dó, Sol, Ré e Lá na clave de fá"],
+    "Extensão para trás e para frente na 1ª posição": ["Mão esquerda: dedos 1–2–3–4 e polegar atrás do braço", "Ouvir se o dedo está alto ou baixo e corrigir"],
+    "Escalas de Ré e Sol maior em uma oitava": ["Extensão para trás e para frente na 1ª posição", "Peso do braço no arco: som cheio nas cordas graves"],
+    "Baixo de tônica e dominante para a turma": ["Ouvir o baixo: tônica e dominante em cadências", "Canções na corda Ré com dedos 1–3–4"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Corpo: pulso com palmas, passos e balanço",
+      "Pizzicato em cordas soltas no pulso",
+      "Arco em corda solta: uma arcada por pulso",
+      "Ritmos curtos com arco nas cordas Ré e Lá",
+      "Dedos 1–3–4 na corda Ré no pulso",
+      "Frase de 4 compassos com baixo em Dó e Sol",
+      "Subdivisão em colcheias com metrônomo"
+    ],
+    "leitura": [
+      "Figuras rítmicas: semínima, mínima e pausa",
+      "Cordas soltas Dó, Sol, Ré e Lá na clave de fá",
+      "Notas da corda Ré com dedos 1, 3 e 4",
+      "Notas das cordas Lá e Sol na primeira posição",
+      "Colcheias, ponto de aumento e ligadura",
+      "Armadura de Ré e Sol maior e sinais de arcada",
+      "Leitura à primeira vista na clave de fá"
+    ],
+    "tecnica": [
+      "Sentar na ponta da cadeira com espigão ajustado",
+      "Apoio do cello no peito e entre os joelhos",
+      "Pegada do arco: mão pronada e polegar dobrado",
+      "Arco paralelo ao cavalete em cordas soltas",
+      "Mão esquerda: dedos 1–2–3–4 e polegar atrás do braço",
+      "Peso do braço no arco: som cheio nas cordas graves",
+      "Extensão para trás e para frente na 1ª posição",
+      "Escalas de Ré e Sol maior em uma oitava"
+    ],
+    "percepcao": [
+      "Grave e agudo: da corda Dó à corda Lá",
+      "Pulso forte e fraco: binário e ternário",
+      "Afinar as cordas soltas por quintas com o professor",
+      "Cantar a nota grave e reproduzir na corda Ré",
+      "Ouvir se o dedo está alto ou baixo e corrigir",
+      "Reconhecer modo maior e menor",
+      "Ouvir o baixo: tônica e dominante em cadências"
+    ],
+    "repertorio": [
+      "Canções em pizzicato nas cordas soltas",
+      "Canções na corda Ré com dedos 1–3–4",
+      "Melodias em Ré maior nas cordas Ré e Lá com arco",
+      "Baixo de tônica e dominante para a turma",
+      "Duetos com professor ou colega",
+      "Canções brasileiras em Sol e Ré maior",
+      "Peça de conjunto de cordas com linha de baixo"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Sentar encostado no fundo da cadeira ou com o espigão curto demais, curvando as costas sobre o instrumento.",
+    "Apertar o violoncelo com os joelhos e segurá-lo com a mão esquerda, travando a mudança de posição.",
+    "Polegar direito esticado ou pegada por cima com o pulso quebrado, perdendo o peso do braço no arco.",
+    "Arco que escorrega em direção ao espelho por não abrir o cotovelo, com som fraco e soprado.",
+    "Dedos 3 e 4 caindo juntos ou o dedo 4 fraco, desafinando a última nota da posição.",
+    "Polegar esquerdo apertando o braço do instrumento ou escondido embaixo da mão.",
+    "Confundir a clave de fá com a de sol ao vir do canto ou do violino.",
+    "Instrumento grande demais para a criança, com braço estendido e dedo 4 fora de alcance."
+  ],
+  "vocabulario_pt": [
+    "violoncelo",
+    "cello",
+    "espigão",
+    "arco",
+    "pegada do arco",
+    "mão pronada",
+    "peso do braço",
+    "arcada",
+    "détaché",
+    "legato",
+    "staccato",
+    "pizzicato",
+    "cordas soltas",
+    "primeira posição",
+    "extensão",
+    "polegar atrás do braço",
+    "clave de fá",
+    "linha de baixo",
+    "afinação por quintas",
+    "tamanho do violoncelo",
+    "vibrato",
+    "iniciação ao violoncelo",
+    "cordas em grupo"
+  ],
+  "vocabulario_en": [
+    "cello",
+    "violoncello",
+    "endpin",
+    "bow",
+    "bow hold",
+    "pronated hand",
+    "arm weight",
+    "bow stroke",
+    "détaché",
+    "legato",
+    "staccato",
+    "pizzicato",
+    "open strings",
+    "first position",
+    "extension",
+    "thumb behind the neck",
+    "bass clef",
+    "bass line",
+    "tuning in fifths",
+    "cello size",
+    "vibrato",
+    "beginning cello",
+    "string class"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Pulso sentado com o cello",
+        "descricao": "Sentados na ponta da cadeira, os alunos marcam o pulso de uma gravação com palmas, com os pés e balançando o tronco; depois repetem com o violoncelo apoiado no peito, sem arco, mantendo a postura.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Corpo: pulso com palmas, passos e balanço"]
+      },
+      {
+        "titulo": "Pizzicato grave no pulso",
+        "descricao": "O aluno faz pizzicato na corda Dó a cada pulso do metrônomo e troca para Sol, Ré e Lá a cada 4 pulsos, enquanto o professor toca uma melodia por cima; a turma ouve o cello como base.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Pizzicato em cordas soltas no pulso"]
+      },
+      {
+        "titulo": "Um arco por pulso",
+        "descricao": "Arcadas inteiras na corda Ré, uma por pulso lento (60 bpm), alternando para baixo e para cima com o cotovelo abrindo; depois ritmos curtos como 'tá-tá-ti-ti-tá' nas cordas Ré e Lá com a metade superior do arco.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Arco em corda solta: uma arcada por pulso", "Ritmos curtos com arco nas cordas Ré e Lá"]
+      },
+      {
+        "titulo": "Dedos no pulso e baixo",
+        "descricao": "Na corda Ré, colocar os dedos 1, 3 e 4 um por pulso (Ré–Mi–Fá#–Sol) e voltar, em semínimas; depois metade da turma toca uma frase de 4 compassos enquanto a outra faz o baixo em Dó e Sol soltas.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Dedos 1–3–4 na corda Ré no pulso", "Frase de 4 compassos com baixo em Dó e Sol"]
+      },
+      {
+        "titulo": "Colcheias no metrônomo",
+        "descricao": "Tocar a mesma frase de 4 compassos em semínimas e depois em colcheias com metrônomo em 60 e 80 bpm, usando pouco arco e mantendo o peso do braço nas colcheias.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Subdivisão em colcheias com metrônomo", "Frase de 4 compassos com baixo em Dó e Sol"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Cartões de ritmo na corda Ré",
+        "descricao": "Cartões com semínimas, mínimas e pausas formam compassos de 4 tempos no quadro; a turma lê com palmas e toca o ritmo na corda Ré solta com arco.",
+        "recursos": ["impressao", "quadro", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Figuras rítmicas: semínima, mínima e pausa"]
+      },
+      {
+        "titulo": "Quatro cordas na clave de fá",
+        "descricao": "O professor desenha a clave de fá e escreve Dó, Sol, Ré e Lá soltas (Dó2 abaixo da pauta, Lá3 no 1º espaço acima do meio); os alunos apontam a corda, dizem o nome e tocam a nota quando ela é mostrada.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Cordas soltas Dó, Sol, Ré e Lá na clave de fá"]
+      },
+      {
+        "titulo": "Escada da corda Ré",
+        "descricao": "Ler Ré, Mi, Fá# e Sol na clave de fá com o número do dedo (0, 1, 3, 4) escrito embaixo; depois ler trechos sem os números e estender para as cordas Lá e Sol na primeira posição.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Notas da corda Ré com dedos 1, 3 e 4", "Notas das cordas Lá e Sol na primeira posição"]
+      },
+      {
+        "titulo": "Colcheias, pontos e ligaduras de arco",
+        "descricao": "Leitura rítmica com colcheias, semínima pontuada e ligadura usando sílabas; depois tocar o padrão na corda Ré, distinguindo ligadura de prolongamento de ligadura de arco.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Colcheias, ponto de aumento e ligadura"]
+      },
+      {
+        "titulo": "Leitura relâmpago na clave de fá",
+        "descricao": "Melodias de 4 compassos nunca vistas em Ré ou Sol maior na clave de fá, com sinais de arcada. O aluno tem 30 segundos para conferir armadura, dedos com extensão e arcadas e toca uma vez sem parar.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Armadura de Ré e Sol maior e sinais de arcada", "Leitura à primeira vista na clave de fá"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Cadeira, espigão e abraço",
+        "descricao": "Checklist: ponta da cadeira, pés no chão, espigão ajustado até a voluta ficar perto da orelha esquerda, cello apoiado no peito e entre os joelhos sem apertar. O aluno solta as duas mãos e o instrumento deve ficar parado.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Sentar na ponta da cadeira com espigão ajustado", "Apoio do cello no peito e entre os joelhos"]
+      },
+      {
+        "titulo": "Pegada pronada no lápis e no arco",
+        "descricao": "Montar a pegada num lápis com a mão pronada, polegar dobrado e dedos inclinados; passar para o arco e deixar o braço pesar. Depois arcadas na corda Ré olhando se o arco fica paralelo ao cavalete, com o cotovelo abrindo e fechando.",
+        "recursos": ["instrumentos", "nenhum"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Pegada do arco: mão pronada e polegar dobrado", "Arco paralelo ao cavalete em cordas soltas"]
+      },
+      {
+        "titulo": "Quatro dedos e o polegar escondido",
+        "descricao": "Colocar o polegar atrás do braço do cello, oposto aos dedos 1 e 2, e deixar os dedos 1, 2, 3 e 4 caírem nas fitas da corda Ré um a um (Ré, Mi, Fá, Fá#, Sol), cantando cada nota; conferir que o polegar não aperta.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Mão esquerda: dedos 1–2–3–4 e polegar atrás do braço"]
+      },
+      {
+        "titulo": "O braço pesa no arco",
+        "descricao": "Apoiar o arco na corda Dó e deixar o braço 'pendurar' até a corda ceder; puxar o arco devagar e ouvir o som encorpar. Repetir na corda Sol e comparar com um arco leve e rápido.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Peso do braço no arco: som cheio nas cordas graves"]
+      },
+      {
+        "titulo": "Esticar e voltar",
+        "descricao": "Na corda Ré, levar o dedo 1 para trás (Réb) e voltar, depois abrir os dedos 2, 3 e 4 para a frente (extensão) mantendo o polegar, e voltar; em seguida tocar a escala de Ré maior e a de Sol maior em uma oitava usando as extensões necessárias.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Extensão para trás e para frente na 1ª posição", "Escalas de Ré e Sol maior em uma oitava"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Do urso ao passarinho",
+        "descricao": "O professor toca as cordas Dó e Lá soltas em ordens variadas; os alunos agacham no grave e levantam os braços no agudo. Depois ordenam as quatro cordas do grave ao agudo de olhos fechados.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 10,
+        "duracao_min": 4,
+        "conteudos": ["Grave e agudo: da corda Dó à corda Lá"]
+      },
+      {
+        "titulo": "Marcha ou valsa?",
+        "descricao": "Ouvir trechos gravados e marcar o tempo forte com arco para baixo na corda Dó e os fracos em pizzicato; decidir se é binário ou ternário.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Pulso forte e fraco: binário e ternário"]
+      },
+      {
+        "titulo": "Quintas com o professor",
+        "descricao": "O professor toca Lá e o aluno afina sua corda Lá até desaparecerem os batimentos; depois afina Ré, Sol e Dó em quintas, tocando duas cordas juntas e ouvindo o intervalo 'limpo'.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Afinar as cordas soltas por quintas com o professor"]
+      },
+      {
+        "titulo": "Canta grave, depois toca",
+        "descricao": "O professor toca um motivo de 2 a 4 notas na corda Ré; o aluno canta o motivo na sua região grave, reproduz no cello e diz se o dedo saiu alto, baixo ou certo, corrigindo sem tirar o dedo da corda.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Cantar a nota grave e reproduzir na corda Ré", "Ouvir se o dedo está alto ou baixo e corrigir"]
+      },
+      {
+        "titulo": "Alegre ou triste, casa ou fora",
+        "descricao": "Ouvir a mesma melodia em maior e menor e identificar o modo. Depois o professor toca uma canção com tônica e dominante; o aluno diz 'casa' ou 'fora' e toca o baixo (Sol ou Ré soltas) no momento certo.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Reconhecer modo maior e menor", "Ouvir o baixo: tônica e dominante em cadências"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Canção em pizzicato",
+        "descricao": "Aprender de ouvido uma canção curta feita só de cordas soltas em pizzicato, com o cello no peito e o polegar apoiado no espelho, enquanto a turma canta.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 6,
+        "idade_max": 10,
+        "duracao_min": 8,
+        "conteudos": ["Canções em pizzicato nas cordas soltas"]
+      },
+      {
+        "titulo": "Canção na corda Ré",
+        "descricao": "Montar uma canção que caiba em Ré, Mi, Fá# e Sol (dedos 0, 1, 3 e 4), cantando o nome das notas antes de tocar; conferir na partitura em clave de fá e tocar com o professor acompanhando.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 7,
+        "idade_max": 12,
+        "duracao_min": 8,
+        "conteudos": ["Canções na corda Ré com dedos 1–3–4"]
+      },
+      {
+        "titulo": "Ré maior em duas cordas",
+        "descricao": "Estudar uma melodia em Ré maior nas cordas Ré e Lá com arco, marcando as mudanças de corda e as arcadas antes de tocar; depois tocar como baixo de tônica e dominante enquanto a turma canta a mesma canção.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Melodias em Ré maior nas cordas Ré e Lá com arco", "Baixo de tônica e dominante para a turma"]
+      },
+      {
+        "titulo": "Dueto de baixo e melodia",
+        "descricao": "Tocar uma canção brasileira (cantiga ou ciranda) em Sol ou Ré maior em dueto com o professor ou um colega: um faz a melodia e o outro o baixo em cordas soltas, trocando os papéis.",
+        "recursos": ["instrumentos", "impressao", "caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Duetos com professor ou colega", "Canções brasileiras em Sol e Ré maior"]
+      },
+      {
+        "titulo": "A base do conjunto",
+        "descricao": "Ensaiar uma peça de conjunto de cordas em que os cellos fazem a linha de baixo (tônica, dominante e notas longas), cuidando da entrada conjunta, do som cheio e de ouvir a melodia dos violinos por cima.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Peça de conjunto de cordas com linha de baixo"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Aquecimento sentado",
+        "descricao": "Sentados na ponta da cadeira, girar ombros, alongar as costas, sacudir as mãos e fazer o movimento do arco no ar com o braço pesado antes de pegar o violoncelo.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Sentar na ponta da cadeira com espigão ajustado", "Pegada do arco: mão pronada e polegar dobrado"]
+      },
+      {
+        "titulo": "Afinar de Lá a Dó",
+        "descricao": "Com afinador no celular ou o Lá do professor, cada aluno confere as cordas Lá, Ré, Sol e Dó e ajusta com os microafinadores; o professor usa as cravelhas quando a diferença for grande.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Afinar as cordas soltas por quintas com o professor"]
+      },
+      {
+        "titulo": "Improviso sobre o baixo",
+        "descricao": "Metade da turma sustenta o baixo em Dó e Sol soltas enquanto cada aluno improvisa 4 compassos na corda Ré com dedos 1–3–4, mantendo o pulso e terminando em Ré; depois invertem.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Frase de 4 compassos com baixo em Dó e Sol", "Cantar a nota grave e reproduzir na corda Ré"]
+      },
+      {
+        "titulo": "Gravar e ouvir",
+        "descricao": "Gravar a canção da semana no celular e ouvir com o professor, apontando um acerto e um ponto para melhorar (som cheio, afinação do dedo 4 ou pulso).",
+        "recursos": ["celulares", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Melodias em Ré maior nas cordas Ré e Lá com arco", "Ouvir se o dedo está alto ou baixo e corrigir"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["postura", "sonoridade", "afinacao", "ritmo", "leitura", "tecnica", "autonomia"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Usar violoncelos 1/8, 1/4 ou 1/2 conforme a altura, com cadeira baixa e espigão curto; conferir o tamanho a cada semestre.",
+      "Sessões curtas (20–30 min) alternando postura, pizzicato, arco e jogos de ouvido; o peso do instrumento cansa as costas.",
+      "Priorizar canções de ouvido em cordas soltas e corda Ré; o dedo 4 pode esperar até a mão crescer."
+    ],
+    "9-12": [
+      "Costumam usar 1/2 ou 3/4; já sustentam a primeira posição com dedos 1–2–3–4 e as escalas de Ré e Sol.",
+      "Introduzir a clave de fá com leitura diária curta, sinais de arcada, metrônomo e afinação pelo próprio aluno.",
+      "Dar ao cello o papel de baixo do conjunto desde cedo motiva e desenvolve a percepção harmônica."
+    ],
+    "13+": [
+      "Violoncelo 4/4 ou 3/4 conforme a altura; ampliar para extensões seguras, Dó maior, ligaduras longas e o início do vibrato.",
+      "Atenção a tensões nas costas e no ombro esquerdo em sessões longas; ajustar espigão e cadeira e fazer pausas.",
+      "Valorizar autonomia: afinar com cravelhas, escolher repertório e autoavaliar por gravação."
+    ]
+  },
+  "editavel": true
+}

@@ -1,0 +1,447 @@
+{
+  "id": "trombone",
+  "nome": "Trombone",
+  "familia": "sopro_metal",
+  "tessitura": {
+    "inicial": ["Bb2", "C3", "D3", "Eb3", "F3"],
+    "ampliada": "E2–Bb4"
+  },
+  "postura": [
+    "Em pé ou sentado na borda da cadeira, coluna alongada e pés apoiados; o trombone precisa de espaço à frente para a vara chegar às posições longas.",
+    "Mão esquerda sustenta todo o peso do instrumento: polegar na trava ou no tubo do bocal, indicador apoiado próximo ao bocal, demais dedos em volta da haste da vara fixa.",
+    "Mão direita segura o braço móvel da vara com polegar, indicador e médio, em pinça leve, sem apertar; ela apenas move a vara.",
+    "Movimento da vara feito pelo pulso e antebraço, com o cotovelo direito livre, sem girar o tronco nem mexer a cabeça.",
+    "Instrumento levemente inclinado para baixo, com o bocal centrado nos lábios e a campana apontando para a frente, sem inclinar a cabeça para trás.",
+    "Ombros baixos, cotovelo esquerdo afastado das costelas para liberar a respiração.",
+    "Estante na altura dos olhos e um pouco à esquerda para que a vara não bata nela."
+  ],
+  "tecnicas_fundamentais": [
+    "Buzzing livre e no bocal (maior que o do trompete), com vibração ampla e relaxada.",
+    "Embocadura com cantos firmes, abertura maior e pouca pressão, adaptada ao bocal grande.",
+    "Respiração profunda e coluna de ar generosa: o trombone pede mais volume de ar que o trompete.",
+    "Sete posições da vara: Sib (1ª), Lá (2ª), Láb (3ª), Sol (4ª), Solb (5ª), Fá (6ª) e Mi (7ª), com Fá3 e Sib2 ambos na 1ª posição.",
+    "Afinação por ouvido em cada posição, ajustando a vara em milímetros até o som ficar limpo.",
+    "Ligaduras naturais (lip slurs) entre harmônicos da mesma posição, apenas com ar e lábios.",
+    "Legato com língua leve (portato, sílaba 'du') para ligar notas em posições diferentes sem glissando.",
+    "Glissando controlado como recurso expressivo e lúdico, com ar contínuo enquanto a vara se move."
+  ],
+  "pre_requisitos": {
+    "Buzzing no bocal marcando o pulso": ["Respiração no pulso: inspirar em 2, soprar em 4", "Buzzing livre e no bocal com som estável"],
+    "Sib e Fá na 1ª posição com coluna de ar": ["Embocadura no bocal grande: cantos firmes, pouca pressão", "Postura e sustentação: mão esquerda segura, direita move"],
+    "Sete posições da vara: Sib a Mi": ["Sib e Fá na 1ª posição com coluna de ar"],
+    "Mudança de posição no pulso: Fá, Mib, Ré": ["Sib e Fá na 1ª posição repetidos no pulso", "Sete posições da vara: Sib a Mi"],
+    "Legato com língua (portato) entre posições": ["Ligaduras naturais (lip slurs) Sib–Fá na 1ª posição", "Sete posições da vara: Sib a Mi"],
+    "Notas de Sib2 a Fá3 na clave de fá": ["Sib e Fá na clave de fá com número da posição"],
+    "Ouvir e ajustar a afinação movendo a vara": ["Sete posições da vara: Sib a Mi", "Cantar a nota antes de tocar (audiação)"],
+    "Canções brasileiras em Sib e Mib maior": ["Armadura de Sib e Mib maior e acidentes", "Canções infantis com posições 1 a 4"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Corpo: pulso com palmas, passos e balanço",
+      "Respiração no pulso: inspirar em 2, soprar em 4",
+      "Buzzing no bocal marcando o pulso",
+      "Sib e Fá na 1ª posição repetidos no pulso",
+      "Mudança de posição no pulso: Fá, Mib, Ré",
+      "Frase de 4 compassos com Sib, Dó, Ré e Fá",
+      "Subdivisão em colcheias com metrônomo"
+    ],
+    "leitura": [
+      "Figuras rítmicas: semínima, mínima e pausa",
+      "Sib e Fá na clave de fá com número da posição",
+      "Notas de Sib2 a Fá3 na clave de fá",
+      "Colcheias, ponto de aumento e ligadura",
+      "Notas de Sol3 a Sib3 e sinais de respiração",
+      "Armadura de Sib e Mib maior e acidentes",
+      "Leitura à primeira vista de melodias em Sib maior"
+    ],
+    "tecnica": [
+      "Buzzing livre e no bocal com som estável",
+      "Embocadura no bocal grande: cantos firmes, pouca pressão",
+      "Postura e sustentação: mão esquerda segura, direita move",
+      "Sib e Fá na 1ª posição com coluna de ar",
+      "Sete posições da vara: Sib a Mi",
+      "Ligaduras naturais (lip slurs) Sib–Fá na 1ª posição",
+      "Legato com língua (portato) entre posições",
+      "Glissando controlado e afinação por ouvido nas posições"
+    ],
+    "percepcao": [
+      "Grave e agudo: harmônicos na mesma posição",
+      "Pulso forte e fraco: binário e ternário",
+      "Cantar a nota antes de tocar (audiação)",
+      "Ouvir e ajustar a afinação movendo a vara",
+      "Ouvir e reproduzir motivos de 2 a 4 notas",
+      "Reconhecer modo maior e menor",
+      "Intervalos de 4ª, 5ª e 8ª entre harmônicos"
+    ],
+    "repertorio": [
+      "Canções com Sib e Fá em notas longas",
+      "Melodias com Sib, Dó, Ré, Mib e Fá",
+      "Canções infantis com posições 1 a 4",
+      "Duetos com professor ou colega",
+      "Canções brasileiras em Sib e Mib maior",
+      "Linha de baixo em conjunto de metais",
+      "Peça com glissando como efeito expressivo"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Braço curto para as 6ª e 7ª posições em crianças, gerando notas fora de afinação ou impossíveis de tocar.",
+    "Mão direita apertando a vara ou movendo-a com o ombro inteiro, com atrasos e trancos nas mudanças de posição.",
+    "Glissando involuntário entre notas por mover a vara com o ar ligado e sem língua.",
+    "Respiração curta e superficial, insuficiente para o volume de ar que o bocal grande exige.",
+    "Confundir Sib e Fá (mesma posição) e cair no harmônico errado por não cantar a nota antes.",
+    "Posições 'aproximadas' sem ajuste de ouvido, especialmente 3ª e 4ª, resultando em afinação instável.",
+    "Pressionar o bocal contra os lábios para o agudo, com dor e perda rápida de resistência.",
+    "Vara suja ou sem lubrificação travando o movimento e prejudicando o legato."
+  ],
+  "vocabulario_pt": [
+    "buzzing",
+    "vibração labial",
+    "embocadura",
+    "bocal",
+    "coluna de ar",
+    "vara",
+    "posições da vara",
+    "primeira posição",
+    "série harmônica",
+    "ligaduras naturais",
+    "legato",
+    "portato",
+    "glissando",
+    "afinação por ouvido",
+    "clave de fá",
+    "trombone tenor",
+    "trombone com gatilho",
+    "trombone de vara",
+    "iniciação ao trombone",
+    "metais em grupo",
+    "banda escolar",
+    "resistência"
+  ],
+  "vocabulario_en": [
+    "buzzing",
+    "lip vibration",
+    "embouchure",
+    "mouthpiece",
+    "air column",
+    "slide",
+    "slide positions",
+    "first position",
+    "harmonic series",
+    "natural slurs",
+    "legato",
+    "portato",
+    "glissando",
+    "intonation by ear",
+    "bass clef",
+    "tenor trombone",
+    "F-attachment trombone",
+    "slide trombone",
+    "beginning trombone",
+    "brass class",
+    "school band",
+    "endurance"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Pulso no corpo e na vara",
+        "descricao": "Com uma gravação de marcha, os alunos marcam o pulso com palmas, passos e balanço. Depois, com o trombone no colo, movem a vara da 1ª para a 3ª posição e de volta no pulso, sem soprar.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Corpo: pulso com palmas, passos e balanço"]
+      },
+      {
+        "titulo": "Inspira em 2, sopra em 4",
+        "descricao": "Com metrônomo lento, inspirar pela boca em 2 tempos, enchendo a barriga, e soprar ar quente por 4 tempos numa folha de papel a um palmo do rosto, mantendo-a inclinada. Aumentar para 8 tempos.",
+        "recursos": ["celulares", "impressao"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Respiração no pulso: inspirar em 2, soprar em 4"]
+      },
+      {
+        "titulo": "Bocal no pulso",
+        "descricao": "Só com o bocal, fazer buzzing em notas curtas a cada clique do metrônomo, depois uma nota longa de 4 pulsos; o professor dá um Sib de referência no piano ou no trombone.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Buzzing no bocal marcando o pulso"]
+      },
+      {
+        "titulo": "Primeira posição no pulso",
+        "descricao": "Tocar Sib em semínimas por 4 compassos, depois Fá por 4 compassos, com articulação 'tu' e descanso entre as rodadas. Em seguida alternar Fá (1ª), Mib (3ª) e Ré (4ª), movendo a vara exatamente no pulso.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Sib e Fá na 1ª posição repetidos no pulso", "Mudança de posição no pulso: Fá, Mib, Ré"]
+      },
+      {
+        "titulo": "Frase em revezamento com colcheias",
+        "descricao": "Dois grupos: um toca uma frase de 4 compassos com Sib, Dó, Ré e Fá e o outro repete, sem buraco entre elas. Depois a mesma frase em colcheias com metrônomo, verificando que a vara chega antes da nota.",
+        "recursos": ["instrumentos", "celulares", "quadro"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Frase de 4 compassos com Sib, Dó, Ré e Fá", "Subdivisão em colcheias com metrônomo"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Cartões de ritmo na clave de fá",
+        "descricao": "Cartões com semínimas, mínimas e pausas formam compassos de 4 tempos no quadro; a turma lê com palmas e sílabas e depois toca o ritmo em Sib na 1ª posição.",
+        "recursos": ["impressao", "quadro", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Figuras rítmicas: semínima, mínima e pausa"]
+      },
+      {
+        "titulo": "Sib e Fá com número embaixo",
+        "descricao": "O professor escreve Sib2 (2ª linha) e Fá3 (4ª linha) na clave de fá e coloca o número 1 embaixo de cada uma; os alunos apontam, dizem nome e posição e tocam a nota quando ela é mostrada.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Sib e Fá na clave de fá com número da posição"]
+      },
+      {
+        "titulo": "Escada de Sib a Fá com tabela de posições",
+        "descricao": "Uma tabela com Sib (1), Dó (6), Ré (4), Mib (3) e Fá (1) fica no quadro. Os alunos leem trechos curtos dizendo nota e posição antes de tocar, depois tocam sem olhar a tabela.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Notas de Sib2 a Fá3 na clave de fá"]
+      },
+      {
+        "titulo": "Colcheias e respirações marcadas",
+        "descricao": "Leitura rítmica com colcheias, semínima pontuada e ligadura com sílabas; depois tocar o padrão numa melodia que sobe até Sol, Lá e Sib3, respirando somente nas vírgulas escritas.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Colcheias, ponto de aumento e ligadura", "Notas de Sol3 a Sib3 e sinais de respiração"]
+      },
+      {
+        "titulo": "Leitura relâmpago com bemóis",
+        "descricao": "Melodias de 4 compassos nunca vistas em Sib ou Mib maior. O aluno tem 30 segundos para conferir armadura, notas com bemol e posições difíceis, e toca uma vez sem parar.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Armadura de Sib e Mib maior e acidentes", "Leitura à primeira vista de melodias em Sib maior"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Abelha grande",
+        "descricao": "Fazer os lábios vibrarem livremente com abertura larga e relaxada, depois no bocal grande, mantendo um som estável por 4 segundos. Conferir no espelho os cantos firmes e a pouca pressão do bocal.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Buzzing livre e no bocal com som estável", "Embocadura no bocal grande: cantos firmes, pouca pressão"]
+      },
+      {
+        "titulo": "Quem segura, quem move",
+        "descricao": "Checklist antes de tocar: mão esquerda segura todo o peso, mão direita em pinça leve, cotovelo livre. O aluno move a vara pelas sete posições sem soprar enquanto o colega confere se a cabeça e o tronco ficam parados.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Postura e sustentação: mão esquerda segura, direita move"]
+      },
+      {
+        "titulo": "Sib e Fá com ar quente",
+        "descricao": "Tocar Sib longo na 1ª posição com ar quente e contínuo, depois Fá longo na mesma posição só mudando ar e lábios. Descansar e repetir com o professor tocando junto.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Sib e Fá na 1ª posição com coluna de ar"]
+      },
+      {
+        "titulo": "Descendo a escada das posições",
+        "descricao": "A partir de Sib na 1ª, descer cromaticamente Lá (2ª), Láb (3ª), Sol (4ª), Solb (5ª), Fá (6ª) e Mi (7ª), com fita colorida no tubo marcando cada posição. Crianças com braço curto usam o gatilho ou param na 5ª.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Sete posições da vara: Sib a Mi"]
+      },
+      {
+        "titulo": "Elevador na primeira posição",
+        "descricao": "Ligar Sib–Fá–Sib na 1ª posição sem língua, só com ar e lábios; depois ligar Fá (1ª) a Mib (3ª) usando língua leve 'du' enquanto a vara se move rápido, sem deixar o glissando aparecer.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Ligaduras naturais (lip slurs) Sib–Fá na 1ª posição", "Legato com língua (portato) entre posições"]
+      },
+      {
+        "titulo": "Sirene e afinação",
+        "descricao": "Fazer um glissando da 1ª à 6ª posição com ar contínuo, como uma sirene, e voltar. Depois, com um Fá de referência, parar em cada posição e ajustar a vara em milímetros até desaparecerem os batimentos.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Glissando controlado e afinação por ouvido nas posições"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Mesma posição, sons diferentes",
+        "descricao": "O professor toca Sib2, Fá3 e Sib3 na 1ª posição; os alunos mostram com a mão a altura de cada som, cantam a série e tentam tocar os dois primeiros harmônicos.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Grave e agudo: harmônicos na mesma posição"]
+      },
+      {
+        "titulo": "Marcha ou valsa?",
+        "descricao": "Ouvir marchas e valsas gravadas, marcar o tempo forte com o pé e os fracos com o dedo; decidir se é binário ou ternário e tocar Sib nos tempos fortes.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Pulso forte e fraco: binário e ternário"]
+      },
+      {
+        "titulo": "Canta, posiciona, toca",
+        "descricao": "O professor toca uma nota; o aluno canta, coloca a vara na posição e só então toca. Se a nota sair alta ou baixa, ele ajusta a vara ouvindo os batimentos contra a referência.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Cantar a nota antes de tocar (audiação)", "Ouvir e ajustar a afinação movendo a vara"]
+      },
+      {
+        "titulo": "Eco na clave de fá",
+        "descricao": "O professor toca um motivo de 2 a 4 notas entre Sib e Fá; o aluno mostra com a mão se subiu ou desceu e o reproduz sem olhar as posições do professor.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Ouvir e reproduzir motivos de 2 a 4 notas"]
+      },
+      {
+        "titulo": "Alegre ou triste, e que distância?",
+        "descricao": "Ouvir a mesma melodia em maior e menor e identificar o modo; depois cantar e tocar Sib–Fá (5ª), Fá–Sib (4ª) e Sib–Sib (8ª) da série harmônica, ligando cada intervalo a uma canção conhecida.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Reconhecer modo maior e menor", "Intervalos de 4ª, 5ª e 8ª entre harmônicos"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Canção de duas notas",
+        "descricao": "Aprender de ouvido uma canção que use apenas Sib e Fá em notas longas na 1ª posição, cantando antes de tocar; depois conferir na partitura em clave de fá.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 7,
+        "idade_max": 12,
+        "duracao_min": 8,
+        "conteudos": ["Canções com Sib e Fá em notas longas"]
+      },
+      {
+        "titulo": "Cinco notas em Sib",
+        "descricao": "Estudar uma melodia com Sib, Dó, Ré, Mib e Fá (por exemplo, uma cantiga de roda transposta), marcando as posições e as respirações antes de tocar por frases.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Melodias com Sib, Dó, Ré, Mib e Fá"]
+      },
+      {
+        "titulo": "Dueto nas posições curtas",
+        "descricao": "Montar uma canção infantil que use apenas as posições 1 a 4 e tocá-la em dueto com o professor ou um colega, alternando melodia e segunda voz.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canções infantis com posições 1 a 4", "Duetos com professor ou colega"]
+      },
+      {
+        "titulo": "Canção brasileira com bemóis",
+        "descricao": "Tocar uma canção brasileira conhecida em Sib ou Mib maior enquanto a turma canta a letra, marcando na partitura os bemóis e as posições longas.",
+        "recursos": ["instrumentos", "impressao", "caixa_de_som"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canções brasileiras em Sib e Mib maior"]
+      },
+      {
+        "titulo": "Baixo da fanfarra com escorregada",
+        "descricao": "No conjunto de metais, o trombone faz a linha de baixo (tônica e dominante) de um hino ou fanfarra; ao final, tocar uma peça curta que use um glissando escrito como efeito, ensaiando o ar contínuo.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Linha de baixo em conjunto de metais", "Peça com glissando como efeito expressivo"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Aquecimento de ar, lábios e vara",
+        "descricao": "Alongar ombros e pescoço, respirar fundo três vezes, buzzing livre e no bocal por um minuto, e mover a vara por todas as posições antes das primeiras notas longas.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Buzzing livre e no bocal com som estável", "Respiração no pulso: inspirar em 2, soprar em 4"]
+      },
+      {
+        "titulo": "Improviso de sirene",
+        "descricao": "Sobre um acompanhamento do professor em Sib maior, cada aluno improvisa 4 compassos com Sib, Dó, Ré e Fá e termina com um glissando descendo até a 6ª posição, mantendo o pulso.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Frase de 4 compassos com Sib, Dó, Ré e Fá", "Glissando controlado e afinação por ouvido nas posições"]
+      },
+      {
+        "titulo": "Tocar e descansar",
+        "descricao": "Regra 'toca um, descansa um': um minuto de notas longas em Sib e Fá, um minuto de descanso com o bocal longe da boca, aproveitando para limpar e lubrificar a vara.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Sib e Fá na 1ª posição com coluna de ar"]
+      },
+      {
+        "titulo": "Gravar e ouvir",
+        "descricao": "Gravar a canção da semana no celular e ouvir com o professor, apontando um acerto e um ponto para melhorar (afinação das posições, glissando indesejado ou pulso).",
+        "recursos": ["celulares", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Canções infantis com posições 1 a 4", "Ouvir e ajustar a afinação movendo a vara"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["sonoridade", "respiracao", "afinacao", "articulacao", "ritmo", "leitura", "autonomia"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "O braço raramente alcança a 6ª e a 7ª posições; usar trombone curto (pequeno), trombone com gatilho, ou começar com trabalho pré-instrumental no bocal, no canto e em instrumentos de pulso.",
+      "Sessões curtas (15–20 min de sopro efetivo) com descanso frequente, pois o bocal grande cansa a embocadura em formação.",
+      "Limitar-se às posições 1 a 4 e a Sib, Fá e Mib; jogos com a sirene do glissando mantêm o interesse."
+    ],
+    "9-12": [
+      "Maioria alcança a 6ª posição com o trombone tenor comum; a 7ª pode exigir gatilho ou adiamento.",
+      "Introduzir a tabela de posições, o metrônomo e o afinador; combinar metas de resistência e de afinação nas posições longas.",
+      "Repertório de banda escolar e linhas de baixo em conjunto dão sentido ao papel do trombone."
+    ],
+    "13+": [
+      "Alcançam todas as posições; ampliar para o agudo (Sib3 a Sib4) com lip slurs longos e pouca pressão.",
+      "Explorar legato com língua em frases longas, glissando expressivo e leitura em clave de dó (tenor) se seguirem para repertório orquestral.",
+      "Valorizar autonomia: aquecimento próprio, manutenção da vara e autoavaliação por gravação."
+    ]
+  },
+  "editavel": true
+}

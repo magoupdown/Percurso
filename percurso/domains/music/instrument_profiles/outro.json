@@ -1,0 +1,467 @@
+{
+  "id": "outro",
+  "nome": "Outro",
+  "familia": "outro",
+  "tessitura": null,
+  "postura": [
+    "Perfil genérico: o professor deve adaptar cada item às exigências do instrumento ou da área específica (sustentação, embocadura, afinação, sentado ou em pé).",
+    "Corpo alinhado e estável, sentado ou em pé, com os pés apoiados e o peso distribuído, antes de pegar o instrumento.",
+    "Sustentação do instrumento sem tensão em ombros, pescoço e mãos; usar alças, apoios ou tamanhos adequados à idade.",
+    "Instrumento na altura e no ângulo indicados pela tradição do instrumento, sem o corpo se curvar para alcançá-lo.",
+    "Mãos e dedos relaxados, com articulações naturais; verificar a posição da mão no espelho ou em foto.",
+    "Respiração livre mesmo em instrumentos que não usam sopro, evitando prender o ar em passagens difíceis.",
+    "Pausas regulares para soltar o corpo, principalmente em instrumentos pesados ou de posição assimétrica."
+  ],
+  "tecnicas_fundamentais": [
+    "Sustentação e postura estáveis como base para todo movimento no instrumento.",
+    "Produção do som inicial com qualidade estável: ataque, sustentação e término do som.",
+    "Primeiras notas na região inicial do instrumento com controle de altura e afinação.",
+    "Ampliação progressiva do registro para os dois lados da nota de referência.",
+    "Articulação básica: notas ligadas e notas separadas, conforme o mecanismo do instrumento.",
+    "Controle de dinâmica (piano, mezzo-forte, forte) sem perder a qualidade do som.",
+    "Escala e arpejo na tonalidade mais confortável do instrumento.",
+    "Mudança de posição ou de região com fluência e sem interrupção do som."
+  ],
+  "pre_requisitos": {
+    "Som inicial repetido no pulso no instrumento": ["Pulso no corpo: caminhar, bater palmas e balançar", "Produção do som inicial com qualidade estável"],
+    "Duas ou três notas alternadas no pulso": ["Som inicial repetido no pulso no instrumento", "Primeiras notas da região inicial"],
+    "Notas da região inicial na clave do instrumento": ["Nota de referência na clave do instrumento", "Leitura rítmica: semínima, mínima e pausas"],
+    "Ampliação do registro: notas acima e abaixo": ["Primeiras notas da região inicial", "Afinação: comparar com a nota de referência"],
+    "Escala e arpejo na tonalidade mais confortável": ["Ampliação do registro: notas acima e abaixo", "Acidentes e armaduras usuais do instrumento"],
+    "Canções infantis e folclóricas de uma oitava": ["Melodias de cinco notas na região inicial", "Ampliação do registro: notas acima e abaixo"],
+    "Tocar em conjunto: naipe ou pequeno grupo": ["Tocar junto com gravação ou colega sem perder o pulso", "Peça a duas vozes com o professor"],
+    "Tônica e dominante no acompanhamento": ["Modo maior e menor em melodias tocadas"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Pulso no corpo: caminhar, bater palmas e balançar",
+      "Som inicial repetido no pulso no instrumento",
+      "Duas ou três notas alternadas no pulso",
+      "Frase curta de 4 compassos mantendo o pulso",
+      "Subdivisão do pulso em colcheias no instrumento",
+      "Metrônomo: manter o pulso em três andamentos",
+      "Tocar junto com gravação ou colega sem perder o pulso"
+    ],
+    "leitura": [
+      "Leitura rítmica: semínima, mínima e pausas",
+      "Nota de referência na clave do instrumento",
+      "Notas da região inicial na clave do instrumento",
+      "Colcheias, ponto de aumento e ligadura de valor",
+      "Acidentes e armaduras usuais do instrumento",
+      "Sinais de dinâmica, articulação e repetição",
+      "Leitura à primeira vista de melodias curtas"
+    ],
+    "tecnica": [
+      "Postura e sustentação do instrumento sem tensão",
+      "Produção do som inicial com qualidade estável",
+      "Primeiras notas da região inicial",
+      "Ampliação do registro: notas acima e abaixo",
+      "Articulação: ligar e separar as notas",
+      "Dinâmica: tocar forte e piano com controle",
+      "Escala e arpejo na tonalidade mais confortável",
+      "Mudança de posição ou de região com fluência"
+    ],
+    "percepcao": [
+      "Grave e agudo no próprio instrumento",
+      "Sentir o tempo forte: marcha e valsa",
+      "Melodia que sobe, desce ou repete",
+      "Imitar de ouvido motivos de 2 a 4 notas",
+      "Afinação: comparar com a nota de referência",
+      "Modo maior e menor em melodias tocadas",
+      "Tônica e dominante no acompanhamento"
+    ],
+    "repertorio": [
+      "Canções simples com 2 ou 3 notas",
+      "Melodias de cinco notas na região inicial",
+      "Canções infantis e folclóricas de uma oitava",
+      "Peça a duas vozes com o professor",
+      "Canções brasileiras com acompanhamento",
+      "Peça de nível iniciante do repertório do instrumento",
+      "Tocar em conjunto: naipe ou pequeno grupo"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Tensão excessiva ao sustentar o instrumento, com ombros levantados e respiração presa (o professor deve identificar o ponto de tensão típico do instrumento).",
+    "Som inicial instável: falha, vazamento de ar, ruído ou altura oscilante, por força demais ou de menos.",
+    "Olhar o tempo todo para as mãos ou para o instrumento e perder o lugar na partitura.",
+    "Confundir a nota de referência com as notas vizinhas ao ler na clave do instrumento.",
+    "Acelerar nos trechos fáceis e travar nos difíceis, sem manter o pulso.",
+    "Afinação imprecisa ao ampliar o registro, sem comparar com a nota de referência.",
+    "Tocar tudo no mesmo volume e na mesma articulação, sem contraste.",
+    "Dificuldade de ouvir o colega ao tocar em grupo, cobrindo o som ou entrando fora de tempo."
+  ],
+  "vocabulario_pt": [
+    "iniciação instrumental",
+    "postura",
+    "sustentação do instrumento",
+    "produção do som",
+    "nota de referência",
+    "primeira posição",
+    "registro",
+    "articulação",
+    "dinâmica",
+    "afinação",
+    "pulso",
+    "leitura rítmica",
+    "leitura à primeira vista",
+    "escala",
+    "arpejo",
+    "repertório iniciante",
+    "prática de conjunto",
+    "método de iniciação",
+    "ensino coletivo de instrumento",
+    "tocar de ouvido"
+  ],
+  "vocabulario_en": [
+    "beginning instrumental instruction",
+    "playing posture",
+    "instrument hold",
+    "tone production",
+    "reference pitch",
+    "first position",
+    "range extension",
+    "articulation",
+    "dynamics",
+    "intonation",
+    "beat",
+    "rhythm reading",
+    "sight-reading",
+    "scale",
+    "arpeggio",
+    "beginner repertoire",
+    "ensemble playing",
+    "beginner method book",
+    "group instrumental teaching",
+    "playing by ear"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Pulso no corpo",
+        "descricao": "Antes de pegar o instrumento, caminhar, bater palmas e balançar o corpo no pulso de uma gravação em andamento moderado; o professor observa quem mantém a regularidade.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Pulso no corpo: caminhar, bater palmas e balançar"]
+      },
+      {
+        "titulo": "Um som, um pulso",
+        "descricao": "Repetir o som inicial do instrumento uma vez por pulso enquanto o professor acompanha; descansar 4 pulsos e recomeçar sem perder o tempo.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Som inicial repetido no pulso no instrumento"]
+      },
+      {
+        "titulo": "Duas notas no pulso",
+        "descricao": "Alternar duas ou três notas da região inicial, uma por pulso; depois montar uma frase de 4 compassos (pergunta e resposta) e repeti-la inteira mantendo o pulso.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Duas ou três notas alternadas no pulso", "Frase curta de 4 compassos mantendo o pulso"]
+      },
+      {
+        "titulo": "Dividir o pulso",
+        "descricao": "Tocar uma nota por pulso e, ao sinal, duas notas por pulso (colcheias) na mesma altura, sobre metrônomo lento; voltar às semínimas sem alterar o andamento.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Subdivisão do pulso em colcheias no instrumento"]
+      },
+      {
+        "titulo": "Três andamentos",
+        "descricao": "Tocar a mesma frase de 4 compassos a 60, 80 e 100 bpm com metrônomo, avaliando em qual andamento a regularidade se mantém melhor.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Metrônomo: manter o pulso em três andamentos"]
+      },
+      {
+        "titulo": "Tocar junto",
+        "descricao": "Tocar uma melodia conhecida junto com uma gravação ou com um colega, começando e terminando juntos; se alguém se perder, reentrar no próximo compasso sem parar.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Tocar junto com gravação ou colega sem perder o pulso"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Cartões rítmicos",
+        "descricao": "Ler no quadro padrões de 4 compassos com semínimas, mínimas e pausas usando sílabas rítmicas e palmas; depois tocar o mesmo ritmo no som inicial do instrumento.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Leitura rítmica: semínima, mínima e pausas"]
+      },
+      {
+        "titulo": "A nota de referência",
+        "descricao": "Escrever na clave do instrumento a nota de referência e acrescentar uma vizinha por vez, para cima e para baixo; o aluno nomeia, localiza no instrumento e toca cada nota nova.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Nota de referência na clave do instrumento", "Notas da região inicial na clave do instrumento"]
+      },
+      {
+        "titulo": "Colcheias e ligaduras",
+        "descricao": "Leitura rítmica de padrões com colcheias, semínima pontuada e ligadura de valor; em seguida tocar o mesmo padrão em uma melodia da região inicial.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Colcheias, ponto de aumento e ligadura de valor"]
+      },
+      {
+        "titulo": "Acidentes e armaduras",
+        "descricao": "Ler trechos curtos com os acidentes e as armaduras mais usuais do instrumento, marcando a lápis cada nota alterada antes de tocar.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Acidentes e armaduras usuais do instrumento"]
+      },
+      {
+        "titulo": "Sinais na partitura",
+        "descricao": "Antes de tocar, circular na partitura os sinais de dinâmica, articulação e repetição (ritornello, casa 1 e 2) e explicar o que cada um pede; depois tocar respeitando os sinais.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Sinais de dinâmica, articulação e repetição"]
+      },
+      {
+        "titulo": "Primeira vista",
+        "descricao": "Melodia curta nunca vista, dentro da região já dominada: 30 segundos para observar clave, armadura e ritmo e tocar uma vez sem parar, mantendo o pulso.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Leitura à primeira vista de melodias curtas"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Checklist de postura",
+        "descricao": "Antes de tocar, o aluno verifica em voz alta os pontos de postura e sustentação definidos pelo professor para o instrumento (pés, coluna, ombros, mãos); comparar no espelho ou em foto.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Postura e sustentação do instrumento sem tensão"]
+      },
+      {
+        "titulo": "Som longo",
+        "descricao": "Produzir o som inicial do instrumento o mais estável possível por 4 pulsos, com início e fim claros; repetir observando se o som não oscila nem falha.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Produção do som inicial com qualidade estável"]
+      },
+      {
+        "titulo": "Primeiras notas",
+        "descricao": "Tocar as primeiras notas da região inicial uma de cada vez, em notas longas, depois em pares; o professor confere altura, qualidade do som e posição da mão.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Primeiras notas da região inicial"]
+      },
+      {
+        "titulo": "Um degrau a mais",
+        "descricao": "A cada semana, acrescentar uma nota acima ou abaixo da região dominada, tocando-a em notas longas e em uma pequena melodia que a inclua.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Ampliação do registro: notas acima e abaixo"]
+      },
+      {
+        "titulo": "Ligado, separado, forte e piano",
+        "descricao": "Tocar uma melodia de cinco notas primeiro ligada e depois separada; em seguida tocar toda ligada em forte e em piano, mantendo a qualidade do som.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Articulação: ligar e separar as notas", "Dinâmica: tocar forte e piano com controle"]
+      },
+      {
+        "titulo": "Escala e mudança de região",
+        "descricao": "Tocar a escala e o arpejo na tonalidade mais confortável do instrumento em semínimas lentas; depois praticar a passagem entre duas posições ou regiões sem interromper o som.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Escala e arpejo na tonalidade mais confortável", "Mudança de posição ou de região com fluência"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Alto e baixo",
+        "descricao": "O professor toca sons graves e agudos no instrumento; os alunos respondem com o corpo (agachar ou esticar). Depois um aluno toca e o grupo responde.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 10,
+        "duracao_min": 4,
+        "conteudos": ["Grave e agudo no próprio instrumento"]
+      },
+      {
+        "titulo": "Marcha ou valsa",
+        "descricao": "Ouvir trechos em dois e em três tempos, marcar o tempo forte com palma e os fracos com o dedo, e caminhar de acordo; depois tocar o tempo forte no instrumento.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Sentir o tempo forte: marcha e valsa"]
+      },
+      {
+        "titulo": "Mão que desenha",
+        "descricao": "O professor toca motivos de 2 a 4 notas; o aluno mostra com a mão se a melodia subiu, desceu ou repetiu e depois reproduz o motivo no instrumento sem olhar.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Melodia que sobe, desce ou repete", "Imitar de ouvido motivos de 2 a 4 notas"]
+      },
+      {
+        "titulo": "Afinar de ouvido",
+        "descricao": "Tocar a nota de referência junto com o professor ou com um afinador e ajustar até o som 'parar de bater'; repetir com as notas vizinhas.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Afinação: comparar com a nota de referência"]
+      },
+      {
+        "titulo": "Maior, menor, casa e fora",
+        "descricao": "Ouvir a mesma melodia em maior e em menor e identificar o modo; depois, sobre um acompanhamento com tônica e dominante, dizer 'casa' ou 'fora' a cada mudança e tocar o baixo correspondente.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Modo maior e menor em melodias tocadas", "Tônica e dominante no acompanhamento"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Canção de três notas",
+        "descricao": "Aprender de ouvido uma canção que use 2 ou 3 notas da região inicial e, na sequência, uma melodia de cinco notas; cantar o nome das notas antes de tocar e conferir na partitura.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 6,
+        "idade_max": 12,
+        "duracao_min": 8,
+        "conteudos": ["Canções simples com 2 ou 3 notas", "Melodias de cinco notas na região inicial"]
+      },
+      {
+        "titulo": "Cantiga de uma oitava",
+        "descricao": "Montar uma canção infantil ou folclórica que use toda a oitava já dominada, estudando por frases e ligando as frases no pulso.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Canções infantis e folclóricas de uma oitava"]
+      },
+      {
+        "titulo": "Dueto com o professor",
+        "descricao": "O aluno toca a melodia e o professor uma segunda voz ou acompanhamento; trocar de papel em trechos simples e cuidar da entrada e do final conjuntos.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Peça a duas vozes com o professor"]
+      },
+      {
+        "titulo": "Canção brasileira",
+        "descricao": "Estudar uma canção brasileira conhecida (cantiga, ciranda ou canção popular) com acompanhamento gravado ou do professor, cuidando do caráter e do andamento.",
+        "recursos": ["instrumentos", "impressao", "caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canções brasileiras com acompanhamento"]
+      },
+      {
+        "titulo": "Peça de método",
+        "descricao": "Escolher com o aluno uma peça de nível iniciante do método ou do repertório tradicional do instrumento, dividir em trechos e definir metas semanais de estudo.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Peça de nível iniciante do repertório do instrumento"]
+      },
+      {
+        "titulo": "Pequeno conjunto",
+        "descricao": "Tocar em naipe ou em pequeno grupo uma peça com duas ou três partes, cuidando de ouvir o colega, afinar em conjunto e seguir os sinais de entrada e de final.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Tocar em conjunto: naipe ou pequeno grupo"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Aquecimento corporal",
+        "descricao": "Girar ombros, alongar pescoço, braços e mãos e respirar profundamente antes de pegar o instrumento; o professor adapta os movimentos ao instrumento.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Postura e sustentação do instrumento sem tensão"]
+      },
+      {
+        "titulo": "Improviso com poucas notas",
+        "descricao": "Sobre um acompanhamento do professor, o aluno improvisa com as notas da região inicial, mantendo o pulso e terminando na nota de referência.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Duas ou três notas alternadas no pulso", "Imitar de ouvido motivos de 2 a 4 notas"]
+      },
+      {
+        "titulo": "Gravar e ouvir",
+        "descricao": "Gravar a peça da semana no celular e ouvir com o professor, apontando um acerto e um ponto para melhorar (som, pulso, afinação ou dinâmica).",
+        "recursos": ["celulares", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Metrônomo: manter o pulso em três andamentos", "Peça de nível iniciante do repertório do instrumento"]
+      },
+      {
+        "titulo": "Roda de apresentação",
+        "descricao": "Cada aluno toca um trecho pronto para os colegas, que dão um comentário positivo e uma sugestão; trabalha entrada, final e postura de palco.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canções infantis e folclóricas de uma oitava", "Canções brasileiras com acompanhamento"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["sonoridade", "ritmo", "leitura", "tecnica", "afinacao", "postura", "autonomia"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Verificar se o tamanho e o peso do instrumento são adequados; usar versões infantis, alças ou apoios quando existirem.",
+      "Sessões curtas (20–30 min) alternando corpo, ouvido e instrumento; tocar de ouvido e por imitação antes da pauta.",
+      "Poucas notas por vez e canções conhecidas mantêm o engajamento."
+    ],
+    "9-12": [
+      "Já sustentam leitura na clave do instrumento, ampliação de registro e escala na tonalidade confortável.",
+      "Introduzir metrônomo, gravação, metas semanais e prática em duplas ou naipes.",
+      "Repertório escolhido junto com o aluno aumenta a prática em casa."
+    ],
+    "13+": [
+      "Podem avançar rápido em técnica e leitura; incluir música popular, cifras e tocar de ouvido conforme o instrumento.",
+      "Atenção a tensões e lesões em sessões longas; alongamentos e pausas adaptados ao instrumento.",
+      "Valorizar autonomia: escolha de repertório, autoavaliação por gravação e prática em conjunto."
+    ]
+  },
+  "editavel": true
+}

@@ -1,0 +1,459 @@
+{
+  "id": "musicalizacao",
+  "nome": "Musicalização",
+  "familia": "teoria_percepcao",
+  "tessitura": null,
+  "postura": [
+    "Organizar a sala em roda, com espaço livre no centro para movimento e todos vendo o professor e os colegas.",
+    "Combinar sinais de início e de silêncio (mão levantada, som de um instrumento) antes das atividades de movimento.",
+    "Cantar em pé ou sentado com a coluna alongada, pés apoiados e ombros soltos, sem gritar.",
+    "Instrumentos de pequena percussão ficam no chão ou no colo em 'posição de descanso' até o sinal para tocar.",
+    "Ao tocar xilofone ou metalofone, ficar em pé ou sentado com o instrumento na altura da cintura e as baquetas seguras sem apertar.",
+    "Percussão corporal com movimentos amplos e relaxados, sem bater com força excessiva no peito ou nas coxas.",
+    "Alternar atividades de movimento, escuta e canto para regular a energia do grupo."
+  ],
+  "tecnicas_fundamentais": [
+    "Exploração vocal: voz falada, sussurrada, cantada e efeitos (sirene, glissando) antes do canto afinado.",
+    "Canto coletivo afinado em extensão confortável (ré a lá), por imitação do professor.",
+    "Percussão corporal com quatro timbres básicos: pés, coxas, palmas e estalos.",
+    "Ritmo da palavra: transformar nomes, frutas e parlendas em padrões rítmicos.",
+    "Manejo da pequena percussão: modo de segurar, tocar e silenciar chocalhos, claves, tambores e triângulo.",
+    "Toque nos instrumentos de lâminas (xilofone, metalofone) com baquetas alternadas e som que 'quica'.",
+    "Bordão e ostinato como acompanhamento de canções, no corpo e nos instrumentos.",
+    "Improvisação guiada em pergunta e resposta, com voz, corpo e pentatônica."
+  ],
+  "pre_requisitos": {
+    "Pulso em pequena percussão: chocalho, clave e tambor": ["Pulso nos pés e nas mãos com cantigas de roda", "Manejo da pequena percussão: segurar, tocar, silenciar"],
+    "Ostinato corporal sob uma canção conhecida": ["Percussão corporal: pés, coxas, palmas e estalos", "Ritmo da palavra: falar e bater o nome das coisas"],
+    "Sílabas rítmicas: tá e ti-ti em cartões": ["Cartões de som e silêncio para ler no pulso"],
+    "Sol e mi na pauta: ler e cantar": ["Grave e agudo em linhas: pré-pauta de duas notas", "Eco melódico cantado de 2 a 3 sons"],
+    "Bordão de dó e sol nos instrumentos de lâminas": ["Tocar no pulso xilofone e metalofone com baquetas"],
+    "Pergunta e resposta: improvisar frases curtas": ["Eco melódico cantado de 2 a 3 sons"],
+    "Arranjo coletivo: canto, bordão e ostinato": ["Canção com acompanhamento de pequena percussão", "Bordão de dó e sol nos instrumentos de lâminas", "Ostinato corporal sob uma canção conhecida"],
+    "Criação da turma: canção ou história sonora própria": ["Grafia inventada: registrar uma história sonora", "Pergunta e resposta: improvisar frases curtas"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Movimento livre com a música: andar, parar, balançar",
+      "Pulso nos pés e nas mãos com cantigas de roda",
+      "Pulso em pequena percussão: chocalho, clave e tambor",
+      "Ritmo da palavra: falar e bater o nome das coisas",
+      "Percussão corporal: pés, coxas, palmas e estalos",
+      "Ostinato corporal sob uma canção conhecida",
+      "Pulso rápido e lento: acompanhar mudanças de andamento"
+    ],
+    "leitura": [
+      "Sons longos e curtos desenhados com linhas e pontos",
+      "Grafia inventada: registrar uma história sonora",
+      "Cartões de som e silêncio para ler no pulso",
+      "Sílabas rítmicas: tá e ti-ti em cartões",
+      "Ler e tocar padrões de 4 tempos com semínima e pausa",
+      "Grave e agudo em linhas: pré-pauta de duas notas",
+      "Sol e mi na pauta: ler e cantar"
+    ],
+    "tecnica": [
+      "Voz falada e cantada: explorar sons e alturas",
+      "Cantar afinado na extensão de ré a lá",
+      "Timbres da percussão corporal com controle",
+      "Manejo da pequena percussão: segurar, tocar, silenciar",
+      "Tocar no pulso xilofone e metalofone com baquetas",
+      "Bordão de dó e sol nos instrumentos de lâminas",
+      "Alternar canto e instrumento sem perder o pulso"
+    ],
+    "percepcao": [
+      "Som e silêncio: reagir e parar",
+      "Parâmetros do som: forte/fraco, longo/curto, grave/agudo",
+      "Explorar e reconhecer timbres de objetos e instrumentos",
+      "Paisagem sonora: ouvir e mapear os sons do entorno",
+      "Eco melódico cantado de 2 a 3 sons",
+      "Pergunta e resposta: improvisar frases curtas",
+      "Forma da canção: reconhecer partes iguais e diferentes"
+    ],
+    "repertorio": [
+      "Cantigas de roda e brincadeiras cantadas",
+      "Parlendas e trava-línguas com percussão corporal",
+      "Canções com gestos e histórias sonoras",
+      "Folclore brasileiro: ciranda, coco e boi",
+      "Canção com acompanhamento de pequena percussão",
+      "Arranjo coletivo: canto, bordão e ostinato",
+      "Criação da turma: canção ou história sonora própria"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Gritar em vez de cantar, sobretudo em canções animadas, perdendo a afinação.",
+    "Tocar a pequena percussão fora do momento combinado, cobrindo a voz do grupo.",
+    "Correr com o pulso quando a música é conhecida ou animada, e atrasar nos silêncios.",
+    "Confundir 'forte' com 'rápido' e 'fraco' com 'lento' ao falar dos parâmetros do som.",
+    "Bater a baqueta e deixar apoiada na lâmina, abafando o som do xilofone.",
+    "Dispersão na roda quando a atividade fica longa demais ou sem sinal claro de fim.",
+    "Dificuldade de manter o próprio ostinato quando o colega faz outro padrão ao mesmo tempo.",
+    "Vergonha de improvisar sozinho; precisa de propostas em grupo antes do solo."
+  ],
+  "vocabulario_pt": [
+    "musicalização infantil",
+    "educação musical",
+    "cantiga de roda",
+    "brincadeira cantada",
+    "percussão corporal",
+    "pequena percussão",
+    "instrumental Orff",
+    "xilofone e metalofone",
+    "bordão",
+    "ostinato",
+    "parlenda",
+    "paisagem sonora",
+    "história sonora",
+    "grafia não convencional",
+    "parâmetros do som",
+    "jogo musical",
+    "movimento e música",
+    "canto coletivo",
+    "folclore brasileiro",
+    "improvisação infantil",
+    "criação musical"
+  ],
+  "vocabulario_en": [
+    "early childhood music education",
+    "general music",
+    "singing games",
+    "circle songs",
+    "body percussion",
+    "classroom percussion",
+    "Orff instruments",
+    "Orff Schulwerk",
+    "Dalcroze eurhythmics",
+    "Kodály method",
+    "bordun",
+    "ostinato",
+    "nursery rhymes",
+    "soundscape",
+    "sound story",
+    "invented notation",
+    "elements of music",
+    "music and movement",
+    "group singing",
+    "Brazilian folk songs",
+    "classroom improvisation"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Estátua musical",
+        "descricao": "As crianças andam, balançam ou dançam livremente enquanto a música toca e viram estátua quando ela para. Variar músicas lentas e rápidas para que o corpo acompanhe.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 9,
+        "duracao_min": 5,
+        "conteudos": ["Movimento livre com a música: andar, parar, balançar"]
+      },
+      {
+        "titulo": "Roda com pulso",
+        "descricao": "Em roda, cantar uma cantiga marcando o pulso com passos laterais; depois com palmas, depois com toques nas coxas. O professor observa quem se mantém junto do grupo.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 10,
+        "duracao_min": 5,
+        "conteudos": ["Pulso nos pés e nas mãos com cantigas de roda"]
+      },
+      {
+        "titulo": "Chocalho no pulso",
+        "descricao": "Cada criança recebe um chocalho, uma clave ou um tambor e toca o pulso de uma canção cantada pelo grupo; trocar os instrumentos a cada estrofe ao sinal do professor.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 10,
+        "duracao_min": 6,
+        "conteudos": ["Pulso em pequena percussão: chocalho, clave e tambor"]
+      },
+      {
+        "titulo": "Nome das frutas",
+        "descricao": "Falar e bater nas coxas o ritmo de nomes de frutas (ma-çã, ba-na-na, a-ba-ca-xi) sobre o pulso dos pés; montar uma sequência de quatro frutas e repetir como padrão.",
+        "recursos": ["quadro"],
+        "idade_min": 6,
+        "idade_max": 10,
+        "duracao_min": 6,
+        "conteudos": ["Ritmo da palavra: falar e bater o nome das coisas"]
+      },
+      {
+        "titulo": "Corpo que toca",
+        "descricao": "Apresentar os quatro timbres (pés, coxas, palmas, estalos) e montar um padrão curto de percussão corporal; repetir o padrão como ostinato enquanto o professor canta uma canção conhecida.",
+        "recursos": ["nenhum"],
+        "idade_min": 7,
+        "idade_max": 12,
+        "duracao_min": 8,
+        "conteudos": ["Percussão corporal: pés, coxas, palmas e estalos", "Ostinato corporal sob uma canção conhecida"]
+      },
+      {
+        "titulo": "Tartaruga e coelho",
+        "descricao": "O professor toca no tambor um pulso que acelera e desacelera; as crianças caminham acompanhando a mudança sem correr nem parar, e depois um aluno conduz o tambor.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 10,
+        "duracao_min": 5,
+        "conteudos": ["Pulso rápido e lento: acompanhar mudanças de andamento"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Desenhar o som",
+        "descricao": "Ouvir sons longos e curtos e registrá-los com linhas e pontos no papel; em seguida, inventar uma grafia para os sons de uma história sonora criada em grupo e 'ler' o desenho tocando.",
+        "recursos": ["impressao", "quadro", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 9,
+        "duracao_min": 8,
+        "conteudos": ["Sons longos e curtos desenhados com linhas e pontos", "Grafia inventada: registrar uma história sonora"]
+      },
+      {
+        "titulo": "Cartões de som e silêncio",
+        "descricao": "Cartões com um desenho (som) ou vazio (silêncio) são dispostos em fila de quatro; a turma lê batendo palmas no pulso. Depois substituir por cartões de 'tá' e 'ti-ti'.",
+        "recursos": ["impressao"],
+        "idade_min": 6,
+        "idade_max": 10,
+        "duracao_min": 6,
+        "conteudos": ["Cartões de som e silêncio para ler no pulso", "Sílabas rítmicas: tá e ti-ti em cartões"]
+      },
+      {
+        "titulo": "Ler e tocar quatro tempos",
+        "descricao": "Padrões de 4 tempos com semínimas e pausas escritos no quadro são lidos com sílabas rítmicas e depois tocados na pequena percussão, cada grupo com um padrão diferente.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 12,
+        "duracao_min": 7,
+        "conteudos": ["Ler e tocar padrões de 4 tempos com semínima e pausa"]
+      },
+      {
+        "titulo": "Duas linhas, dois sons",
+        "descricao": "Em uma pré-pauta de duas linhas, o professor coloca bolinhas na linha de cima (agudo) e de baixo (grave) e a turma canta; depois nomear os sons como sol e mi e ler na pauta de cinco linhas.",
+        "recursos": ["quadro", "impressao"],
+        "idade_min": 7,
+        "idade_max": 12,
+        "duracao_min": 8,
+        "conteudos": ["Grave e agudo em linhas: pré-pauta de duas notas", "Sol e mi na pauta: ler e cantar"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Sirene e vozes",
+        "descricao": "Explorar a voz falada, sussurrada e cantada, fazer sirenes subindo e descendo e imitar personagens (gigante, passarinho), percebendo onde a voz fica grave ou aguda.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 9,
+        "duracao_min": 4,
+        "conteudos": ["Voz falada e cantada: explorar sons e alturas"]
+      },
+      {
+        "titulo": "Cantar juntos afinado",
+        "descricao": "Cantar uma canção curta na região de ré a lá, frase por frase em eco do professor, prestando atenção em começar juntos e em não gritar. Gravar e ouvir a turma.",
+        "recursos": ["celulares"],
+        "idade_min": 6,
+        "idade_max": 12,
+        "duracao_min": 6,
+        "conteudos": ["Cantar afinado na extensão de ré a lá"]
+      },
+      {
+        "titulo": "Orquestra do corpo",
+        "descricao": "Praticar cada timbre da percussão corporal com controle de força e de som; o professor rege apontando para grupos (pés, coxas, palmas, estalos) que entram e saem.",
+        "recursos": ["nenhum"],
+        "idade_min": 7,
+        "idade_max": 12,
+        "duracao_min": 6,
+        "conteudos": ["Timbres da percussão corporal com controle"]
+      },
+      {
+        "titulo": "Tocar e silenciar",
+        "descricao": "Aprender a segurar, tocar e silenciar cada instrumento de pequena percussão (chocalho, clave, triângulo, tambor). Jogo: ao sinal, todos silenciam o instrumento em um segundo.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 10,
+        "duracao_min": 5,
+        "conteudos": ["Manejo da pequena percussão: segurar, tocar, silenciar"]
+      },
+      {
+        "titulo": "Baquetas no pulso",
+        "descricao": "No xilofone ou metalofone, tocar o pulso em uma lâmina com baquetas alternadas e som que 'quica'; depois tocar dó e sol juntos como bordão para acompanhar uma canção pentatônica.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 12,
+        "duracao_min": 8,
+        "conteudos": ["Tocar no pulso xilofone e metalofone com baquetas", "Bordão de dó e sol nos instrumentos de lâminas"]
+      },
+      {
+        "titulo": "Canta e toca",
+        "descricao": "Metade da turma canta a canção e a outra toca o acompanhamento; ao sinal do professor os papéis trocam sem interromper o pulso.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 12,
+        "duracao_min": 8,
+        "conteudos": ["Alternar canto e instrumento sem perder o pulso"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Congela!",
+        "descricao": "As crianças se movem enquanto há som e congelam no silêncio; o professor varia o instrumento e a duração dos silêncios para exigir atenção.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 8,
+        "duracao_min": 4,
+        "conteudos": ["Som e silêncio: reagir e parar"]
+      },
+      {
+        "titulo": "Opostos sonoros",
+        "descricao": "Ouvir sons e responder com o corpo: forte (braços abertos) ou fraco (corpo pequeno), longo (deslizar) ou curto (pulo), grave (agachar) ou agudo (ponta dos pés).",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 9,
+        "duracao_min": 5,
+        "conteudos": ["Parâmetros do som: forte/fraco, longo/curto, grave/agudo"]
+      },
+      {
+        "titulo": "Caixa de timbres",
+        "descricao": "De olhos fechados, adivinhar qual objeto ou instrumento da caixa foi tocado (madeira, metal, pele, chocalho); depois as crianças exploram os objetos e descrevem os sons.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 10,
+        "duracao_min": 6,
+        "conteudos": ["Explorar e reconhecer timbres de objetos e instrumentos"]
+      },
+      {
+        "titulo": "Mapa sonoro da escola",
+        "descricao": "Em silêncio por um minuto no pátio ou na sala, ouvir e depois desenhar um mapa dos sons percebidos (perto, longe, natural, produzido) e recriá-los com voz e objetos.",
+        "recursos": ["impressao"],
+        "idade_min": 6,
+        "idade_max": 12,
+        "duracao_min": 10,
+        "conteudos": ["Paisagem sonora: ouvir e mapear os sons do entorno"]
+      },
+      {
+        "titulo": "Eco e conversa cantada",
+        "descricao": "O professor canta motivos de 2 a 3 sons (sol-mi, sol-mi-lá) e a turma repete em eco; depois o professor canta uma pergunta e cada criança inventa uma resposta curta com os mesmos sons.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 12,
+        "duracao_min": 6,
+        "conteudos": ["Eco melódico cantado de 2 a 3 sons", "Pergunta e resposta: improvisar frases curtas"]
+      },
+      {
+        "titulo": "Partes da canção",
+        "descricao": "Cantar uma canção com estrofe e refrão fazendo um gesto diferente para cada parte; depois montar a sequência com cartões coloridos (mesma cor para partes iguais).",
+        "recursos": ["impressao"],
+        "idade_min": 7,
+        "idade_max": 12,
+        "duracao_min": 6,
+        "conteudos": ["Forma da canção: reconhecer partes iguais e diferentes"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Roda de cantigas",
+        "descricao": "Brincar de roda com cantigas tradicionais (Ciranda cirandinha, Escravos de Jó, Fui no Tororó), com os gestos e as regras de cada brincadeira cantada.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 10,
+        "duracao_min": 8,
+        "conteudos": ["Cantigas de roda e brincadeiras cantadas"]
+      },
+      {
+        "titulo": "Parlenda no corpo",
+        "descricao": "Recitar parlendas e trava-línguas (Hoje é domingo, Um dois feijão com arroz) no pulso, acompanhando com percussão corporal; depois falar só por dentro e deixar apenas o corpo soar.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 10,
+        "duracao_min": 6,
+        "conteudos": ["Parlendas e trava-línguas com percussão corporal"]
+      },
+      {
+        "titulo": "História sonora",
+        "descricao": "O professor conta uma história curta e a turma cria sons com voz, corpo e pequena percussão para cada personagem ou acontecimento, incluindo uma canção com gestos no meio da história.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 9,
+        "duracao_min": 10,
+        "conteudos": ["Canções com gestos e histórias sonoras"]
+      },
+      {
+        "titulo": "Ciranda, coco e boi",
+        "descricao": "Conhecer e cantar músicas do folclore brasileiro (ciranda, coco, bumba meu boi), com passos simples e o instrumento típico de cada gênero tocado na pequena percussão.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 12,
+        "duracao_min": 10,
+        "conteudos": ["Folclore brasileiro: ciranda, coco e boi"]
+      },
+      {
+        "titulo": "Canção com arranjo",
+        "descricao": "Acompanhar uma canção conhecida com pulso na pequena percussão; depois acrescentar bordão nos instrumentos de lâminas e um ostinato corporal, montando um arranjo da turma.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 12,
+        "duracao_min": 12,
+        "conteudos": ["Canção com acompanhamento de pequena percussão", "Arranjo coletivo: canto, bordão e ostinato"]
+      },
+      {
+        "titulo": "Nossa canção",
+        "descricao": "A turma cria uma canção curta (letra sobre um tema da escola, melodia pentatônica) ou uma história sonora própria, registra com grafia inventada e apresenta para outra turma.",
+        "recursos": ["instrumentos", "impressao", "celulares"],
+        "idade_min": 8,
+        "idade_max": 12,
+        "duracao_min": 15,
+        "conteudos": ["Criação da turma: canção ou história sonora própria"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Canção de chegada",
+        "descricao": "Sempre a mesma canção curta para abrir a aula, em roda, marcando o pulso no corpo e cumprimentando cada colega pelo nome no ritmo da palavra.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 10,
+        "duracao_min": 3,
+        "conteudos": ["Pulso nos pés e nas mãos com cantigas de roda", "Ritmo da palavra: falar e bater o nome das coisas"]
+      },
+      {
+        "titulo": "Maestro da turma",
+        "descricao": "Uma criança rege o grupo com gestos combinados para forte, fraco, rápido, lento e silêncio, enquanto os colegas tocam pequena percussão ou cantam.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 12,
+        "duracao_min": 6,
+        "conteudos": ["Parâmetros do som: forte/fraco, longo/curto, grave/agudo", "Pulso rápido e lento: acompanhar mudanças de andamento"]
+      },
+      {
+        "titulo": "Improviso na pentatônica",
+        "descricao": "Com as lâminas fá e si retiradas do xilofone, cada criança improvisa uma resposta de 4 tempos à pergunta do professor, sobre bordão de dó e sol tocado pelo grupo.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 12,
+        "duracao_min": 8,
+        "conteudos": ["Pergunta e resposta: improvisar frases curtas", "Bordão de dó e sol nos instrumentos de lâminas"]
+      },
+      {
+        "titulo": "Mostra da turma",
+        "descricao": "Apresentar para outra turma ou para as famílias uma cantiga com gestos, uma parlenda com percussão corporal e o arranjo coletivo, cuidando de começar e terminar juntos.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 12,
+        "duracao_min": 15,
+        "conteudos": ["Cantigas de roda e brincadeiras cantadas", "Parlendas e trava-línguas com percussão corporal", "Arranjo coletivo: canto, bordão e ostinato"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["participacao", "ritmo", "afinacao", "percepcao", "coordenacao", "criatividade", "cooperacao"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Atividades de 5 a 8 minutos com muito movimento, jogo e repetição; a roda e os sinais de silêncio organizam o grupo.",
+      "Aprender tudo por imitação e brincadeira: cantigas, eco, percussão corporal e exploração livre de timbres.",
+      "Pré-leitura com grafia inventada, cartões e pré-pauta; evitar terminologia técnica e escrita convencional."
+    ],
+    "9-12": [
+      "Já sustentam ostinatos e arranjos com várias camadas (canto, bordão, percussão) e leem padrões rítmicos simples.",
+      "Introduzir sol e mi na pauta, sílabas rítmicas e improvisação com regras claras (pentatônica, pergunta e resposta).",
+      "Projetos de criação (canção da turma, paisagem sonora) e apresentações aumentam o engajamento."
+    ],
+    "13+": [
+      "Adaptar o repertório: substituir cantigas por música popular brasileira e percussão corporal mais elaborada.",
+      "Respeitar a muda vocal e a timidez: privilegiar o grupo, o instrumento e a criação antes do canto solo.",
+      "Fazer a ponte para instrumentos, coral ou teoria, apresentando a musicalização como base para as próximas escolhas."
+    ]
+  },
+  "editavel": true
+}

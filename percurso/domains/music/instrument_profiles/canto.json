@@ -1,0 +1,438 @@
+{
+  "id": "canto",
+  "nome": "Canto",
+  "familia": "voz",
+  "tessitura": {
+    "inicial": ["C4", "D4", "E4", "F4", "G4", "A4"],
+    "ampliada": "A3–E5"
+  },
+  "postura": [
+    "Em pé, com os pés afastados na largura dos quadris, peso distribuído entre os dois pés e joelhos destravados.",
+    "Coluna alongada como se um fio puxasse o topo da cabeça; o queixo paralelo ao chão, sem projetar para a frente nem para cima ao subir para o agudo.",
+    "Ombros baixos e soltos; ao inspirar, a expansão acontece nas costelas e no abdome, não nos ombros.",
+    "Braços ao lado do corpo ou com as mãos levemente unidas à frente, sem cruzar os braços nem prender a partitura contra o peito.",
+    "Ao cantar sentado, sentar na borda da cadeira, com o tronco ereto e sem apoiar as costas, mantendo o mesmo alinhamento do canto em pé.",
+    "A tessitura inicial (dó4 a lá4) é uma referência para vozes infantis e vozes agudas; adolescentes e adultos com voz grave devem transpor o repertório para a região confortável da própria voz."
+  ],
+  "tecnicas_fundamentais": [
+    "Respiração costo-diafragmática: inspirar em silêncio, expandindo costelas inferiores e abdome, e expirar com controle.",
+    "Apoio: manter a expansão das costelas durante a frase, dosando o ar sem empurrar nem prender a garganta.",
+    "Aquecimento vocal progressivo: vibração de lábios e língua, sirenes em 'u' e glissandos ascendentes e descendentes.",
+    "Ressonância e projeção: buscar o som 'na máscara' (região do nariz e maçãs do rosto) e não o volume pela força da garganta.",
+    "Registros de peito e cabeça e zona de passagem: transitar entre eles em glissandos leves até obter a voz mista.",
+    "Afinação: cantar a nota de referência, sustentar e corrigir pela escuta, sem escorregar por baixo no fim da frase.",
+    "Articulação e dicção: consoantes rápidas e claras, vogais abertas e uniformes que carregam o som.",
+    "Saúde vocal: hidratação, não gritar, não pigarrear, descanso vocal e cuidado especial durante a muda vocal."
+  ],
+  "pre_requisitos": {
+    "Cantar nota repetida marcando o pulso": ["Corpo: pulso com passos, palmas e balanço ao cantar", "Imitar e afinar uma nota de referência"],
+    "Respiração costo-diafragmática e apoio": ["Postura: alinhamento, pés, ombros e queixo"],
+    "Ressonância e projeção sem forçar a garganta": ["Respiração costo-diafragmática e apoio", "Aquecimento: vibração de lábios, sirenes e glissandos"],
+    "Registros de peito e cabeça e zona de passagem": ["Ressonância e projeção sem forçar a garganta"],
+    "Voz mista e extensão gradual da tessitura": ["Registros de peito e cabeça e zona de passagem"],
+    "Solfejo de melodias por grau conjunto": ["Notas de dó a sol na clave de sol (solfejo)", "Eco melódico: motivos de 2 a 4 notas"],
+    "Canção a capella mantendo afinação e pulso": ["Perceber quando está acima ou abaixo da nota", "Canções brasileiras com playback de acompanhamento"],
+    "Canção com frases longas e respiração planejada": ["Respiração costo-diafragmática e apoio", "Canção a capella mantendo afinação e pulso"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Corpo: pulso com passos, palmas e balanço ao cantar",
+      "Falar o texto da canção no pulso",
+      "Cantar nota repetida marcando o pulso",
+      "Frase curta cantada no pulso sem acelerar",
+      "Subdivisão: sílabas em colcheias e semínimas",
+      "Entradas após contagem e após pausa",
+      "Pulso estável com playback em andamentos variados"
+    ],
+    "leitura": [
+      "Letra sob a melodia: seguir o texto ao cantar",
+      "Contorno melódico: sobe, desce e repete na pauta",
+      "Figuras rítmicas: semínima, mínima e pausa",
+      "Notas de dó a sol na clave de sol (solfejo)",
+      "Solfejo de melodias por grau conjunto",
+      "Colcheias, ligadura e anacruse na canção",
+      "Leitura à primeira vista de melodias simples"
+    ],
+    "tecnica": [
+      "Postura: alinhamento, pés, ombros e queixo",
+      "Respiração costo-diafragmática e apoio",
+      "Aquecimento: vibração de lábios, sirenes e glissandos",
+      "Ressonância e projeção sem forçar a garganta",
+      "Vogais uniformes e dicção clara das consoantes",
+      "Registros de peito e cabeça e zona de passagem",
+      "Voz mista e extensão gradual da tessitura"
+    ],
+    "percepcao": [
+      "Grave e agudo com a própria voz",
+      "Imitar e afinar uma nota de referência",
+      "Eco melódico: motivos de 2 a 4 notas",
+      "Perceber quando está acima ou abaixo da nota",
+      "Reconhecer modo maior e menor cantando",
+      "Intervalos cantados: 2ª, 3ª, 5ª e 8ª",
+      "Ouvir a harmonia e sentir tônica e dominante"
+    ],
+    "repertorio": [
+      "Cantigas e canções infantis em tom confortável",
+      "Canções brasileiras com playback de acompanhamento",
+      "Canção a capella mantendo afinação e pulso",
+      "Canção com frases longas e respiração planejada",
+      "Interpretação do texto: intenção e dinâmica",
+      "Canção em tom transposto para a própria voz",
+      "Apresentação de uma canção com microfone"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Levantar os ombros e o peito ao inspirar, enchendo só a parte alta do pulmão e ficando sem ar no fim da frase.",
+    "Empurrar a garganta para cantar mais forte ou mais agudo, com som apertado e cansaço vocal rápido.",
+    "Cantar por baixo da nota (calante), principalmente em notas longas e no final das frases.",
+    "Quebra brusca entre a voz de peito e a voz de cabeça na zona de passagem, com medo do agudo.",
+    "Vogais fechadas ou nasalizadas que abafam o som e prejudicam a compreensão do texto.",
+    "Consoantes finais engolidas e texto pouco inteligível quando o andamento é rápido.",
+    "Respirar no meio da palavra ou da frase por não planejar os pontos de respiração.",
+    "Repertório em tom inadequado para a voz da criança ou do adolescente em muda vocal, gerando esforço e desafinação."
+  ],
+  "vocabulario_pt": [
+    "respiração costo-diafragmática",
+    "apoio respiratório",
+    "aquecimento vocal",
+    "vibração de lábios",
+    "sirene vocal",
+    "glissando",
+    "ressonância",
+    "projeção vocal",
+    "registro de peito",
+    "registro de cabeça",
+    "voz mista",
+    "zona de passagem",
+    "afinação",
+    "tessitura",
+    "dicção",
+    "vogais",
+    "muda vocal",
+    "saúde vocal",
+    "canto a capella",
+    "solfejo",
+    "interpretação",
+    "pedagogia vocal",
+    "canto infantil"
+  ],
+  "vocabulario_en": [
+    "diaphragmatic breathing",
+    "breath support",
+    "vocal warm-up",
+    "lip trill",
+    "siren exercise",
+    "glissando",
+    "resonance",
+    "vocal projection",
+    "chest voice",
+    "head voice",
+    "mixed voice",
+    "passaggio",
+    "intonation",
+    "vocal range",
+    "diction",
+    "vowels",
+    "voice change",
+    "vocal health",
+    "a cappella singing",
+    "solfège",
+    "interpretation",
+    "voice pedagogy",
+    "children's singing"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Caminhar cantando",
+        "descricao": "Com uma gravação em andamento moderado, os alunos caminham pela sala no pulso, depois batem palmas e por fim balançam o corpo enquanto cantarolam a melodia. O professor observa quem mantém o passo regular.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Corpo: pulso com passos, palmas e balanço ao cantar"]
+      },
+      {
+        "titulo": "Texto falado no pulso",
+        "descricao": "Antes de cantar, o aluno fala a letra da canção marcando o pulso com a mão na coxa, respeitando as sílabas longas e curtas. Depois canta a melodia em uma nota só, mantendo o mesmo pulso.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Falar o texto da canção no pulso", "Cantar nota repetida marcando o pulso"]
+      },
+      {
+        "titulo": "Frase sem correr",
+        "descricao": "Cantar uma frase curta (4 compassos) da canção com metrônomo lento, gravando no celular. Ouvir e verificar se o final da frase chegou junto com o clique, sem acelerar.",
+        "recursos": ["celulares"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Frase curta cantada no pulso sem acelerar"]
+      },
+      {
+        "titulo": "Sílabas longas e curtas",
+        "descricao": "Falar e depois cantar o texto em 'ta' (semínima) e 'ti-ti' (colcheias), marcando o pulso com palmas. O aluno identifica na letra quais sílabas cabem em duas por pulso.",
+        "recursos": ["quadro"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Subdivisão: sílabas em colcheias e semínimas"]
+      },
+      {
+        "titulo": "Entrar na hora certa",
+        "descricao": "O professor conta '1, 2, 3, 4' e o aluno entra cantando no tempo seguinte; depois pratica entradas após pausas de um e dois compassos com playback em três andamentos diferentes.",
+        "recursos": ["caixa_de_som", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Entradas após contagem e após pausa", "Pulso estável com playback em andamentos variados"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Dedo na letra",
+        "descricao": "Com a partitura ou a letra impressa, o aluno acompanha o texto com o dedo enquanto ouve a gravação, marcando onde a melodia sobe, desce ou repete. Depois canta seguindo a marcação.",
+        "recursos": ["impressao", "caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Letra sob a melodia: seguir o texto ao cantar", "Contorno melódico: sobe, desce e repete na pauta"]
+      },
+      {
+        "titulo": "Ritmo da letra no quadro",
+        "descricao": "O professor escreve a letra de uma frase no quadro e coloca semínimas, mínimas e pausas sobre as sílabas. A turma lê batendo palmas com 'tá' e 'ta-a' e depois canta a frase.",
+        "recursos": ["quadro"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Figuras rítmicas: semínima, mínima e pausa"]
+      },
+      {
+        "titulo": "Escada de dó a sol",
+        "descricao": "Cantar dó-ré-mi-fá-sol subindo e descendo com os nomes das notas e sinais de mão, lendo na pauta escrita no quadro. Depois solfejar melodias curtas por grau conjunto que o professor aponta.",
+        "recursos": ["quadro"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Notas de dó a sol na clave de sol (solfejo)", "Solfejo de melodias por grau conjunto"]
+      },
+      {
+        "titulo": "Anacruse e ligadura",
+        "descricao": "Em canções que começam antes do tempo forte, marcar a anacruse na partitura e praticar a entrada; identificar ligaduras e colcheias na letra e cantar a passagem lentamente.",
+        "recursos": ["impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Colcheias, ligadura e anacruse na canção"]
+      },
+      {
+        "titulo": "Solfejo relâmpago",
+        "descricao": "Melodias de 4 compassos nunca vistas, por grau conjunto e ritmo simples. O aluno observa por 30 segundos, ouve a tônica no piano e canta uma única vez com nome de notas, sem parar.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Leitura à primeira vista de melodias simples"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Alinhamento na parede",
+        "descricao": "O aluno encosta calcanhares, glúteos, costas e cabeça na parede e sai um passo mantendo o alinhamento. Verifica em voz alta: pés, joelhos, ombros e queixo antes de cantar.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Postura: alinhamento, pés, ombros e queixo"]
+      },
+      {
+        "titulo": "Mãos nas costelas",
+        "descricao": "Com as mãos nas costelas inferiores, inspirar pelo nariz sentindo a expansão lateral, e soltar o ar em 's' contínuo por 10, 15 e 20 segundos, mantendo as costelas abertas o máximo possível.",
+        "recursos": ["nenhum"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Respiração costo-diafragmática e apoio"]
+      },
+      {
+        "titulo": "Motor, sirene e escorregador",
+        "descricao": "Vibração de lábios ('brrr') em notas longas, depois sirenes em 'u' do grave ao agudo e de volta, e glissandos de quinta. Sempre em volume leve, sem empurrar a garganta.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Aquecimento: vibração de lábios, sirenes e glissandos"]
+      },
+      {
+        "titulo": "Som na máscara",
+        "descricao": "Cantar 'mmm' sentindo a vibração nos lábios e no nariz, e abrir para 'ma', 'me', 'mi', 'mo', 'mu' em cinco notas, mantendo a mesma sensação e a mesma cor de vogal. Falar um trava-língua antes de cantar a frase.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Ressonância e projeção sem forçar a garganta", "Vogais uniformes e dicção clara das consoantes"]
+      },
+      {
+        "titulo": "Ponte entre registros",
+        "descricao": "Glissando descendente em 'u' da voz de cabeça para o peito, sem quebra, e depois arpejo de oitava ida e volta atravessando a passagem com volume leve. Subir meio tom por vez enquanto o som ficar confortável.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Registros de peito e cabeça e zona de passagem", "Voz mista e extensão gradual da tessitura"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Voz de gigante e de passarinho",
+        "descricao": "O professor canta ou toca sons graves e agudos; o aluno imita com a própria voz e mostra com a mão a altura. Depois inventa uma pequena história sonora só com grave e agudo.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 10,
+        "duracao_min": 4,
+        "conteudos": ["Grave e agudo com a própria voz"]
+      },
+      {
+        "titulo": "Encontrar a nota",
+        "descricao": "O professor toca uma nota no piano; o aluno canta em 'u', sustenta e ajusta até 'encaixar' na nota. Depois o professor toca motivos de 2 a 4 notas e o aluno repete como eco.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Imitar e afinar uma nota de referência", "Eco melódico: motivos de 2 a 4 notas"]
+      },
+      {
+        "titulo": "Em cima ou embaixo?",
+        "descricao": "O professor toca uma nota e canta de propósito um pouco acima ou abaixo; o aluno aponta para cima ou para baixo. Depois o aluno grava uma nota longa e compara com o afinador do celular.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Perceber quando está acima ou abaixo da nota"]
+      },
+      {
+        "titulo": "Alegre ou triste na voz",
+        "descricao": "Cantar a mesma cantiga em maior e em menor com o professor ao piano e identificar a diferença; depois cantar os intervalos de 2ª, 3ª, 5ª e 8ª a partir do dó associando cada um ao início de uma canção conhecida.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Reconhecer modo maior e menor cantando", "Intervalos cantados: 2ª, 3ª, 5ª e 8ª"]
+      },
+      {
+        "titulo": "Casa e fora de casa cantando",
+        "descricao": "Enquanto o professor toca tônica e dominante ao acompanhar uma canção, o aluno canta o baixo (dó ou sol) no momento da mudança e depois canta a melodia percebendo onde a harmonia 'volta para casa'.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Ouvir a harmonia e sentir tônica e dominante"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Cantiga no tom certo",
+        "descricao": "Aprender de ouvido uma cantiga de roda, testando dois ou três tons até encontrar o mais confortável para a voz do aluno. Cantar com gestos e depois sem eles.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 12,
+        "duracao_min": 8,
+        "conteudos": ["Cantigas e canções infantis em tom confortável"]
+      },
+      {
+        "titulo": "Canção com playback",
+        "descricao": "Cantar uma canção brasileira conhecida com playback, entrando após a introdução e mantendo o pulso; em seguida cantar a mesma canção a capella, conferindo no fim se manteve o tom com o piano.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canções brasileiras com playback de acompanhamento", "Canção a capella mantendo afinação e pulso"]
+      },
+      {
+        "titulo": "Mapa de respirações",
+        "descricao": "Marcar na letra com um sinal (') os pontos de respiração de uma canção de frases longas, cantar frase por frase e depois inteira. Ajustar o mapa se faltar ar.",
+        "recursos": ["impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Canção com frases longas e respiração planejada"]
+      },
+      {
+        "titulo": "Contar a história",
+        "descricao": "Ler a letra em voz alta como se fosse uma história, decidindo onde é pergunta, surpresa ou despedida; depois cantar aplicando forte, piano e um crescendo no ponto mais importante do texto.",
+        "recursos": ["impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Interpretação do texto: intenção e dinâmica"]
+      },
+      {
+        "titulo": "Minha versão, meu tom",
+        "descricao": "Escolher uma canção e transpor com o professor para o tom da própria voz (acima ou abaixo da gravação original); ensaiar entrada, final e uso do microfone e apresentar para a turma.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Canção em tom transposto para a própria voz", "Apresentação de uma canção com microfone"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Despertar do corpo e da voz",
+        "descricao": "Alongar pescoço e ombros, massagear o rosto, bocejar com som e fazer vibração de lábios em glissando antes de qualquer atividade cantada.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Postura: alinhamento, pés, ombros e queixo", "Aquecimento: vibração de lábios, sirenes e glissandos"]
+      },
+      {
+        "titulo": "Pergunta e resposta cantada",
+        "descricao": "O professor canta uma pergunta curta em cinco notas e o aluno improvisa a resposta com o mesmo ritmo, terminando na tônica. Trocar de papel e manter o pulso.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Eco melódico: motivos de 2 a 4 notas", "Frase curta cantada no pulso sem acelerar"]
+      },
+      {
+        "titulo": "Diário da voz",
+        "descricao": "Gravar a canção da semana no celular e ouvir com o professor, anotando um acerto e um ponto para melhorar (afinação, respiração, dicção). Registrar também hábitos de hidratação e descanso vocal.",
+        "recursos": ["celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Perceber quando está acima ou abaixo da nota", "Canção com frases longas e respiração planejada"]
+      },
+      {
+        "titulo": "Roda de canções",
+        "descricao": "Cada aluno canta uma canção pronta para os colegas, que dão um comentário positivo e uma sugestão. Trabalha postura de palco, entrada e final.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Cantigas e canções infantis em tom confortável", "Apresentação de uma canção com microfone"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["afinacao", "respiracao", "articulacao", "ritmo", "leitura", "postura", "autonomia"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Tessitura infantil confortável entre dó4 e lá4; escolher repertório curto, em tom adequado, evitando notas muito graves.",
+      "Trabalhar respiração e postura por meio de imagens e brincadeiras (cheirar a flor, apagar a vela), sem termos técnicos.",
+      "Priorizar imitação, jogos de eco e canções com gestos; leitura apenas como acompanhamento visual da letra."
+    ],
+    "9-12": [
+      "A tessitura pode se ampliar gradualmente (lá3 a ré5); introduzir aquecimento estruturado e noções de apoio.",
+      "Iniciar solfejo, leitura de contorno melódico e canções brasileiras com playback e a capella.",
+      "Meninos no início da muda vocal podem apresentar quebras; ajustar o tom e nunca forçar o agudo."
+    ],
+    "13+": [
+      "Muda vocal: a voz masculina desce cerca de uma oitava e a feminina fica mais encorpada; transpor o repertório e aceitar falhas como parte do processo.",
+      "Reforçar saúde vocal (hidratação, não gritar, repouso) e evitar repertório extremo em extensão ou intensidade.",
+      "Explorar interpretação, registros e voz mista; valorizar a escolha de repertório e a autoavaliação por gravação."
+    ]
+  },
+  "editavel": true
+}

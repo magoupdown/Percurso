@@ -1,0 +1,457 @@
+{
+  "id": "teoria_musical",
+  "nome": "Teoria musical",
+  "familia": "teoria_percepcao",
+  "tessitura": null,
+  "postura": [
+    "Caderno pautado (ou folhas de pauta impressas), lápis, borracha e régua sempre à mão; escrever a lápis para corrigir.",
+    "Sentar com a mesa na altura correta e o caderno reto, para que as notas fiquem alinhadas nas linhas e espaços.",
+    "Organizar o caderno com data, tema da aula e um quadro-resumo por conteúdo (figuras, claves, escalas).",
+    "Manter um teclado desenhado ou impresso na mesa como referência visual de tom e semitom.",
+    "Cantar ou tocar cada exemplo escrito (voz, teclado, flauta ou aplicativo) para que a teoria nunca fique só no papel.",
+    "Trabalhar em duplas para conferir exercícios, explicando o raciocínio em voz alta.",
+    "Quando usar editor de partitura, escutar a reprodução e comparar com o que foi escrito à mão."
+  ],
+  "tecnicas_fundamentais": [
+    "Caligrafia musical: cabeça, haste, colchete e barras de compasso bem posicionadas na pauta.",
+    "Contagem de tempos: verificar que cada compasso 'fecha' segundo a fórmula indicada.",
+    "Construção de escalas pelo padrão de tons e semitons, e não por memorização isolada.",
+    "Classificação de intervalos em dois passos: contar o número de graus e depois medir em semitons.",
+    "Montagem de tríades por sobreposição de terças e identificação da cifra correspondente.",
+    "Análise de partitura: localizar tonalidade, compasso, frases, cadências e forma antes de tocar.",
+    "Transposição por intervalo fixo, conferindo a nova armadura de clave.",
+    "Uso básico de editor de partitura para copiar, ouvir e corrigir o que foi escrito."
+  ],
+  "pre_requisitos": {
+    "Unidade de tempo e unidade de compasso": ["Compasso simples: 2/4, 3/4 e 4/4 com barras", "Figuras e pausas: da semibreve à semicolcheia"],
+    "Compasso composto: 6/8 e sua subdivisão ternária": ["Contagem e subdivisão binária escrita"],
+    "Tom, semitom e escala maior": ["Acidentes: sustenido, bemol e bequadro"],
+    "Armaduras de clave e ciclo das quintas": ["Tom, semitom e escala maior"],
+    "Escalas menores: natural, harmônica e melódica": ["Armaduras de clave e ciclo das quintas"],
+    "Classificar intervalos: número e qualidade": ["Construir escalas maiores e menores por escrito"],
+    "Montar tríades maiores, menores e cifras": ["Classificar intervalos: número e qualidade"],
+    "Canção cifrada: graus e funções dos acordes": ["Montar tríades maiores, menores e cifras", "Graus e funções: I, IV e V ouvidos"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Pulso, tempo e andamento: sentir e definir",
+      "Compasso simples: 2/4, 3/4 e 4/4 com barras",
+      "Unidade de tempo e unidade de compasso",
+      "Contagem e subdivisão binária escrita",
+      "Compasso composto: 6/8 e sua subdivisão ternária",
+      "Anacruse, ligadura de valor e síncope",
+      "Quiálteras e mudanças de compasso"
+    ],
+    "leitura": [
+      "Figuras e pausas: da semibreve à semicolcheia",
+      "Pauta, clave de sol e notas na pauta",
+      "Clave de fá e linhas suplementares",
+      "Acidentes: sustenido, bemol e bequadro",
+      "Tom, semitom e escala maior",
+      "Armaduras de clave e ciclo das quintas",
+      "Escalas menores: natural, harmônica e melódica",
+      "Sinais de dinâmica, andamento e articulação"
+    ],
+    "tecnica": [
+      "Escrita manual: pauta, claves, notas e hastes",
+      "Copiar e completar compassos com figuras corretas",
+      "Construir escalas maiores e menores por escrito",
+      "Classificar intervalos: número e qualidade",
+      "Montar tríades maiores, menores e cifras",
+      "Transposição simples de melodia (2ª e 3ª acima)",
+      "Notação digital: editor de partitura básico"
+    ],
+    "percepcao": [
+      "Ouvir e nomear: grave, agudo, longo e curto",
+      "Identificar compasso binário, ternário e quaternário",
+      "Reconhecer intervalos ouvidos e escritos",
+      "Modo maior e menor de ouvido e na partitura",
+      "Graus e funções: I, IV e V ouvidos",
+      "Cadências básicas: autêntica, plagal e suspensiva",
+      "Ouvir e conferir dinâmica e articulação na partitura"
+    ],
+    "repertorio": [
+      "Análise de cantiga: compasso, figuras e notas",
+      "Canção popular: tonalidade e armadura",
+      "Melodia: intervalos e desenho melódico",
+      "Canção cifrada: graus e funções dos acordes",
+      "Peça clássica curta: cadências e frases",
+      "Forma: binária, ternária e estrofe-refrão",
+      "Análise de peça do repertório do próprio aluno"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Escrever compassos que não fecham: figuras a mais ou a menos em relação à fórmula de compasso.",
+    "Confundir a direção da haste e a posição da nota em linha ou espaço, especialmente nas linhas suplementares.",
+    "Contar intervalos pelo número de graus e esquecer a qualidade (maior, menor, justo).",
+    "Decorar armaduras sem entender o padrão de tons e semitons, errando ao construir escalas com bemóis.",
+    "Achar que 6/8 é 'igual a 3/4' por ter o mesmo número de colcheias.",
+    "Tratar o bequadro como acidente 'sem efeito' e ignorá-lo na leitura.",
+    "Estudar a teoria só no papel, sem cantar ou tocar os exemplos, e não reconhecer o conteúdo ao ouvir.",
+    "Ao transpor, mudar as notas mas esquecer de mudar a armadura de clave."
+  ],
+  "vocabulario_pt": [
+    "teoria musical",
+    "figuras e pausas",
+    "compasso simples",
+    "compasso composto",
+    "pauta",
+    "clave de sol",
+    "clave de fá",
+    "acidentes",
+    "tom e semitom",
+    "escala maior",
+    "escala menor",
+    "armadura de clave",
+    "ciclo das quintas",
+    "intervalo",
+    "tríade",
+    "cifra",
+    "graus da escala",
+    "funções harmônicas",
+    "cadência",
+    "transposição",
+    "notação musical",
+    "editor de partitura",
+    "análise musical",
+    "dinâmica e andamento"
+  ],
+  "vocabulario_en": [
+    "music theory",
+    "note values and rests",
+    "simple meter",
+    "compound meter",
+    "staff",
+    "treble clef",
+    "bass clef",
+    "accidentals",
+    "whole step and half step",
+    "major scale",
+    "minor scales",
+    "key signature",
+    "circle of fifths",
+    "interval classification",
+    "triads",
+    "chord symbols",
+    "scale degrees",
+    "harmonic functions",
+    "cadences",
+    "transposition",
+    "music notation",
+    "notation software",
+    "music analysis",
+    "tempo and dynamics markings"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Metrônomo e andamento",
+        "descricao": "Marcar o pulso de gravações com palmas e estimar o andamento; conferir com o metrônomo do celular e anotar o termo italiano correspondente (adagio, andante, allegro).",
+        "recursos": ["caixa_de_som", "celulares", "quadro"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Pulso, tempo e andamento: sentir e definir"]
+      },
+      {
+        "titulo": "Barras de compasso",
+        "descricao": "Uma sequência de figuras sem barras é escrita no quadro; os alunos identificam o tempo forte batendo palmas e colocam as barras conforme a fórmula 2/4, 3/4 ou 4/4, nomeando a unidade de tempo e a de compasso.",
+        "recursos": ["quadro", "impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Compasso simples: 2/4, 3/4 e 4/4 com barras", "Unidade de tempo e unidade de compasso"]
+      },
+      {
+        "titulo": "Contar e subdividir",
+        "descricao": "Ler padrões com semínimas, colcheias e semicolcheias escrevendo a contagem embaixo (1 e 2 e; 1 e-a 2 e-a) e depois batendo com palmas sobre o pulso do pé.",
+        "recursos": ["quadro", "impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Contagem e subdivisão binária escrita"]
+      },
+      {
+        "titulo": "Simples ou composto?",
+        "descricao": "Comparar 3/4 e 6/8 ouvindo e batendo os dois; escrever o mesmo grupo de seis colcheias nas duas fórmulas e marcar onde caem os apoios. Concluir com a regra de subdivisão ternária.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Compasso composto: 6/8 e sua subdivisão ternária"]
+      },
+      {
+        "titulo": "Anacruse, síncope e quiáltera",
+        "descricao": "Analisar canções conhecidas que começam em anacruse e trechos com ligaduras de valor, síncopes e tercinas; escrever cada caso e bater com sílabas rítmicas. Incluir um exemplo com mudança de compasso.",
+        "recursos": ["impressao", "quadro"],
+        "idade_min": 11,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Anacruse, ligadura de valor e síncope", "Quiálteras e mudanças de compasso"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Árvore de figuras",
+        "descricao": "Montar no quadro a árvore de valores (semibreve, mínima, semínima, colcheia, semicolcheia) com as pausas correspondentes; depois completar equivalências em uma folha de exercícios.",
+        "recursos": ["quadro", "impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Figuras e pausas: da semibreve à semicolcheia"]
+      },
+      {
+        "titulo": "Notas na pauta",
+        "descricao": "Nomear notas em linhas e espaços na clave de sol e na clave de fá, incluindo linhas suplementares em torno do dó central; jogo de velocidade com cartões.",
+        "recursos": ["quadro", "impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Pauta, clave de sol e notas na pauta", "Clave de fá e linhas suplementares"]
+      },
+      {
+        "titulo": "Acidentes no teclado desenhado",
+        "descricao": "Em um teclado impresso, marcar tons e semitons, aplicar sustenidos, bemóis e bequadros e construir a escala maior a partir de várias notas seguindo o padrão T-T-sT-T-T-T-sT.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Acidentes: sustenido, bemol e bequadro", "Tom, semitom e escala maior"]
+      },
+      {
+        "titulo": "Ciclo das quintas",
+        "descricao": "Construir o ciclo das quintas no quadro e deduzir a ordem dos sustenidos e dos bemóis; depois identificar a tonalidade de trechos apenas pela armadura.",
+        "recursos": ["quadro", "impressao"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Armaduras de clave e ciclo das quintas"]
+      },
+      {
+        "titulo": "Três menores",
+        "descricao": "A partir da relativa maior, escrever a escala menor natural, harmônica e melódica de lá e de mi, tocar ou cantar cada uma e descrever a diferença de sonoridade.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 11,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Escalas menores: natural, harmônica e melódica"]
+      },
+      {
+        "titulo": "Dicionário de sinais",
+        "descricao": "Montar um glossário no caderno com sinais de dinâmica (pp a ff, crescendo), andamento (termos e bpm) e articulação (legato, staccato, acento), localizando cada um em uma partitura real.",
+        "recursos": ["impressao", "quadro"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Sinais de dinâmica, andamento e articulação"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Caligrafia musical",
+        "descricao": "Praticar o traçado de claves, cabeças de nota, hastes (direção correta) e barras; depois copiar quatro compassos de uma melodia e completar compassos que estão incompletos.",
+        "recursos": ["impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Escrita manual: pauta, claves, notas e hastes", "Copiar e completar compassos com figuras corretas"]
+      },
+      {
+        "titulo": "Construtor de escalas",
+        "descricao": "Sortear uma nota e escrever a escala maior e a menor natural a partir dela, marcando tons e semitons; conferir tocando no teclado ou no aplicativo.",
+        "recursos": ["impressao", "instrumentos", "celulares"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Construir escalas maiores e menores por escrito"]
+      },
+      {
+        "titulo": "Classificar intervalos",
+        "descricao": "Para cada par de notas, contar o número (2ª, 3ª...) e depois a qualidade (maior, menor, justo) pelos semitons; em seguida escrever o intervalo pedido acima de uma nota dada.",
+        "recursos": ["impressao", "quadro"],
+        "idade_min": 11,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Classificar intervalos: número e qualidade"]
+      },
+      {
+        "titulo": "Tríades e cifras",
+        "descricao": "Empilhar terças sobre cada grau da escala maior, classificar as tríades (maior, menor, diminuta) e escrever a cifra de cada uma; tocar ou ouvir para conferir.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 11,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Montar tríades maiores, menores e cifras"]
+      },
+      {
+        "titulo": "Transpor uma melodia",
+        "descricao": "Transpor uma melodia de 8 compassos uma 2ª e depois uma 3ª acima, escrevendo a nova armadura antes das notas e conferindo pelos intervalos entre as notas.",
+        "recursos": ["impressao"],
+        "idade_min": 12,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Transposição simples de melodia (2ª e 3ª acima)"]
+      },
+      {
+        "titulo": "Editor de partitura",
+        "descricao": "Digitar no editor (celular ou computador) a melodia escrita à mão na aula, ouvir a reprodução e corrigir erros de figura ou de altura encontrados ao comparar.",
+        "recursos": ["celulares", "projetor"],
+        "idade_min": 11,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Notação digital: editor de partitura básico"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Ouvir e nomear",
+        "descricao": "Ouvir pares de sons e escrever o termo teórico correto (grave/agudo, longo/curto) e, quando possível, a figura aproximada; relacionar com a posição na pauta.",
+        "recursos": ["instrumentos", "quadro"],
+        "idade_min": 8,
+        "idade_max": 12,
+        "duracao_min": 5,
+        "conteudos": ["Ouvir e nomear: grave, agudo, longo e curto"]
+      },
+      {
+        "titulo": "Qual compasso?",
+        "descricao": "Ouvir trechos gravados, marcar o tempo forte e escrever a fórmula de compasso mais provável (2/4, 3/4, 4/4 ou 6/8), justificando pela subdivisão.",
+        "recursos": ["caixa_de_som", "quadro"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Identificar compasso binário, ternário e quaternário"]
+      },
+      {
+        "titulo": "Intervalo ouvido, intervalo escrito",
+        "descricao": "O professor toca um intervalo e os alunos escrevem as duas notas na pauta e classificam; depois ouvem uma melodia em maior e em menor e localizam na partitura a terça que muda.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Reconhecer intervalos ouvidos e escritos", "Modo maior e menor de ouvido e na partitura"]
+      },
+      {
+        "titulo": "Funções de ouvido",
+        "descricao": "Ouvir progressões com I, IV e V e escrever os graus na ordem; identificar ao final se a cadência é autêntica (V-I), plagal (IV-I) ou suspensiva (termina no V).",
+        "recursos": ["instrumentos", "quadro"],
+        "idade_min": 11,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Graus e funções: I, IV e V ouvidos", "Cadências básicas: autêntica, plagal e suspensiva"]
+      },
+      {
+        "titulo": "Partitura e gravação",
+        "descricao": "Acompanhar uma partitura enquanto ouve a gravação, marcando onde a dinâmica e a articulação escritas são (ou não) realizadas pelo intérprete.",
+        "recursos": ["caixa_de_som", "impressao"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Ouvir e conferir dinâmica e articulação na partitura"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Raio-X da cantiga",
+        "descricao": "Analisar a partitura de uma cantiga conhecida: fórmula de compasso, figuras usadas, nome das notas, nota mais grave e mais aguda. Cantar depois de analisar.",
+        "recursos": ["impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Análise de cantiga: compasso, figuras e notas"]
+      },
+      {
+        "titulo": "Tonalidade da canção",
+        "descricao": "Descobrir a tonalidade de uma canção popular pela armadura e pela nota final; depois marcar os intervalos entre as notas da melodia e desenhar o contorno melódico.",
+        "recursos": ["impressao", "quadro"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canção popular: tonalidade e armadura", "Melodia: intervalos e desenho melódico"]
+      },
+      {
+        "titulo": "Cifras e funções",
+        "descricao": "Em uma canção cifrada com três ou quatro acordes, escrever o grau de cada cifra na tonalidade e nomear a função (tônica, subdominante, dominante).",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 11,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canção cifrada: graus e funções dos acordes"]
+      },
+      {
+        "titulo": "Cadências na peça clássica",
+        "descricao": "Em um minueto ou peça curta de iniciante, dividir as frases, localizar as cadências e identificar a forma (binária ou ternária); comparar com uma canção estrofe-refrão.",
+        "recursos": ["impressao", "caixa_de_som"],
+        "idade_min": 12,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Peça clássica curta: cadências e frases", "Forma: binária, ternária e estrofe-refrão"]
+      },
+      {
+        "titulo": "Analisar a própria peça",
+        "descricao": "Cada aluno traz uma peça que está estudando no instrumento ou no coral e apresenta sua análise (tonalidade, compasso, frases, cadências, forma) para a turma.",
+        "recursos": ["impressao", "projetor"],
+        "idade_min": 12,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Análise de peça do repertório do próprio aluno"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Revisão relâmpago",
+        "descricao": "Cinco perguntas rápidas no início da aula (nome de nota, valor de figura, armadura, intervalo) respondidas em cartões; corrigir em dupla.",
+        "recursos": ["impressao", "quadro"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Pauta, clave de sol e notas na pauta", "Figuras e pausas: da semibreve à semicolcheia", "Armaduras de clave e ciclo das quintas"]
+      },
+      {
+        "titulo": "Compor quatro compassos",
+        "descricao": "Escrever uma melodia de 4 compassos na tonalidade combinada, com compasso fechado, uma anacruse e um sinal de dinâmica; tocar ou digitar no editor para ouvir.",
+        "recursos": ["impressao", "instrumentos", "celulares"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Copiar e completar compassos com figuras corretas", "Anacruse, ligadura de valor e síncope", "Notação digital: editor de partitura básico"]
+      },
+      {
+        "titulo": "Teoria no instrumento",
+        "descricao": "Tocar ou cantar no instrumento de cada um a escala, o intervalo ou a tríade estudados na aula, nomeando em voz alta o que está soando.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Construir escalas maiores e menores por escrito", "Montar tríades maiores, menores e cifras"]
+      },
+      {
+        "titulo": "Jogo de tabuleiro teórico",
+        "descricao": "Em grupos, avançar casas respondendo cartas sobre figuras, compassos, intervalos e cifras; cartas erradas voltam para a pilha e são revistas no fim.",
+        "recursos": ["impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 15,
+        "conteudos": ["Compasso simples: 2/4, 3/4 e 4/4 com barras", "Classificar intervalos: número e qualidade"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["leitura", "escrita", "percepcao", "analise", "ritmo", "autonomia"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Teoria sempre ligada ao som e ao jogo: figuras com sílabas rítmicas, notas em cartões, pauta gigante no chão.",
+      "Limitar a semínima, mínima, colcheia e pausas, clave de sol e notas de dó a sol; nada de intervalos ou armaduras.",
+      "Escrever pouco e com letra grande; usar cores e desenhos para memorizar."
+    ],
+    "9-12": [
+      "Já conseguem figuras completas, duas claves, escala maior, armaduras simples e intervalos por número.",
+      "Alternar escrita, jogos de velocidade e exemplos tocados para não tornar a aula abstrata.",
+      "Introduzir o editor de partitura como forma de ouvir o que escreveram."
+    ],
+    "13+": [
+      "Podem avançar rápido para escalas menores, qualidade de intervalos, tríades, cifras, funções e cadências.",
+      "Relacionar a teoria ao repertório do próprio aluno (banda, coral, instrumento, música popular) aumenta o sentido.",
+      "Estimular análise autônoma e uso de editor de partitura e aplicativos para conferir exercícios."
+    ]
+  },
+  "editavel": true
+}

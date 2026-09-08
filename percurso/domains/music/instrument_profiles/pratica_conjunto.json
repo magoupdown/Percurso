@@ -1,0 +1,439 @@
+{
+  "id": "pratica_conjunto",
+  "nome": "Prática de conjunto",
+  "familia": "coletivo",
+  "tessitura": null,
+  "postura": [
+    "Disposição em semicírculo ou em arco, com todos enxergando o regente ou o líder do grupo e os colegas da seção rítmica.",
+    "Cada aluno mantém a postura própria do seu instrumento (banco, estante, alça) ajustada antes do ensaio, sem improvisar apoios.",
+    "Estantes na altura dos olhos para não curvar o pescoço e para permitir olhar o regente por cima da partitura.",
+    "Instrumentos mais fortes (percussão, teclado amplificado) posicionados atrás ou ao lado, para não cobrir melodias de flauta, voz e violão.",
+    "Espaço suficiente entre cadeiras para movimentar arcos, baquetas e braços sem esbarrar no colega.",
+    "Postura de atenção nas pausas: instrumento em posição de descanso, olhos no líder e contagem interna mantida."
+  ],
+  "tecnicas_fundamentais": [
+    "Contagem inicial e entrada conjunta: todos respiram no gesto ou na contagem e atacam a primeira nota juntos.",
+    "Corte conjunto: terminar a nota e a peça no mesmo instante, seguindo o gesto do regente ou o sinal do líder.",
+    "Escuta ativa: tocar a própria parte enquanto ouve a melodia, o baixo e a percussão.",
+    "Equilíbrio de volume: quem tem a melodia toca à frente, o acompanhamento fica atrás.",
+    "Funções no arranjo: melodia, harmonia, baixo e ritmo, com troca de papéis entre os alunos.",
+    "Andamento estável em grupo, sem que a seção rítmica acelere nem os solistas atrasem.",
+    "Arranjo por níveis: partes fáceis (nota longa, bordão, pulso) e difíceis (melodia, contracanto) tocadas ao mesmo tempo.",
+    "Leitura de cifra e de grade para saber onde cada um entra e o que os outros estão tocando."
+  ],
+  "pre_requisitos": {
+    "Contagem inicial: entrar juntos no 1": ["Pulso comum: todos marcam o tempo com o corpo"],
+    "Entrada e corte conjuntos pelo gesto do líder": ["Contagem inicial: entrar juntos no 1"],
+    "Equilíbrio: melodia à frente, acompanhamento atrás": ["Ouvir o outro enquanto toca a própria parte", "Identificar quem toca a melodia no grupo"],
+    "Funções: melodia, harmonia, baixo e ritmo": ["Ouvir o baixo e a harmonia por baixo da melodia"],
+    "Grade: localizar a própria linha e as dos colegas": ["Parte individual: ler a própria linha do arranjo"],
+    "Arranjo com parte fácil e parte difícil por naipe": ["Canção brasileira com arranjo por níveis", "Ensaio por naipe e depois tutti"],
+    "Roda de música: canção popular com cifra": ["Cifra: ler letras de acordes acima da letra", "Reconhecer tônica e dominante para acompanhar"],
+    "Programa de apresentação com três músicas": ["Arranjo com parte fácil e parte difícil por naipe", "Seguir o regente em dinâmica e andamento"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Pulso comum: todos marcam o tempo com o corpo",
+      "Contagem inicial: entrar juntos no 1",
+      "Nota repetida no pulso em todos os instrumentos",
+      "Andamento estável em grupo sem acelerar",
+      "Subdivisão compartilhada: colcheias na seção rítmica",
+      "Pulso do grupo com metrônomo e depois sem ele",
+      "Manter o pulso em mudanças de seção e pausas"
+    ],
+    "leitura": [
+      "Cifra: ler letras de acordes acima da letra",
+      "Célula rítmica da levada lida em cartões",
+      "Parte individual: ler a própria linha do arranjo",
+      "Grade: localizar a própria linha e as dos colegas",
+      "Sinais de repetição, casa 1 e 2 e coda",
+      "Dinâmica e andamento marcados na partitura",
+      "Leitura de arranjo novo com ensaio de 10 minutos"
+    ],
+    "tecnica": [
+      "Entrada e corte conjuntos pelo gesto do líder",
+      "Ouvir o outro enquanto toca a própria parte",
+      "Equilíbrio: melodia à frente, acompanhamento atrás",
+      "Funções: melodia, harmonia, baixo e ritmo",
+      "Trocar de função dentro do mesmo arranjo",
+      "Seguir o regente em dinâmica e andamento",
+      "Ensaio por naipe e depois tutti",
+      "Recuperar-se do erro sem parar o grupo"
+    ],
+    "percepcao": [
+      "Identificar quem toca a melodia no grupo",
+      "Perceber se o grupo acelerou ou atrasou",
+      "Ouvir o baixo e a harmonia por baixo da melodia",
+      "Reconhecer tônica e dominante para acompanhar",
+      "Perceber desequilíbrio de volume entre naipes",
+      "Afinar o instrumento com a nota de referência",
+      "Ouvir a forma: introdução, estrofe e refrão"
+    ],
+    "repertorio": [
+      "Canção infantil em uníssono com acompanhamento",
+      "Canção brasileira com arranjo por níveis",
+      "Arranjo com parte fácil e parte difícil por naipe",
+      "Peça instrumental curta em duas vozes e baixo",
+      "Roda de música: canção popular com cifra",
+      "Programa de apresentação com três músicas"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Cada um entra em um momento diferente porque ninguém olha o regente na contagem inicial.",
+    "A seção rítmica acelera nos trechos fáceis e a melodia atrasa nos difíceis, e o grupo se separa.",
+    "Todos tocam forte o tempo todo; a melodia desaparece atrás do acompanhamento.",
+    "Quem erra para de tocar e tenta recomeçar do início, quebrando o andamento do grupo.",
+    "Alunos de níveis diferentes recebem a mesma parte: os iniciantes se perdem e os avançados se entediam.",
+    "Não saber qual linha da grade é a sua nem quando entra depois de uma pausa longa.",
+    "Instrumentos desafinados entre si por não afinar com uma nota de referência comum antes do ensaio.",
+    "Ensaiar sempre em tutti, sem resolver as passagens difíceis por naipe."
+  ],
+  "vocabulario_pt": [
+    "prática de conjunto",
+    "banda escolar",
+    "grupo de câmara",
+    "roda de música",
+    "entrada conjunta",
+    "corte",
+    "contagem inicial",
+    "equilíbrio sonoro",
+    "escuta ativa",
+    "melodia",
+    "harmonia",
+    "linha de baixo",
+    "seção rítmica",
+    "arranjo por níveis",
+    "arranjo simplificado",
+    "cifra",
+    "grade",
+    "regência",
+    "naipe",
+    "tutti",
+    "ensaio por naipe",
+    "andamento",
+    "dinâmica coletiva",
+    "música popular brasileira",
+    "apresentação"
+  ],
+  "vocabulario_en": [
+    "ensemble playing",
+    "school band",
+    "chamber group",
+    "music circle",
+    "ensemble entrance",
+    "cut-off",
+    "count-in",
+    "balance",
+    "active listening",
+    "melody",
+    "harmony",
+    "bass line",
+    "rhythm section",
+    "flexible arrangement",
+    "simplified arrangement",
+    "chord symbols",
+    "full score",
+    "conducting",
+    "section",
+    "tutti",
+    "sectional rehearsal",
+    "tempo",
+    "ensemble dynamics",
+    "Brazilian popular music",
+    "performance"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Pulso de todo mundo",
+        "descricao": "Antes de pegar os instrumentos, o grupo marca o pulso de uma gravação com passos e palmas, depois o líder conta '1, 2, 3, 4' e todos batem uma palma exatamente no 1 seguinte. Repetir até nenhuma palma sair fora.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Pulso comum: todos marcam o tempo com o corpo", "Contagem inicial: entrar juntos no 1"]
+      },
+      {
+        "titulo": "Uma nota, todos juntos",
+        "descricao": "Cada aluno toca a tônica repetida no pulso no próprio instrumento (a percussão toca o pulso) após a contagem do líder, por 8 compassos, sem acelerar. O grupo grava e confere se o final ficou no mesmo andamento do início.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Nota repetida no pulso em todos os instrumentos", "Andamento estável em grupo sem acelerar"]
+      },
+      {
+        "titulo": "Seção rítmica em colcheias",
+        "descricao": "Enquanto os melódicos tocam semínimas, violão, percussão e teclado tocam colcheias regulares; depois invertem. O objetivo é que a subdivisão seja igual em todos, sem 'engolir' a segunda colcheia.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Subdivisão compartilhada: colcheias na seção rítmica"]
+      },
+      {
+        "titulo": "Metrônomo que some",
+        "descricao": "Tocar um trecho de 8 compassos com metrônomo na caixa de som; o professor abaixa o volume aos poucos até desligar, e o grupo precisa terminar no mesmo andamento. Religar no final para conferir.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Pulso do grupo com metrônomo e depois sem ele"]
+      },
+      {
+        "titulo": "Pausa sem perder o tempo",
+        "descricao": "Em um arranjo com dois compassos de pausa entre estrofe e refrão, o grupo conta a pausa em silêncio (movendo o pé) e reentra junto; depois praticar a passagem entre seções de andamento diferente.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Manter o pulso em mudanças de seção e pausas"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Cifra na letra",
+        "descricao": "Com a letra cifrada projetada, o grupo lê em voz alta o nome do acorde no momento em que ele aparece, enquanto o professor toca; depois os harmônicos tocam os acordes e os demais batem a mudança na perna.",
+        "recursos": ["projetor", "impressao", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Cifra: ler letras de acordes acima da letra"]
+      },
+      {
+        "titulo": "Cartão da levada",
+        "descricao": "A célula rítmica da levada (por exemplo, o padrão do violão ou da percussão) é escrita em cartão; todos leem com palmas e sílabas rítmicas e depois cada instrumento toca a célula em uma nota só.",
+        "recursos": ["impressao", "quadro", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Célula rítmica da levada lida em cartões"]
+      },
+      {
+        "titulo": "Minha linha na grade",
+        "descricao": "Cada aluno recebe sua parte e a grade completa; marca com cor a própria linha na grade, conta os compassos de pausa e identifica quem toca quando ele descansa. Tocar a parte sozinho e depois com o naipe.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Parte individual: ler a própria linha do arranjo", "Grade: localizar a própria linha e as dos colegas"]
+      },
+      {
+        "titulo": "Mapa da música",
+        "descricao": "Antes de tocar, o grupo desenha no quadro o percurso da peça: repetições, casa 1 e 2, coda, mudanças de dinâmica e de andamento. Um aluno 'navega' apontando enquanto o grupo toca.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Sinais de repetição, casa 1 e 2 e coda", "Dinâmica e andamento marcados na partitura"]
+      },
+      {
+        "titulo": "Arranjo relâmpago",
+        "descricao": "Um arranjo curto e novo é distribuído; o grupo tem 10 minutos para ler a própria parte, ensaiar por naipe e tocar uma vez inteiro, sem parar, seguindo o regente.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Leitura de arranjo novo com ensaio de 10 minutos"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Entra e corta no gesto",
+        "descricao": "O líder faz o gesto de preparação e o grupo ataca um acorde longo; no gesto de corte, todos param juntos. Repetir variando o tempo de espera e trocando quem lidera.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Entrada e corte conjuntos pelo gesto do líder"]
+      },
+      {
+        "titulo": "Quem está na frente?",
+        "descricao": "Tocar uma canção e, a cada 8 compassos, o professor aponta qual instrumento tem a melodia; os demais baixam o volume até que ela fique claramente à frente. Cada aluno deve conseguir cantar a melodia enquanto toca a própria parte.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Ouvir o outro enquanto toca a própria parte", "Equilíbrio: melodia à frente, acompanhamento atrás"]
+      },
+      {
+        "titulo": "Rodízio de funções",
+        "descricao": "Em uma canção com quatro funções (melodia, acordes, baixo e ritmo), cada grupo toca uma função por 8 compassos e passa para a seguinte no sinal, sem parar a música.",
+        "recursos": ["instrumentos", "quadro"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Funções: melodia, harmonia, baixo e ritmo", "Trocar de função dentro do mesmo arranjo"]
+      },
+      {
+        "titulo": "Regente manda",
+        "descricao": "Sem falar, o regente pede crescendo, diminuendo, mais rápido e mais lento durante a mesma canção; o grupo responde só ao gesto. Depois ensaiar a passagem difícil por naipe e voltar ao tutti.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Seguir o regente em dinâmica e andamento", "Ensaio por naipe e depois tutti"]
+      },
+      {
+        "titulo": "Errou, continua",
+        "descricao": "O professor pede que um aluno erre de propósito em um ponto combinado; o grupo segue e o aluno retoma no próximo compasso forte, sem parar. Depois ninguém sabe quem vai errar.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Recuperar-se do erro sem parar o grupo"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Cadê a melodia?",
+        "descricao": "Ouvir gravações e trechos tocados pelo grupo e apontar qual instrumento leva a melodia; depois ouvir o que acontece por baixo dela, cantando a linha do baixo e batendo a mudança de acorde.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Identificar quem toca a melodia no grupo", "Ouvir o baixo e a harmonia por baixo da melodia"]
+      },
+      {
+        "titulo": "Acelerou ou atrasou?",
+        "descricao": "O grupo toca 8 compassos e ouve a gravação com o metrônomo por cima; decide se acelerou, atrasou ou manteve, e identifica qual naipe puxou o andamento.",
+        "recursos": ["celulares", "caixa_de_som", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Perceber se o grupo acelerou ou atrasou"]
+      },
+      {
+        "titulo": "Casa e fora de casa em grupo",
+        "descricao": "O professor toca uma canção com tônica e dominante; o grupo diz 'casa' ou 'fora' a cada mudança e depois os graves tocam o baixo (dó ou sol) no momento certo enquanto os demais tocam a melodia.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Reconhecer tônica e dominante para acompanhar"]
+      },
+      {
+        "titulo": "Ouvido de plateia",
+        "descricao": "Metade do grupo toca e a outra metade ouve de longe e relata qual naipe está alto demais ou sumido; trocar os papéis e ajustar. Antes disso, todos afinam com a nota de referência do teclado.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Perceber desequilíbrio de volume entre naipes", "Afinar o instrumento com a nota de referência"]
+      },
+      {
+        "titulo": "Desenhar a forma",
+        "descricao": "Ouvir uma canção brasileira e desenhar no quadro sua forma (introdução, estrofe, refrão, ponte), marcando onde entra cada instrumento; depois tocar seguindo o desenho.",
+        "recursos": ["caixa_de_som", "quadro"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Ouvir a forma: introdução, estrofe e refrão"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Canção em uníssono",
+        "descricao": "Todos tocam ou cantam a melodia de uma canção infantil em uníssono enquanto o professor acompanha ao teclado ou violão; percussão marca o pulso. Trabalhar entrada, final e um contraste de dinâmica.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 12,
+        "duracao_min": 8,
+        "conteudos": ["Canção infantil em uníssono com acompanhamento"]
+      },
+      {
+        "titulo": "Arranjo por níveis",
+        "descricao": "Montar uma canção brasileira com três partes: bordão ou nota longa (iniciantes), acordes ou ostinato (intermediários) e melodia ou contracanto (avançados). Ensaiar cada parte por naipe e juntar no tutti.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Canção brasileira com arranjo por níveis", "Arranjo com parte fácil e parte difícil por naipe"]
+      },
+      {
+        "titulo": "Peça a duas vozes e baixo",
+        "descricao": "Estudar uma peça instrumental curta com melodia, segunda voz e baixo; cada naipe aprende sua linha e o grupo cuida do equilíbrio para que a melodia fique à frente.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Peça instrumental curta em duas vozes e baixo"]
+      },
+      {
+        "titulo": "Roda de música",
+        "descricao": "Em roda, tocar e cantar uma canção popular brasileira só com a cifra: os harmônicos fazem os acordes, os melódicos a melodia e a percussão a levada; quem quiser puxa a próxima música.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Roda de música: canção popular com cifra"]
+      },
+      {
+        "titulo": "Ensaio geral do programa",
+        "descricao": "Passar três músicas na ordem da apresentação, com entrada no palco, afinação, contagem, pausas entre as peças e agradecimento, sem interrupções. Gravar e comentar.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 15,
+        "conteudos": ["Programa de apresentação com três músicas"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Rotina de início do ensaio",
+        "descricao": "Montar o semicírculo, afinar com a nota de referência, marcar o pulso juntos e tocar um acorde longo com entrada e corte no gesto do líder antes de abrir a partitura.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Afinar o instrumento com a nota de referência", "Entrada e corte conjuntos pelo gesto do líder"]
+      },
+      {
+        "titulo": "Líder por um dia",
+        "descricao": "Um aluno conta a entrada, marca o pulso, pede forte e piano e corta o final de uma canção conhecida; o grupo comenta o que ajudou a tocar junto.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Contagem inicial: entrar juntos no 1", "Seguir o regente em dinâmica e andamento"]
+      },
+      {
+        "titulo": "Gravação do grupo",
+        "descricao": "Gravar a música da semana e ouvir juntos, identificando um acerto (entrada, equilíbrio ou andamento) e um ponto para o próximo ensaio.",
+        "recursos": ["celulares", "caixa_de_som", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Perceber se o grupo acelerou ou atrasou", "Perceber desequilíbrio de volume entre naipes"]
+      },
+      {
+        "titulo": "Roda de apresentação interna",
+        "descricao": "Cada naipe apresenta sua parte para o restante do grupo, que dá um comentário positivo e uma sugestão; depois o tutti toca a música inteira.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Ensaio por naipe e depois tutti", "Canção brasileira com arranjo por níveis"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["ritmo", "percepcao", "leitura", "coordenacao", "sonoridade", "participacao", "autonomia"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Grupos com instrumentos simples (flauta, percussão, xilofone, voz) e partes de nota longa ou pulso; canções infantis em uníssono.",
+      "Entrada, corte e pulso comum são o foco; o professor lidera com gestos grandes e contagem falada.",
+      "Ensaios curtos com troca de instrumento e de função para todos experimentarem melodia e ritmo."
+    ],
+    "9-12": [
+      "Já sustentam arranjos por níveis com melodia, acordes e baixo e leem a própria linha na grade.",
+      "Introduzir cifra, roda de música com canções brasileiras e ensaio por naipe conduzido por alunos.",
+      "Registrar em gravação e discutir equilíbrio e andamento como grupo, não apenas erros individuais."
+    ],
+    "13+": [
+      "Podem montar arranjos próprios, escolher repertório popular e assumir liderança de naipe ou regência de trechos.",
+      "Trabalhar peças com mudanças de andamento, dinâmica expressiva e forma completa (introdução, ponte, coda).",
+      "Valorizar autonomia e responsabilidade: preparar a própria parte em casa e organizar a apresentação."
+    ]
+  },
+  "editavel": true
+}

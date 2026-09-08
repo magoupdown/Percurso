@@ -1,0 +1,443 @@
+{
+  "id": "flauta_doce",
+  "nome": "Flauta doce",
+  "familia": "sopro_madeira",
+  "tessitura": {
+    "inicial": ["G4", "A4", "B4"],
+    "ampliada": "C4–D6"
+  },
+  "postura": [
+    "Sentado ou em pé com a coluna alongada, ombros soltos e pés apoiados; a flauta forma um ângulo de cerca de 45° com o corpo.",
+    "Mão esquerda em cima (polegar no furo de trás, três dedos nos furos superiores) e mão direita embaixo, com o polegar direito apoiando a flauta por trás.",
+    "Cotovelos afastados do corpo, sem encostar no tronco, para deixar as costelas livres na respiração.",
+    "Bocal apoiado suavemente entre os lábios, à frente dos dentes; os dentes não tocam a flauta.",
+    "Dedos curvados e relaxados, cobrindo os furos com a polpa (não com a ponta), e voltando para perto do furo quando levantam.",
+    "Cabeça erguida, olhando para frente ou para a partitura, sem abaixar o queixo sobre a flauta."
+  ],
+  "tecnicas_fundamentais": [
+    "Respiração diafragmática: inspirar pela boca, expandindo a barriga e as costelas, sem levantar os ombros.",
+    "Sopro suave e contínuo ('ar quente', como para embaçar um espelho), evitando o guincho causado pela pressão excessiva.",
+    "Articulação com a língua: 'tu' para ataques claros e 'du' para ligações mais suaves; a língua inicia e termina cada som.",
+    "Dedilhado barroco começando por Si, Lá e Sol (mão esquerda), depois Dó e Ré agudos, e Mi, Ré e Dó graves com a mão direita.",
+    "Cobertura completa dos furos, verificando com a vista e com o ouvido (som 'sujo' indica furo mal fechado).",
+    "Meio-furo do polegar esquerdo para as notas da segunda oitava (a partir do Mi agudo).",
+    "Controle de afinação pela pressão do ar e pelo ajuste da junção entre cabeça e corpo da flauta."
+  ],
+  "pre_requisitos": {
+    "Respiração no pulso: inspirar e soprar no tempo": ["Corpo: pulso com passos, palmas e balanço"],
+    "Ataques de língua no pulso (tu, tu, tu)": ["Respiração no pulso: inspirar e soprar no tempo"],
+    "Nota repetida no pulso (Si)": ["Ataques de língua no pulso (tu, tu, tu)", "Postura: flauta a 45°, mão esquerda em cima"],
+    "Sol, Lá e Si no pulso": ["Nota repetida no pulso (Si)", "Dedilhado de Si, Lá e Sol com furos bem cobertos"],
+    "Canções com Si, Lá e Sol": ["Sol, Lá e Si no pulso", "Si, Lá e Sol na clave de sol"],
+    "Mi, Ré e Dó graves com a mão direita": ["Dedilhado de Si, Lá e Sol com furos bem cobertos", "Respiração diafragmática e sopro de ar quente"],
+    "Segunda oitava com meio-furo do polegar": ["Mi, Ré e Dó graves com a mão direita", "Dó e Ré agudos: polegar e dedo médio"],
+    "Arranjos de flautas em grupo a duas vozes": ["Duetos simples com o professor ou colega", "Canções brasileiras em Dó maior (uma oitava)"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Corpo: pulso com passos, palmas e balanço",
+      "Respiração no pulso: inspirar e soprar no tempo",
+      "Ataques de língua no pulso (tu, tu, tu)",
+      "Nota repetida no pulso (Si)",
+      "Sol, Lá e Si no pulso",
+      "Frase curta de 4 compassos no pulso",
+      "Subdivisão do pulso em colcheias com a língua",
+      "Pulso estável com playback em andamentos variados"
+    ],
+    "leitura": [
+      "Figuras rítmicas: semínima, mínima e pausa",
+      "Si, Lá e Sol na clave de sol",
+      "Dó e Ré agudos na pauta",
+      "Mi, Ré e Dó graves na pauta",
+      "Colcheias, ponto de aumento e ligadura",
+      "Fá sustenido e Si bemol: primeiros acidentes",
+      "Leitura à primeira vista de melodias de 8 compassos"
+    ],
+    "tecnica": [
+      "Postura: flauta a 45°, mão esquerda em cima",
+      "Respiração diafragmática e sopro de ar quente",
+      "Articulação com a língua: tu e du",
+      "Dedilhado de Si, Lá e Sol com furos bem cobertos",
+      "Dó e Ré agudos: polegar e dedo médio",
+      "Mi, Ré e Dó graves com a mão direita",
+      "Segunda oitava com meio-furo do polegar",
+      "Afinação: ajuste do sopro e da junção da flauta"
+    ],
+    "percepcao": [
+      "Grave e agudo: flauta com mais ou menos furos",
+      "Som suave e som guinchado: força do sopro",
+      "Pulso forte e fraco: binário e ternário",
+      "Ouvir e repetir motivos com Sol, Lá e Si",
+      "Melodia ascendente, descendente e repetida",
+      "Reconhecer modo maior e menor",
+      "Cantar e tocar: afinar com a flauta do professor"
+    ],
+    "repertorio": [
+      "Canções com Si, Lá e Sol",
+      "Cantigas em cinco notas (Sol a Ré agudo)",
+      "Canções brasileiras em Dó maior (uma oitava)",
+      "Duetos simples com o professor ou colega",
+      "Peças com Fá sustenido (Sol maior)",
+      "Arranjos de flautas em grupo a duas vozes",
+      "Danças renascentistas e peças de nível iniciante"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Som 'guinchado' ou estridente por sopro forte demais, especialmente nas notas graves.",
+    "Furos mal cobertos (dedo na ponta em vez da polpa), produzindo notas 'sujas' ou saltando para a oitava.",
+    "Inverter as mãos, colocando a direita em cima e a esquerda embaixo.",
+    "Iniciar o som com o sopro em vez da língua, sem ataque definido ('hu' em vez de 'tu').",
+    "Morder o bocal ou colocá-lo fundo demais na boca.",
+    "Levantar os dedos muito alto ao trocar de nota, atrasando o dedilhado e perdendo o pulso.",
+    "Meio-furo do polegar aberto demais ou de menos, impedindo a segunda oitava.",
+    "Respirar no meio de uma frase ou tocar até faltar ar, sem planejar as respirações."
+  ],
+  "vocabulario_pt": [
+    "flauta doce soprano",
+    "dedilhado barroco",
+    "dedilhado germânico",
+    "ar quente",
+    "articulação de língua",
+    "meio-furo",
+    "polegar",
+    "furos",
+    "bocal",
+    "respiração diafragmática",
+    "sopro",
+    "guincho",
+    "segunda oitava",
+    "afinação",
+    "clave de sol",
+    "flauta doce na escola",
+    "ensino coletivo de flauta doce",
+    "conjunto de flautas doces",
+    "musicalização com flauta doce",
+    "iniciação à flauta doce"
+  ],
+  "vocabulario_en": [
+    "soprano recorder",
+    "descant recorder",
+    "baroque fingering",
+    "german fingering",
+    "warm air",
+    "tonguing",
+    "half-hole",
+    "thumb hole",
+    "finger holes",
+    "mouthpiece",
+    "diaphragmatic breathing",
+    "breath pressure",
+    "squeak",
+    "second octave",
+    "intonation",
+    "treble clef",
+    "recorder in the classroom",
+    "recorder ensemble",
+    "recorder consort",
+    "beginner recorder",
+    "recorder method"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Pulso no corpo com música",
+        "descricao": "Com uma gravação em andamento moderado, os alunos marcam o pulso caminhando pela sala, depois com palmas e por fim balançando o tronco sentados. O professor troca a música e observa quem mantém o pulso sem acelerar.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Corpo: pulso com passos, palmas e balanço"]
+      },
+      {
+        "titulo": "Respirar no tempo",
+        "descricao": "Sobre uma gravação lenta, a turma inspira em um pulso e sopra 'ar quente' na palma da mão pelos três pulsos seguintes. Depois inspirar em dois pulsos e soprar em seis, sempre sem levantar os ombros.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Respiração no pulso: inspirar e soprar no tempo"]
+      },
+      {
+        "titulo": "Tu, tu, tu no Si",
+        "descricao": "Primeiro a turma fala 'tu' em cada pulso do metrônomo, só com a língua; depois repete o mesmo na flauta, na nota Si, quatro ataques por compasso. Trocar entre falar e tocar sem parar o pulso.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Ataques de língua no pulso (tu, tu, tu)", "Nota repetida no pulso (Si)"]
+      },
+      {
+        "titulo": "Três notas que se revezam",
+        "descricao": "Tocar Si, Lá e Sol em semínimas, uma nota por compasso, sobre acompanhamento do professor. Em seguida montar uma frase de 4 compassos (por exemplo Si-Si-Lá-Lá / Sol-Sol-Lá-Lá) que a turma repete inteira no pulso.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Sol, Lá e Si no pulso", "Frase curta de 4 compassos no pulso"]
+      },
+      {
+        "titulo": "Língua dobrada",
+        "descricao": "Na nota Sol, tocar uma semínima por clique e depois duas colcheias por clique ('tu-tu'), alternando a cada dois compassos. Repetir a mesma frase com playback em três andamentos (60, 80 e 100 bpm).",
+        "recursos": ["instrumentos", "celulares", "caixa_de_som"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Subdivisão do pulso em colcheias com a língua", "Pulso estável com playback em andamentos variados"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Cartões de ritmo soprados",
+        "descricao": "Cartões com semínimas, mínimas e pausas são organizados em compassos de 4 tempos no quadro; a turma lê batendo palmas e falando 'tá' e 'ta-a', depois toca o ritmo na nota Si.",
+        "recursos": ["impressao", "quadro", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Figuras rítmicas: semínima, mínima e pausa"]
+      },
+      {
+        "titulo": "Si, Lá e Sol na pauta",
+        "descricao": "O professor escreve Si (terceira linha), Lá (segundo espaço) e Sol (segunda linha) no quadro e aponta em ordem variada; os alunos mostram o dedilhado no ar e depois tocam cada nota apontada.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Si, Lá e Sol na clave de sol"]
+      },
+      {
+        "titulo": "Subindo e descendo na pauta",
+        "descricao": "Acrescentar uma nota por vez ao redor das três primeiras: Dó e Ré agudos para cima, Mi, Ré e Dó graves para baixo (com linha suplementar). O aluno nomeia, dedilha no ar e toca cada nota nova em melodias de 2 compassos.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Dó e Ré agudos na pauta", "Mi, Ré e Dó graves na pauta"]
+      },
+      {
+        "titulo": "Colcheias e ligaduras na flauta",
+        "descricao": "Leitura rítmica de padrões com colcheias, semínima pontuada e ligaduras usando sílabas rítmicas; em seguida tocar o mesmo padrão em uma melodia de Sol a Ré, usando 'du' nas notas ligadas.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Colcheias, ponto de aumento e ligadura"]
+      },
+      {
+        "titulo": "Leitura relâmpago com acidente",
+        "descricao": "Melodias de 8 compassos nunca vistas, contendo um Fá sustenido ou um Si bemol. O aluno tem 30 segundos para localizar o acidente e dedilhar no ar; depois toca uma única vez sem parar.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Fá sustenido e Si bemol: primeiros acidentes", "Leitura à primeira vista de melodias de 8 compassos"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Checklist da flauta",
+        "descricao": "Antes de tocar, o aluno confere em voz alta: coluna, ângulo de 45°, mão esquerda em cima, cotovelos afastados e bocal entre os lábios. Um colega confere e corrige com o professor.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Postura: flauta a 45°, mão esquerda em cima"]
+      },
+      {
+        "titulo": "Ar quente no espelho",
+        "descricao": "Inspirar expandindo a barriga (mão sobre o abdome) e soprar como para embaçar um espelho, contando até 8. Depois transferir o mesmo sopro para a flauta na nota Sol, ouvindo se o som fica redondo e sem guincho.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Respiração diafragmática e sopro de ar quente"]
+      },
+      {
+        "titulo": "Tu e du",
+        "descricao": "Na nota Lá, tocar quatro notas com 'tu' (separadas) e quatro com 'du' (ligadas), ouvindo a diferença. O professor toca um exemplo e a turma responde dizendo qual articulação ouviu.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Articulação com a língua: tu e du"]
+      },
+      {
+        "titulo": "Furos bem fechados",
+        "descricao": "Tocar Si, Lá e Sol em notas longas, verificando a marca redonda que o furo deixa na polpa do dedo. Se a nota sair 'suja' ou pular de oitava, reposicionar o dedo e repetir até o som ficar limpo.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Dedilhado de Si, Lá e Sol com furos bem cobertos"]
+      },
+      {
+        "titulo": "Para cima e para baixo",
+        "descricao": "A partir do Si, subir para Dó (polegar e dedo médio) e Ré agudo (só o dedo médio), depois descer de Sol para Fá sustenido, Mi, Ré e Dó graves acrescentando os dedos da mão direita um a um, em notas longas com sopro mais suave nas graves.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Dó e Ré agudos: polegar e dedo médio", "Mi, Ré e Dó graves com a mão direita"]
+      },
+      {
+        "titulo": "Meio-furo e afinação",
+        "descricao": "Tocar Mi grave e, dobrando levemente o polegar para abrir um terço do furo, obter o Mi agudo; repetir com Fá e Sol. Em seguida tocar um Sol longo junto com o professor e ajustar sopro ou junção da flauta até as duas notas 'casarem'.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Segunda oitava com meio-furo do polegar", "Afinação: ajuste do sopro e da junção da flauta"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Mais furos, mais grave",
+        "descricao": "O professor toca notas fechando um furo a cada vez; os alunos mostram com a mão se o som desceu ou subiu. Depois o professor sopra forte e suave na mesma nota e a turma identifica o som 'guinchado' e o som suave.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 10,
+        "duracao_min": 5,
+        "conteudos": ["Grave e agudo: flauta com mais ou menos furos", "Som suave e som guinchado: força do sopro"]
+      },
+      {
+        "titulo": "Marcha ou ciranda?",
+        "descricao": "Ouvir trechos gravados e marcar o tempo forte com palma e os fracos com o dedo na perna; decidir se é binário ou ternário e depois tocar o Sol só nos tempos fortes.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Pulso forte e fraco: binário e ternário"]
+      },
+      {
+        "titulo": "Eco com três notas",
+        "descricao": "O professor toca um motivo de 2 a 4 notas com Sol, Lá e Si; o aluno mostra com a mão se subiu, desceu ou repetiu e depois reproduz o motivo na flauta sem olhar os dedos do professor.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Ouvir e repetir motivos com Sol, Lá e Si", "Melodia ascendente, descendente e repetida"]
+      },
+      {
+        "titulo": "Alegre ou triste?",
+        "descricao": "Ouvir a mesma cantiga tocada em maior e em menor (com Si natural e Si bemol) e identificar o modo; depois cantar a versão preferida e tocar a primeira frase.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Reconhecer modo maior e menor"]
+      },
+      {
+        "titulo": "Afinar com o professor",
+        "descricao": "O professor sustenta um Lá; o aluno canta a nota, depois toca e ouve se o som 'bate' (desafinado) ou fica liso (afinado), corrigindo com o sopro. Repetir com Sol e Si.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Cantar e tocar: afinar com a flauta do professor"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Primeira canção em três notas",
+        "descricao": "Aprender de ouvido uma canção com Si, Lá e Sol (por exemplo 'Escravos de Jó' simplificada), cantando o nome das notas antes de tocar; depois conferir na partitura.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 6,
+        "idade_max": 12,
+        "duracao_min": 8,
+        "conteudos": ["Canções com Si, Lá e Sol"]
+      },
+      {
+        "titulo": "Cantigas de cinco notas",
+        "descricao": "Montar uma cantiga que caiba entre Sol e Ré agudo e, quando estiver segura, avançar para uma canção brasileira em Dó maior que use a oitava inteira, marcando as respirações na partitura.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Cantigas em cinco notas (Sol a Ré agudo)", "Canções brasileiras em Dó maior (uma oitava)"]
+      },
+      {
+        "titulo": "Dueto com o professor",
+        "descricao": "O aluno toca a melodia em notas longas enquanto o professor (ou um colega mais avançado) toca uma segunda voz; depois trocar os papéis, cuidando da entrada conjunta e do final.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Duetos simples com o professor ou colega"]
+      },
+      {
+        "titulo": "Peça em Sol maior",
+        "descricao": "Estudar uma melodia em Sol maior, circulando os Fás sustenidos na partitura e praticando primeiro só as passagens Mi-Fá#-Sol antes de tocar a peça inteira.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Peças com Fá sustenido (Sol maior)"]
+      },
+      {
+        "titulo": "Conjunto de flautas",
+        "descricao": "Dividir a turma em duas vozes para um arranjo simples (melodia e contramelodia) e, em seguida, montar uma dança renascentista ou peça de nível iniciante, ensaiando a respiração conjunta antes de cada frase.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Arranjos de flautas em grupo a duas vozes", "Danças renascentistas e peças de nível iniciante"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Aquecimento de sopro e dedos",
+        "descricao": "Girar os ombros, sacudir as mãos, abrir e fechar os dedos e fazer três respirações profundas com sopro longo antes de pegar a flauta.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Respiração diafragmática e sopro de ar quente", "Postura: flauta a 45°, mão esquerda em cima"]
+      },
+      {
+        "titulo": "Improvisação em três notas",
+        "descricao": "Sobre um acompanhamento do professor, cada aluno improvisa uma frase de 4 compassos usando só Sol, Lá e Si, mantendo o pulso e terminando no Sol.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Sol, Lá e Si no pulso", "Ouvir e repetir motivos com Sol, Lá e Si"]
+      },
+      {
+        "titulo": "Gravar e ouvir",
+        "descricao": "Gravar a canção da semana no celular e ouvir com o professor, apontando um acerto e um ponto para melhorar (guincho, furo mal fechado ou pulso).",
+        "recursos": ["celulares", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Som suave e som guinchado: força do sopro", "Canções brasileiras em Dó maior (uma oitava)"]
+      },
+      {
+        "titulo": "Roda de apresentação",
+        "descricao": "Cada aluno ou dupla toca um trecho pronto para os colegas, que dão um comentário positivo e uma sugestão. Trabalha entrada, respiração antes de começar e final.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canções com Si, Lá e Sol", "Duetos simples com o professor ou colega"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["sonoridade", "respiracao", "articulacao", "ritmo", "leitura", "afinacao", "participacao"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Instrumento ideal para iniciação: leve, barato e permite som imediato; usar flautas de dedilhado barroco desde o início.",
+      "Muito jogo corporal e imitação antes da pauta; começar com Si, Lá e Sol de ouvido e sessões curtas (20–30 min).",
+      "Atenção às mãos pequenas: verificar a cobertura dos furos com o polegar direito bem apoiado."
+    ],
+    "9-12": [
+      "Já sustentam a oitava completa, leitura na pauta e primeiras peças com Fá sustenido.",
+      "Trabalho em conjunto (duas vozes) e apresentações motivam a prática regular.",
+      "Introduzir metrônomo, gravação e a segunda oitava com meio-furo."
+    ],
+    "13+": [
+      "Podem avançar para flauta contralto, repertório renascentista e barroco e arranjos a três ou quatro vozes.",
+      "Valorizar a flauta doce como instrumento de conjunto e ponte para outros sopros.",
+      "Autonomia: escolha de repertório, autoavaliação por gravação e liderança de naipe no grupo."
+    ]
+  },
+  "editavel": true
+}

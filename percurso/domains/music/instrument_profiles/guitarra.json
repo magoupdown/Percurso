@@ -1,0 +1,449 @@
+{
+  "id": "guitarra",
+  "nome": "Guitarra",
+  "familia": "cordas_dedilhadas",
+  "tessitura": {
+    "inicial": ["E4", "B3", "G3"],
+    "ampliada": "E2–E5"
+  },
+  "postura": [
+    "Sentado: guitarra na perna direita, corpo do instrumento apoiado e braço levemente inclinado para cima; a alça ajustada para manter a mesma altura em pé.",
+    "Em pé: alça na altura que deixa o braço esquerdo confortável (guitarra na altura da cintura), sem punho quebrado por instrumento baixo demais.",
+    "Antebraço direito apoiado na borda do corpo da guitarra; punho solto para a palhetada vir do pulso, não do cotovelo.",
+    "Palheta segurada entre polegar e lateral do indicador, com pequena ponta para fora, sem apertar demais.",
+    "Polegar esquerdo atrás do braço; nos bends e em acordes abertos pode subir levemente para dar apoio.",
+    "Amplificador ao lado ou atrás, com volume combinado para a sala; em grupo, usar fone ou volume baixo para ouvir os colegas.",
+    "Cabo passando por trás da alça para não puxar o plugue; guitarra apoiada no suporte quando não está em uso."
+  ],
+  "tecnicas_fundamentais": [
+    "Palhetada alternada (para baixo e para cima) em uma corda e cruzando cordas, com movimento pequeno do pulso.",
+    "Power chords (fundamental e quinta, com ou sem oitava) com dedos 1 e 3 (ou 1-3-4), movendo a forma pelo braço.",
+    "Palm mute: base da mão direita apoiada na ponte para abafar, controlando a intensidade do abafamento.",
+    "Acordes abertos (Em, Am, E, A, D, G) e acordes com pestana (F, Bm) como formas móveis.",
+    "Escala pentatônica menor e escala de blues na primeira caixa, com dedilhado fixo.",
+    "Hammer-on, pull-off e slide como articulações de ligado nas escalas e nos riffs.",
+    "Bend de meio tom e de um tom com dedos 3 e 4 juntos, e vibrato controlado.",
+    "Controle de timbre no amplificador (limpo, crunch, distorção) e de volume no instrumento para tocar em banda."
+  ],
+  "pre_requisitos": {
+    "Corda solta abafada: palhetada para baixo no pulso": ["Corpo: pulso com palmas e pé sobre um backing track", "Postura: alça, altura da guitarra e posição da palheta"],
+    "Palhetada alternada em colcheias numa corda": ["Corda solta abafada: palhetada para baixo no pulso", "Palhetada alternada: para baixo e para cima"],
+    "Power chord repetido no pulso com palm mute": ["Power chords com 2 e 3 cordas e palm mute", "Palhetada alternada em colcheias numa corda"],
+    "Canção com power chords e backing track": ["Power chord repetido no pulso com palm mute", "Diagrama de power chord e acorde aberto"],
+    "Hammer-on, pull-off e slide na pentatônica": ["Pentatônica menor na 1ª caixa e escala de blues", "Tablatura com símbolos: h, p, b, PM e x"],
+    "Bend de meio tom e um tom com vibrato": ["Hammer-on, pull-off e slide na pentatônica", "Afinação: corda por corda com afinador e de ouvido"],
+    "Blues de 12 compassos com improviso pentatônico": ["Pentatônica menor na 1ª caixa e escala de blues", "Perceber a progressão I, IV e V do blues de 12 compassos"],
+    "Acordes com pestana: F, Bm e formas móveis": ["Acordes abertos: Em, Am, E, A, D e G", "Power chords com 2 e 3 cordas e palm mute"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Corpo: pulso com palmas e pé sobre um backing track",
+      "Corda solta abafada: palhetada para baixo no pulso",
+      "Palhetada alternada em colcheias numa corda",
+      "Power chord repetido no pulso com palm mute",
+      "Riff de 2 compassos repetido sem parar",
+      "Riff de 4 compassos com backing track",
+      "Manter o pulso da banda em andamentos variados"
+    ],
+    "leitura": [
+      "Tablatura: cordas, casas e ritmo aproximado",
+      "Diagrama de power chord e acorde aberto",
+      "Cifra: letras, maior, menor e sufixo 5",
+      "Tablatura com símbolos: h, p, b, PM e x",
+      "Figuras rítmicas no riff: semínima, colcheia e pausa",
+      "Grade de acordes e forma da música (intro, verso, refrão)",
+      "Pauta: notas da 1ª posição e caixa da pentatônica"
+    ],
+    "tecnica": [
+      "Postura: alça, altura da guitarra e posição da palheta",
+      "Palhetada alternada: para baixo e para cima",
+      "Power chords com 2 e 3 cordas e palm mute",
+      "Acordes abertos: Em, Am, E, A, D e G",
+      "Pentatônica menor na 1ª caixa e escala de blues",
+      "Hammer-on, pull-off e slide na pentatônica",
+      "Bend de meio tom e um tom com vibrato",
+      "Acordes com pestana: F, Bm e formas móveis"
+    ],
+    "percepcao": [
+      "Timbre: limpo e distorcido no amplificador",
+      "Afinação: corda por corda com afinador e de ouvido",
+      "Reconhecer power chord, maior e menor",
+      "Ouvir e imitar riffs curtos de rock",
+      "Reconhecer a nota blue e a pentatônica de ouvido",
+      "Ouvir a forma da música: intro, verso e refrão",
+      "Perceber a progressão I, IV e V do blues de 12 compassos"
+    ],
+    "repertorio": [
+      "Riffs simples em uma corda (tocados por tablatura)",
+      "Canção com power chords e backing track",
+      "Canção com acordes abertos e palhetada rítmica",
+      "Blues de 12 compassos com improviso pentatônico",
+      "Rock brasileiro com acordes e riff de refrão",
+      "Solo curto com bends, hammer-on e pull-off",
+      "Banda de sala: guitarra base e solo com colegas"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Palhetada só para baixo, com movimento do cotovelo inteiro, que trava em andamentos rápidos.",
+    "Palheta segurada com força e muita ponta para fora, prendendo nas cordas e produzindo som áspero.",
+    "Cordas vizinhas soando junto com o power chord por falta de abafamento com as mãos.",
+    "Distorção alta demais mascarando erros e cobrindo o som da banda; dificuldade de tocar limpo.",
+    "Bend que não chega na afinação alvo ou desafina por usar só um dedo sem apoio.",
+    "Guitarra baixa demais no corpo (por estética), forçando o punho esquerdo em acordes abertos e pestana.",
+    "Tocar o riff certo mas fora do tempo do backing track, sem ouvir a bateria.",
+    "Depender só da tablatura e não saber onde está o pulso dentro do riff."
+  ],
+  "vocabulario_pt": [
+    "palheta",
+    "palhetada alternada",
+    "power chord",
+    "palm mute",
+    "riff",
+    "escala pentatônica",
+    "escala de blues",
+    "bend",
+    "hammer-on",
+    "pull-off",
+    "slide",
+    "vibrato",
+    "pestana",
+    "acorde aberto",
+    "tablatura",
+    "amplificador",
+    "distorção",
+    "timbre limpo",
+    "backing track",
+    "blues de 12 compassos",
+    "guitarra base",
+    "guitarra solo",
+    "banda em sala de aula"
+  ],
+  "vocabulario_en": [
+    "pick",
+    "alternate picking",
+    "power chord",
+    "palm muting",
+    "riff",
+    "pentatonic scale",
+    "blues scale",
+    "string bending",
+    "hammer-on",
+    "pull-off",
+    "slide",
+    "vibrato",
+    "barre chord",
+    "open chord",
+    "tablature",
+    "guitar amplifier",
+    "distortion",
+    "clean tone",
+    "backing track",
+    "12-bar blues",
+    "rhythm guitar",
+    "lead guitar",
+    "electric guitar pedagogy"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Pé na bateria",
+        "descricao": "Com um backing track de rock em andamento moderado, a turma marca o pulso com palmas e depois com o pé (como o bumbo), sem a guitarra. Trocar de música e observar quem segue a bateria.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Corpo: pulso com palmas e pé sobre um backing track"]
+      },
+      {
+        "titulo": "Corda abafada no pulso",
+        "descricao": "Com a mão esquerda abafando as cordas, palhetar a 6ª corda para baixo em cada pulso do backing track ('chk-chk'); depois palhetar alternado em colcheias (baixo-cima) na mesma corda, sem soltar o abafamento.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Corda solta abafada: palhetada para baixo no pulso", "Palhetada alternada em colcheias numa corda"]
+      },
+      {
+        "titulo": "Power chord no pulso",
+        "descricao": "Tocar E5 em colcheias com palm mute, quatro compassos, junto com o metrônomo; depois abrir o abafamento no último compasso. Trocar para A5 e G5 mantendo a mesma pegada.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Power chord repetido no pulso com palm mute"]
+      },
+      {
+        "titulo": "Riff em loop",
+        "descricao": "Aprender um riff de 2 compassos (uma corda, três notas) e repeti-lo sem parar por 1 minuto sobre o backing track; em seguida estender para um riff de 4 compassos com pergunta e resposta.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Riff de 2 compassos repetido sem parar", "Riff de 4 compassos com backing track"]
+      },
+      {
+        "titulo": "A banda acelera",
+        "descricao": "Tocar o mesmo riff de 4 compassos com backing tracks em 80, 100 e 120 bpm, ouvindo a bateria e não a própria guitarra; o aluno diz em qual andamento ficou mais preciso.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Manter o pulso da banda em andamentos variados"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Ler a tablatura",
+        "descricao": "Ler um riff simples em tablatura dizendo 'corda-casa' e tocando devagar; depois comparar com o diagrama de E5 e A5 e com o diagrama de Em aberto, identificando cordas tocadas e abafadas.",
+        "recursos": ["impressao", "quadro", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Tablatura: cordas, casas e ritmo aproximado", "Diagrama de power chord e acorde aberto"]
+      },
+      {
+        "titulo": "E5, Em ou E?",
+        "descricao": "O professor escreve cifras no quadro (E, Em, E5, A, Am, A5) e a turma monta cada uma, explicando a diferença entre maior, menor e o sufixo 5 do power chord.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Cifra: letras, maior, menor e sufixo 5"]
+      },
+      {
+        "titulo": "Símbolos da tablatura",
+        "descricao": "Ler uma tablatura com h, p, b, PM e x, executando cada símbolo isoladamente e depois no contexto do riff; escrever acima o ritmo com semínimas, colcheias e pausas e tocar com metrônomo.",
+        "recursos": ["impressao", "instrumentos", "celulares"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Tablatura com símbolos: h, p, b, PM e x", "Figuras rítmicas no riff: semínima, colcheia e pausa"]
+      },
+      {
+        "titulo": "Mapa da música",
+        "descricao": "A partir de uma grade de acordes projetada, a turma identifica intro, verso e refrão, conta os compassos de cada parte e toca a canção seguindo o professor como 'maestro'.",
+        "recursos": ["projetor", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Grade de acordes e forma da música (intro, verso, refrão)"]
+      },
+      {
+        "titulo": "Pauta e caixa",
+        "descricao": "Ler na pauta as notas das cordas agudas em primeira posição e localizar as mesmas notas na caixa da pentatônica de mi menor; tocar uma melodia curta lendo a pauta e conferindo na tablatura.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Pauta: notas da 1ª posição e caixa da pentatônica"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Alça e palheta",
+        "descricao": "Ajustar a alça para a mesma altura sentado e em pé; conferir a pegada da palheta (pouca ponta, pouca força) e fazer palhetadas alternadas em cordas soltas com movimento só do pulso.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Postura: alça, altura da guitarra e posição da palheta", "Palhetada alternada: para baixo e para cima"]
+      },
+      {
+        "titulo": "Power chords pelo braço",
+        "descricao": "Montar E5, G5 e A5 na 6ª corda com dedos 1 e 3, depois acrescentar a oitava com o dedo 4; deslocar a forma casa por casa com palm mute em colcheias, abafando as cordas agudas com o dedo 1.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Power chords com 2 e 3 cordas e palm mute"]
+      },
+      {
+        "titulo": "Acordes abertos limpos",
+        "descricao": "Montar Em, Am, E, A, D e G com timbre limpo, tocando corda por corda para conferir se todas soam; trocar entre pares (Em–Am, D–G) contando quatro tempos por acorde.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Acordes abertos: Em, Am, E, A, D e G"]
+      },
+      {
+        "titulo": "Caixa 1 com ligados",
+        "descricao": "Pentatônica menor de lá na 1ª caixa (casa 5) com palhetada alternada, subindo e descendo; depois acrescentar a nota blue (casa 6 na 5ª corda) e tocar a mesma caixa com hammer-on na subida, pull-off na descida e slide entre casas.",
+        "recursos": ["instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Pentatônica menor na 1ª caixa e escala de blues", "Hammer-on, pull-off e slide na pentatônica"]
+      },
+      {
+        "titulo": "Bend na nota certa",
+        "descricao": "Na 3ª corda, casa 7, tocar a nota alvo (casa 8, depois casa 9) e então fazer o bend com dedos 3 e 4 até igualar; conferir com o afinador. Acrescentar vibrato lento no final do bend.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 11,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Bend de meio tom e um tom com vibrato"]
+      },
+      {
+        "titulo": "Pestana móvel",
+        "descricao": "Montar F na casa 1 a partir da forma de E, e Bm na casa 2 a partir da forma de Am; deslocar as formas pelo braço dizendo o nome de cada acorde e conferindo se todas as cordas soam.",
+        "recursos": ["instrumentos"],
+        "idade_min": 12,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Acordes com pestana: F, Bm e formas móveis"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Limpo ou distorcido?",
+        "descricao": "O professor toca o mesmo acorde com timbre limpo e com distorção; os alunos identificam de olhos fechados e depois ajustam o amplificador para reproduzir cada timbre, anotando os controles usados.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Timbre: limpo e distorcido no amplificador"]
+      },
+      {
+        "titulo": "Afinar por corda",
+        "descricao": "Afinar corda por corda com o afinador do celular, dizendo antes se a corda está alta ou baixa; depois conferir de ouvido pela casa 5 (e 4 na 3ª corda) comparando com a corda vizinha.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Afinação: corda por corda com afinador e de ouvido"]
+      },
+      {
+        "titulo": "Cinco, maior ou menor",
+        "descricao": "O professor toca E5, E e Em em ordem aleatória e a turma classifica; depois toca riffs curtos de rock e cada aluno imita de ouvido, começando pela corda indicada.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Reconhecer power chord, maior e menor", "Ouvir e imitar riffs curtos de rock"]
+      },
+      {
+        "titulo": "Caçar a nota blue",
+        "descricao": "Sobre um backing track de blues, o professor toca frases na pentatônica com e sem a nota blue; a turma levanta a mão quando a ouve e depois canta a frase antes de tocá-la.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Reconhecer a nota blue e a pentatônica de ouvido"]
+      },
+      {
+        "titulo": "Contar a forma",
+        "descricao": "Ouvir uma canção de rock e marcar no quadro intro, verso e refrão com o número de compassos; depois ouvir um blues de 12 compassos e apontar as mudanças para IV e V com os dedos.",
+        "recursos": ["caixa_de_som", "quadro"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Ouvir a forma da música: intro, verso e refrão", "Perceber a progressão I, IV e V do blues de 12 compassos"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Riff de uma corda",
+        "descricao": "Aprender por tablatura um riff clássico de rock tocado em uma corda só (por exemplo, riffs com três ou quatro notas na 6ª corda), com palhetada alternada e backing track lento.",
+        "recursos": ["instrumentos", "impressao", "caixa_de_som"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Riffs simples em uma corda (tocados por tablatura)"]
+      },
+      {
+        "titulo": "Canção em power chords",
+        "descricao": "Tocar uma canção de rock ou punk com três power chords e palm mute nos versos, abrindo no refrão, junto com backing track; depois a mesma canção ou outra com acordes abertos e palhetada rítmica.",
+        "recursos": ["instrumentos", "impressao", "caixa_de_som"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canção com power chords e backing track", "Canção com acordes abertos e palhetada rítmica"]
+      },
+      {
+        "titulo": "Blues de 12 em lá",
+        "descricao": "Tocar a base do blues de 12 compassos em lá (A5, D5, E5 com shuffle) e revezar com colegas: enquanto um faz a base, outro improvisa na pentatônica de lá menor com poucas notas.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 11,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Blues de 12 compassos com improviso pentatônico"]
+      },
+      {
+        "titulo": "Rock nacional",
+        "descricao": "Escolher com a turma uma canção de rock brasileiro (anos 80 ou atual) com acordes abertos ou power chords e um riff de refrão; montar base e riff, e distribuir as partes entre os alunos.",
+        "recursos": ["instrumentos", "impressao", "caixa_de_som"],
+        "idade_min": 11,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Rock brasileiro com acordes e riff de refrão"]
+      },
+      {
+        "titulo": "Solo curto e banda",
+        "descricao": "Aprender um solo de 4 a 8 compassos com bends, hammer-on e pull-off na pentatônica; depois montar a banda de sala com guitarra base, solo, baixo (ou teclado) e bateria, cuidando das entradas e do final.",
+        "recursos": ["instrumentos", "impressao", "caixa_de_som"],
+        "idade_min": 12,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Solo curto com bends, hammer-on e pull-off", "Banda de sala: guitarra base e solo com colegas"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Plugar, afinar e aquecer",
+        "descricao": "Rotina de início: ligar o amplificador com volume baixo, afinar, ajustar a alça e fazer palhetada alternada em cordas soltas com o metrônomo.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Postura: alça, altura da guitarra e posição da palheta", "Afinação: corda por corda com afinador e de ouvido"]
+      },
+      {
+        "titulo": "Criar um riff",
+        "descricao": "Com três notas da pentatônica de mi menor nas cordas graves, cada aluno cria um riff de 2 compassos, toca em loop sobre backing track e ensina para um colega por tablatura.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Riff de 2 compassos repetido sem parar", "Tablatura: cordas, casas e ritmo aproximado"]
+      },
+      {
+        "titulo": "Gravar com o backing track",
+        "descricao": "Gravar no celular a canção da semana tocada sobre o backing track e ouvir com o professor, avaliando se a guitarra está no tempo da bateria e se o timbre está adequado.",
+        "recursos": ["celulares", "instrumentos", "caixa_de_som"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Manter o pulso da banda em andamentos variados", "Canção com power chords e backing track"]
+      },
+      {
+        "titulo": "Jam de sala",
+        "descricao": "Roda em que todos tocam a base do blues de 12 compassos com volume equilibrado e cada aluno improvisa 4 compassos por vez; a turma comenta um acerto e uma sugestão para cada solo.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 11,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Blues de 12 compassos com improviso pentatônico", "Banda de sala: guitarra base e solo com colegas"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["ritmo", "leitura", "tecnica", "afinacao", "sonoridade", "percepcao", "autonomia"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Guitarra de escala curta (3/4) e amplificador pequeno com volume travado; preferir começar com riffs em uma corda e cordas abafadas.",
+      "Power chords de duas cordas e palhetada só para baixo são suficientes; evitar pestana e bends pela força exigida.",
+      "Sessões curtas com backing tracks conhecidos para manter o interesse."
+    ],
+    "9-12": [
+      "Já sustentam palhetada alternada, power chords com palm mute e acordes abertos; introduzir tablatura com símbolos e a pentatônica.",
+      "Repertório escolhido com a turma (rock, pop, games) e trabalho em banda de sala com regras de volume.",
+      "Introduzir metrônomo, afinador e gravação sobre backing track."
+    ],
+    "13+": [
+      "Forte motivação por solos e distorção; equilibrar com base rítmica limpa e leitura de forma musical.",
+      "Pestana, bends e vibrato entram com atenção à tensão no punho e no ombro; alongamentos e pausas.",
+      "Valorizar autonomia: tirar riffs de ouvido, montar timbres no amplificador e organizar a banda com os colegas."
+    ]
+  },
+  "editavel": true
+}

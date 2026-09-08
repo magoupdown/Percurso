@@ -1,0 +1,465 @@
+{
+  "id": "clarinete",
+  "nome": "Clarinete",
+  "familia": "sopro_madeira",
+  "tessitura": {
+    "inicial": ["E4", "D4", "C4", "G4"],
+    "ampliada": "E3–C6"
+  },
+  "postura": [
+    "Sentado na borda da cadeira ou em pé, coluna alongada, ombros soltos e pés apoiados no chão.",
+    "Clarinete em ângulo de cerca de 30° a 40° em relação ao corpo (nem colado ao peito, nem horizontal), com a cabeça erguida.",
+    "Mão esquerda em cima, com o polegar cobrindo o furo de trás e pronto para acionar a chave de registro (12ª).",
+    "Mão direita embaixo, com o polegar direito sob o apoio de polegar sustentando o peso do instrumento; cordão ou apoio para crianças e sessões longas.",
+    "Dedos curvados, cobrindo os furos com a polpa; os que não tocam ficam perto dos furos.",
+    "Boquilha entrando pouco na boca (cerca de 1 cm), dentes superiores apoiados na boquilha e lábio inferior sobre os dentes inferiores."
+  ],
+  "tecnicas_fundamentais": [
+    "Montagem e cuidado: umedecer a palheta na boca, alinhá-la com a ponta da boquilha e prender com a abraçadeira; usar palhetas de dureza 1,5 a 2 no início.",
+    "Embocadura: lábio inferior dobrado levemente sobre os dentes, queixo plano e esticado para baixo, cantos da boca firmes fechando o ar.",
+    "Respiração diafragmática e apoio contínuo do ar, com pressão suficiente para o som cheio sem apertar a palheta.",
+    "Registro chalumeau primeiro: Mi, Ré e Dó com a mão esquerda, Sol aberto e Fá com o polegar, depois as notas graves com a mão direita.",
+    "Articulação: ponta da língua tocando a ponta da palheta ('tu'), com o ar já em movimento.",
+    "Passagem para o registro clarion com a chave de 12ª, atravessando a 'quebra' (Lá–Si) com dedos preparados e ar constante.",
+    "Afinação: ajuste do barrilete (puxar para baixar) e controle da embocadura.",
+    "Higiene: secar o corpo com o pano, retirar e guardar a palheta no porta-palhetas após tocar."
+  ],
+  "pre_requisitos": {
+    "Sons na boquilha com barrilete no pulso": ["Respiração no pulso: inspirar em 1 e soprar em 3", "Embocadura: lábio sobre os dentes, queixo plano"],
+    "Mi repetido no pulso com o clarinete montado": ["Sons na boquilha com barrilete no pulso", "Mão esquerda: Mi, Ré e Dó com o polegar no furo"],
+    "Mi, Ré e Dó no pulso em semínimas": ["Mi repetido no pulso com o clarinete montado"],
+    "Canções com Mi, Ré e Dó": ["Mi, Ré e Dó no pulso em semínimas", "Mi, Ré e Dó na clave de sol (mão esquerda)"],
+    "Chave de 12ª: passagem para o registro clarion": ["Respiração diafragmática e apoio do ar em sons longos", "Mão esquerda: Mi, Ré e Dó com o polegar no furo"],
+    "Melodias que cruzam a quebra (chalumeau/clarion)": ["Chave de 12ª: passagem para o registro clarion", "Notas do registro clarion na pauta (Si a Dó agudo)"],
+    "Afinação: ajuste do barrilete e da embocadura": ["Perceber alto e baixo na afinação com um bordão"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Corpo: pulso com passos e palmas em gravação",
+      "Respiração no pulso: inspirar em 1 e soprar em 3",
+      "Sons na boquilha com barrilete no pulso",
+      "Ataques de língua (tu) no pulso na boquilha",
+      "Mi repetido no pulso com o clarinete montado",
+      "Mi, Ré e Dó no pulso em semínimas",
+      "Frase de 4 compassos no pulso com playback",
+      "Colcheias articuladas com metrônomo"
+    ],
+    "leitura": [
+      "Figuras rítmicas: semínima, mínima e pausa",
+      "Mi, Ré e Dó na clave de sol (mão esquerda)",
+      "Sol e Fá: notas abertas na pauta",
+      "Colcheias, ponto de aumento e ligadura",
+      "Notas graves abaixo da pauta (Fá a Mi grave)",
+      "Notas do registro clarion na pauta (Si a Dó agudo)",
+      "Armaduras de uma alteração e sinais de dinâmica",
+      "Leitura à primeira vista com respirações marcadas"
+    ],
+    "tecnica": [
+      "Montagem: palheta umedecida e alinhada na boquilha",
+      "Embocadura: lábio sobre os dentes, queixo plano",
+      "Respiração diafragmática e apoio do ar em sons longos",
+      "Mão esquerda: Mi, Ré e Dó com o polegar no furo",
+      "Sol aberto e Fá só com o polegar",
+      "Articulação: língua na ponta da palheta (tu)",
+      "Chave de 12ª: passagem para o registro clarion",
+      "Afinação: ajuste do barrilete e da embocadura"
+    ],
+    "percepcao": [
+      "Som cheio e guincho: ouvir a embocadura",
+      "Grave e agudo: chalumeau e clarion",
+      "Pulso forte e fraco: binário e ternário",
+      "Ouvir e repetir motivos com Mi, Ré e Dó",
+      "Perceber alto e baixo na afinação com um bordão",
+      "Reconhecer modo maior e menor",
+      "Timbre do clarinete em gravações de choro e jazz"
+    ],
+    "repertorio": [
+      "Canções com Mi, Ré e Dó",
+      "Cantigas em cinco notas no chalumeau (Dó a Sol)",
+      "Canções brasileiras em Fá maior (chalumeau)",
+      "Duetos com o professor no chalumeau",
+      "Melodias que cruzam a quebra (chalumeau/clarion)",
+      "Peças de nível iniciante do repertório clássico",
+      "Choro e música de banda com acompanhamento"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Guinchos por embocadura frouxa, palheta seca ou pouca pressão do lábio inferior.",
+    "Bochechas infladas e queixo enrugado, deixando o som abafado e a afinação instável.",
+    "Morder a boquilha ou colocá-la fundo demais na boca, produzindo som fino e apertado.",
+    "Furos mal cobertos pela polpa dos dedos (especialmente o polegar esquerdo), fazendo a nota falhar ou saltar.",
+    "Dificuldade na 'quebra' entre Lá e Si: dedos que chegam atrasados e ar que enfraquece na passagem.",
+    "Iniciar o som com o sopro ('hu') em vez da língua, ou parar o ar a cada nota.",
+    "Peso do instrumento no polegar direito causando dor e postura curvada; falta de cordão em crianças.",
+    "Palheta lascada ou mal alinhada, e clarinete guardado molhado, afetando o som na aula seguinte."
+  ],
+  "vocabulario_pt": [
+    "clarinete em si bemol",
+    "palheta",
+    "boquilha",
+    "abraçadeira",
+    "barrilete",
+    "embocadura",
+    "queixo plano",
+    "chave de registro",
+    "chave de 12ª",
+    "registro chalumeau",
+    "registro clarion",
+    "quebra",
+    "guincho",
+    "apoio",
+    "respiração diafragmática",
+    "articulação",
+    "golpe de língua",
+    "afinação",
+    "cordão",
+    "iniciação ao clarinete",
+    "método de clarinete",
+    "clarinete na banda"
+  ],
+  "vocabulario_en": [
+    "Bb clarinet",
+    "reed",
+    "mouthpiece",
+    "ligature",
+    "barrel",
+    "embouchure",
+    "flat chin",
+    "register key",
+    "twelfth key",
+    "chalumeau register",
+    "clarion register",
+    "the break",
+    "squeak",
+    "breath support",
+    "diaphragmatic breathing",
+    "articulation",
+    "tonguing",
+    "intonation",
+    "neck strap",
+    "beginner clarinet",
+    "clarinet method",
+    "band clarinet"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Pulso no corpo com música",
+        "descricao": "Com uma gravação em andamento moderado, os alunos caminham no pulso e depois marcam com palmas, sentados. O professor troca a música e observa quem mantém a regularidade.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Corpo: pulso com passos e palmas em gravação"]
+      },
+      {
+        "titulo": "Inspira em um, sopra em três",
+        "descricao": "Sobre uma gravação lenta, inspirar em um pulso pela boca e soprar um fio de ar constante pelos três pulsos seguintes, com a mão no abdome. Depois estender para sete pulsos de sopro.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Respiração no pulso: inspirar em 1 e soprar em 3"]
+      },
+      {
+        "titulo": "Boquilha no tempo",
+        "descricao": "Só com boquilha e barrilete, produzir um som de quatro pulsos do metrônomo (buscar um Fá sustenido concert estável); depois articular 'tu' em cada pulso, quatro ataques por compasso, mantendo o ar entre eles.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Sons na boquilha com barrilete no pulso", "Ataques de língua (tu) no pulso na boquilha"]
+      },
+      {
+        "titulo": "Mi, depois três notas",
+        "descricao": "Com o clarinete montado, tocar Mi em semínimas por 4 compassos sobre acompanhamento do professor; depois alternar Mi, Ré e Dó, uma nota por compasso, sem interromper o pulso ao acrescentar dedos.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Mi repetido no pulso com o clarinete montado", "Mi, Ré e Dó no pulso em semínimas"]
+      },
+      {
+        "titulo": "Frase com playback",
+        "descricao": "Montar uma frase de 4 compassos com Mi, Ré e Dó e tocá-la sobre playback em dois andamentos; em seguida repetir a frase em colcheias articuladas ('tu-tu' por clique) com metrônomo lento.",
+        "recursos": ["instrumentos", "caixa_de_som", "celulares"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Frase de 4 compassos no pulso com playback", "Colcheias articuladas com metrônomo"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Cartões de ritmo na boquilha",
+        "descricao": "Cartões com semínimas, mínimas e pausas organizados em compassos de 4 tempos; a turma lê com sílabas rítmicas e depois toca o ritmo só com boquilha e barrilete.",
+        "recursos": ["impressao", "quadro", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Figuras rítmicas: semínima, mínima e pausa"]
+      },
+      {
+        "titulo": "Mi, Ré e Dó na pauta",
+        "descricao": "O professor escreve Mi (primeira linha), Ré (abaixo da pauta) e Dó (linha suplementar) no quadro em ordem variada; os alunos dedilham no ar dizendo o nome e depois tocam a sequência em notas longas.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Mi, Ré e Dó na clave de sol (mão esquerda)"]
+      },
+      {
+        "titulo": "Notas abertas e notas graves",
+        "descricao": "Acrescentar Sol (aberto) e Fá (polegar) à leitura em melodias de 2 compassos; depois descer pelas notas da mão direita até o Mi grave, lendo as linhas suplementares abaixo da pauta.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Sol e Fá: notas abertas na pauta", "Notas graves abaixo da pauta (Fá a Mi grave)"]
+      },
+      {
+        "titulo": "Colcheias e ligaduras",
+        "descricao": "Leitura rítmica de padrões com colcheias, semínima pontuada e ligaduras em sílabas rítmicas; depois tocar o mesmo padrão em uma melodia de Dó a Sol no chalumeau, articulando só a primeira nota de cada ligadura.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Colcheias, ponto de aumento e ligadura"]
+      },
+      {
+        "titulo": "Lendo o clarion",
+        "descricao": "Ler as notas do registro clarion (Si a Dó agudo) comparando cada uma com a nota do chalumeau que tem o mesmo dedilhado, uma 12ª abaixo; tocar escalas lentas lendo a armadura de uma alteração e os sinais de dinâmica.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Notas do registro clarion na pauta (Si a Dó agudo)", "Armaduras de uma alteração e sinais de dinâmica"]
+      },
+      {
+        "titulo": "Leitura relâmpago com respiração",
+        "descricao": "Melodia de 8 compassos nunca vista; o aluno tem 30 segundos para marcar as respirações e a armadura e depois toca uma única vez sem parar.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 11,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Leitura à primeira vista com respirações marcadas"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Montar o clarinete",
+        "descricao": "Umedecer a palheta na boca enquanto se encaixam as partes; alinhar a ponta da palheta com a ponta da boquilha (uma linha fina da boquilha aparecendo) e fechar a abraçadeira sem apertar demais. Ao final da aula, secar e guardar a palheta.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Montagem: palheta umedecida e alinhada na boquilha"]
+      },
+      {
+        "titulo": "Queixo plano no espelho",
+        "descricao": "Diante do espelho, dobrar o lábio inferior sobre os dentes, apoiar os dentes superiores na boquilha e esticar o queixo para baixo, sem inflar as bochechas. Tocar sons na boquilha com barrilete e corrigir sempre que aparecer guincho.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Embocadura: lábio sobre os dentes, queixo plano"]
+      },
+      {
+        "titulo": "Sons longos apoiados",
+        "descricao": "Inspirar expandindo o abdome e sustentar Sol aberto por 8 tempos com som cheio e estável, depois Fá com o polegar. Marcar no quadro quantos tempos cada aluno sustentou sem o som cair.",
+        "recursos": ["instrumentos", "quadro"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Respiração diafragmática e apoio do ar em sons longos", "Sol aberto e Fá só com o polegar"]
+      },
+      {
+        "titulo": "Mão esquerda que desce",
+        "descricao": "Com o polegar bem selado no furo de trás, tocar Mi (indicador), Ré (mais o dedo médio) e Dó (mais o anular) em notas longas, conferindo a marca redonda na polpa dos dedos. Se a nota falhar, reposicionar e repetir.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Mão esquerda: Mi, Ré e Dó com o polegar no furo"]
+      },
+      {
+        "titulo": "Tu na palheta e chave de 12ª",
+        "descricao": "Tocar Mi em quatro semínimas articuladas com a ponta da língua na ponta da palheta e uma nota longa; depois, mantendo o ar, pressionar a chave de registro com o polegar e ouvir o Si do clarion, alternando grave e agudo lentamente.",
+        "recursos": ["instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Articulação: língua na ponta da palheta (tu)", "Chave de 12ª: passagem para o registro clarion"]
+      },
+      {
+        "titulo": "Barrilete e afinação",
+        "descricao": "Tocar um Dó longo (clarion) junto com o afinador ou o professor; se estiver alto, puxar um pouco o barrilete, se estiver baixo, encaixá-lo e firmar a embocadura. Anotar a posição que funcionou.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Afinação: ajuste do barrilete e da embocadura"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Cheio ou guincho?",
+        "descricao": "O professor toca a mesma nota com embocadura firme e frouxa; a turma identifica o som cheio e o guincho. Depois cada aluno grava um Mi longo e ouve se o som ficou estável.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Som cheio e guincho: ouvir a embocadura"]
+      },
+      {
+        "titulo": "Chalumeau ou clarion?",
+        "descricao": "O professor toca notas dos dois registros em ordem variada; os alunos abaixam a mão para o chalumeau (som escuro) e levantam para o clarion (som claro), e depois cantam a diferença de altura.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Grave e agudo: chalumeau e clarion"]
+      },
+      {
+        "titulo": "Marcha ou valsa?",
+        "descricao": "Ouvir trechos gravados de banda e marcar o tempo forte com palma e os fracos na perna; decidir se é binário ou ternário e depois tocar o Sol só nos tempos fortes.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Pulso forte e fraco: binário e ternário"]
+      },
+      {
+        "titulo": "Eco em três notas",
+        "descricao": "O professor toca um motivo de 2 a 4 notas com Mi, Ré e Dó; o aluno canta o motivo e depois o reproduz no clarinete. Em seguida ouvir a mesma cantiga em maior e em menor e identificar o modo.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Ouvir e repetir motivos com Mi, Ré e Dó", "Reconhecer modo maior e menor"]
+      },
+      {
+        "titulo": "Alto ou baixo?",
+        "descricao": "Sobre um bordão tocado pela caixa de som, o aluno sustenta a mesma nota e ouve os batimentos; o professor pede para firmar ou soltar a embocadura até os batimentos sumirem.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Perceber alto e baixo na afinação com um bordão"]
+      },
+      {
+        "titulo": "Clarinete no choro e no jazz",
+        "descricao": "Ouvir gravações de clarinetistas de choro e de jazz e descrever o timbre, o registro usado e a articulação; identificar em qual trecho o instrumento toca no chalumeau e em qual no clarion.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 11,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Timbre do clarinete em gravações de choro e jazz"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Primeira canção em três notas",
+        "descricao": "Aprender de ouvido uma canção com Mi, Ré e Dó, cantando o nome das notas antes de tocar; depois conferir na partitura e marcar as respirações.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Canções com Mi, Ré e Dó"]
+      },
+      {
+        "titulo": "Cantigas no chalumeau",
+        "descricao": "Montar uma cantiga entre Dó e Sol no chalumeau e, quando estiver segura, avançar para uma canção brasileira em Fá maior que use as notas graves da mão direita, cuidando do Si bemol.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Cantigas em cinco notas no chalumeau (Dó a Sol)", "Canções brasileiras em Fá maior (chalumeau)"]
+      },
+      {
+        "titulo": "Dueto no chalumeau",
+        "descricao": "O aluno toca a melodia enquanto o professor toca uma segunda voz no mesmo registro; antes, marcar juntos as respirações. Depois trocar as vozes e cuidar do final em conjunto.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Duetos com o professor no chalumeau"]
+      },
+      {
+        "titulo": "Atravessando a quebra",
+        "descricao": "Estudar uma melodia que passa de Lá para Si (chalumeau para clarion), isolando a passagem em notas longas com os dedos da mão direita já posicionados; depois montar uma peça de nível iniciante do repertório clássico.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 11,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Melodias que cruzam a quebra (chalumeau/clarion)", "Peças de nível iniciante do repertório clássico"]
+      },
+      {
+        "titulo": "Choro e banda",
+        "descricao": "Tocar um choro simplificado ou uma marcha de banda sobre playback ou com o professor ao violão, cuidando das respirações nas frases longas e da entrada conjunta.",
+        "recursos": ["instrumentos", "impressao", "caixa_de_som"],
+        "idade_min": 12,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Choro e música de banda com acompanhamento"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Aquecimento de respiração e mãos",
+        "descricao": "Girar os ombros, sacudir as mãos, abrir e fechar os dedos e fazer três respirações profundas com sopro longo em 'fff' enquanto a palheta umedece na boca.",
+        "recursos": ["nenhum"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Respiração diafragmática e apoio do ar em sons longos", "Montagem: palheta umedecida e alinhada na boquilha"]
+      },
+      {
+        "titulo": "Improvisação em três notas",
+        "descricao": "Sobre um acompanhamento do professor, cada aluno improvisa uma frase de 4 compassos com Mi, Ré e Dó, mantendo o pulso e terminando no Dó.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Mi, Ré e Dó no pulso em semínimas", "Ouvir e repetir motivos com Mi, Ré e Dó"]
+      },
+      {
+        "titulo": "Gravar e ouvir",
+        "descricao": "Gravar a canção da semana no celular e ouvir com o professor, apontando um acerto e um ponto para melhorar (guincho, apoio do ar ou pulso).",
+        "recursos": ["celulares", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Som cheio e guincho: ouvir a embocadura", "Canções brasileiras em Fá maior (chalumeau)"]
+      },
+      {
+        "titulo": "Roda de apresentação",
+        "descricao": "Cada aluno toca um trecho pronto para os colegas, que dão um comentário positivo e uma sugestão. Trabalha entrada, respiração antes de começar e final.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canções com Mi, Ré e Dó", "Duetos com o professor no chalumeau"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["sonoridade", "respiracao", "articulacao", "afinacao", "ritmo", "leitura", "tecnica"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Em geral é cedo para o clarinete: dentes de leite trocando, mãos pequenas para os furos e peso do instrumento; preferir flauta doce ou musicalização como pré-instrumento.",
+      "Quando houver interesse, usar só boquilha e barrilete em sessões de 10–15 minutos, ou clarinetes menores (em Dó ou Mi bemol) e cordão.",
+      "Muito jogo de respiração e pulso corporal antes de qualquer leitura."
+    ],
+    "9-12": [
+      "Idade comum de início; verificar se a mão esquerda cobre os furos e se os dentes permanentes já estão presentes.",
+      "Usar cordão ou apoio para o polegar direito; palhetas macias (1,5 a 2) e sessões curtas de sons longos.",
+      "Consolidar o chalumeau antes da chave de 12ª; a quebra costuma ser vencida ao final da faixa."
+    ],
+    "13+": [
+      "Avançam rápido em extensão e leitura; explorar choro, música de banda e repertório clássico de iniciante.",
+      "Passar para palhetas 2,5 conforme a embocadura firma; atenção a dor no polegar direito em sessões longas.",
+      "Valorizar autonomia: cuidado com palhetas, escolha de repertório e prática em grupo (banda ou coro de clarinetes)."
+    ]
+  },
+  "editavel": true
+}

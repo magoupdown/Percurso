@@ -1,0 +1,71 @@
+{
+  "app": {
+    "nome": "Percurso",
+    "subtitulo": "Plataforma de inteligência pedagógica",
+    "frase": "Cada aula começa de onde a anterior terminou.",
+    "repositorio_github": "https://github.com/________/Percurso",
+    "contato": ""
+  },
+  "apoio": {
+    "link_mercado_pago": "https://link.mercadopago.com.br/________"
+  },
+  "pesquisa": {
+    "openalex_mailto": "",
+    "timeout_s": 15,
+    "max_tentativas": 3,
+    "validade_cache_dias": 90
+  },
+  "fuso_horario": "America/Sao_Paulo",
+  "duracao_padrao_min": 50,
+  "escala_rubrica": 5,
+  "templates_cronograma": {
+    "individual": [
+      {"etapa": "acolhimento", "titulo": "Acolhimento e aquecimento", "minutos": 5},
+      {"etapa": "introducao", "titulo": "Retomada da aula anterior", "minutos": 7},
+      {"etapa": "exploracao", "titulo": "Exploração do conteúdo novo", "minutos": 10},
+      {"etapa": "pratica", "titulo": "Prática guiada", "minutos": 15},
+      {"etapa": "aplicacao", "titulo": "Aplicação em repertório", "minutos": 8},
+      {"etapa": "avaliacao", "titulo": "Observação e registro", "minutos": 2},
+      {"etapa": "fechamento", "titulo": "Fechamento e tarefa", "minutos": 3}
+    ],
+    "dupla": [
+      {"etapa": "acolhimento", "titulo": "Acolhimento e aquecimento", "minutos": 5},
+      {"etapa": "introducao", "titulo": "Retomada da aula anterior", "minutos": 6},
+      {"etapa": "exploracao", "titulo": "Exploração em dupla", "minutos": 10},
+      {"etapa": "pratica", "titulo": "Prática alternada e conjunta", "minutos": 16},
+      {"etapa": "aplicacao", "titulo": "Aplicação em repertório", "minutos": 8},
+      {"etapa": "avaliacao", "titulo": "Observação e registro", "minutos": 2},
+      {"etapa": "fechamento", "titulo": "Fechamento e tarefa", "minutos": 3}
+    ],
+    "turma": [
+      {"etapa": "acolhimento", "titulo": "Acolhimento e atividade corporal", "minutos": 6},
+      {"etapa": "introducao", "titulo": "Retomada coletiva", "minutos": 6},
+      {"etapa": "exploracao", "titulo": "Exploração em grupo", "minutos": 10},
+      {"etapa": "pratica", "titulo": "Prática em grupos", "minutos": 14},
+      {"etapa": "aplicacao", "titulo": "Aplicação coletiva", "minutos": 8},
+      {"etapa": "avaliacao", "titulo": "Roda de escuta e observação", "minutos": 3},
+      {"etapa": "fechamento", "titulo": "Fechamento", "minutos": 3}
+    ],
+    "revisao": [
+      {"etapa": "acolhimento", "titulo": "Acolhimento e aquecimento", "minutos": 5},
+      {"etapa": "introducao", "titulo": "Diagnóstico: o que ficou instável", "minutos": 8},
+      {"etapa": "pratica", "titulo": "Prática focada nas dificuldades", "minutos": 20},
+      {"etapa": "aplicacao", "titulo": "Reaplicação em contexto musical", "minutos": 10},
+      {"etapa": "avaliacao", "titulo": "Observação e registro", "minutos": 3},
+      {"etapa": "fechamento", "titulo": "Fechamento e tarefa", "minutos": 4}
+    ],
+    "extraordinaria": [
+      {"etapa": "acolhimento", "titulo": "Acolhimento e aquecimento", "minutos": 5},
+      {"etapa": "introducao", "titulo": "Objetivo do encontro especial", "minutos": 5},
+      {"etapa": "pratica", "titulo": "Preparação da peça / atividade", "minutos": 25},
+      {"etapa": "aplicacao", "titulo": "Passagem completa", "minutos": 10},
+      {"etapa": "fechamento", "titulo": "Combinados e próximos passos", "minutos": 5}
+    ]
+  },
+  "recursos_disponiveis": ["quadro", "caixa_de_som", "instrumentos", "projetor", "celulares", "impressao", "nenhum", "outro"],
+  "metodologias": ["dalcroze", "orff", "kodaly", "gordon", "swanwick", "propria", "combinacao", "sem_preferencia"],
+  "categorias_biblioteca": [
+    "pedagogia musical", "teoria", "percepção", "harmonia", "história", "técnica instrumental",
+    "repertório", "educação infantil", "avaliação", "currículo", "inclusão", "metodologia", "outros"
+  ]
+}

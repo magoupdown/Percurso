@@ -1,0 +1,10 @@
+{
+  "modelo": "gemini-2.5-flash",
+  "modelo_embeddings": "gemini-embedding-001",
+  "timeout_s": 60,
+  "max_tentativas_validacao": 3,
+  "max_trechos_biblioteca": 8,
+  "max_caracteres_trecho": 1200,
+  "temperatura": 0.4,
+  "nome_segredo": "GEMINI_API_KEY"
+}

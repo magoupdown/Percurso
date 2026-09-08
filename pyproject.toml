@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "percurso"
+version = "1.0.0"
+description = "Percurso — Plataforma de inteligência pedagógica"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+  "gradio>=4.0",
+  "pydantic>=2",
+  "pandas",
+  "numpy",
+  "PyMuPDF",
+  "pypdf",
+  "python-docx",
+  "rank-bm25",
+  "music21",
+  "matplotlib",
+  "reportlab",
+  "qrcode",
+  "Pillow",
+  "httpx",
+  "tenacity",
+  "google-genai",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+semantica_local = ["sentence-transformers", "faiss-cpu"]
+
+[tool.setuptools.packages.find]
+include = ["percurso*"]
+
+[tool.setuptools.package-data]
+percurso = ["domains/music/instrument_profiles/*.json", "curriculum/data/*.json", "ai/prompts/*.txt", "ui/*.css"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["online: testes que acessam APIs reais (opcionais)"]
+addopts = "-m 'not online'"

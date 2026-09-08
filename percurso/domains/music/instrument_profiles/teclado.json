@@ -1,0 +1,433 @@
+{
+  "id": "teclado",
+  "nome": "Teclado",
+  "familia": "teclado",
+  "tessitura": {
+    "inicial": ["C4", "D4", "E4", "F4", "G4"],
+    "ampliada": "C3–C6 (teclado de 61 teclas: C2–C7)"
+  },
+  "postura": [
+    "Teclado na estante ajustado para que, sentado, o aluno tenha os antebraços na horizontal e os cotovelos junto ao tronco.",
+    "Sentar na borda do banco ou cadeira, pés no chão; em crianças menores, usar caixote ou apoio para os pés.",
+    "Ombros soltos e punho na linha do antebraço; como as teclas são leves, evitar 'bater' ou empurrar as teclas com força.",
+    "Mão em forma de concha, dedos curvos tocando com a ponta; polegar com a lateral, sem esticar os dedos sobre as teclas.",
+    "Centralizar o corpo no dó central; em teclados de 61 teclas, o dó central costuma ficar levemente à esquerda do painel.",
+    "Pedal de sustain externo posicionado sob o pé direito, com o calcanhar no chão; em grupo, fones ajustados em volume baixo.",
+    "Painel de controle (timbres, ritmos, volume) ao alcance da vista, sem que o aluno precise se inclinar para operá-lo."
+  ],
+  "tecnicas_fundamentais": [
+    "Toque leve e regular em teclas não pesadas, controlando o volume pela dinâmica do teclado (velocity) ou pelo botão de volume.",
+    "Tríades maiores e menores na mão esquerda, em posição fundamental e inversões, a partir das cifras.",
+    "Melodia na mão direita com acorde sustentado na esquerda e, depois, com levada (baixo e acorde alternados).",
+    "Troca de acordes com dedos guia (notas comuns), preparando a próxima cifra antes do tempo forte.",
+    "Tocar junto com o acompanhamento automático: iniciar o ritmo, manter o pulso e usar introdução, virada e final.",
+    "Escolha e troca de timbre adequada à música (piano, órgão, cordas, sopros, sintetizador) sem parar de tocar.",
+    "Uso do pedal de sustain externo para ligar acordes e frases da melodia.",
+    "Leitura de cifras e de grade de acordes para acompanhar canções cantadas em grupo."
+  ],
+  "pre_requisitos": {
+    "Nota única repetida no pulso do ritmo automático": ["Corpo: pulso com palmas e passos sobre o ritmo do teclado"],
+    "Acorde na esquerda tocado a cada tempo forte": ["Nota única repetida no pulso do ritmo automático", "Tríades maiores e menores na mão esquerda"],
+    "Levada simples: baixo e acorde alternados no pulso": ["Acorde na esquerda tocado a cada tempo forte"],
+    "Cifra: acordes menores e sétima (m e 7)": ["Cifra: letras A a G e acorde maior"],
+    "Troca de acordes com dedos guia sem perder o pulso": ["Tríades maiores e menores na mão esquerda", "Cifra: letras A a G e acorde maior"],
+    "Canção com três acordes e ritmo automático": ["Canção com dois acordes cifrados (I e V)", "Troca de acordes com dedos guia sem perder o pulso"],
+    "Baladas e pop com levada baixo e acorde": ["Levada de baixo e acorde: pop e balada", "Canção com três acordes e ritmo automático"],
+    "Inversões de tríades para encadeamento próximo": ["Troca de acordes com dedos guia sem perder o pulso", "Acorde maior e menor: alegre e triste"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Corpo: pulso com palmas e passos sobre o ritmo do teclado",
+      "Nota única repetida no pulso do ritmo automático",
+      "Acorde na esquerda tocado a cada tempo forte",
+      "Levada simples: baixo e acorde alternados no pulso",
+      "Pequena estrutura: introdução e frase de 4 compassos",
+      "Subdivisão em colcheias sobre a levada",
+      "Pulso estável em andamentos variados do ritmo"
+    ],
+    "leitura": [
+      "Nomes das teclas: dó a si e teclas pretas",
+      "Cifra: letras A a G e acorde maior",
+      "Cifra: acordes menores e sétima (m e 7)",
+      "Pauta: clave de sol de dó a sol e figuras básicas",
+      "Melodia cifrada: pauta com cifras acima",
+      "Grade de acordes: compassos e repetições",
+      "Cifras com baixo invertido e tétrades simples"
+    ],
+    "tecnica": [
+      "Postura ao teclado: estante, altura e mão relaxada",
+      "Tríades maiores e menores na mão esquerda",
+      "Melodia na direita com acorde sustentado na esquerda",
+      "Troca de acordes com dedos guia sem perder o pulso",
+      "Levada de baixo e acorde: pop e balada",
+      "Pedal de sustain e troca de timbres em tempo real",
+      "Inversões de tríades para encadeamento próximo"
+    ],
+    "percepcao": [
+      "Grave e agudo: regiões do teclado e timbres",
+      "Ouvir e imitar a bateria do ritmo automático",
+      "Reconhecer timbre: piano, órgão, cordas e sopros",
+      "Acorde maior e menor: alegre e triste",
+      "Ouvir a troca de acorde em canções conhecidas",
+      "Tirar de ouvido melodias curtas",
+      "Perceber I, IV e V numa canção cifrada"
+    ],
+    "repertorio": [
+      "Melodias de canções infantis na mão direita",
+      "Canção com dois acordes cifrados (I e V)",
+      "Canção com três acordes e ritmo automático",
+      "Baladas e pop com levada baixo e acorde",
+      "Canções brasileiras com acordes menores e sétima",
+      "Toque em grupo: turma em vozes (melodia, acorde, baixo)",
+      "Apresentação com introdução, final e timbre escolhido"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Esmagar as teclas leves com força de piano, gerando som duro e tensão no antebraço.",
+    "Depender do ritmo automático e perder o pulso quando ele é desligado.",
+    "Trocar o acorde depois do tempo forte, porque a mão esquerda só procura a cifra na hora.",
+    "Confundir a letra da cifra com o nome da nota em português (B = si, E = mi).",
+    "Tocar o acorde na esquerda sempre em posição fundamental, com saltos grandes entre eles.",
+    "Mexer no painel (timbre, volume) no meio da música e parar de tocar.",
+    "Em grupo, tocar fora do pulso comum por ouvir só o próprio fone.",
+    "Volume alto demais ou fone mal ajustado, dificultando ouvir o professor e os colegas."
+  ],
+  "vocabulario_pt": [
+    "cifra",
+    "levada",
+    "timbre",
+    "acompanhamento automático",
+    "ritmo automático",
+    "tríade",
+    "inversão de acorde",
+    "dedos guia",
+    "grade de acordes",
+    "pedal de sustain",
+    "teclado arranjador",
+    "teclado em grupo",
+    "tirar de ouvido",
+    "mão esquerda em acordes",
+    "melodia cifrada",
+    "campo harmônico",
+    "introdução e final",
+    "volume e dinâmica",
+    "fone de ouvido em sala",
+    "música popular brasileira"
+  ],
+  "vocabulario_en": [
+    "chord symbols",
+    "comping pattern",
+    "timbre",
+    "auto accompaniment",
+    "rhythm styles",
+    "triad",
+    "chord inversion",
+    "guide tones",
+    "chord chart",
+    "sustain pedal",
+    "arranger keyboard",
+    "group keyboard class",
+    "playing by ear",
+    "left-hand chords",
+    "lead sheet",
+    "diatonic chords",
+    "intro and ending",
+    "volume and dynamics",
+    "headphones in class",
+    "popular music pedagogy"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Passos sobre o ritmo do teclado",
+        "descricao": "O professor liga um ritmo automático (pop ou marcha) em andamento moderado; a turma marca o pulso com palmas, depois com passos e por fim balança o corpo sentada. Trocar o estilo de ritmo e observar quem mantém o pulso.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Corpo: pulso com palmas e passos sobre o ritmo do teclado"]
+      },
+      {
+        "titulo": "Uma tecla junto com a bateria",
+        "descricao": "Com o ritmo automático ligado, o aluno repete uma tecla com o dedo 2 da mão direita em cada pulso, ouvindo o bumbo e a caixa. A cada 4 pulsos, muda para a tecla vizinha sem parar.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Nota única repetida no pulso do ritmo automático"]
+      },
+      {
+        "titulo": "Acorde no tempo forte",
+        "descricao": "A mão esquerda toca a tríade de dó maior apenas no primeiro tempo de cada compasso, junto com o ritmo automático. Depois alternar dó e sol maior a cada dois compassos, sempre no tempo forte.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Acorde na esquerda tocado a cada tempo forte"]
+      },
+      {
+        "titulo": "Baixo e acorde no metrônomo",
+        "descricao": "Sobre o metrônomo ou o ritmo automático, a esquerda toca a fundamental no tempo 1 e a tríade nos tempos 2, 3 e 4. Depois montar uma introdução de 2 compassos seguida de frase de 4 compassos que se repete inteira.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Levada simples: baixo e acorde alternados no pulso", "Pequena estrutura: introdução e frase de 4 compassos"]
+      },
+      {
+        "titulo": "Colcheias por cima da levada",
+        "descricao": "Enquanto a esquerda mantém baixo e acorde, a direita toca uma nota do acorde em colcheias (dois toques por pulso). Repetir em três andamentos do ritmo automático (70, 90 e 110 bpm) e comparar a estabilidade.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Subdivisão em colcheias sobre a levada", "Pulso estável em andamentos variados do ritmo"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Mapa das teclas",
+        "descricao": "Com adesivos removíveis ou cartões, o aluno localiza o dó a partir do grupo de duas teclas pretas e nomeia todas as brancas de uma oitava. Depois nomeia as pretas como sustenido e bemol das vizinhas.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Nomes das teclas: dó a si e teclas pretas"]
+      },
+      {
+        "titulo": "Letra vira acorde",
+        "descricao": "O professor escreve no quadro as letras A a G e o nome da nota correspondente; o aluno monta a tríade maior de cada uma na mão esquerda. Em seguida, acrescentar o 'm' e o '7' e ouvir como cada sufixo muda o acorde.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Cifra: letras A a G e acorde maior", "Cifra: acordes menores e sétima (m e 7)"]
+      },
+      {
+        "titulo": "Cinco notas na pauta",
+        "descricao": "Leitura de dó a sol na clave de sol com semínimas, mínimas e pausas, tocada na mão direita com dedos 1 a 5. Depois ler uma melodia curta que traz cifras acima da pauta e tocar a melodia enquanto a esquerda toca o acorde indicado.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Pauta: clave de sol de dó a sol e figuras básicas", "Melodia cifrada: pauta com cifras acima"]
+      },
+      {
+        "titulo": "Grade no quadro",
+        "descricao": "O professor desenha uma grade de 8 compassos com uma cifra por compasso e sinais de repetição; a turma lê em voz alta contando os tempos e depois toca com o ritmo automático, respeitando a repetição.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Grade de acordes: compassos e repetições"]
+      },
+      {
+        "titulo": "Barra na cifra",
+        "descricao": "Ler cifras como C/E e G/B, tocando o baixo indicado na esquerda e a tríade na direita; depois incluir Cmaj7 e G7 como tétrades simples. Comparar o som com a versão sem baixo invertido.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Cifras com baixo invertido e tétrades simples"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Ajuste da estante",
+        "descricao": "Antes de tocar, cada aluno confere estante, altura do banco, pés apoiados e mão em concha. O professor mostra o toque leve: a tecla desce sem 'tapa' e o punho não sobe.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Postura ao teclado: estante, altura e mão relaxada"]
+      },
+      {
+        "titulo": "Tríades da esquerda",
+        "descricao": "Montar as tríades de dó, fá e sol maior e lá, ré e mi menor com os dedos 5-3-1 da mão esquerda, tocando cada uma quatro vezes. Depois a direita toca uma melodia de cinco dedos enquanto a esquerda sustenta o acorde da cifra.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Tríades maiores e menores na mão esquerda", "Melodia na direita com acorde sustentado na esquerda"]
+      },
+      {
+        "titulo": "Dedos guia",
+        "descricao": "Trocar entre C e F, depois C e G, mantendo o dedo que fica na nota comum e movendo só os outros. Contar 'três-quatro' antes da troca para que o novo acorde caia exatamente no tempo 1.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Troca de acordes com dedos guia sem perder o pulso"]
+      },
+      {
+        "titulo": "Levada de balada",
+        "descricao": "A esquerda toca fundamental no tempo 1 e acorde nos tempos 2 e 4 (pop) ou acorde em colcheias contínuas (balada), sobre a sequência C–Am–F–G. Trocar o timbre para piano elétrico e usar o pedal de sustain nas mudanças.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Levada de baixo e acorde: pop e balada", "Pedal de sustain e troca de timbres em tempo real"]
+      },
+      {
+        "titulo": "Caminho curto entre acordes",
+        "descricao": "Tocar C–F–G–C usando inversões para que a mão esquerda se mova o mínimo possível (C, F/C, G/B, C). Marcar no quadro qual inversão foi usada e ouvir a diferença de suavidade.",
+        "recursos": ["instrumentos", "quadro"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Inversões de tríades para encadeamento próximo"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Elefante, passarinho e timbre",
+        "descricao": "O professor toca nas regiões grave e aguda com timbres diferentes; os alunos apontam para baixo ou para cima e depois adivinham se o timbre é de piano, órgão, cordas ou sopro.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 11,
+        "duracao_min": 5,
+        "conteudos": ["Grave e agudo: regiões do teclado e timbres", "Reconhecer timbre: piano, órgão, cordas e sopros"]
+      },
+      {
+        "titulo": "Imitar a bateria",
+        "descricao": "Com o ritmo automático ligado, a turma imita o bumbo com o pé e a caixa com palmas; depois um aluno toca a mesma célula em duas teclas graves do teclado (bumbo e caixa).",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Ouvir e imitar a bateria do ritmo automático"]
+      },
+      {
+        "titulo": "Alegre ou triste na cifra",
+        "descricao": "O professor toca C e Cm alternadamente e os alunos dizem 'alegre' ou 'triste'; depois uma canção conhecida é tocada e a turma levanta a mão sempre que o acorde muda.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Acorde maior e menor: alegre e triste", "Ouvir a troca de acorde em canções conhecidas"]
+      },
+      {
+        "titulo": "Tirar a melodia",
+        "descricao": "Ouvir uma melodia curta de canção conhecida (toque do celular ou tema infantil) e encontrá-la na mão direita por tentativa, começando pela primeira nota dada pelo professor.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Tirar de ouvido melodias curtas"]
+      },
+      {
+        "titulo": "Um, quatro ou cinco?",
+        "descricao": "Sobre uma canção com C, F e G, os alunos mostram com os dedos 1, 4 ou 5 qual acorde está soando; depois tentam prever a troca antes de ela acontecer e tocam o baixo correspondente.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Perceber I, IV e V numa canção cifrada"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Canção infantil na direita",
+        "descricao": "Aprender de ouvido e por imitação uma canção infantil na mão direita (posição de dó), escolhendo um timbre divertido; depois tocar junto com o ritmo automático em andamento lento.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 11,
+        "duracao_min": 8,
+        "conteudos": ["Melodias de canções infantis na mão direita"]
+      },
+      {
+        "titulo": "Dois acordes, uma canção",
+        "descricao": "Acompanhar uma cantiga ou canção folclórica com C e G7 na esquerda, enquanto a turma canta. O professor indica a troca até que o aluno passe a ouvi-la sozinho.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Canção com dois acordes cifrados (I e V)"]
+      },
+      {
+        "titulo": "Três acordes com ritmo",
+        "descricao": "Escolher um ritmo automático adequado ao estilo da canção (pop, rock ou country) e tocar uma música de três acordes com introdução e final do teclado; depois passar para uma balada com levada de baixo e acorde sem o ritmo automático.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canção com três acordes e ritmo automático", "Baladas e pop com levada baixo e acorde"]
+      },
+      {
+        "titulo": "MPB com acordes menores",
+        "descricao": "Aprender uma canção brasileira conhecida (Roberto Carlos, Tim Maia ou cantiga popular) com cifras que incluam Am, Dm e G7, tocando a esquerda em levada e cantando ou tocando a melodia na direita.",
+        "recursos": ["instrumentos", "impressao", "caixa_de_som"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canções brasileiras com acordes menores e sétima"]
+      },
+      {
+        "titulo": "Banda de teclados",
+        "descricao": "A turma se divide: um grupo toca a melodia, outro os acordes e outro o baixo, cada um com um timbre diferente e fone ligado ao volume combinado. Ensaiar introdução e final e apresentar para a escola.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Toque em grupo: turma em vozes (melodia, acorde, baixo)", "Apresentação com introdução, final e timbre escolhido"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Liga, ajusta e aquece",
+        "descricao": "Rotina de início: ligar o teclado, conferir volume e fone, ajustar a estante, sacudir mãos e ombros e tocar dó-ré-mi-fá-sol com toque leve.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Postura ao teclado: estante, altura e mão relaxada"]
+      },
+      {
+        "titulo": "Improviso nas teclas pretas com ritmo",
+        "descricao": "Com um ritmo automático ligado e o professor tocando F#m e E na esquerda, o aluno improvisa na direita só nas teclas pretas, mantendo o pulso e terminando junto com o final do ritmo.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Nota única repetida no pulso do ritmo automático", "Ouvir e imitar a bateria do ritmo automático"]
+      },
+      {
+        "titulo": "Playlist da turma",
+        "descricao": "Cada aluno traz uma música; o professor mostra as cifras no projetor e a turma identifica quais acordes já sabe tocar e qual ritmo automático combina com a música.",
+        "recursos": ["projetor", "celulares", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Grade de acordes: compassos e repetições", "Canção com três acordes e ritmo automático"]
+      },
+      {
+        "titulo": "Gravar no próprio teclado",
+        "descricao": "Usar a função de gravação do teclado ou o celular para registrar a canção da semana; ouvir e apontar se o acorde trocou no tempo certo e se o volume ficou equilibrado entre as mãos.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Troca de acordes com dedos guia sem perder o pulso", "Pulso estável em andamentos variados do ritmo"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["ritmo", "leitura", "tecnica", "coordenacao", "percepcao", "sonoridade", "autonomia"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Teclados leves de 61 teclas e estante baixa; a criança precisa ver o dó central e alcançar o painel com ajuda.",
+      "Explorar timbres e ritmos como jogo antes de sistematizar; tocar por imitação e de ouvido.",
+      "Fone só com volume travado pelo professor; alternar momentos com e sem fone para ouvir o grupo."
+    ],
+    "9-12": [
+      "Já lidam bem com cifras de letras e tríades na esquerda; introduzir a grade de acordes e as canções que a turma escolhe.",
+      "Acompanhamento automático como apoio, mas exigir trechos sem ele para consolidar o pulso próprio.",
+      "Metas curtas: uma canção de três acordes por mês, gravada e ouvida em sala."
+    ],
+    "13+": [
+      "Interesse forte por repertório atual; trabalhar cifras com sétima, baixo invertido e levadas de pop, gospel e MPB.",
+      "Podem operar o teclado sozinhos (timbres, split, transposição) e montar arranjos simples para tocar em banda.",
+      "Cuidado com volume alto no fone em sessões longas; pausas e conferência de postura."
+    ]
+  },
+  "editavel": true
+}

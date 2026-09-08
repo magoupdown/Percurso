@@ -1,0 +1,441 @@
+{
+  "id": "viola",
+  "nome": "Viola",
+  "familia": "cordas_friccionadas",
+  "tessitura": {
+    "inicial": ["D4", "E4", "F#4", "G4", "A4"],
+    "ampliada": "C3–A5"
+  },
+  "postura": [
+    "Em pé com pés na largura dos ombros ou sentado na borda da cadeira; a viola é maior e mais pesada que o violino, então a espaleira e a queixeira precisam de ajuste cuidadoso.",
+    "Instrumento apoiado entre clavícula e queixo, com a cabeça pesando na queixeira; o ombro esquerdo fica baixo mesmo com o peso maior.",
+    "Voluta um pouco mais à esquerda e levemente mais baixa que no violino, para reduzir o esforço do braço esquerdo com o instrumento longo.",
+    "Mão esquerda mais aberta, com o cotovelo trazido para dentro (sob o instrumento) para alcançar a corda Dó e as distâncias maiores entre os dedos.",
+    "Pulso reto e polegar oposto ao dedo 1, com espaço entre a palma e o braço da viola.",
+    "Braço direito mais baixo que no violino, com o cotovelo no nível da corda e o peso do braço transmitido ao arco.",
+    "Tamanho escolhido pelo braço da criança: viola de 12 a 14 polegadas ou um violino encordoado como viola para iniciantes pequenos."
+  ],
+  "tecnicas_fundamentais": [
+    "Pegada do arco com polegar curvado e dedos arredondados, transmitindo mais peso do braço que no violino.",
+    "Ponto de contato mais próximo do cavalete e arco mais lento para fazer vibrar as cordas grossas (Dó e Sol).",
+    "Dedos 1–2–3 na primeira posição com espaçamentos maiores, guiados por fitas, com a mão aberta desde o início.",
+    "Leitura na clave de dó na 3ª linha (clave de alto), com o dó central na linha do meio.",
+    "Pizzicato com o indicador direito, polegar apoiado no canto do espelho.",
+    "Mudanças de corda com nível do braço, especialmente a passagem para a corda Dó.",
+    "Détaché e legato com som escuro e cheio, evitando o som rasgado por excesso de velocidade.",
+    "Afinação por quintas (Dó–Sol–Ré–Lá) com microafinadores e, mais tarde, cravelhas."
+  ],
+  "pre_requisitos": {
+    "Arco pesado em corda solta: uma arcada por pulso": ["Pizzicato nas cordas Dó e Sol no pulso", "Pegada do arco com mais peso do braço"],
+    "Pegada do arco com mais peso do braço": ["Postura: viola maior e mais pesada no ombro"],
+    "Dedos 1–2–3 com fitas nas cordas Ré e Sol": ["Mão esquerda aberta: distâncias maiores entre dedos", "Ponto de contato perto do cavalete nas cordas graves"],
+    "Dedos 1–2–3 na corda Ré no pulso": ["Dedos 1–2–3 com fitas nas cordas Ré e Sol", "Ritmos curtos com arco nas cordas graves"],
+    "Cordas soltas Dó, Sol, Ré e Lá na clave de dó": ["Clave de dó: dó central na linha do meio"],
+    "Notas da corda Ré com dedos 1, 2 e 3": ["Cordas soltas Dó, Sol, Ré e Lá na clave de dó"],
+    "Escalas de Ré e Sol maior em uma oitava": ["Dedos 1–2–3 com fitas nas cordas Ré e Sol", "Détaché e legato com mudança de corda"],
+    "Voz interna em arranjos de conjunto de cordas": ["Ouvir a voz interna: viola entre violino e cello", "Melodias em Sol maior nas cordas Sol e Ré"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Corpo: pulso com palmas, passos e balanço",
+      "Pizzicato nas cordas Dó e Sol no pulso",
+      "Arco pesado em corda solta: uma arcada por pulso",
+      "Ritmos curtos com arco nas cordas graves",
+      "Dedos 1–2–3 na corda Ré no pulso",
+      "Frase de 4 compassos com bordão em Dó e Sol",
+      "Subdivisão em colcheias com metrônomo"
+    ],
+    "leitura": [
+      "Figuras rítmicas: semínima, mínima e pausa",
+      "Clave de dó: dó central na linha do meio",
+      "Cordas soltas Dó, Sol, Ré e Lá na clave de dó",
+      "Notas da corda Ré com dedos 1, 2 e 3",
+      "Notas das cordas Sol e Lá na primeira posição",
+      "Colcheias, ponto de aumento e ligadura",
+      "Armadura de Ré e Sol maior e sinais de arcada",
+      "Leitura à primeira vista na clave de dó"
+    ],
+    "tecnica": [
+      "Postura: viola maior e mais pesada no ombro",
+      "Mão esquerda aberta: distâncias maiores entre dedos",
+      "Pegada do arco com mais peso do braço",
+      "Ponto de contato perto do cavalete nas cordas graves",
+      "Dedos 1–2–3 com fitas nas cordas Ré e Sol",
+      "Arco inteiro com som escuro e cheio",
+      "Détaché e legato com mudança de corda",
+      "Escalas de Ré e Sol maior em uma oitava"
+    ],
+    "percepcao": [
+      "Grave e agudo: corda Dó como referência",
+      "Pulso forte e fraco: binário e ternário",
+      "Ouvir as quintas Dó–Sol–Ré–Lá para afinar",
+      "Cantar e reproduzir motivos na corda Ré",
+      "Ouvir a voz interna: viola entre violino e cello",
+      "Reconhecer modo maior e menor",
+      "Timbre escuro: peso, velocidade e ponto de contato"
+    ],
+    "repertorio": [
+      "Canções em cordas soltas com bordão grave",
+      "Canções na corda Ré com dedos 1–2–3",
+      "Canções infantis em Ré maior nas cordas Ré e Lá",
+      "Melodias em Sol maior nas cordas Sol e Ré",
+      "Duetos com professor ou colega",
+      "Voz interna em arranjos de conjunto de cordas",
+      "Canções brasileiras em Sol e Dó maior"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Tratar a viola como violino grande: arco rápido e leve que produz som rasgado e sem corpo nas cordas Dó e Sol.",
+    "Mão esquerda fechada 'de violinista', com dedos 2 e 3 curtos e afinação baixa nas distâncias maiores.",
+    "Confundir a clave de dó com a clave de sol, lendo as notas uma terça acima ou abaixo.",
+    "Braço direito alto demais, sem levar o peso ao arco, especialmente na corda Dó.",
+    "Cansaço no ombro e no pescoço pelo peso e comprimento maiores, com ombro esquerdo subindo.",
+    "Instrumento grande demais para a criança, forçando a extensão do braço e do polegar.",
+    "Perder-se ao tocar a voz interna, por não ouvir seu papel entre a melodia e o baixo.",
+    "Olhar fixamente para a mão esquerda e deixar o arco escorregar para o espelho."
+  ],
+  "vocabulario_pt": [
+    "viola de arco",
+    "viola clássica",
+    "clave de dó",
+    "clave de alto",
+    "corda Dó",
+    "arco",
+    "pegada do arco",
+    "peso do arco",
+    "ponto de contato",
+    "détaché",
+    "legato",
+    "pizzicato",
+    "cordas soltas",
+    "primeira posição",
+    "mão aberta",
+    "fitas no espelho",
+    "sonoridade escura",
+    "voz interna",
+    "espaleira",
+    "tamanho da viola",
+    "afinação por quintas",
+    "iniciação à viola",
+    "cordas em grupo"
+  ],
+  "vocabulario_en": [
+    "viola",
+    "classical viola",
+    "alto clef",
+    "C clef",
+    "C string",
+    "bow",
+    "bow hold",
+    "bow weight",
+    "contact point",
+    "détaché",
+    "legato",
+    "pizzicato",
+    "open strings",
+    "first position",
+    "open hand frame",
+    "fingerboard tapes",
+    "dark tone",
+    "inner voice",
+    "shoulder rest",
+    "viola size",
+    "tuning in fifths",
+    "beginning viola",
+    "string class"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Pulso no corpo com a viola no ombro",
+        "descricao": "Com uma gravação, os alunos marcam o pulso com palmas e passos; depois, com a viola no ombro e sem arco, balançam o tronco no pulso, sentindo o peso maior do instrumento sem levantar o ombro.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Corpo: pulso com palmas, passos e balanço"]
+      },
+      {
+        "titulo": "Pizzicato grave no pulso",
+        "descricao": "Em pizzicato, o aluno toca a corda Dó a cada pulso do metrônomo e depois a corda Sol, trocando a cada 4 pulsos; o professor toca a melodia por cima e a turma sente a viola como base.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Pizzicato nas cordas Dó e Sol no pulso"]
+      },
+      {
+        "titulo": "Arco pesado, um por pulso",
+        "descricao": "Arcadas inteiras e lentas na corda Sol, uma por pulso (54 bpm), deixando o peso do braço entrar na corda; depois ritmos curtos como 'tá-tá-ti-ti-tá' nas cordas Dó e Sol com a metade superior do arco.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Arco pesado em corda solta: uma arcada por pulso", "Ritmos curtos com arco nas cordas graves"]
+      },
+      {
+        "titulo": "Dedos no pulso e bordão",
+        "descricao": "Na corda Ré, colocar os dedos 1, 2 e 3 um por pulso (Ré–Mi–Fá#–Sol) e voltar, em semínimas; depois um grupo toca uma frase de 4 compassos enquanto o outro sustenta um bordão em Dó e Sol soltas.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Dedos 1–2–3 na corda Ré no pulso", "Frase de 4 compassos com bordão em Dó e Sol"]
+      },
+      {
+        "titulo": "Colcheias no metrônomo",
+        "descricao": "Tocar a mesma frase de 4 compassos em semínimas e depois em colcheias com metrônomo em 60 e 80 bpm, usando pouco arco e mantendo o peso nas colcheias para não perder o som.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Subdivisão em colcheias com metrônomo", "Frase de 4 compassos com bordão em Dó e Sol"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Cartões de ritmo na corda Sol",
+        "descricao": "Cartões com semínimas, mínimas e pausas formam compassos de 4 tempos no quadro; a turma lê com palmas e toca o ritmo na corda Sol solta com arco.",
+        "recursos": ["impressao", "quadro", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Figuras rítmicas: semínima, mínima e pausa"]
+      },
+      {
+        "titulo": "A clave que aponta o dó",
+        "descricao": "O professor desenha a clave de dó no quadro e mostra que a linha do meio é o dó central; os alunos desenham a clave, marcam o dó e depois localizam as cordas soltas Dó, Sol, Ré e Lá na pauta, tocando cada uma.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Clave de dó: dó central na linha do meio", "Cordas soltas Dó, Sol, Ré e Lá na clave de dó"]
+      },
+      {
+        "titulo": "Escada da corda Ré na clave de dó",
+        "descricao": "Ler Ré, Mi, Fá# e Sol na clave de dó com o número do dedo escrito embaixo; depois ler trechos curtos sem os números e estender para as cordas Sol e Lá na primeira posição.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Notas da corda Ré com dedos 1, 2 e 3", "Notas das cordas Sol e Lá na primeira posição"]
+      },
+      {
+        "titulo": "Colcheias, pontos e ligaduras de arco",
+        "descricao": "Leitura rítmica com colcheias, semínima pontuada e ligadura usando sílabas; em seguida tocar o padrão na corda Ré, distinguindo ligadura de prolongamento de ligadura de arco.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Colcheias, ponto de aumento e ligadura"]
+      },
+      {
+        "titulo": "Leitura relâmpago na clave de dó",
+        "descricao": "Melodias de 4 compassos nunca vistas em Ré ou Sol maior na clave de dó, com sinais de arcada. O aluno tem 30 segundos para conferir clave, armadura e arcadas e toca uma vez sem parar.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Armadura de Ré e Sol maior e sinais de arcada", "Leitura à primeira vista na clave de dó"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Estátua da violista",
+        "descricao": "Colocar a viola no ombro com a cabeça, ajustar a espaleira e ficar em 'estátua' por 10 segundos com as mãos soltas; o colega confere se o ombro esquerdo subiu para aguentar o peso maior.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Postura: viola maior e mais pesada no ombro"]
+      },
+      {
+        "titulo": "Mão aberta como leque",
+        "descricao": "Com o cotovelo esquerdo trazido para dentro, colocar os dedos 1, 2 e 3 nas fitas da corda Ré e observar o espaço maior entre eles que no violino; abrir e fechar a mão como um leque sem mover o polegar.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Mão esquerda aberta: distâncias maiores entre dedos", "Dedos 1–2–3 com fitas nas cordas Ré e Sol"]
+      },
+      {
+        "titulo": "O peso do braço entra na corda",
+        "descricao": "Com a pegada montada, apoiar o arco na corda Sol e deixar o braço 'pendurar' no arco até a corda ceder um pouco; então puxar o arco devagar perto do cavalete e ouvir o som encorpar. Repetir na corda Dó.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Pegada do arco com mais peso do braço", "Ponto de contato perto do cavalete nas cordas graves"]
+      },
+      {
+        "titulo": "Arco inteiro escuro",
+        "descricao": "Arcadas inteiras e lentas na corda Dó e depois na corda Sol, buscando som escuro, cheio e sem rasgar; depois passar de Sol para Ré em détaché e em legato de duas notas ajustando o nível do braço.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Arco inteiro com som escuro e cheio", "Détaché e legato com mudança de corda"]
+      },
+      {
+        "titulo": "Escalas de Ré e Sol",
+        "descricao": "Tocar a escala de Ré maior (cordas Ré e Lá) e de Sol maior (cordas Sol e Ré) em uma oitava, uma arcada por nota e depois duas ligadas, conferindo a afinação com as cordas soltas.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Escalas de Ré e Sol maior em uma oitava"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "A corda mais grave da turma",
+        "descricao": "O professor toca a corda Dó da viola e pede que os alunos comparem com a corda mais grave do violino (Sol); os alunos ordenam as quatro cordas da viola do grave ao agudo de olhos fechados.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 11,
+        "duracao_min": 4,
+        "conteudos": ["Grave e agudo: corda Dó como referência"]
+      },
+      {
+        "titulo": "Marcha ou valsa?",
+        "descricao": "Ouvir trechos gravados e marcar o tempo forte com arco para baixo na corda Dó e os fracos em pizzicato; decidir se é binário ou ternário.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Pulso forte e fraco: binário e ternário"]
+      },
+      {
+        "titulo": "Quintas graves",
+        "descricao": "O professor toca Dó e Sol soltas juntas, depois Sol e Ré, Ré e Lá; os alunos cantam as notas e apontam quando um microafinador desafinado produz batimentos. Depois cada aluno confere suas cordas.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Ouvir as quintas Dó–Sol–Ré–Lá para afinar"]
+      },
+      {
+        "titulo": "Eco na corda Ré e a voz do meio",
+        "descricao": "O professor toca um motivo de 2 a 4 notas na corda Ré; o aluno canta e reproduz. Depois a turma ouve um trio (violino, viola, cello) e levanta a mão quando ouvir a linha da viola entre a melodia e o baixo.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Cantar e reproduzir motivos na corda Ré", "Ouvir a voz interna: viola entre violino e cello"]
+      },
+      {
+        "titulo": "Alegre ou triste, claro ou escuro",
+        "descricao": "Ouvir a mesma melodia em maior e menor e identificar o modo. Depois o aluno toca uma nota longa na corda Sol perto do espelho e perto do cavalete, com mais e menos peso, e descreve qual soou mais escura e cheia.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Reconhecer modo maior e menor", "Timbre escuro: peso, velocidade e ponto de contato"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Canção com bordão grave",
+        "descricao": "Aprender de ouvido uma canção curta em cordas soltas em que a viola sustenta Dó ou Sol como bordão enquanto o professor toca a melodia; depois inverter.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 7,
+        "idade_max": 11,
+        "duracao_min": 8,
+        "conteudos": ["Canções em cordas soltas com bordão grave"]
+      },
+      {
+        "titulo": "Canção na corda Ré",
+        "descricao": "Montar uma canção que caiba em Ré, Mi, Fá# e Sol, cantando o nome das notas antes de tocar; conferir na partitura em clave de dó e tocar com o professor acompanhando.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 8,
+        "idade_max": 13,
+        "duracao_min": 8,
+        "conteudos": ["Canções na corda Ré com dedos 1–2–3"]
+      },
+      {
+        "titulo": "Ré maior em duas cordas",
+        "descricao": "Estudar uma canção infantil em Ré maior nas cordas Ré e Lá, marcando as mudanças de corda e cuidando do peso do arco para que a corda Lá não soe fina demais.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canções infantis em Ré maior nas cordas Ré e Lá"]
+      },
+      {
+        "titulo": "Sol maior em dueto",
+        "descricao": "Tocar uma melodia em Sol maior nas cordas Sol e Ré e depois em dueto com o professor ou um colega, que faz uma segunda voz em cordas soltas, trocando os papéis.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Melodias em Sol maior nas cordas Sol e Ré", "Duetos com professor ou colega"]
+      },
+      {
+        "titulo": "A voz do meio na canção brasileira",
+        "descricao": "Ensaiar uma canção brasileira em Sol ou Dó maior em arranjo de conjunto de cordas, com a viola fazendo a voz interna (terças ou notas longas) entre os violinos e o cello, cuidando de ouvir as duas outras vozes.",
+        "recursos": ["instrumentos", "impressao", "caixa_de_som"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Voz interna em arranjos de conjunto de cordas", "Canções brasileiras em Sol e Dó maior"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Aquecimento de ombros e mão aberta",
+        "descricao": "Girar ombros, sacudir os braços, abrir e fechar a mão esquerda como um leque e balançar o arco no ar antes de colocar a viola no ombro.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Postura: viola maior e mais pesada no ombro", "Mão esquerda aberta: distâncias maiores entre dedos"]
+      },
+      {
+        "titulo": "Afinar de Dó a Lá",
+        "descricao": "Com afinador no celular ou o Lá do professor, cada aluno confere as cordas Lá, Ré, Sol e Dó, nessa ordem, e ajusta com os microafinadores; o professor usa as cravelhas quando a diferença for grande.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Ouvir as quintas Dó–Sol–Ré–Lá para afinar"]
+      },
+      {
+        "titulo": "Improviso sobre bordão",
+        "descricao": "Metade da turma sustenta Dó e Sol soltas enquanto cada aluno improvisa 4 compassos na corda Ré com dedos 1–2–3, mantendo o pulso e terminando em Ré; depois invertem.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Frase de 4 compassos com bordão em Dó e Sol", "Cantar e reproduzir motivos na corda Ré"]
+      },
+      {
+        "titulo": "Gravar e ouvir",
+        "descricao": "Gravar a canção da semana no celular e ouvir com o professor, apontando um acerto e um ponto para melhorar (som cheio nas cordas graves, afinação ou pulso).",
+        "recursos": ["celulares", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Canções infantis em Ré maior nas cordas Ré e Lá", "Arco inteiro com som escuro e cheio"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["postura", "sonoridade", "afinacao", "ritmo", "leitura", "tecnica", "participacao"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Usar viola pequena (12 polegadas) ou um violino 1/4 ou 1/2 encordoado como viola; conferir o tamanho pelo braço a cada semestre.",
+      "Sessões curtas (20–30 min) com o instrumento no ombro por pouco tempo, alternando pizzicato, arco e jogos de ouvido.",
+      "Começar pela leitura de ritmo e por canções de ouvido; apresentar a clave de dó só como 'a clave que aponta o dó'."
+    ],
+    "9-12": [
+      "Violas de 12 a 14 polegadas; já sustentam a primeira posição nas cordas Ré, Sol e Lá e as escalas de Ré e Sol.",
+      "Consolidar a clave de dó com leitura diária curta, para não misturar com a clave de sol de colegas violinistas.",
+      "Colocar a viola como voz interna em arranjos de conjunto desde cedo dá sentido ao instrumento."
+    ],
+    "13+": [
+      "Violas de 14 a 16 polegadas conforme o braço; ampliar para a corda Dó com dedos, Dó maior e primeiras ligaduras longas.",
+      "Atenção a tensões no ombro e no pescoço pelo peso maior; ajustar espaleira e fazer pausas.",
+      "Alunos vindos do violino podem migrar bem: trabalhar a mão aberta, o peso do arco e a clave de dó com repertório de conjunto."
+    ]
+  },
+  "editavel": true
+}

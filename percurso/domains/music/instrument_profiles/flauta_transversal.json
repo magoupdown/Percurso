@@ -1,0 +1,460 @@
+{
+  "id": "flauta_transversal",
+  "nome": "Flauta transversal",
+  "familia": "sopro_madeira",
+  "tessitura": {
+    "inicial": ["G4", "A4", "B4"],
+    "ampliada": "C4–C6"
+  },
+  "postura": [
+    "Em pé ou sentado na borda da cadeira, coluna alongada e pés afastados na largura dos ombros, com o peso distribuído.",
+    "Postura assimétrica: a flauta aponta para a direita, a cabeça gira levemente para a esquerda e o tronco fica um pouco virado, sem torcer o pescoço.",
+    "Apoio dos três pontos: queixo (lábio inferior sobre a placa), base do dedo indicador esquerdo e polegar direito, deixando os outros dedos livres.",
+    "Braço esquerdo cruzado à frente do peito e cotovelo direito afastado do corpo, sem levantar o ombro.",
+    "Flauta quase horizontal, com a ponta levemente abaixada; cabeça erguida para não fechar a garganta.",
+    "Mãos relaxadas com dedos curvados, pontas sobre as chaves, sem apertar o instrumento."
+  ],
+  "tecnicas_fundamentais": [
+    "Embocadura: lábios relaxados com abertura pequena e central, lábio inferior cobrindo cerca de um terço do bocal.",
+    "Direção do ar sobre a borda do bocal (metade dentro, metade fora), como ao soprar uma garrafa.",
+    "Sonorização apenas com a cabeça da flauta: sons longos, grave e agudo (cabeça aberta e tampada com a mão).",
+    "Respiração diafragmática e coluna de ar contínua, com apoio abdominal para sustentar notas longas.",
+    "Notas iniciais Si, Lá e Sol com a mão esquerda, depois as demais notas da primeira oitava.",
+    "Passagem de oitava pela velocidade do ar e pela redução da abertura dos lábios, sem apertar.",
+    "Articulação com a língua ('tu') na entrada e separação das notas; vibrato introduzido apenas após o som estável.",
+    "Afinação: puxar a cabeça para baixar e empurrar para subir, além do ajuste da direção do ar."
+  ],
+  "pre_requisitos": {
+    "Sons na cabeça da flauta no pulso": ["Respiração no pulso: inspirar em 1, soprar em 3", "Embocadura: lábios e direção do ar no bocal"],
+    "Si repetido no pulso com a flauta montada": ["Sons na cabeça da flauta no pulso", "Postura assimétrica e apoio dos três pontos"],
+    "Sol, Lá e Si no pulso em semínimas": ["Si repetido no pulso com a flauta montada", "Dedilhado de Si, Lá e Sol com a flauta montada"],
+    "Canções com Si, Lá e Sol": ["Sol, Lá e Si no pulso em semínimas", "Si, Lá e Sol na clave de sol"],
+    "Passagem de oitava pela velocidade do ar": ["Respiração diafragmática e coluna de ar contínua", "Dedilhado de Si, Lá e Sol com a flauta montada"],
+    "Melodias que cruzam as duas oitavas": ["Passagem de oitava pela velocidade do ar", "Notas da segunda oitava: Mi a Si acima da pauta"],
+    "Afinação: puxar e empurrar a cabeça da flauta": ["Perceber alto e baixo na afinação com um bordão"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Corpo: pulso com passos e palmas ao som de gravação",
+      "Respiração no pulso: inspirar em 1, soprar em 3",
+      "Sons na cabeça da flauta no pulso",
+      "Ataques de língua (tu) no pulso com a cabeça",
+      "Si repetido no pulso com a flauta montada",
+      "Sol, Lá e Si no pulso em semínimas",
+      "Frase de 4 compassos no pulso com playback",
+      "Colcheias articuladas com metrônomo"
+    ],
+    "leitura": [
+      "Figuras rítmicas: semínima, mínima e pausa",
+      "Si, Lá e Sol na clave de sol",
+      "Dó, Ré, Mi e Fá na pauta (primeira oitava)",
+      "Colcheias, ponto de aumento e ligadura",
+      "Notas da segunda oitava: Mi a Si acima da pauta",
+      "Fá sustenido, Si bemol e armaduras de uma alteração",
+      "Leitura à primeira vista com respiração marcada"
+    ],
+    "tecnica": [
+      "Embocadura: lábios e direção do ar no bocal",
+      "Sons longos só com a cabeça da flauta",
+      "Postura assimétrica e apoio dos três pontos",
+      "Respiração diafragmática e coluna de ar contínua",
+      "Dedilhado de Si, Lá e Sol com a flauta montada",
+      "Articulação com a língua (tu) em notas repetidas",
+      "Passagem de oitava pela velocidade do ar",
+      "Afinação: puxar e empurrar a cabeça da flauta"
+    ],
+    "percepcao": [
+      "Som soprado e som focado: ouvir o próprio timbre",
+      "Grave e agudo: mesma nota em duas oitavas",
+      "Pulso forte e fraco: binário e ternário",
+      "Ouvir e repetir motivos com Sol, Lá e Si",
+      "Perceber alto e baixo na afinação com um bordão",
+      "Reconhecer modo maior e menor",
+      "Ouvir vibrato e som reto em gravações"
+    ],
+    "repertorio": [
+      "Canções com Si, Lá e Sol",
+      "Cantigas em cinco notas na primeira oitava",
+      "Canções brasileiras em Sol maior (uma oitava)",
+      "Duetos com o professor com respirações marcadas",
+      "Melodias que cruzam as duas oitavas",
+      "Peças de nível iniciante do repertório clássico",
+      "Choro ou valsa brasileira com acompanhamento"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Som 'soprado' e sem foco, com muito ar escapando por abertura de lábios grande demais.",
+    "Tontura por hiperventilação nas primeiras sessões de sons longos.",
+    "Cobrir demais o bocal com o lábio inferior, abafando o som e deixando-o baixo.",
+    "Apertar os lábios ou morder para alcançar a segunda oitava, em vez de acelerar o ar.",
+    "Tensão no ombro direito e no pescoço por postura torcida ou flauta alta demais.",
+    "Apoio dos três pontos instável, fazendo a flauta rolar e mudar a direção do ar.",
+    "Dedo indicador esquerdo 'colado' na chave errada e mindinho direito sem apoio na chave de Ré sustenido.",
+    "Iniciar as notas com o sopro ('hu') em vez da língua, sem ataque claro."
+  ],
+  "vocabulario_pt": [
+    "flauta transversal",
+    "embocadura",
+    "bocal",
+    "placa de embocadura",
+    "cabeça da flauta",
+    "coluna de ar",
+    "apoio",
+    "respiração diafragmática",
+    "sons longos",
+    "articulação",
+    "golpe de língua",
+    "passagem de oitava",
+    "harmônicos",
+    "vibrato",
+    "afinação",
+    "flauta com cabeça curva",
+    "iniciação à flauta transversal",
+    "método de flauta",
+    "sonoridade",
+    "flauta em grupo"
+  ],
+  "vocabulario_en": [
+    "flute",
+    "transverse flute",
+    "embouchure",
+    "lip plate",
+    "headjoint",
+    "air stream",
+    "breath support",
+    "diaphragmatic breathing",
+    "long tones",
+    "tonguing",
+    "articulation",
+    "octave",
+    "overblowing",
+    "harmonics",
+    "vibrato",
+    "intonation",
+    "curved headjoint",
+    "beginner flute",
+    "flute method",
+    "tone development"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Pulso no corpo com música",
+        "descricao": "Com uma gravação em andamento moderado, os alunos caminham no pulso pela sala e depois marcam com palmas, sentados. O professor muda a música e observa quem mantém a regularidade.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Corpo: pulso com passos e palmas ao som de gravação"]
+      },
+      {
+        "titulo": "Inspira em um, sopra em três",
+        "descricao": "Sobre uma gravação lenta, inspirar em um pulso pela boca e soprar um fio de ar constante pelos três pulsos seguintes, com a mão no abdome. Depois inspirar em um e soprar em sete.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Respiração no pulso: inspirar em 1, soprar em 3"]
+      },
+      {
+        "titulo": "Cabeça no tempo",
+        "descricao": "Só com a cabeça da flauta, produzir uma nota longa a cada quatro pulsos do metrônomo; depois articular 'tu' em cada pulso, quatro ataques por compasso, mantendo o som entre os ataques.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Sons na cabeça da flauta no pulso", "Ataques de língua (tu) no pulso com a cabeça"]
+      },
+      {
+        "titulo": "Si, depois três notas",
+        "descricao": "Com a flauta montada, tocar Si em semínimas por 4 compassos sobre acompanhamento do professor; depois alternar Si, Lá e Sol, uma nota por compasso, sem interromper o pulso na troca de dedilhado.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Si repetido no pulso com a flauta montada", "Sol, Lá e Si no pulso em semínimas"]
+      },
+      {
+        "titulo": "Frase com playback",
+        "descricao": "Montar uma frase de 4 compassos com Sol, Lá e Si e tocá-la sobre playback em dois andamentos; em seguida repetir a mesma frase em colcheias articuladas ('tu-tu' por clique) com metrônomo lento.",
+        "recursos": ["instrumentos", "caixa_de_som", "celulares"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Frase de 4 compassos no pulso com playback", "Colcheias articuladas com metrônomo"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Cartões de ritmo na cabeça da flauta",
+        "descricao": "Cartões com semínimas, mínimas e pausas organizados em compassos de 4 tempos; a turma lê com sílabas rítmicas e depois toca o ritmo só com a cabeça da flauta.",
+        "recursos": ["impressao", "quadro", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Figuras rítmicas: semínima, mínima e pausa"]
+      },
+      {
+        "titulo": "Três notas na pauta",
+        "descricao": "O professor escreve Si, Lá e Sol no quadro em ordem variada; os alunos dedilham no ar dizendo o nome e depois tocam a sequência apontada em notas longas.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Si, Lá e Sol na clave de sol"]
+      },
+      {
+        "titulo": "Completando a primeira oitava",
+        "descricao": "Acrescentar Dó, Ré, Mi e Fá à leitura em melodias de 2 compassos, uma nota nova por aula; o aluno lê em voz alta, dedilha e toca, marcando onde vai respirar.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Dó, Ré, Mi e Fá na pauta (primeira oitava)"]
+      },
+      {
+        "titulo": "Colcheias e ligaduras",
+        "descricao": "Leitura rítmica de padrões com colcheias, semínima pontuada e ligaduras em sílabas rítmicas; depois tocar o mesmo padrão em uma melodia de Sol a Ré, articulando apenas a primeira nota de cada ligadura.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Colcheias, ponto de aumento e ligadura"]
+      },
+      {
+        "titulo": "Acima da pauta",
+        "descricao": "Ler e tocar as notas da segunda oitava (Mi a Si) em escalas ascendentes lentas, comparando a mesma nota nas duas oitavas na pauta; incluir Fá sustenido e Si bemol e ler a armadura antes de tocar.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Notas da segunda oitava: Mi a Si acima da pauta", "Fá sustenido, Si bemol e armaduras de uma alteração"]
+      },
+      {
+        "titulo": "Leitura relâmpago com respiração",
+        "descricao": "Melodia de 8 compassos nunca vista; o aluno tem 30 segundos para marcar as respirações e a armadura e depois toca uma única vez sem parar.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 11,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Leitura à primeira vista com respiração marcada"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Garrafa e espelho",
+        "descricao": "Soprar sobre a boca de uma garrafa até obter som e observar no espelho a abertura pequena e central dos lábios. Transferir para o bocal da cabeça da flauta, ajustando a direção do ar até o som aparecer.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Embocadura: lábios e direção do ar no bocal"]
+      },
+      {
+        "titulo": "Sons longos na cabeça",
+        "descricao": "Sustentar sons de 8 tempos só com a cabeça da flauta: aberta (som agudo) e tampando a extremidade com a mão (som grave). Buscar som cheio, sem ar escapando, e pausar se der tontura.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Sons longos só com a cabeça da flauta"]
+      },
+      {
+        "titulo": "Três pontos de apoio",
+        "descricao": "Montar a flauta e encontrar o equilíbrio entre queixo, base do indicador esquerdo e polegar direito, soltando os outros dedos no ar sem que a flauta caia. Conferir no espelho a cabeça virada e o ombro direito solto.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Postura assimétrica e apoio dos três pontos"]
+      },
+      {
+        "titulo": "Coluna de ar e primeiras notas",
+        "descricao": "Inspirar expandindo o abdome e tocar Si em som longo com ar contínuo e apoiado, depois Lá e Sol, ligando as três notas em uma só respiração. Marcar no quadro quantos tempos cada aluno sustentou.",
+        "recursos": ["instrumentos", "quadro"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Respiração diafragmática e coluna de ar contínua", "Dedilhado de Si, Lá e Sol com a flauta montada"]
+      },
+      {
+        "titulo": "Tu repetido e salto de oitava",
+        "descricao": "Tocar Sol em quatro semínimas articuladas com 'tu' e uma nota longa; depois, sem mudar o dedilhado, acelerar o ar e fechar um pouco os lábios até soar o Sol agudo, alternando grave e agudo em notas longas.",
+        "recursos": ["instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Articulação com a língua (tu) em notas repetidas", "Passagem de oitava pela velocidade do ar"]
+      },
+      {
+        "titulo": "Puxar ou empurrar",
+        "descricao": "Tocar um Lá longo junto com o afinador ou com o professor; se estiver alto, puxar levemente a cabeça, se estiver baixo, empurrar. Repetir com Sol e Ré e anotar a posição da cabeça que funcionou.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Afinação: puxar e empurrar a cabeça da flauta"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Soprado ou focado?",
+        "descricao": "O professor toca a mesma nota com som 'soprado' e com som focado; a turma identifica qual é qual. Depois cada aluno grava um Si longo e ouve se há ar escapando.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Som soprado e som focado: ouvir o próprio timbre"]
+      },
+      {
+        "titulo": "Mesma nota, duas alturas",
+        "descricao": "O professor toca Sol grave e Sol agudo em ordem variada; os alunos levantam ou abaixam a mão. Depois cantam as duas notas e tentam reproduzir a diferença só com a velocidade do ar.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Grave e agudo: mesma nota em duas oitavas"]
+      },
+      {
+        "titulo": "Marcha ou valsa?",
+        "descricao": "Ouvir trechos gravados e marcar o tempo forte com palma e os fracos na perna; decidir se é binário ou ternário e depois tocar o Sol só nos tempos fortes.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Pulso forte e fraco: binário e ternário"]
+      },
+      {
+        "titulo": "Eco em três notas",
+        "descricao": "O professor toca um motivo de 2 a 4 notas com Sol, Lá e Si; o aluno canta o motivo e depois o reproduz na flauta sem olhar os dedos do professor. Em seguida ouvir a mesma cantiga em maior e em menor e identificar o modo.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Ouvir e repetir motivos com Sol, Lá e Si", "Reconhecer modo maior e menor"]
+      },
+      {
+        "titulo": "Alto ou baixo?",
+        "descricao": "Sobre um bordão de Lá tocado pela caixa de som, o aluno toca Lá e ouve os batimentos; o professor pede para deixar 'mais alto' ou 'mais baixo' com a direção do ar até os batimentos sumirem.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Perceber alto e baixo na afinação com um bordão"]
+      },
+      {
+        "titulo": "Vibrato ou som reto?",
+        "descricao": "Ouvir gravações de flautistas (clássico, choro, jazz) e identificar trechos com vibrato e com som reto, descrevendo com palavras próprias o efeito de cada um.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 11,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Ouvir vibrato e som reto em gravações"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Primeira canção em três notas",
+        "descricao": "Aprender de ouvido uma canção com Si, Lá e Sol, cantando o nome das notas antes de tocar; depois conferir na partitura e marcar as respirações.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Canções com Si, Lá e Sol"]
+      },
+      {
+        "titulo": "Cantiga de cinco notas",
+        "descricao": "Montar uma cantiga entre Sol e Ré na primeira oitava e, quando estiver segura, avançar para uma canção brasileira em Sol maior que use a oitava inteira, cuidando do Fá sustenido.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Cantigas em cinco notas na primeira oitava", "Canções brasileiras em Sol maior (uma oitava)"]
+      },
+      {
+        "titulo": "Dueto com respiração combinada",
+        "descricao": "O aluno toca a melodia enquanto o professor toca a segunda voz; antes, os dois marcam juntos na partitura onde respirar para que as frases coincidam. Depois trocar as vozes.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Duetos com o professor com respirações marcadas"]
+      },
+      {
+        "titulo": "Melodia entre oitavas",
+        "descricao": "Estudar uma melodia que sobe da primeira para a segunda oitava, isolando os saltos de oitava em notas longas antes de tocar o trecho no andamento; depois montar uma peça de nível iniciante do repertório clássico.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 11,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Melodias que cruzam as duas oitavas", "Peças de nível iniciante do repertório clássico"]
+      },
+      {
+        "titulo": "Choro com acompanhamento",
+        "descricao": "Tocar um choro ou valsa brasileira simplificada sobre playback ou violão do professor, cuidando das respirações nas frases longas e do final em conjunto.",
+        "recursos": ["instrumentos", "impressao", "caixa_de_som"],
+        "idade_min": 12,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Choro ou valsa brasileira com acompanhamento"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Aquecimento de respiração e ombros",
+        "descricao": "Girar os ombros, alongar o pescoço para os dois lados e fazer três respirações profundas com sopro longo em 'fff' antes de pegar a flauta.",
+        "recursos": ["nenhum"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Respiração diafragmática e coluna de ar contínua", "Postura assimétrica e apoio dos três pontos"]
+      },
+      {
+        "titulo": "Improvisação em três notas",
+        "descricao": "Sobre um acompanhamento do professor, cada aluno improvisa uma frase de 4 compassos com Sol, Lá e Si, mantendo o pulso e terminando no Sol.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Sol, Lá e Si no pulso em semínimas", "Ouvir e repetir motivos com Sol, Lá e Si"]
+      },
+      {
+        "titulo": "Gravar e ouvir",
+        "descricao": "Gravar a canção da semana no celular e ouvir com o professor, apontando um acerto e um ponto para melhorar (foco do som, respiração ou pulso).",
+        "recursos": ["celulares", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Som soprado e som focado: ouvir o próprio timbre", "Canções brasileiras em Sol maior (uma oitava)"]
+      },
+      {
+        "titulo": "Roda de apresentação",
+        "descricao": "Cada aluno toca um trecho pronto para os colegas, que dão um comentário positivo e uma sugestão. Trabalha entrada, respiração antes de começar e final.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canções com Si, Lá e Sol", "Duetos com o professor com respirações marcadas"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["sonoridade", "respiracao", "articulacao", "afinacao", "ritmo", "leitura", "postura"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Em geral é cedo para a flauta completa: braços curtos e falta de fôlego; preferir flauta doce ou musicalização como pré-instrumento.",
+      "Quando houver interesse, trabalhar só com a cabeça da flauta (sons longos, grave e agudo) em sessões de 10–15 minutos.",
+      "Se a família insistir no instrumento, usar flauta com cabeça curva e pausar sempre que houver tontura."
+    ],
+    "9-12": [
+      "Idade comum de início; verificar o alcance dos braços e considerar cabeça curva para os menores.",
+      "Sessões de sons longos curtas e frequentes, intercaladas com canções, para evitar cansaço e tontura.",
+      "Introduzir metrônomo, gravação e duetos; a segunda oitava costuma consolidar-se ao final da faixa."
+    ],
+    "13+": [
+      "Avançam rápido em extensão e leitura; explorar choro, MPB e repertório clássico de iniciante.",
+      "Atenção à postura assimétrica em sessões longas: alongamentos de pescoço e ombro direito.",
+      "Introduzir vibrato e afinação com afinador; valorizar a autonomia na escolha de repertório e a prática em grupo."
+    ]
+  },
+  "editavel": true
+}

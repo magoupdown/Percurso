@@ -1,0 +1,441 @@
+{
+  "id": "bateria",
+  "nome": "Bateria",
+  "familia": "percussao",
+  "tessitura": {
+    "inicial": ["caixa", "bumbo", "chimbal"],
+    "ampliada": "caixa, bumbo, chimbal, tons, surdo e pratos"
+  },
+  "postura": [
+    "Banco ajustado para que os joelhos fiquem um pouco abaixo do quadril, com a coluna ereta e o peso distribuído entre banco e pés.",
+    "Caixa na altura da cintura ou um pouco acima do joelho, levemente inclinada, para que as baquetas cheguem sem levantar os ombros.",
+    "Pedal do bumbo e do chimbal na posição natural dos pés, sem abrir demais as pernas nem forçar os tornozelos.",
+    "Pegada matched grip: baqueta presa entre polegar e primeira falange do indicador, demais dedos envolvendo sem apertar (ponto de apoio).",
+    "Punhos relaxados e cotovelos próximos ao corpo; o movimento vem do pulso e dos dedos, não do ombro.",
+    "Tons, surdo e pratos ao alcance do braço sem inclinar o tronco; chimbal e prato de condução em altura que não force o ombro direito.",
+    "Uso de protetor auricular em sala; volume controlado pela altura da baqueta e não pela força."
+  ],
+  "tecnicas_fundamentais": [
+    "Toque simples (single stroke) alternado com rebote controlado, mantendo o mesmo som nas duas mãos.",
+    "Toque duplo (double stroke) aproveitando o rebote da caixa, do lento ao rápido.",
+    "Paradiddle (RLRR LRLL) como rudimento de coordenação e distribuição pelo kit.",
+    "Técnica de pé no bumbo (calcanhar em cima e calcanhar embaixo) e no chimbal (fechado, aberto e pisado).",
+    "Levada básica de rock: chimbal em colcheias, bumbo nos tempos 1 e 3, caixa nos tempos 2 e 4.",
+    "Levadas brasileiras adaptadas ao kit: samba (surdo no bumbo), baião (bumbo sincopado) e funk (bumbo em contratempo).",
+    "Viradas de 1 compasso distribuídas entre caixa e tons, voltando à levada no tempo 1.",
+    "Controle de dinâmica pela altura da baqueta (acentos e toques fantasmas) e escuta do grupo."
+  ],
+  "pre_requisitos": {
+    "Pulso na caixa com baquetas alternadas (D-E)": ["Movimento: caminhar e balançar com a música", "Pegada matched grip: ponto de apoio e rebote"],
+    "Ostinato: bumbo nos tempos 1 e 3, caixa em 2 e 4": ["Pulso na caixa com baquetas alternadas (D-E)", "Pedal do bumbo e do chimbal: técnica de pé"],
+    "Levada básica de rock com bumbo, caixa e chimbal": ["Ostinato: bumbo nos tempos 1 e 3, caixa em 2 e 4", "Chimbal em colcheias: subdivisão do pulso"],
+    "Toque duplo (RRLL) lento e acelerando": ["Toque simples alternado (RLRL) com rebote"],
+    "Paradiddle (RLRR LRLL) na caixa e no kit": ["Toque duplo (RRLL) lento e acelerando"],
+    "Levada de funk com bumbo em contratempo": ["Levada de rock com playback em andamento lento", "Semicolcheias e contratempo na pauta de bateria"],
+    "Viradas de 1 compasso na troca de seção": ["Viradas escritas: caixa e tons em 1 compasso", "Ouvir a virada e a entrada do refrão"],
+    "Samba no kit: caixa, bumbo em surdo e chimbal": ["Coordenação de 4 membros: chimbal com pé e mãos livres", "Reconhecer a levada: rock, samba, baião e funk"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Movimento: caminhar e balançar com a música",
+      "Pulso na caixa com baquetas alternadas (D-E)",
+      "Ostinato: bumbo nos tempos 1 e 3, caixa em 2 e 4",
+      "Chimbal em colcheias: subdivisão do pulso",
+      "Levada básica de rock com bumbo, caixa e chimbal",
+      "Coordenação: manter a levada enquanto o grupo toca",
+      "Pulso estável com metrônomo e playback"
+    ],
+    "leitura": [
+      "Pauta de percussão: linha da caixa, bumbo e chimbal",
+      "Figuras rítmicas: semínima, colcheia e pausa na caixa",
+      "Leitura da levada de rock escrita em um compasso",
+      "Semicolcheias e contratempo na pauta de bateria",
+      "Viradas escritas: caixa e tons em 1 compasso",
+      "Ler a forma da música: repetições e sinais",
+      "Leitura de levada e virada em partitura de 8 compassos"
+    ],
+    "tecnica": [
+      "Postura no banco e altura da caixa e do chimbal",
+      "Pegada matched grip: ponto de apoio e rebote",
+      "Toque simples alternado (RLRL) com rebote",
+      "Pedal do bumbo e do chimbal: técnica de pé",
+      "Toque duplo (RRLL) lento e acelerando",
+      "Paradiddle (RLRR LRLL) na caixa e no kit",
+      "Coordenação de 4 membros: chimbal com pé e mãos livres",
+      "Controle de dinâmica: altura da baqueta e volume em sala"
+    ],
+    "percepcao": [
+      "Grave e agudo: bumbo, tons, caixa e pratos",
+      "Tempo forte e fraco: binário e quaternário",
+      "Ouvir e repetir células rítmicas de 1 compasso",
+      "Reconhecer a levada: rock, samba, baião e funk",
+      "Ouvir a virada e a entrada do refrão",
+      "Timbres: aro, centro da caixa e borda do prato",
+      "Perceber a forma da música e contar os compassos"
+    ],
+    "repertorio": [
+      "Levada de rock com playback em andamento lento",
+      "Levada de funk com bumbo em contratempo",
+      "Baião no kit: bumbo sincopado e triângulo no chimbal",
+      "Samba no kit: caixa, bumbo em surdo e chimbal",
+      "Música com forma completa: intro, verso, refrão e final",
+      "Viradas de 1 compasso na troca de seção",
+      "Tocar com banda de sala: seguir o grupo e a dinâmica"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Baqueta apertada com a mão fechada, matando o rebote e cansando o antebraço.",
+    "Ombros levantados e caixa alta demais, com o movimento saindo do braço inteiro.",
+    "Bumbo atrasado em relação à caixa e ao chimbal, por falta de técnica de pé.",
+    "Perder o chimbal (parar as colcheias) ao inserir o bumbo ou uma virada.",
+    "Acelerar nas viradas e voltar à levada fora do tempo 1.",
+    "Tocar tudo muito forte, sem controle de altura da baqueta, incomodando o grupo em sala.",
+    "Confundir as linhas da pauta de percussão (bumbo, caixa e chimbal) ao ler.",
+    "Não ouvir o playback ou a banda e seguir só o próprio andamento."
+  ],
+  "vocabulario_pt": [
+    "baqueta",
+    "pegada",
+    "rebote",
+    "rudimento",
+    "toque simples",
+    "toque duplo",
+    "paradiddle",
+    "levada",
+    "virada",
+    "bumbo",
+    "caixa",
+    "chimbal",
+    "tons e surdo",
+    "prato de condução",
+    "pedal de bumbo",
+    "coordenação de membros",
+    "pauta de percussão",
+    "contratempo",
+    "subdivisão",
+    "samba na bateria",
+    "baião na bateria",
+    "dinâmica e acento",
+    "metrônomo e playback"
+  ],
+  "vocabulario_en": [
+    "drumstick",
+    "matched grip",
+    "rebound",
+    "rudiments",
+    "single stroke",
+    "double stroke",
+    "paradiddle",
+    "groove",
+    "drum fill",
+    "bass drum",
+    "snare drum",
+    "hi-hat",
+    "toms and floor tom",
+    "ride cymbal",
+    "bass drum pedal technique",
+    "limb independence",
+    "drum notation",
+    "off-beat",
+    "subdivision",
+    "samba drum set",
+    "Brazilian rhythms on drum set",
+    "dynamics and accents",
+    "playing with a metronome",
+    "drum set pedagogy"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Caminhar com a música",
+        "descricao": "Com uma gravação em andamento moderado, a turma caminha pela sala no pulso, depois balança o tronco sentada e marca o pulso com as mãos nas coxas. Trocar a música e observar quem mantém o pulso.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Movimento: caminhar e balançar com a música"]
+      },
+      {
+        "titulo": "Direita e esquerda na caixa",
+        "descricao": "Tocar o pulso na caixa alternando direita e esquerda (D-E) enquanto o professor toca uma levada ou o playback roda; contar 1-2-3-4 em voz alta e trocar de andamento a cada 8 compassos.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Pulso na caixa com baquetas alternadas (D-E)"]
+      },
+      {
+        "titulo": "Bumbo e caixa conversam",
+        "descricao": "Bumbo nos tempos 1 e 3, caixa nos tempos 2 e 4, repetido sem parar; depois acrescentar o chimbal em colcheias com a outra mão, contando '1 e 2 e 3 e 4 e'.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Ostinato: bumbo nos tempos 1 e 3, caixa em 2 e 4", "Chimbal em colcheias: subdivisão do pulso"]
+      },
+      {
+        "titulo": "Rock básico em grupo",
+        "descricao": "Montar a levada de rock (chimbal em colcheias, bumbo 1 e 3, caixa 2 e 4) e mantê-la por 16 compassos enquanto os colegas tocam palmas, instrumentos de percussão ou cantam; o baterista não pode parar ao ouvir o grupo.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Levada básica de rock com bumbo, caixa e chimbal", "Coordenação: manter a levada enquanto o grupo toca"]
+      },
+      {
+        "titulo": "Metrônomo que some",
+        "descricao": "Tocar a levada com metrônomo em 70, 90 e 110 bpm; depois o professor abaixa o metrônomo por 4 compassos e volta, para conferir se o aluno continua no mesmo tempo. Repetir com playback.",
+        "recursos": ["instrumentos", "celulares", "caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Pulso estável com metrônomo e playback"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Cada peça na sua linha",
+        "descricao": "O professor desenha a pauta de percussão no quadro e mostra onde ficam bumbo, caixa e chimbal; a turma toca cada nota apontada na peça correta. Depois ler semínimas, colcheias e pausas só na caixa, falando 'tá' e 'ti-ti'.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Pauta de percussão: linha da caixa, bumbo e chimbal", "Figuras rítmicas: semínima, colcheia e pausa na caixa"]
+      },
+      {
+        "titulo": "Levada escrita",
+        "descricao": "Ler a levada de rock escrita em um compasso, primeiro só as mãos, depois só o bumbo, e por fim tudo junto em andamento lento; marcar na partitura onde cada membro toca.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Leitura da levada de rock escrita em um compasso"]
+      },
+      {
+        "titulo": "Contratempo e semicolcheias",
+        "descricao": "Ler células com semicolcheias e bumbo no contratempo ('e' do tempo), falando '1 e a 2 e a' antes de tocar; depois ler viradas de um compasso distribuídas entre caixa e tons.",
+        "recursos": ["impressao", "quadro", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Semicolcheias e contratempo na pauta de bateria", "Viradas escritas: caixa e tons em 1 compasso"]
+      },
+      {
+        "titulo": "Partitura de 8 compassos",
+        "descricao": "Ler uma partitura de bateria com sinais de repetição, casa 1 e 2 e indicações de forma; identificar onde há levada e onde há virada, e tocar os 8 compassos inteiros com metrônomo.",
+        "recursos": ["impressao", "instrumentos", "celulares"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Ler a forma da música: repetições e sinais", "Leitura de levada e virada em partitura de 8 compassos"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Ajuste do kit",
+        "descricao": "Antes de tocar, o aluno ajusta banco, caixa e chimbal para o próprio corpo e confere a pegada matched grip: ponto de apoio, dedos envolvendo a baqueta e rebote livre na caixa.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Postura no banco e altura da caixa e do chimbal", "Pegada matched grip: ponto de apoio e rebote"]
+      },
+      {
+        "titulo": "Toque simples com rebote",
+        "descricao": "RLRL na caixa em semínimas e depois colcheias com metrônomo, deixando a baqueta voltar sozinha; verificar que as duas mãos soam iguais e que o ombro não sobe.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Toque simples alternado (RLRL) com rebote"]
+      },
+      {
+        "titulo": "Pés no pedal",
+        "descricao": "Bumbo em semínimas com calcanhar em cima e depois embaixo, sem as mãos; chimbal pisado nos tempos 2 e 4. Depois juntar bumbo e chimbal pisado alternados.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Pedal do bumbo e do chimbal: técnica de pé"]
+      },
+      {
+        "titulo": "Duplo e paradiddle",
+        "descricao": "RRLL bem lento, sentindo os dois toques por mão com o rebote, acelerando aos poucos com metrônomo; depois RLRR LRLL na caixa e distribuído entre caixa e tons, com acento no primeiro toque.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Toque duplo (RRLL) lento e acelerando", "Paradiddle (RLRR LRLL) na caixa e no kit"]
+      },
+      {
+        "titulo": "Quatro membros",
+        "descricao": "Chimbal com o pé nos tempos 2 e 4 enquanto as mãos tocam a levada no prato de condução e na caixa e o bumbo faz o padrão; trocar o papel de cada membro sem parar.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Coordenação de 4 membros: chimbal com pé e mãos livres"]
+      },
+      {
+        "titulo": "Alturas da baqueta",
+        "descricao": "Tocar a mesma levada em três alturas de baqueta (baixa, média, alta) e ouvir a diferença de volume; combinar com a turma o volume adequado à sala e usar acentos só onde a música pede.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Controle de dinâmica: altura da baqueta e volume em sala"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Grave ou agudo no kit",
+        "descricao": "De olhos fechados, os alunos dizem qual peça o professor tocou (bumbo, tom, caixa ou prato) e depois ordenam as peças do grave ao agudo; em seguida comparam aro, centro da caixa e borda do prato.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 11,
+        "duracao_min": 5,
+        "conteudos": ["Grave e agudo: bumbo, tons, caixa e pratos", "Timbres: aro, centro da caixa e borda do prato"]
+      },
+      {
+        "titulo": "Onde está o forte?",
+        "descricao": "Ouvir músicas em 2 e em 4 e marcar o tempo forte no bumbo e os fracos no chimbal; decidir se é binário ou quaternário e contar em voz alta.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Tempo forte e fraco: binário e quaternário"]
+      },
+      {
+        "titulo": "Eco na caixa",
+        "descricao": "O professor toca uma célula rítmica de um compasso na caixa e a turma repete em conjunto, depois um aluno de cada vez; aumentar a dificuldade com pausas e colcheias.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Ouvir e repetir células rítmicas de 1 compasso"]
+      },
+      {
+        "titulo": "Que levada é?",
+        "descricao": "Ouvir trechos de rock, samba, baião e funk e identificar a levada pelo padrão de bumbo e caixa; depois levantar a mão quando ouvir a virada que anuncia o refrão.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Reconhecer a levada: rock, samba, baião e funk", "Ouvir a virada e a entrada do refrão"]
+      },
+      {
+        "titulo": "Contar os compassos",
+        "descricao": "Ouvir uma canção e contar os compassos de intro, verso e refrão com os dedos; anotar a forma no quadro e conferir tocando a levada por cima, com virada no fim de cada parte.",
+        "recursos": ["caixa_de_som", "quadro", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Perceber a forma da música e contar os compassos"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Rock lento com playback",
+        "descricao": "Tocar a levada de rock sobre um playback sem bateria em andamento lento, por uma música inteira, cuidando de não acelerar; depois o mesmo playback em andamento normal.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Levada de rock com playback em andamento lento"]
+      },
+      {
+        "titulo": "Funk de sala",
+        "descricao": "Montar uma levada de funk com o bumbo em contratempo e chimbal em semicolcheias leves, sobre playback; comparar com a levada de rock para sentir a diferença do bumbo.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Levada de funk com bumbo em contratempo"]
+      },
+      {
+        "titulo": "Baião e samba no kit",
+        "descricao": "Baião: bumbo com o padrão da zabumba e chimbal imitando o triângulo; samba: surdo no bumbo (tempo 2 acentuado), caixa em semicolcheias leves e chimbal. Tocar cada um sobre gravação de referência.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Baião no kit: bumbo sincopado e triângulo no chimbal", "Samba no kit: caixa, bumbo em surdo e chimbal"]
+      },
+      {
+        "titulo": "Música do começo ao fim",
+        "descricao": "Escolher uma canção conhecida e tocar a forma completa (intro, verso, refrão e final) com playback, inserindo uma virada de 1 compasso em cada troca de seção e voltando à levada no tempo 1.",
+        "recursos": ["instrumentos", "caixa_de_som", "impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Música com forma completa: intro, verso, refrão e final", "Viradas de 1 compasso na troca de seção"]
+      },
+      {
+        "titulo": "Banda de sala",
+        "descricao": "Tocar com colegas de guitarra, teclado ou violão e canto uma música de três acordes, seguindo a dinâmica do grupo (mais baixo nos versos, mais forte no refrão) e combinando a entrada e o final.",
+        "recursos": ["instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Tocar com banda de sala: seguir o grupo e a dinâmica"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Aquecimento na almofada",
+        "descricao": "Alongar punhos e ombros e tocar toques simples e duplos lentos numa almofada ou pad de estudo, verificando a pegada e o rebote antes de ir para o kit.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Pegada matched grip: ponto de apoio e rebote", "Toque simples alternado (RLRL) com rebote"]
+      },
+      {
+        "titulo": "Pergunta e resposta",
+        "descricao": "O professor toca 2 compassos de levada e o aluno responde com 2 compassos de improviso sobre a caixa e os tons, voltando ao tempo 1 sem parar o chimbal.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Ouvir e repetir células rítmicas de 1 compasso", "Viradas de 1 compasso na troca de seção"]
+      },
+      {
+        "titulo": "Gravar e conferir o tempo",
+        "descricao": "Gravar no celular a música da semana tocada com playback e ouvir com o professor, observando se o andamento se manteve e se as viradas voltaram no tempo 1.",
+        "recursos": ["celulares", "instrumentos", "caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Pulso estável com metrônomo e playback", "Levada de rock com playback em andamento lento"]
+      },
+      {
+        "titulo": "Rodízio no kit",
+        "descricao": "Em turma com um kit só, os alunos se revezam: um toca a levada, os outros marcam o pulso em pads, baldes ou palmas e trocam a cada 8 compassos sem parar a música.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Coordenação: manter a levada enquanto o grupo toca", "Controle de dinâmica: altura da baqueta e volume em sala"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["ritmo", "coordenacao", "tecnica", "leitura", "percepcao", "sonoridade", "autonomia"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Banco, caixa e pedais ajustados ao tamanho da criança; kits compactos ou pad e pedal separados quando o kit é grande.",
+      "Movimento corporal, jogos de eco e pulso na caixa antes de coordenar os pés; sessões curtas e volume baixo.",
+      "Protetor auricular obrigatório e regras claras de volume em sala."
+    ],
+    "9-12": [
+      "Já sustentam a levada de rock e os rudimentos básicos; introduzir leitura na pauta de percussão e viradas escritas.",
+      "Playbacks de músicas escolhidas com a turma aumentam o estudo em casa (pad ou almofada).",
+      "Introduzir metrônomo e gravação para acompanhar o andamento."
+    ],
+    "13+": [
+      "Motivação por levadas de funk, rock pesado e samba; equilibrar com rudimentos e controle de dinâmica.",
+      "Atenção a tensão nos punhos e na lombar em sessões longas; alongamentos e ajuste do banco.",
+      "Valorizar autonomia: tirar levadas de ouvido, montar o próprio kit e tocar em banda com os colegas."
+    ]
+  },
+  "editavel": true
+}

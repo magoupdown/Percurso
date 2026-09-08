@@ -1,0 +1,466 @@
+{
+  "id": "saxofone",
+  "nome": "Saxofone",
+  "familia": "sopro_madeira",
+  "tessitura": {
+    "inicial": ["G4", "A4", "B4"],
+    "ampliada": "D4–F6"
+  },
+  "postura": [
+    "Em pé ou sentado na borda da cadeira, coluna alongada, ombros soltos e pés afastados na largura dos ombros.",
+    "Correia (talabarte) ajustada para que a boquilha chegue à boca sem abaixar a cabeça nem levantar os ombros; o peso do sax fica na correia, não nas mãos.",
+    "Sax alto à frente do corpo (entre as pernas, sentado) ou levemente ao lado direito, em pé; o tudel gira para alinhar a boquilha com a boca.",
+    "Mão esquerda em cima com o polegar no apoio, pronto para a chave de oitava; mão direita embaixo com o polegar sob o gancho.",
+    "Dedos curvados sobre as chaves de pérola, sem apertar; punhos alinhados com os antebraços.",
+    "Boquilha entrando pouco na boca, dentes superiores apoiados sobre ela e cabeça erguida."
+  ],
+  "tecnicas_fundamentais": [
+    "Montagem: palheta de dureza 2 a 2,5 umedecida e alinhada com a ponta da boquilha; boquilha encaixada no tudel com cortiça engraxada.",
+    "Embocadura: lábio inferior dobrado levemente sobre os dentes, cantos firmes e pressão moderada, sem 'esmagar' a palheta.",
+    "Respiração diafragmática e apoio do ar para um som cheio e estável em todos os registros.",
+    "Notas iniciais Si, Lá e Sol com a mão esquerda, depois Dó, Ré e as notas da mão direita.",
+    "Chave de oitava acionada com o polegar esquerdo, mantendo o ar constante na passagem.",
+    "Articulação com a língua: 'ta' para ataques definidos e 'da' para articulação mais leve, com o ar sempre em movimento.",
+    "Afinação: empurrar a boquilha no tudel para subir e puxar para baixar; ajuste fino pela embocadura.",
+    "Pentatônica e blues como base para a improvisação simples desde as primeiras notas."
+  ],
+  "pre_requisitos": {
+    "Sons na boquilha com o tudel no pulso": ["Respiração no pulso: inspirar rápido, soprar longo", "Embocadura: lábio dobrado e pressão moderada"],
+    "Si repetido no pulso com o sax montado": ["Sons na boquilha com o tudel no pulso", "Postura: altura da correia, sax à frente ou ao lado"],
+    "Sol, Lá e Si no pulso em semínimas": ["Si repetido no pulso com o sax montado", "Dedilhado de Si, Lá e Sol com a mão esquerda"],
+    "Canções com Si, Lá e Sol": ["Sol, Lá e Si no pulso em semínimas", "Si, Lá e Sol na clave de sol"],
+    "Chave de oitava com o polegar esquerdo": ["Respiração diafragmática e apoio em sons longos", "Dedilhado de Si, Lá e Sol com a mão esquerda"],
+    "Improvisação simples na pentatônica de Sol": ["Cantigas em cinco notas (Sol a Ré)", "Ouvir a pentatônica e o blues em gravações"],
+    "Blues de 12 compassos com playback": ["Improvisação simples na pentatônica de Sol", "Frase de 4 compassos sobre playback de blues"],
+    "Afinação: ajuste da boquilha no tudel": ["Perceber alto e baixo na afinação com um bordão"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Corpo: pulso com passos, estalos e balanço",
+      "Respiração no pulso: inspirar rápido, soprar longo",
+      "Sons na boquilha com o tudel no pulso",
+      "Ataques de língua (ta) no pulso na boquilha",
+      "Si repetido no pulso com o sax montado",
+      "Sol, Lá e Si no pulso em semínimas",
+      "Frase de 4 compassos sobre playback de blues",
+      "Colcheias com swing e metrônomo"
+    ],
+    "leitura": [
+      "Figuras rítmicas: semínima, mínima e pausa",
+      "Si, Lá e Sol na clave de sol",
+      "Dó, Ré, Mi e Fá sustenido na pauta",
+      "Colcheias, ponto de aumento e ligadura",
+      "Notas abaixo da pauta: Fá, Mi e Ré graves",
+      "Notas agudas com chave de oitava (Ré a Sol)",
+      "Cifras e leitura de melodias populares",
+      "Leitura à primeira vista com respirações marcadas"
+    ],
+    "tecnica": [
+      "Montagem: palheta, boquilha no tudel e correia",
+      "Embocadura: lábio dobrado e pressão moderada",
+      "Respiração diafragmática e apoio em sons longos",
+      "Postura: altura da correia, sax à frente ou ao lado",
+      "Dedilhado de Si, Lá e Sol com a mão esquerda",
+      "Articulação: ta e da na ponta da palheta",
+      "Chave de oitava com o polegar esquerdo",
+      "Afinação: ajuste da boquilha no tudel"
+    ],
+    "percepcao": [
+      "Som cheio e som esmagado: ouvir a embocadura",
+      "Grave e agudo: mesma nota com e sem chave de oitava",
+      "Pulso forte e fraco: binário e ternário",
+      "Ouvir e repetir motivos com Sol, Lá e Si",
+      "Perceber alto e baixo na afinação com um bordão",
+      "Reconhecer modo maior e menor",
+      "Ouvir a pentatônica e o blues em gravações"
+    ],
+    "repertorio": [
+      "Canções com Si, Lá e Sol",
+      "Cantigas em cinco notas (Sol a Ré)",
+      "Canções populares brasileiras em Sol maior",
+      "Duetos com o professor com respirações marcadas",
+      "Improvisação simples na pentatônica de Sol",
+      "Blues de 12 compassos com playback",
+      "Temas de MPB e jazz com chave de oitava"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Morder ou 'esmagar' a palheta com pressão excessiva, deixando o som fino, apertado e alto na afinação.",
+    "Embocadura frouxa ou bochechas infladas, com som soprado, grave demais e guinchos ocasionais.",
+    "Correia muito baixa, obrigando a abaixar a cabeça e curvar as costas para alcançar a boquilha.",
+    "Segurar o peso do sax com as mãos em vez da correia, travando os dedos sobre as chaves.",
+    "Chave de oitava acionada com o polegar inteiro (rolando a mão) em vez de um leve balanço, atrasando as trocas.",
+    "Iniciar as notas com o sopro em vez da língua, ou parar o ar a cada articulação.",
+    "Palheta seca, lascada ou desalinhada, causando falhas de som na aula.",
+    "Tocar tudo forte e sem contraste, sem controlar a dinâmica com o ar."
+  ],
+  "vocabulario_pt": [
+    "saxofone alto",
+    "sax em mi bemol",
+    "boquilha",
+    "palheta",
+    "abraçadeira",
+    "tudel",
+    "correia",
+    "talabarte",
+    "embocadura",
+    "chave de oitava",
+    "apoio",
+    "respiração diafragmática",
+    "sons longos",
+    "articulação",
+    "golpe de língua",
+    "afinação",
+    "pentatônica",
+    "blues",
+    "improvisação",
+    "swing",
+    "iniciação ao saxofone",
+    "método de saxofone"
+  ],
+  "vocabulario_en": [
+    "alto saxophone",
+    "Eb saxophone",
+    "mouthpiece",
+    "reed",
+    "ligature",
+    "neck",
+    "neck strap",
+    "embouchure",
+    "octave key",
+    "breath support",
+    "diaphragmatic breathing",
+    "long tones",
+    "articulation",
+    "tonguing",
+    "intonation",
+    "pentatonic scale",
+    "blues scale",
+    "improvisation",
+    "swing feel",
+    "beginner saxophone",
+    "saxophone method",
+    "jazz band"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Pulso no corpo com groove",
+        "descricao": "Com uma gravação de blues ou samba em andamento moderado, os alunos caminham no pulso, depois estalam os dedos nos tempos 2 e 4 e por fim balançam o tronco sentados. O professor observa quem mantém a regularidade.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Corpo: pulso com passos, estalos e balanço"]
+      },
+      {
+        "titulo": "Inspira rápido, sopra longo",
+        "descricao": "Sobre uma gravação lenta, inspirar rápido pela boca em um pulso e soprar um fio de ar constante pelos sete pulsos seguintes, com a mão no abdome. Repetir sem levantar os ombros.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Respiração no pulso: inspirar rápido, soprar longo"]
+      },
+      {
+        "titulo": "Tudel no tempo",
+        "descricao": "Só com boquilha e tudel, produzir um som de quatro pulsos do metrônomo; depois articular 'ta' em cada pulso, quatro ataques por compasso, mantendo o ar entre eles.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Sons na boquilha com o tudel no pulso", "Ataques de língua (ta) no pulso na boquilha"]
+      },
+      {
+        "titulo": "Si, depois três notas",
+        "descricao": "Com o sax montado, tocar Si em semínimas por 4 compassos sobre acompanhamento do professor; depois alternar Si, Lá e Sol, uma nota por compasso, sem interromper o pulso na troca de dedilhado.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Si repetido no pulso com o sax montado", "Sol, Lá e Si no pulso em semínimas"]
+      },
+      {
+        "titulo": "Frase de blues e swing",
+        "descricao": "Montar uma frase de 4 compassos com Sol, Lá e Si e tocá-la sobre playback de blues lento; em seguida tocar colcheias 'longa-curta' (swing) com metrônomo marcando os tempos 2 e 4.",
+        "recursos": ["instrumentos", "caixa_de_som", "celulares"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Frase de 4 compassos sobre playback de blues", "Colcheias com swing e metrônomo"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Cartões de ritmo no tudel",
+        "descricao": "Cartões com semínimas, mínimas e pausas organizados em compassos de 4 tempos; a turma lê com sílabas rítmicas e depois toca o ritmo só com boquilha e tudel.",
+        "recursos": ["impressao", "quadro", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Figuras rítmicas: semínima, mínima e pausa"]
+      },
+      {
+        "titulo": "Três notas na pauta",
+        "descricao": "O professor escreve Si, Lá e Sol no quadro em ordem variada; os alunos dedilham no ar dizendo o nome e depois tocam a sequência apontada em notas longas.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Si, Lá e Sol na clave de sol"]
+      },
+      {
+        "titulo": "Completando a escala de Sol",
+        "descricao": "Acrescentar Dó, Ré, Mi e Fá sustenido à leitura em melodias de 2 compassos, uma nota por aula; depois descer pela mão direita até o Ré grave, lendo as linhas suplementares abaixo da pauta.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Dó, Ré, Mi e Fá sustenido na pauta", "Notas abaixo da pauta: Fá, Mi e Ré graves"]
+      },
+      {
+        "titulo": "Colcheias e ligaduras",
+        "descricao": "Leitura rítmica de padrões com colcheias, semínima pontuada e ligaduras em sílabas rítmicas; depois tocar o mesmo padrão em uma melodia de Sol a Ré, articulando só a primeira nota de cada ligadura.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Colcheias, ponto de aumento e ligadura"]
+      },
+      {
+        "titulo": "Acima da pauta e cifras",
+        "descricao": "Ler as notas agudas com chave de oitava (Ré a Sol) comparando com as mesmas notas graves; depois ler uma melodia popular com cifras acima da pauta, identificando a tônica de cada acorde para a improvisação.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Notas agudas com chave de oitava (Ré a Sol)", "Cifras e leitura de melodias populares"]
+      },
+      {
+        "titulo": "Leitura relâmpago com respiração",
+        "descricao": "Melodia de 8 compassos nunca vista; o aluno tem 30 segundos para marcar as respirações e a armadura e depois toca uma única vez sem parar.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 11,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Leitura à primeira vista com respirações marcadas"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Montar o sax",
+        "descricao": "Umedecer a palheta enquanto se encaixa o tudel e se ajusta a correia; alinhar a ponta da palheta com a ponta da boquilha e fechar a abraçadeira sem apertar demais. Ao final, secar o tudel e guardar a palheta.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Montagem: palheta, boquilha no tudel e correia"]
+      },
+      {
+        "titulo": "Pressão moderada no espelho",
+        "descricao": "Diante do espelho, dobrar levemente o lábio inferior sobre os dentes, firmar os cantos e tocar sons na boquilha com o tudel. Experimentar apertar demais (som fino) e soltar demais (som soprado) para encontrar o meio-termo.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Embocadura: lábio dobrado e pressão moderada"]
+      },
+      {
+        "titulo": "Correia e sons longos",
+        "descricao": "Ajustar a correia até a boquilha chegar à boca com a cabeça erguida, escolher sax à frente ou ao lado, e sustentar Si por 8 tempos com ar apoiado e som cheio. Marcar no quadro quantos tempos cada aluno sustentou.",
+        "recursos": ["instrumentos", "quadro"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Respiração diafragmática e apoio em sons longos", "Postura: altura da correia, sax à frente ou ao lado"]
+      },
+      {
+        "titulo": "Mão esquerda que desce",
+        "descricao": "Tocar Si (indicador), Lá (mais o dedo médio) e Sol (mais o anular) em notas longas, com os dedos curvados sobre as pérolas e o peso do sax na correia. Ligar as três notas em uma só respiração.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Dedilhado de Si, Lá e Sol com a mão esquerda"]
+      },
+      {
+        "titulo": "Ta, da e chave de oitava",
+        "descricao": "Tocar Sol em quatro semínimas com 'ta' e depois com 'da', ouvindo a diferença; em seguida, mantendo o ar, balançar o polegar esquerdo sobre a chave de oitava e alternar Sol grave e Sol agudo em notas longas.",
+        "recursos": ["instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Articulação: ta e da na ponta da palheta", "Chave de oitava com o polegar esquerdo"]
+      },
+      {
+        "titulo": "Boquilha no tudel",
+        "descricao": "Tocar um Lá longo junto com o afinador ou o professor; se estiver alto, puxar um pouco a boquilha, se estiver baixo, empurrar. Marcar com caneta a posição na cortiça que funcionou.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Afinação: ajuste da boquilha no tudel"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Cheio ou esmagado?",
+        "descricao": "O professor toca a mesma nota com pressão moderada e mordendo a palheta; a turma identifica o som cheio e o esmagado. Depois cada aluno grava um Si longo e ouve o próprio som.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Som cheio e som esmagado: ouvir a embocadura"]
+      },
+      {
+        "titulo": "Com ou sem oitava?",
+        "descricao": "O professor toca Sol com e sem chave de oitava em ordem variada; os alunos levantam ou abaixam a mão e depois cantam as duas notas antes de tentar reproduzir.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Grave e agudo: mesma nota com e sem chave de oitava"]
+      },
+      {
+        "titulo": "Marcha, samba ou valsa?",
+        "descricao": "Ouvir trechos gravados e marcar o tempo forte com palma e os fracos com estalo; decidir se é binário ou ternário e depois tocar o Sol só nos tempos fortes.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Pulso forte e fraco: binário e ternário"]
+      },
+      {
+        "titulo": "Eco em três notas",
+        "descricao": "O professor toca um motivo de 2 a 4 notas com Sol, Lá e Si; o aluno canta o motivo e depois o reproduz no sax. Em seguida ouvir a mesma cantiga em maior e em menor e identificar o modo.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Ouvir e repetir motivos com Sol, Lá e Si", "Reconhecer modo maior e menor"]
+      },
+      {
+        "titulo": "Alto ou baixo?",
+        "descricao": "Sobre um bordão de Lá tocado pela caixa de som, o aluno sustenta o Lá e ouve os batimentos; o professor pede para firmar ou soltar a embocadura até os batimentos sumirem.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Perceber alto e baixo na afinação com um bordão"]
+      },
+      {
+        "titulo": "Pentatônica e blues no ouvido",
+        "descricao": "Ouvir gravações de saxofonistas (blues, jazz, MPB) e identificar frases que usam a pentatônica e a 'blue note'; cantar de volta um lick curto e localizar suas notas no sax.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Ouvir a pentatônica e o blues em gravações"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Primeira canção em três notas",
+        "descricao": "Aprender de ouvido uma canção com Si, Lá e Sol, cantando o nome das notas antes de tocar; depois conferir na partitura e marcar as respirações.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Canções com Si, Lá e Sol"]
+      },
+      {
+        "titulo": "Cantigas e canções em Sol",
+        "descricao": "Montar uma cantiga entre Sol e Ré e, quando estiver segura, avançar para uma canção popular brasileira em Sol maior, cuidando do Fá sustenido e das respirações.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Cantigas em cinco notas (Sol a Ré)", "Canções populares brasileiras em Sol maior"]
+      },
+      {
+        "titulo": "Dueto com respiração combinada",
+        "descricao": "O aluno toca a melodia enquanto o professor toca a segunda voz; antes, os dois marcam juntos na partitura onde respirar para que as frases coincidam. Depois trocar as vozes.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Duetos com o professor com respirações marcadas"]
+      },
+      {
+        "titulo": "Pentatônica sobre o blues",
+        "descricao": "Sobre playback de blues em Sol, improvisar frases de 2 compassos usando só as notas da pentatônica (Sol, Lá, Si, Ré, Mi), em pergunta e resposta com o professor; depois tocar um chorus inteiro de 12 compassos.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Improvisação simples na pentatônica de Sol", "Blues de 12 compassos com playback"]
+      },
+      {
+        "titulo": "Tema de MPB ou jazz",
+        "descricao": "Montar um tema simples de MPB ou um standard de jazz que use a chave de oitava, tocando primeiro a melodia lenta com playback e depois no andamento, com atenção ao swing e às respirações.",
+        "recursos": ["instrumentos", "impressao", "caixa_de_som"],
+        "idade_min": 12,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Temas de MPB e jazz com chave de oitava"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Aquecimento de respiração e correia",
+        "descricao": "Girar os ombros, alongar o pescoço, fazer três respirações profundas com sopro longo em 'fff' e conferir a altura da correia antes de tocar.",
+        "recursos": ["nenhum"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Respiração diafragmática e apoio em sons longos", "Postura: altura da correia, sax à frente ou ao lado"]
+      },
+      {
+        "titulo": "Improvisação em três notas",
+        "descricao": "Sobre um playback de blues lento, cada aluno improvisa uma frase de 4 compassos com Sol, Lá e Si, mantendo o pulso e terminando no Sol.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Sol, Lá e Si no pulso em semínimas", "Frase de 4 compassos sobre playback de blues"]
+      },
+      {
+        "titulo": "Gravar e ouvir",
+        "descricao": "Gravar a canção da semana no celular e ouvir com o professor, apontando um acerto e um ponto para melhorar (som esmagado, apoio do ar ou pulso).",
+        "recursos": ["celulares", "instrumentos"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Som cheio e som esmagado: ouvir a embocadura", "Canções populares brasileiras em Sol maior"]
+      },
+      {
+        "titulo": "Roda de improviso",
+        "descricao": "Em roda, cada aluno toca dois compassos de improviso na pentatônica sobre o blues e passa a vez ao colega; ao final, a turma comenta uma frase que gostou.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 10,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Improvisação simples na pentatônica de Sol", "Blues de 12 compassos com playback"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["sonoridade", "respiracao", "articulacao", "afinacao", "ritmo", "leitura", "autonomia"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Em geral é cedo para o sax alto: peso, tamanho e dentes de leite trocando; preferir flauta doce ou musicalização como pré-instrumento.",
+      "Quando houver interesse, usar só boquilha e tudel em sessões de 10–15 minutos, ou saxofones curvos menores (sopranino/soprano curvo) com correia bem ajustada.",
+      "Muito jogo de pulso corporal, respiração e imitação de frases cantadas."
+    ],
+    "9-12": [
+      "Idade comum de início no sax alto; conferir se as mãos alcançam as chaves e usar correia ou suporte para o peso.",
+      "Palhetas macias (2) e sessões curtas de sons longos intercaladas com canções e improvisação em poucas notas.",
+      "Introduzir a chave de oitava só após o som estável nas notas da mão esquerda."
+    ],
+    "13+": [
+      "Avançam rápido em extensão, leitura e improvisação; explorar blues, MPB, jazz e big band.",
+      "Passar para palhetas 2,5 conforme a embocadura firma; atenção à postura com o peso do instrumento em sessões longas.",
+      "Valorizar autonomia: escolha de repertório, transcrição de licks por gravação e prática em grupo."
+    ]
+  },
+  "editavel": true
+}

@@ -1,0 +1,447 @@
+{
+  "id": "trompete",
+  "nome": "Trompete",
+  "familia": "sopro_metal",
+  "tessitura": {
+    "inicial": ["C4", "D4", "E4", "F4", "G4"],
+    "ampliada": "F#3–C6"
+  },
+  "postura": [
+    "Em pé ou sentado na borda da cadeira, coluna alongada, pés apoiados e peso distribuído sem travar os joelhos.",
+    "Trompete apontado levemente para baixo (cerca de 10–15 graus), sem inclinar a cabeça para trás nem projetar o queixo.",
+    "Mão esquerda segura o instrumento pelo bloco dos pistões, com o anel ou gancho na posição confortável; ela sustenta o peso.",
+    "Mão direita relaxada, pontas dos dedos indicador, médio e anelar sobre as chaves dos pistões, polegar entre o 1º e o 2º pistão, mindinho fora do gancho.",
+    "Cotovelos afastados do tronco, sem apoiar nas costelas, para não bloquear a respiração.",
+    "Bocal centrado nos lábios (aproximadamente metade lábio superior, metade inferior), com pouca pressão contra a boca.",
+    "Ombros baixos e pescoço livre; o instrumento vai até a boca, e não a cabeça até o instrumento."
+  ],
+  "tecnicas_fundamentais": [
+    "Buzzing (vibração dos lábios) livre e no bocal, com som contínuo e altura controlada.",
+    "Embocadura com cantos da boca firmes, queixo plano e abertura estável, sem estufar as bochechas.",
+    "Respiração diafragmática profunda e coluna de ar contínua, rápida na inspiração e constante no sopro.",
+    "Produção de notas na série harmônica com a mesma digitação (Dó e Sol abertos) apenas pela velocidade do ar e abertura dos lábios.",
+    "Dedilhado dos três pistões e suas combinações (0, 2, 1, 1-2, 2-3, 1-3, 1-2-3).",
+    "Flexibilidade de lábios (lip slurs) entre harmônicos sem trocar digitação.",
+    "Articulação com a língua na sílaba 'tu', ataques limpos e finais de nota sem fechar a garganta.",
+    "Gerenciamento de resistência: alternar tocar e descansar, e afinar com a bomba geral."
+  ],
+  "pre_requisitos": {
+    "Buzzing no bocal marcando o pulso": ["Respiração no pulso: inspirar e soprar em tempos", "Buzzing livre: vibração dos lábios sem bocal"],
+    "Nota Sol repetida com articulação 'tu' no pulso": ["Buzzing no bocal marcando o pulso", "Sol e Dó com pistões abertos e coluna de ar"],
+    "Sol e Dó com pistões abertos e coluna de ar": ["Embocadura: cantos firmes e bocal centrado", "Postura e sustentação: mãos, cotovelos e pistões"],
+    "Dedilhado dos três pistões: Fá, Mi, Ré, Lá, Si": ["Sol e Dó com pistões abertos e coluna de ar"],
+    "Lip slurs: Dó–Sol–Dó na mesma digitação": ["Sol e Dó com pistões abertos e coluna de ar", "Grave e agudo: harmônicos com a mesma digitação"],
+    "Notas de Dó a Sol na clave de sol com digitação": ["Sol e Dó na clave de sol e sua digitação", "Dedilhado dos três pistões: Fá, Mi, Ré, Lá, Si"],
+    "Canções brasileiras em Fá e Sib maior": ["Armadura de Fá e Sib maior e acidentes", "Canções infantis de uma oitava com colcheias"],
+    "Leitura à primeira vista de melodias em Dó maior": ["Notas de Lá a Dó agudo e sinais de respiração", "Colcheias, ponto de aumento e ligadura"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Corpo: pulso com palmas, passos e balanço",
+      "Respiração no pulso: inspirar e soprar em tempos",
+      "Buzzing no bocal marcando o pulso",
+      "Nota Sol repetida com articulação 'tu' no pulso",
+      "Sol e Dó alternados em semínimas no pulso",
+      "Frase de 4 compassos com Sol, Lá e Si",
+      "Subdivisão em colcheias com metrônomo"
+    ],
+    "leitura": [
+      "Figuras rítmicas: semínima, mínima e pausa",
+      "Sol e Dó na clave de sol e sua digitação",
+      "Notas de Dó a Sol na clave de sol com digitação",
+      "Colcheias, ponto de aumento e ligadura",
+      "Notas de Lá a Dó agudo e sinais de respiração",
+      "Armadura de Fá e Sib maior e acidentes",
+      "Leitura à primeira vista de melodias em Dó maior"
+    ],
+    "tecnica": [
+      "Buzzing livre: vibração dos lábios sem bocal",
+      "Buzzing no bocal com altura estável",
+      "Embocadura: cantos firmes e bocal centrado",
+      "Postura e sustentação: mãos, cotovelos e pistões",
+      "Sol e Dó com pistões abertos e coluna de ar",
+      "Dedilhado dos três pistões: Fá, Mi, Ré, Lá, Si",
+      "Lip slurs: Dó–Sol–Dó na mesma digitação",
+      "Afinação com a bomba geral e óleo nos pistões"
+    ],
+    "percepcao": [
+      "Grave e agudo: harmônicos com a mesma digitação",
+      "Pulso forte e fraco: binário e ternário",
+      "Ouvir e reproduzir motivos com Sol, Lá e Si",
+      "Cantar a nota antes de tocar (audiação)",
+      "Afinar Sol e Dó com referência sonora",
+      "Reconhecer modo maior e menor",
+      "Intervalos de 4ª, 5ª e 8ª a partir dos harmônicos"
+    ],
+    "repertorio": [
+      "Canções em Sol, Lá e Si com notas longas",
+      "Melodias de Dó a Sol (cinco notas) em Dó maior",
+      "Canções infantis de uma oitava com colcheias",
+      "Duetos com professor ou colega",
+      "Canções brasileiras em Fá e Sib maior",
+      "Hinos e fanfarras simples em conjunto",
+      "Peça com acompanhamento de piano ou playback"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Pressionar o bocal contra os lábios para alcançar o agudo, causando dor, marcas e perda de resistência.",
+    "Estufar as bochechas ou deixar os cantos da boca soltos, com som sem foco e ar escapando.",
+    "Inspirar pouco e pelo peito, resultando em frases curtas e som fraco no final das notas.",
+    "Não distinguir Dó e Sol (mesma digitação) e cair no harmônico errado por falta de audiação.",
+    "Iniciar a nota com a garganta ('ha') em vez da língua ('tu'), com ataques atrasados e sujos.",
+    "Tocar com os dedos esticados ou acionar os pistões pela metade, prejudicando a afinação e a velocidade.",
+    "Tocar tempo demais sem descanso, com fadiga da embocadura e perda de som ao fim da aula.",
+    "Trompete apontado para o chão ou cabeça inclinada para trás, comprimindo a garganta."
+  ],
+  "vocabulario_pt": [
+    "buzzing",
+    "vibração labial",
+    "embocadura",
+    "bocal",
+    "coluna de ar",
+    "respiração diafragmática",
+    "pistões",
+    "dedilhado",
+    "série harmônica",
+    "harmônicos",
+    "flexibilidade de lábios",
+    "ligaduras de lábio",
+    "articulação",
+    "ataque",
+    "bomba geral",
+    "afinação",
+    "resistência",
+    "trompete em Si bemol",
+    "instrumento transpositor",
+    "iniciação ao trompete",
+    "metais em grupo",
+    "banda escolar"
+  ],
+  "vocabulario_en": [
+    "buzzing",
+    "lip vibration",
+    "embouchure",
+    "mouthpiece",
+    "air column",
+    "diaphragmatic breathing",
+    "valves",
+    "fingering",
+    "harmonic series",
+    "partials",
+    "lip flexibility",
+    "lip slurs",
+    "articulation",
+    "attack",
+    "tuning slide",
+    "intonation",
+    "endurance",
+    "Bb trumpet",
+    "transposing instrument",
+    "beginning trumpet",
+    "brass class",
+    "school band"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Pulso no corpo antes do sopro",
+        "descricao": "Com uma gravação de marcha ou canção conhecida, os alunos marcam o pulso com palmas, passos e balanço do tronco. Depois marcam o pulso batendo levemente o dedo na campana do trompete apoiado no colo.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Corpo: pulso com palmas, passos e balanço"]
+      },
+      {
+        "titulo": "Inspira em 2, sopra em 4",
+        "descricao": "Com metrônomo lento, inspirar pela boca durante 2 tempos e soprar num pedaço de papel ou na palma da mão por 4 tempos, mantendo o ar constante. Aumentar para 6 e 8 tempos de sopro sem perder a regularidade.",
+        "recursos": ["celulares", "nenhum"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Respiração no pulso: inspirar e soprar em tempos"]
+      },
+      {
+        "titulo": "Bocal no pulso",
+        "descricao": "Só com o bocal, fazer buzzing em notas curtas a cada pulso do metrônomo, depois uma nota longa de 4 pulsos. O professor toca uma nota no piano ou trompete como referência de altura.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Buzzing no bocal marcando o pulso"]
+      },
+      {
+        "titulo": "Sol repetido e Sol–Dó",
+        "descricao": "Tocar Sol em semínimas com articulação 'tu' durante 4 compassos, descansar 4 compassos enquanto os colegas tocam, e repetir. Depois alternar Sol e Dó a cada dois pulsos sem quebrar a coluna de ar.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Nota Sol repetida com articulação 'tu' no pulso", "Sol e Dó alternados em semínimas no pulso"]
+      },
+      {
+        "titulo": "Frase de quatro compassos em revezamento",
+        "descricao": "A turma se divide em dois grupos: um toca uma frase de 4 compassos com Sol, Lá e Si e o outro responde com a mesma frase, sem buraco entre elas. Depois repetir com colcheias no metrônomo (dois toques por clique).",
+        "recursos": ["instrumentos", "celulares", "quadro"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Frase de 4 compassos com Sol, Lá e Si", "Subdivisão em colcheias com metrônomo"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Cartões de ritmo soprados",
+        "descricao": "Cartões com semínimas, mínimas e pausas formam compassos de 4 tempos no quadro. A turma lê batendo palmas e falando 'tu' e 'tu-u', depois toca o ritmo em Sol.",
+        "recursos": ["impressao", "quadro", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Figuras rítmicas: semínima, mínima e pausa"]
+      },
+      {
+        "titulo": "Duas notas, mesma digitação",
+        "descricao": "O professor escreve Sol (2ª linha) e Dó (1º espaço abaixo da pauta) na clave de sol e mostra que ambos são 'abertos'. Os alunos apontam no quadro, dizem a digitação e tocam cada nota quando ela é mostrada.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Sol e Dó na clave de sol e sua digitação"]
+      },
+      {
+        "titulo": "Escada de Dó a Sol com tabela de pistões",
+        "descricao": "Uma tabela com as notas Dó, Ré, Mi, Fá e Sol e suas digitações fica no quadro. Os alunos leem trechos curtos dizendo nome da nota e pistões antes de tocar, e depois tocam sem olhar a tabela.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Notas de Dó a Sol na clave de sol com digitação"]
+      },
+      {
+        "titulo": "Colcheias, pontos e vírgulas de respiração",
+        "descricao": "Leitura rítmica com colcheias, semínima pontuada e ligadura usando sílabas; em seguida tocar o padrão numa melodia que sobe até Lá, Si e Dó agudo, respirando apenas nas vírgulas marcadas na partitura.",
+        "recursos": ["quadro", "impressao", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Colcheias, ponto de aumento e ligadura", "Notas de Lá a Dó agudo e sinais de respiração"]
+      },
+      {
+        "titulo": "Leitura relâmpago em Fá e Sib",
+        "descricao": "Melodias de 4 compassos nunca vistas, com armadura de Fá ou Sib maior. O aluno tem 30 segundos para identificar armadura, notas com bemol e respirações, e toca uma única vez sem parar.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Armadura de Fá e Sib maior e acidentes", "Leitura à primeira vista de melodias em Dó maior"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Abelha nos lábios",
+        "descricao": "Sem o instrumento, fazer os lábios vibrarem como uma abelha, primeiro em som livre e depois tentando manter uma altura fixa por 4 segundos. Descansar e repetir três vezes.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Buzzing livre: vibração dos lábios sem bocal"]
+      },
+      {
+        "titulo": "Sirene no bocal",
+        "descricao": "No bocal, fazer buzzing numa nota estável e depois uma 'sirene' subindo e descendo devagar, mantendo os cantos da boca firmes. Conferir no espelho se o bocal está centrado e se as bochechas não estufam.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Buzzing no bocal com altura estável", "Embocadura: cantos firmes e bocal centrado"]
+      },
+      {
+        "titulo": "Checklist de sustentação",
+        "descricao": "Antes de tocar, o aluno verifica em voz alta: pés, coluna, mão esquerda segurando, cotovelos livres, pontas dos dedos nos pistões e trompete levemente para baixo. O colega ao lado confere.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 3,
+        "conteudos": ["Postura e sustentação: mãos, cotovelos e pistões"]
+      },
+      {
+        "titulo": "Sol e Dó com ar quente",
+        "descricao": "Tocar Sol longo com ar 'quente' e constante, depois Dó longo, sem apertar o bocal. Em seguida acrescentar os pistões: Fá (1), Mi (1-2), Ré (1-3), Lá (1-2) e Si (2), sempre com dedos curvados e pistões até o fundo.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Sol e Dó com pistões abertos e coluna de ar", "Dedilhado dos três pistões: Fá, Mi, Ré, Lá, Si"]
+      },
+      {
+        "titulo": "Elevador de harmônicos",
+        "descricao": "Com todos os pistões abertos, ligar Dó–Sol–Dó só mudando a velocidade do ar e a abertura dos lábios, sem língua. Repetir com o 2º pistão (Si–Fá#–Si) e com o 1º (Sib–Fá–Sib), sempre lentamente.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Lip slurs: Dó–Sol–Dó na mesma digitação"]
+      },
+      {
+        "titulo": "Afinar e lubrificar",
+        "descricao": "O professor toca um Sib de referência e cada aluno ajusta a bomba geral até ouvir os batimentos desaparecerem. Ao final da aula, retirar os pistões um a um, colocar óleo e recolocar na ordem certa.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Afinação com a bomba geral e óleo nos pistões"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Mesma digitação, sons diferentes",
+        "descricao": "O professor toca Dó, Sol e Dó agudo com os pistões abertos; os alunos mostram com a mão a altura de cada som e depois cantam a série. Em seguida tentam tocar os dois primeiros harmônicos.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Grave e agudo: harmônicos com a mesma digitação"]
+      },
+      {
+        "titulo": "Marcha ou valsa?",
+        "descricao": "Ouvir marchas e valsas gravadas e marcar o tempo forte com o pé e os fracos com o dedo na perna; decidir se é binário ou ternário e depois tocar Sol nos tempos fortes.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Pulso forte e fraco: binário e ternário"]
+      },
+      {
+        "titulo": "Canta, depois toca",
+        "descricao": "O professor toca um motivo de 2 a 4 notas com Sol, Lá e Si; o aluno canta o motivo com o nome das notas e só então o reproduz no trompete. Quem cantar afinado antes de tocar ganha ponto.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Ouvir e reproduzir motivos com Sol, Lá e Si", "Cantar a nota antes de tocar (audiação)"]
+      },
+      {
+        "titulo": "Caça aos batimentos",
+        "descricao": "Com um Sol de referência no piano ou afinador, o aluno toca Sol e ouve se há batimentos; ajusta com a bomba ou com os lábios até o som ficar 'liso'. Repetir com Dó e discutir se estava alto ou baixo.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Afinar Sol e Dó com referência sonora"]
+      },
+      {
+        "titulo": "Alegre ou triste, e que distância?",
+        "descricao": "Ouvir a mesma melodia em maior e menor e identificar o modo. Depois cantar e tocar Dó–Sol (5ª), Sol–Dó (4ª) e Dó–Dó agudo (8ª) da série harmônica, associando cada intervalo a uma canção conhecida.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Reconhecer modo maior e menor", "Intervalos de 4ª, 5ª e 8ª a partir dos harmônicos"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Canção de três notas",
+        "descricao": "Aprender de ouvido uma canção que use apenas Sol, Lá e Si em notas longas, cantando o nome das notas antes de tocar; depois conferir na partitura.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 7,
+        "idade_max": 12,
+        "duracao_min": 8,
+        "conteudos": ["Canções em Sol, Lá e Si com notas longas"]
+      },
+      {
+        "titulo": "Cinco notas em Dó",
+        "descricao": "Estudar uma melodia de Dó a Sol (por exemplo, uma cantiga de roda) com respirações marcadas a cada dois compassos, tocando por frases e depois inteira.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Melodias de Dó a Sol (cinco notas) em Dó maior"]
+      },
+      {
+        "titulo": "Dueto de uma oitava",
+        "descricao": "Montar uma canção infantil de uma oitava com colcheias e tocá-la em dueto com o professor ou um colega: um faz a melodia e o outro uma segunda voz simples, trocando os papéis.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canções infantis de uma oitava com colcheias", "Duetos com professor ou colega"]
+      },
+      {
+        "titulo": "Canção brasileira com bemóis",
+        "descricao": "Tocar uma canção brasileira conhecida (ciranda, modinha ou canção popular) em Fá ou Sib maior, marcando os bemóis na partitura antes de começar, enquanto a turma canta a letra.",
+        "recursos": ["instrumentos", "impressao", "caixa_de_som"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Canções brasileiras em Fá e Sib maior"]
+      },
+      {
+        "titulo": "Fanfarra com playback",
+        "descricao": "Ensaiar um hino ou fanfarra simples em conjunto, cuidando da entrada conjunta e da respiração coletiva; depois tocar a peça com acompanhamento de piano ou playback, com atenção ao final.",
+        "recursos": ["instrumentos", "impressao", "caixa_de_som"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Hinos e fanfarras simples em conjunto", "Peça com acompanhamento de piano ou playback"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Aquecimento de ar e lábios",
+        "descricao": "Alongar o pescoço e os ombros, respirar fundo três vezes, fazer buzzing livre e depois no bocal por um minuto, e só então tocar notas longas em Sol.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Buzzing livre: vibração dos lábios sem bocal", "Respiração no pulso: inspirar e soprar em tempos"]
+      },
+      {
+        "titulo": "Improviso de três notas",
+        "descricao": "Sobre um acompanhamento do professor em Dó maior, cada aluno improvisa uma frase de 4 compassos usando Sol, Lá e Si, mantendo o pulso e terminando em Sol.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Frase de 4 compassos com Sol, Lá e Si", "Ouvir e reproduzir motivos com Sol, Lá e Si"]
+      },
+      {
+        "titulo": "Tocar e descansar",
+        "descricao": "Praticar a regra 'toca um, descansa um': um minuto de notas longas, um minuto de descanso com o bocal longe da boca. O aluno observa como o som melhora após o descanso.",
+        "recursos": ["instrumentos", "celulares"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Sol e Dó com pistões abertos e coluna de ar", "Afinação com a bomba geral e óleo nos pistões"]
+      },
+      {
+        "titulo": "Gravar e ouvir",
+        "descricao": "Gravar a canção da semana no celular e ouvir com o professor, apontando um acerto e um ponto para melhorar (ataque, afinação ou pulso).",
+        "recursos": ["celulares", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Canções infantis de uma oitava com colcheias", "Afinar Sol e Dó com referência sonora"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["sonoridade", "respiracao", "articulacao", "afinacao", "ritmo", "leitura", "autonomia"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "A embocadura ainda está em formação e a troca de dentes de leite interfere; preferir corneta, pocket trumpet ou trabalho pré-instrumental com bocal e canto.",
+      "Sessões curtas (15–20 min de sopro efetivo) com descanso frequente, pois a fadiga da embocadura chega rápido.",
+      "Priorizar respiração, buzzing e jogos de pulso; o instrumento pode ser apoiado numa estante ou no colo para não sobrecarregar o braço esquerdo."
+    ],
+    "9-12": [
+      "Fase ideal para iniciar o trompete padrão; a maioria sustenta Dó a Sol com boa coluna de ar em poucas semanas.",
+      "Introduzir metrônomo, afinador e tabela de digitação; combinar metas de resistência (notas longas cronometradas).",
+      "Repertório de banda escolar e canções conhecidas mantém a motivação; alternar tocar e descansar durante o ensaio."
+    ],
+    "13+": [
+      "Podem ampliar a tessitura para o agudo e trabalhar lip slurs mais longos, sempre vigiando a pressão do bocal.",
+      "Explorar afinação em grupo, articulações variadas (staccato, tenuto) e leitura de partes transpostas.",
+      "Valorizar autonomia: aquecimento próprio, manutenção do instrumento e autoavaliação por gravação."
+    ]
+  },
+  "editavel": true
+}

@@ -1,0 +1,444 @@
+{
+  "id": "percussao",
+  "nome": "Percussão",
+  "familia": "percussao",
+  "tessitura": {
+    "inicial": ["pandeiro", "chocalho", "clave"],
+    "ampliada": "pandeiro, chocalho, agogô, surdo, tamborim, triângulo e xilofone"
+  },
+  "postura": [
+    "Em pé ou sentado com a coluna ereta e os pés apoiados; o instrumento fica na altura em que os braços trabalham sem levantar os ombros.",
+    "Pandeiro seguro pela mão não dominante com o polegar por cima do aro e os dedos por baixo, inclinado levemente para que a pele fique visível a quem toca.",
+    "Chocalho, ganzá e caxixi seguros com o punho firme mas solto, movimento partindo do antebraço em vaivém horizontal, não dos ombros.",
+    "Surdo pendurado por talabarte ou apoiado em suporte, com a pele na altura da cintura; a baqueta é segurada como um aperto de mão, sem travar o punho.",
+    "Tamborim na mão não dominante com o dedo médio ou indicador por baixo da pele para abafar; a baqueta ou o pente batem próximo à borda.",
+    "Percussão corporal com joelhos levemente flexionados e mãos relaxadas; os sons de palma, peito, coxa e pé devem ser produzidos sem dor.",
+    "No xilofone, ficar de frente para o centro do instrumento, baquetas seguras a um terço do comprimento e batendo no meio das teclas."
+  ],
+  "tecnicas_fundamentais": [
+    "Percussão corporal: palmas, peito, coxas, estalos e pés como primeiro instrumento de cada aluno.",
+    "Pegada e movimento dos chocalhos (chocalho, ganzá, caxixi): vaivém regular com acento no ida ou no volta.",
+    "Timbres aberto e abafado em cada instrumento: tom aberto e abafado no pandeiro, no agogô e no triângulo.",
+    "Pandeiro: toques de polegar (grave), ponta dos dedos (platinelas) e tapa (agudo abafado) combinados na levada.",
+    "Técnica de baquetas no surdo e no tamborim: rebote natural, toque aberto e abafado, mão de apoio controlando a pele.",
+    "Baquetas alternadas no xilofone e instrumentos Orff, com precisão de altura e ostinatos melódicos simples.",
+    "Ostinatos rítmicos mantidos com estabilidade e subdivisão interna do pulso em dois e em três.",
+    "Escuta do conjunto: controlar o volume do próprio instrumento para que todos os naipes sejam ouvidos."
+  ],
+  "pre_requisitos": {
+    "Pulso: marcar o tempo com o corpo e um instrumento": ["Movimento: caminhar e balançar com a música"],
+    "Ostinato: célula curta repetida sobre o pulso": ["Pulso: marcar o tempo com o corpo e um instrumento", "Eco rítmico: repetir células de 1 compasso"],
+    "Subdivisão: dividir o pulso em 2 e em 3": ["Ostinato: célula curta repetida sobre o pulso"],
+    "Coordenação entre grupos: dois ostinatos ao mesmo tempo": ["Subdivisão: dividir o pulso em 2 e em 3", "Escutar o conjunto e ajustar o próprio volume"],
+    "Polirritmia: três naipes com células diferentes": ["Coordenação entre grupos: dois ostinatos ao mesmo tempo"],
+    "Baqueta no surdo e no tamborim: rebote e abafado": ["Percussão corporal: palmas, peito, coxas e pés", "Pulso: marcar o tempo com o corpo e um instrumento"],
+    "Samba: surdo, tamborim, chocalho e agogô": ["Coordenação entre grupos: dois ostinatos ao mesmo tempo", "Semicolcheias e síncope em levadas brasileiras"],
+    "Maracatu: alfaia no surdo, caixa e gonguê no agogô": ["Polirritmia: três naipes com células diferentes", "Partitura de percussão: uma linha por instrumento"]
+  },
+  "progressoes": {
+    "pulsacao": [
+      "Movimento: caminhar e balançar com a música",
+      "Pulso: marcar o tempo com o corpo e um instrumento",
+      "Ostinato: célula curta repetida sobre o pulso",
+      "Subdivisão: dividir o pulso em 2 e em 3",
+      "Coordenação entre grupos: dois ostinatos ao mesmo tempo",
+      "Polirritmia: três naipes com células diferentes",
+      "Pulso estável em andamentos variados com metrônomo"
+    ],
+    "leitura": [
+      "Sons e silêncios: sílabas rítmicas com o corpo",
+      "Figuras: semínima, colcheias e pausa de semínima",
+      "Ler células rítmicas em cartões e no quadro",
+      "Partitura de percussão: uma linha por instrumento",
+      "Compasso binário e quaternário com barras",
+      "Semicolcheias e síncope em levadas brasileiras",
+      "Leitura de grade a três linhas e sinais de dinâmica"
+    ],
+    "tecnica": [
+      "Percussão corporal: palmas, peito, coxas e pés",
+      "Pegada e movimento do chocalho, ganzá e caxixi",
+      "Clave, agogô e triângulo: pegada e abafamento",
+      "Pandeiro: toques básicos de polegar, ponta e tapa",
+      "Baqueta no surdo e no tamborim: rebote e abafado",
+      "Tom aberto e abafado em cada instrumento",
+      "Baquetas no xilofone: alternância e notas certas",
+      "Controle de volume e dinâmica no conjunto"
+    ],
+    "percepcao": [
+      "Timbres: identificar instrumentos de olhos fechados",
+      "Pulso forte e fraco: binário e ternário",
+      "Eco rítmico: repetir células de 1 compasso",
+      "Escutar o conjunto e ajustar o próprio volume",
+      "Reconhecer levadas: samba, baião e maracatu",
+      "Perceber subdivisão binária e ternária de ouvido",
+      "Grave e agudo no xilofone e nos tambores"
+    ],
+    "repertorio": [
+      "Brincadeiras rítmicas e jogos de mão",
+      "Ciranda e coco com pandeiro e ganzá",
+      "Baião: levada de zabumba no surdo e triângulo",
+      "Samba: surdo, tamborim, chocalho e agogô",
+      "Maracatu: alfaia no surdo, caixa e gonguê no agogô",
+      "Canção brasileira com xilofone e acompanhamento",
+      "Apresentação do grupo com arranjo por naipes"
+    ]
+  },
+  "dificuldades_frequentes": [
+    "Acelerar o ostinato quando o grupo fica animado, principalmente nos chocalhos e no tamborim.",
+    "Tocar tudo forte o tempo todo, sem controle de volume, de modo que o surdo cobre os demais instrumentos.",
+    "Segurar a baqueta com o punho travado e bater 'enterrando' na pele, sem aproveitar o rebote.",
+    "Pandeiro segurado de forma frouxa, com o polegar escorregando e as platinelas soando fora de hora.",
+    "Não distinguir tom aberto e abafado, perdendo a diferença que dá caráter à levada.",
+    "Perder a própria célula ao ouvir o ostinato do outro grupo e 'grudar' no ritmo do vizinho.",
+    "Confundir subdivisão binária e ternária ao passar do samba para o baião ou a ciranda.",
+    "Ler a partitura por linhas e não saber qual linha corresponde ao próprio instrumento."
+  ],
+  "vocabulario_pt": [
+    "percussão corporal",
+    "pulso",
+    "ostinato rítmico",
+    "subdivisão",
+    "polirritmia",
+    "naipe",
+    "levada",
+    "pandeiro",
+    "chocalho",
+    "ganzá",
+    "agogô",
+    "surdo",
+    "tamborim",
+    "caxixi",
+    "clave",
+    "triângulo",
+    "xilofone",
+    "instrumentos Orff",
+    "tom aberto",
+    "tom abafado",
+    "técnica de baquetas",
+    "samba",
+    "maracatu",
+    "baião",
+    "leitura rítmica"
+  ],
+  "vocabulario_en": [
+    "body percussion",
+    "steady beat",
+    "rhythmic ostinato",
+    "subdivision",
+    "polyrhythm",
+    "percussion section",
+    "groove",
+    "pandeiro",
+    "shaker",
+    "ganzá",
+    "agogô bells",
+    "surdo drum",
+    "tamborim",
+    "caxixi",
+    "claves",
+    "triangle",
+    "xylophone",
+    "Orff instruments",
+    "open tone",
+    "muted tone",
+    "stick technique",
+    "samba",
+    "maracatu",
+    "baião",
+    "rhythm reading"
+  ],
+  "tipos_de_exercicios": {
+    "pulsacao": [
+      {
+        "titulo": "Andar com a música",
+        "descricao": "Com uma gravação de samba ou ciranda, os alunos caminham pela sala balançando os braços; quando a música para, param também. Depois trocam a caminhada por um balanço do tronco sentados, e marcam o pulso com palmas e com uma clave.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Movimento: caminhar e balançar com a música", "Pulso: marcar o tempo com o corpo e um instrumento"]
+      },
+      {
+        "titulo": "Célula que não para",
+        "descricao": "O professor mostra uma célula de um compasso (por exemplo, tá tá ti-ti tá) no chocalho; a turma repete sem parar sobre o pulso da gravação por 16 compassos. Trocar de instrumento e de célula.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Ostinato: célula curta repetida sobre o pulso"]
+      },
+      {
+        "titulo": "Dois e três no pulso",
+        "descricao": "Um grupo marca o pulso no surdo enquanto os demais falam 'ti-ti' (dois por pulso) e depois 'ti-ti-ti' (três por pulso) batendo palmas; em seguida passam a subdivisão para o chocalho e o triângulo.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Subdivisão: dividir o pulso em 2 e em 3"]
+      },
+      {
+        "titulo": "Dois grupos, dois ostinatos",
+        "descricao": "A turma se divide em dois grupos: um toca uma célula na clave e o outro uma célula diferente no chocalho, sobre o pulso do surdo do professor. Quando ficar firme, um terceiro grupo entra com o agogô.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Coordenação entre grupos: dois ostinatos ao mesmo tempo", "Polirritmia: três naipes com células diferentes"]
+      },
+      {
+        "titulo": "Levada em três andamentos",
+        "descricao": "Tocar o mesmo ostinato em 70, 90 e 110 bpm com metrônomo na caixa de som, sem mudar a célula. A turma avalia em qual andamento o grupo ficou mais estável e por quê.",
+        "recursos": ["instrumentos", "caixa_de_som", "celulares"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Pulso estável em andamentos variados com metrônomo"]
+      }
+    ],
+    "leitura": [
+      {
+        "titulo": "Som ou silêncio",
+        "descricao": "O professor mostra cartões com 'tá' e com uma mão fechada (silêncio) em sequências de quatro; a turma lê com palmas e sílabas rítmicas, depois com o corpo (peito, coxa, pé).",
+        "recursos": ["impressao", "nenhum"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Sons e silêncios: sílabas rítmicas com o corpo"]
+      },
+      {
+        "titulo": "Cartões de células",
+        "descricao": "Cartões com semínima, duas colcheias e pausa de semínima são combinados no quadro em compassos de 4 tempos; a turma lê no chocalho e na clave e depois um aluno monta a sequência para os colegas lerem.",
+        "recursos": ["impressao", "quadro", "instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Figuras: semínima, colcheias e pausa de semínima", "Ler células rítmicas em cartões e no quadro"]
+      },
+      {
+        "titulo": "Cada linha, um instrumento",
+        "descricao": "O professor escreve uma partitura de duas linhas (surdo em cima, chocalho embaixo) com barras de compasso em binário e depois em quaternário; cada naipe encontra sua linha e toca só ela, depois juntos.",
+        "recursos": ["quadro", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Partitura de percussão: uma linha por instrumento", "Compasso binário e quaternário com barras"]
+      },
+      {
+        "titulo": "Síncope no tamborim",
+        "descricao": "Ler células de samba com semicolcheias e síncope usando sílabas rítmicas, primeiro devagar com palmas e depois no tamborim com pente, comparando com a gravação.",
+        "recursos": ["quadro", "instrumentos", "caixa_de_som"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Semicolcheias e síncope em levadas brasileiras"]
+      },
+      {
+        "titulo": "Grade de três naipes",
+        "descricao": "Partitura impressa com três linhas (surdo, agogô, chocalho) e sinais de forte e piano; a turma estuda a própria linha por naipe, marca a dinâmica e monta a peça inteira.",
+        "recursos": ["impressao", "instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Leitura de grade a três linhas e sinais de dinâmica"]
+      }
+    ],
+    "tecnica": [
+      {
+        "titulo": "Corpo que toca",
+        "descricao": "Descobrir sons de palma, peito, coxa, estalo e pé, buscando o timbre mais claro de cada um; montar uma sequência de quatro sons e repetir no pulso.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Percussão corporal: palmas, peito, coxas e pés"]
+      },
+      {
+        "titulo": "Vaivém dos chocalhos",
+        "descricao": "Com chocalho, ganzá ou caxixi, praticar o movimento de ida e volta a partir do antebraço, primeiro acentuando a ida e depois a volta. Trocar para clave, agogô e triângulo, testando pegada e abafamento com a mão.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Pegada e movimento do chocalho, ganzá e caxixi", "Clave, agogô e triângulo: pegada e abafamento"]
+      },
+      {
+        "titulo": "Três toques do pandeiro",
+        "descricao": "Aprender o toque de polegar (grave), a ponta dos dedos nas platinelas e o tapa abafado, cada um isolado no pulso; depois combinar em 'polegar - ponta - tapa - ponta' até virar levada.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Pandeiro: toques básicos de polegar, ponta e tapa"]
+      },
+      {
+        "titulo": "Rebote e abafado",
+        "descricao": "No surdo, deixar a baqueta quicar (aberto) e depois segurá-la na pele (abafado), alternando os dois no pulso; repetir no tamborim com a mão de apoio abafando por baixo. Aplicar o aberto e o abafado no pandeiro e no agogô.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Baqueta no surdo e no tamborim: rebote e abafado", "Tom aberto e abafado em cada instrumento"]
+      },
+      {
+        "titulo": "Xilofone no volume certo",
+        "descricao": "No xilofone, tocar dó-sol alternando as baquetas no pulso enquanto o grupo toca chocalho e clave; o professor pede piano e forte e todos ajustam para que o xilofone continue audível sem que os chocalhos sumam.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Baquetas no xilofone: alternância e notas certas", "Controle de volume e dinâmica no conjunto"]
+      }
+    ],
+    "percepcao": [
+      {
+        "titulo": "Adivinha o instrumento",
+        "descricao": "De olhos fechados, os alunos ouvem um instrumento tocado pelo professor e dizem qual é; depois ouvem dois ao mesmo tempo. Incluir sons graves e agudos do xilofone e dos tambores.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Timbres: identificar instrumentos de olhos fechados", "Grave e agudo no xilofone e nos tambores"]
+      },
+      {
+        "titulo": "Marcha ou valsa nos tambores",
+        "descricao": "Ouvir trechos gravados em binário e ternário, marcando o tempo forte no surdo e os fracos no chocalho; decidir se conta em 2 ou em 3 e caminhar de acordo.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 5,
+        "conteudos": ["Pulso forte e fraco: binário e ternário"]
+      },
+      {
+        "titulo": "Eco de um compasso",
+        "descricao": "O professor toca uma célula de um compasso na clave e a turma repete como eco, sem buraco entre a pergunta e a resposta; depois um aluno lidera. Variar entre células binárias e ternárias e pedir que identifiquem qual é.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Eco rítmico: repetir células de 1 compasso", "Perceber subdivisão binária e ternária de ouvido"]
+      },
+      {
+        "titulo": "Ouvir o vizinho",
+        "descricao": "Em roda, cada naipe toca seu ostinato; o professor aponta um instrumento que deve ser ouvido por todos e os demais baixam o volume até conseguir. Trocar o instrumento em destaque.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 6,
+        "conteudos": ["Escutar o conjunto e ajustar o próprio volume"]
+      },
+      {
+        "titulo": "Que levada é essa?",
+        "descricao": "Ouvir gravações curtas de samba, baião e maracatu e identificar pelo padrão do surdo e da subdivisão; depois tocar o padrão de surdo de cada uma junto com a gravação.",
+        "recursos": ["caixa_de_som", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 7,
+        "conteudos": ["Reconhecer levadas: samba, baião e maracatu"]
+      }
+    ],
+    "repertorio": [
+      {
+        "titulo": "Jogos de mão",
+        "descricao": "Aprender uma brincadeira rítmica de mãos em duplas (por exemplo, 'Adoleta' ou 'Escravos de Jó' com copos ou palmas), mantendo o pulso e trocando de parceiro sem parar.",
+        "recursos": ["nenhum"],
+        "idade_min": 6,
+        "idade_max": 12,
+        "duracao_min": 8,
+        "conteudos": ["Brincadeiras rítmicas e jogos de mão"]
+      },
+      {
+        "titulo": "Ciranda e coco",
+        "descricao": "Cantar uma ciranda e um coco acompanhando com o pulso no pandeiro (polegar e tapa) e a subdivisão no ganzá; em roda, dançar o passo básico enquanto toca.",
+        "recursos": ["instrumentos", "caixa_de_som"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Ciranda e coco com pandeiro e ganzá"]
+      },
+      {
+        "titulo": "Baião de sala",
+        "descricao": "Montar a levada de baião: o surdo faz o padrão da zabumba (grave e abafado), o triângulo mantém a subdivisão em colcheias com aberto e fechado e o agogô toca a célula de resposta; cantar uma canção nordestina por cima.",
+        "recursos": ["instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 10,
+        "conteudos": ["Baião: levada de zabumba no surdo e triângulo"]
+      },
+      {
+        "titulo": "Bateria de samba",
+        "descricao": "Montar o samba por naipes: surdo no tempo 2, chocalho em semicolcheias, tamborim com célula sincopada e agogô com padrão de duas notas; entrar um naipe por vez e trocar de instrumento ao final.",
+        "recursos": ["instrumentos"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 12,
+        "conteudos": ["Samba: surdo, tamborim, chocalho e agogô"]
+      },
+      {
+        "titulo": "Maracatu e canção com xilofone",
+        "descricao": "Montar o maracatu com padrão de alfaia no surdo, caixa (ou tamborim) e gonguê no agogô a partir da grade de três linhas; em outro momento, acompanhar uma canção brasileira com bordão de dó e sol no xilofone e levada nos chocalhos. Ensaiar o arranjo por naipes para apresentar.",
+        "recursos": ["instrumentos", "impressao"],
+        "idade_min": 9,
+        "idade_max": 99,
+        "duracao_min": 15,
+        "conteudos": ["Maracatu: alfaia no surdo, caixa e gonguê no agogô", "Canção brasileira com xilofone e acompanhamento", "Apresentação do grupo com arranjo por naipes"]
+      }
+    ],
+    "geral": [
+      {
+        "titulo": "Aquecimento com o corpo",
+        "descricao": "Girar ombros e punhos, sacudir as mãos e fazer uma sequência de percussão corporal no pulso de uma gravação antes de pegar os instrumentos.",
+        "recursos": ["caixa_de_som"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Percussão corporal: palmas, peito, coxas e pés", "Pulso: marcar o tempo com o corpo e um instrumento"]
+      },
+      {
+        "titulo": "Roda de improviso",
+        "descricao": "Sobre um ostinato do grupo, cada aluno improvisa um compasso no seu instrumento e devolve para o grupo, mantendo o pulso e o volume combinado.",
+        "recursos": ["instrumentos"],
+        "idade_min": 7,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Ostinato: célula curta repetida sobre o pulso", "Escutar o conjunto e ajustar o próprio volume"]
+      },
+      {
+        "titulo": "Gravar e ouvir a levada",
+        "descricao": "Gravar a levada da semana no celular e ouvir com o grupo, identificando se acelerou, se algum naipe cobriu os demais e se o abafado e o aberto ficaram claros.",
+        "recursos": ["celulares", "instrumentos"],
+        "idade_min": 8,
+        "idade_max": 99,
+        "duracao_min": 8,
+        "conteudos": ["Pulso estável em andamentos variados com metrônomo", "Controle de volume e dinâmica no conjunto"]
+      },
+      {
+        "titulo": "Cuidado com os instrumentos",
+        "descricao": "Rotina de guardar: verificar peles, platinelas e baquetas, limpar e organizar por naipe. Cada aluno responsável por um instrumento explica a pegada correta para o colega.",
+        "recursos": ["instrumentos"],
+        "idade_min": 6,
+        "idade_max": 99,
+        "duracao_min": 4,
+        "conteudos": ["Pegada e movimento do chocalho, ganzá e caxixi", "Pandeiro: toques básicos de polegar, ponta e tapa"]
+      }
+    ]
+  },
+  "criterios_avaliacao": ["ritmo", "coordenacao", "tecnica", "leitura", "percepcao", "sonoridade", "participacao"],
+  "consideracoes_etarias": {
+    "6-8": [
+      "Começar pela percussão corporal e por instrumentos leves (chocalho, clave, pandeiro pequeno); surdo apenas com apoio ou tamanho reduzido.",
+      "Movimento e canto antes da leitura: ostinatos aprendidos por imitação e por sílabas rítmicas.",
+      "Rodízio frequente de instrumentos e atividades curtas para manter a atenção e evitar excesso de volume."
+    ],
+    "9-12": [
+      "Já sustentam ostinatos diferentes em dois ou três grupos e leem partitura de percussão por linhas.",
+      "Introduzir pandeiro com os três toques, baquetas no surdo e no tamborim e levadas de samba, baião e ciranda.",
+      "Trabalhar controle de volume e escuta do conjunto como parte da avaliação, não só a precisão."
+    ],
+    "13+": [
+      "Podem montar arranjos por naipes com polirritmia, leitura de grade e dinâmica, incluindo maracatu e samba completo.",
+      "Atenção a tensões de punho e ombro em ensaios longos de surdo e tamborim; alongamento e pausas.",
+      "Valorizar autonomia: liderar naipes, criar levadas próprias e organizar a apresentação do grupo."
+    ]
+  },
+  "editavel": true
+}
