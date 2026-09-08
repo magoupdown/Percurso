@@ -24,7 +24,7 @@ class ClienteHTTP:
     """Cliente httpx mínimo e substituível nos testes (tests/mocks/providers.py)."""
 
     # Cabeçalhos HTTP precisam ser ASCII: nada de acentos aqui.
-    USER_AGENT_PADRAO = "Percurso/1.0 (plataforma pedagogica gratuita; https://github.com/________/Percurso)"
+    USER_AGENT_PADRAO = "Percurso/1.0 (plataforma pedagogica gratuita; https://github.com/magoupdown/Percurso)"
 
     def __init__(self, timeout_s: Optional[float] = None, user_agent: Optional[str] = None):
         self.timeout_s = float(timeout_s or config.defaults().get("pesquisa", {}).get("timeout_s", 15))
