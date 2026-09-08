@@ -23,9 +23,13 @@ class ErroProvedor(Exception):
 class ClienteHTTP:
     """Cliente httpx mínimo e substituível nos testes (tests/mocks/providers.py)."""
 
-    def __init__(self, timeout_s: Optional[float] = None, user_agent: str = "Percurso/1.0 (plataforma pedagógica; gratuita)"):
+    # Cabeçalhos HTTP precisam ser ASCII: nada de acentos aqui.
+    USER_AGENT_PADRAO = "Percurso/1.0 (plataforma pedagogica gratuita; https://github.com/________/Percurso)"
+
+    def __init__(self, timeout_s: Optional[float] = None, user_agent: Optional[str] = None):
         self.timeout_s = float(timeout_s or config.defaults().get("pesquisa", {}).get("timeout_s", 15))
-        self.user_agent = user_agent
+        ua = user_agent or self.USER_AGENT_PADRAO
+        self.user_agent = ua.encode("ascii", "ignore").decode("ascii")
 
     def get_json(self, url: str, params: Optional[Dict[str, Any]] = None, headers: Optional[Dict[str, str]] = None) -> Any:
         import httpx

@@ -95,3 +95,25 @@ def test_onde_pesquisar_integrado_ao_plano(sessao, monkeypatch):
     assert plano.referencias and plano.habilidades_curriculares == extra["habilidades"] and plano.consultas_realizadas
     md = planner.plano_como_markdown(plano)
     assert "📚" in md and "🏛" in md and "🎓" in md
+
+
+def test_user_agent_ascii():
+    from percurso.research.providers.base import ClienteHTTP
+
+    ua = ClienteHTTP().user_agent
+    assert ua and ua.isascii()
+    assert ClienteHTTP(user_agent="Percurso pedagógica").user_agent.isascii()
+
+
+import pytest
+
+
+@pytest.mark.online
+def test_provedores_reais_openalex_crossref():
+    """Integração real (opcional): `pytest -m online`. Falha de rede não é erro do Percurso."""
+    from percurso.research.providers import CrossrefProvider, OpenAlexProvider
+
+    fontes = OpenAlexProvider(mailto="").buscar("recorder articulation pedagogy", limite=3)
+    assert fontes and all(f.titulo and f.tipo == "academica" for f in fontes)
+    fontes2 = CrossrefProvider(mailto="").buscar("music education pulse", limite=3)
+    assert fontes2 and all(f.id_origem for f in fontes2)
