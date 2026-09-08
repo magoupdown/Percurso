@@ -48,7 +48,11 @@ Descritos em `README.md` e `docs/TUTORIAL_PROFESSOR.md`. Link do Mercado Pago em
 ## Testes realizados (evidência)
 
 - `pytest`: **102 passed** em 08/09/2026 (Windows 11, Python 3.13.15).
-- Navegação real no navegador (servidor local Gradio): tela inicial → NOVO REGISTRO → registro criado com QR → Continuar (painel) → CRIAR PRIMEIRA AULA → GERAR PLANO (cronograma 50 min válido, atividades do perfil de piano) → REGISTRAR AULA A PARTIR DESTE PLANO → SALVAR AULA (Aula 1) → segunda aula com rendimento pelo menu (ritmo 4) → painel de retorno com "Aula 1/2", consolidado, última observação, próximo passo sugerido → Histórico com tabela. Erro de validação (aula sem conteúdo) exibido em PT-BR.
+- Navegação real no navegador (servidor local Gradio): tela inicial → NOVO REGISTRO → registro criado com QR → Continuar (painel) → CRIAR PRIMEIRA AULA → GERAR PLANO (cronograma 50 min válido, atividades do perfil de piano) → REGISTRAR AULA A PARTIR DESTE PLANO → SALVAR AULA (Aula 1) → segunda aula com rendimento pelo menu (ritmo 4) → painel de retorno com "Aula 1/2", consolidado, dificuldade recorrente, última observação, próximo passo sugerido → Histórico com tabela. Erro de validação (aula sem conteúdo) exibido em PT-BR. Código digitado em minúsculas e sem hífen (`pcr4a6gvw`) aceito.
+- Aba Pesquisar no navegador com APIs reais: OpenAlex e Crossref devolveram fontes brasileiras sobre flauta doce com DOI, autor, ano e data de consulta; Google Books (HTTP 429) e Semantic Scholar indisponíveis geraram o aviso "temporariamente indisponível. Continuando com outras fontes." sem interromper a pesquisa. Base curricular sugeriu EF15AR14/15 e objetivos da EI para "pulsação"; LISTAR HABILIDADES exibiu as 13 de Música + Artes integradas.
+- Aba Relatórios no navegador: relatório de frequência gerado (100 %, 2 aulas, tabela por aula), PDF (37 KB) e DOCX (63 KB) oferecidos para download; material "folha do professor" sem plano na sessão exibiu a orientação correta.
+- `pytest -m online`: teste real de OpenAlex e Crossref passou em 08/09/2026.
+- Bug encontrado e corrigido durante a verificação: cabeçalho User-Agent com acento derrubava todos os provedores (`UnicodeEncodeError`); agora forçado a ASCII, com teste de regressão.
 
 ## Melhorias recomendadas
 

@@ -44,8 +44,8 @@ def montar(sessao: Sessao) -> dict:
             nome = f"{t}_{ctx.codigo}_{dates.carimbo_arquivo(sessao.fuso)}"
             saida = builder.exportar(rel, pasta, nome, list(fmts or ["pdf"]))
             caminhos = [p for lst in saida.values() for p in lst]
-            previa_md = rel.como_markdown()
-            # gráficos: mostra caminhos relativos na prévia
+            # prévia sem as linhas de imagem (os PNG estão no PDF/DOCX e na pasta relatorios/graficos)
+            previa_md = "\n".join(l for l in rel.como_markdown().splitlines() if not l.startswith("!["))
             return C.ok(T.RELATORIO_GERADO), gr.update(value=caminhos, visible=bool(caminhos)), T.RELATORIO_PASTA.format(pasta=str(pasta)), previa_md
 
         btn.click(C.protegido(gerar, T.ERRO_GRAVACAO), [tipo, inicio, fim, formatos, com_ia], [msg, arquivos, pasta_md, previa])
