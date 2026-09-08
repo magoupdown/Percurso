@@ -10,35 +10,41 @@ from ..session import Sessao
 
 def montar(sessao: Sessao) -> dict:
     with gr.Tab(T.ABA_INICIO, id="inicio") as tab:
-        gr.HTML(
-            f"<p class='percurso-titulo'>{T.APP_NOME}</p>"
-            f"<p class='percurso-subtitulo'>{T.APP_SUBTITULO}</p>"
-            f"<p class='percurso-frase'>«{T.APP_FRASE}»</p>"
-        )
-        badge = gr.HTML(C.badge_modo(sessao))
-        mensagens = gr.Markdown(_mensagens_iniciais(sessao))
+        with gr.Column(elem_classes=["percurso-identidade"]):
+            badge = gr.HTML(C.badge_modo(sessao), elem_classes=["percurso-status"])
+            gr.HTML(
+                f"<h1 class='percurso-titulo'>{T.APP_NOME}</h1>"
+                f"<p class='percurso-subtitulo'>{T.APP_SUBTITULO}</p>"
+                f"<p class='percurso-frase'>{T.APP_FRASE}</p>"
+            )
 
-        # --- lembrete mensal de apoio (uma vez por mês; já gravado antes de exibir) ---
-        with gr.Group(visible=sessao.mostrar_lembrete_apoio) as lembrete:
-            gr.Markdown(f"### {T.APOIO_LEMBRETE_TITULO}\n\n{T.APOIO_LEMBRETE_CORPO}")
-            with gr.Row():
-                btn_lembrete_apoiar = gr.Button(T.BTN_APOIAR_MP, variant="secondary")
-                btn_lembrete_fechar = gr.Button(T.BTN_CONTINUAR_NO_PERCURSO, variant="primary")
-            gr.Markdown(f"_{T.APOIO_SEM_BLOQUEIO}_")
+        with gr.Column(elem_classes=["percurso-acoes"]):
+            gr.Markdown(f"## {T.INICIO_ACOES}\n\n{T.INICIO_INTRO}")
+            with gr.Row(elem_classes=["percurso-acoes-principais"]):
+                btn_continuar = gr.Button("Continuar aluno ou turma", variant="primary")
+                btn_novo = gr.Button("Novo registro")
+                btn_planejar = gr.Button("Planejar aula")
+            gr.Markdown(f"### {T.INICIO_ORGANIZACAO}", elem_classes=["percurso-divisor"])
+            with gr.Row(elem_classes=["percurso-utilidades"]):
+                btn_pesquisar = gr.Button("Pesquisar")
+                btn_biblioteca = gr.Button("Minha biblioteca")
+                btn_relatorios = gr.Button("Relatórios")
+                btn_config = gr.Button("Configurações")
 
         # --- pergunta sobre Gemini (nunca persistida) ---
-        with gr.Group() as grupo_gemini:
+        with gr.Group(elem_classes=["percurso-gemini"]) as grupo_gemini:
+            gr.Markdown(f"### {T.INICIO_GEMINI}")
             gr.Markdown(f"**{T.PERGUNTA_GEMINI}**")
             with gr.Row():
-                btn_usar_gemini = gr.Button(T.BTN_USAR_GEMINI, variant="primary")
-                btn_sem_gemini = gr.Button(T.BTN_SEM_GEMINI, variant="secondary")
+                btn_usar_gemini = gr.Button("Usar Gemini", variant="primary")
+                btn_sem_gemini = gr.Button("Continuar sem Gemini", variant="secondary")
             with gr.Group(visible=False) as grupo_chave:
                 gr.Markdown(f"**{T.GEMINI_NAO_CONFIGURADO}**")
                 chave_sessao = gr.Textbox(label=T.GEMINI_CHAVE_SESSAO, type="password")
                 with gr.Row():
-                    btn_usar_chave = gr.Button(T.BTN_USAR_GEMINI, variant="primary")
+                    btn_usar_chave = gr.Button("Usar Gemini", variant="primary")
                     btn_aprender = gr.Button(T.BTN_APRENDER_CONFIGURAR, variant="secondary")
-                    btn_sem_gemini2 = gr.Button(T.BTN_SEM_GEMINI, variant="secondary")
+                    btn_sem_gemini2 = gr.Button("Continuar sem Gemini", variant="secondary")
             resultado_gemini = gr.HTML("")
 
         # --- consentimento de envio de trechos da biblioteca (SPEC §7.6) — só com Gemini ativo ---
@@ -59,16 +65,18 @@ def montar(sessao: Sessao) -> dict:
         btn_consentir_sim.click(consentir(True), None, [consentimento_msg])
         btn_consentir_nao.click(consentir(False), None, [consentimento_msg])
 
-        gr.Markdown("### O que você quer fazer?")
-        with gr.Row():
-            btn_continuar = gr.Button(T.BTN_CONTINUAR, variant="primary")
-            btn_novo = gr.Button(T.BTN_NOVO_REGISTRO)
-            btn_planejar = gr.Button(T.BTN_PLANEJAR)
-        with gr.Row():
-            btn_pesquisar = gr.Button(T.BTN_PESQUISAR)
-            btn_biblioteca = gr.Button(T.BTN_BIBLIOTECA)
-            btn_relatorios = gr.Button(T.BTN_RELATORIOS)
-            btn_config = gr.Button(T.BTN_CONFIGURACOES)
+        with gr.Accordion(T.INICIO_DADOS, open=False):
+            mensagens = gr.Markdown(_mensagens_iniciais(sessao))
+        tab.select(lambda: (_mensagens_iniciais(sessao), C.badge_modo(sessao)), None, [mensagens, badge])
+
+        # --- lembrete mensal de apoio (uma vez por mês; já gravado antes de exibir) ---
+        with gr.Group(visible=sessao.mostrar_lembrete_apoio) as lembrete:
+            gr.Markdown(f"### {T.APOIO_LEMBRETE_TITULO}\n\n{T.APOIO_LEMBRETE_CORPO}")
+            with gr.Row():
+                btn_lembrete_apoiar = gr.Button(T.BTN_APOIAR_MP, variant="secondary")
+                btn_lembrete_fechar = gr.Button(T.BTN_CONTINUAR_NO_PERCURSO, variant="primary")
+            gr.Markdown(f"_{T.APOIO_SEM_BLOQUEIO}_")
+
         with gr.Row(elem_classes=["percurso-apoio"]):
             btn_apoiar = gr.Button(T.BTN_APOIAR, size="sm")
 

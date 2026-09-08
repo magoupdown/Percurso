@@ -450,3 +450,13 @@ def opcoes(mapa: dict) -> list:
 
 def rotulo(mapa: dict, valor: str) -> str:
     return mapa.get(valor, valor)
+
+# Experiência de continuidade
+INICIO_ACOES = "O que você quer fazer?"
+INICIO_INTRO = "Retome uma trajetória ou prepare o próximo encontro."
+INICIO_ORGANIZACAO = "Sua prática, organizada"
+INICIO_GEMINI = "Inteligência opcional, nesta sessão"
+INICIO_DADOS = "Primeiros passos e situação dos dados"
+CONTINUAR_INTRO = "Encontre um aluno ou uma turma para retomar seu trabalho."
+BUSCA_REGISTROS = "Buscar por nome, código ou instrumento"
+BUSCA_REGISTROS_VAZIA = "Nenhum registro corresponde à busca."

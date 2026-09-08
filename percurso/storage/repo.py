@@ -324,7 +324,9 @@ class Repositorio:
         with zipfile.ZipFile(destino, "w", zipfile.ZIP_DEFLATED) as z:
             for p in raiz.rglob("*"):
                 if p.is_file() and not p.name.endswith((".tmp",)):
-                    if apenas_registro is None and self.caminhos.backups in p.parents:
+                    if apenas_registro is None and (self.caminhos.backups in p.parents or self.caminhos.exportacoes in p.parents):
+                        continue
+                    if p.name.endswith((".log", ".log.1")):
                         continue
                     if apenas_registro is None and p.resolve() == destino.resolve():
                         continue

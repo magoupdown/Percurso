@@ -32,7 +32,7 @@ def montar(sessao: Sessao) -> dict:
         with gr.Row():
             data = gr.Textbox(label=T.AULA_DATA, value=dates.hoje(sessao.fuso).isoformat())
             tipo_aula = gr.Dropdown(label=T.AULA_TIPO, choices=T.opcoes(T.TIPOS_AULA), value="continuidade")
-            frequencia = gr.Dropdown(label=T.AULA_FREQUENCIA, choices=T.opcoes(T.FREQUENCIAS), value="presente")
+            frequencia = gr.Dropdown(label=T.AULA_FREQUENCIA, choices=T.opcoes(T.FREQUENCIAS), value=None)
         with gr.Row():
             previsto_info = gr.Markdown("")
             manter = gr.Radio(label=T.AULA_HORARIO_PREVISTO, choices=[(T.AULA_MANTER, "manter"), (T.AULA_ALTERAR, "alterar")], value="manter")
@@ -122,7 +122,7 @@ def montar(sessao: Sessao) -> dict:
                 gr.update(value=ini),
                 gr.update(value=fim),
                 gr.update(visible=eh_turma),
-                gr.update(choices=alunos, value=[a[1] for a in alunos]),
+                gr.update(choices=alunos, value=[]),
                 gr.update(value=f.get("unidade") or ""),
                 C.juntar(f.get("conteudo_planejado") or []),
                 C.juntar([c["conteudo"] for c in cls]),
@@ -131,9 +131,9 @@ def montar(sessao: Sessao) -> dict:
                 C.juntar(f.get("materiais") or []),
                 f.get("plano_origem") or "",
             ]
-            return saida + notas_upd + cls_upd
+            return saida + notas_upd + cls_upd + [None, None, "", "", "", "", "", "", "", ""]
 
-        saidas_preencher = [cabecalho, data, tipo_aula, previsto_info, inicio_real, termino_real, grupo_turma, presentes, unidade, conteudo_planejado, conteudo_realizado, objetivos, atividades, materiais, plano_origem] + notas + [c for tri in classificacoes for c in tri]
+        saidas_preencher = [cabecalho, data, tipo_aula, previsto_info, inicio_real, termino_real, grupo_turma, presentes, unidade, conteudo_planejado, conteudo_realizado, objetivos, atividades, materiais, plano_origem] + notas + [c for tri in classificacoes for c in tri] + [frequencia, n_presentes, avaliacao, dificuldades, conquistas, observacoes, tarefas, proximo_passo, repertorio, resultado]
         tab.select(preencher_formulario, None, saidas_preencher)
 
         def classificar(texto):
@@ -177,6 +177,8 @@ def montar(sessao: Sessao) -> dict:
                 return C.aviso(T.NENHUM_REGISTRO_CARREGADO)
             v = list(valores)
             (data_v, tipo_v, freq_v, manter_v, ini_v, fim_v, pres_v, npres_v, unid_v, cplan_v, creal_v, obj_v, ativ_v, mat_v, aval_v, dif_v, conq_v, obs_v, tar_v, prox_v, rep_v, plano_v) = v[:22]
+            if freq_v not in T.FREQUENCIAS:
+                return C.aviso("Escolha a frequência antes de salvar a aula.")
             notas_v = v[22:22 + MAX_CRITERIOS]
             cls_v = v[22 + MAX_CRITERIOS:]
             try:

@@ -1,7 +1,8 @@
 """Auxiliares compartilhados pelas telas."""
 from __future__ import annotations
 
-import traceback
+from html import escape
+from functools import wraps
 from typing import Callable, List, Optional
 
 from ..core import grading
@@ -22,26 +23,28 @@ def juntar(itens: List[str]) -> str:
 
 
 def ok(msg: str) -> str:
-    return f"<div class='percurso-ok'>{msg}</div>"
+    return f"<div class='percurso-ok' role='status'>{escape(str(msg))}</div>"
 
 
 def aviso(msg: str) -> str:
-    return f"<div class='percurso-aviso'>{msg}</div>"
+    return f"<div class='percurso-aviso' role='status'>{escape(str(msg))}</div>"
 
 
 def erro(msg: str) -> str:
-    return f"<div class='percurso-erro'>{msg}</div>"
+    return f"<div class='percurso-erro' role='alert'>{escape(str(msg))}</div>"
 
 
 def protegido(fn: Callable, mensagem: str = T.ERRO_GENERICO):
     """Envolve um handler: exceção vira frase clara + log técnico (SPEC §15)."""
 
+    @wraps(fn)
     def _wrapper(*args, **kwargs):
         try:
             return fn(*args, **kwargs)
         except Exception as e:  # noqa: BLE001
-            log.error("erro em %s: %s\n%s", getattr(fn, "__name__", "handler"), e, traceback.format_exc())
-            raise _ErroUI(f"{mensagem} ({_curto(e)})") from e
+            log.error("erro em %s (%s)", getattr(fn, "__name__", "handler"), type(e).__name__)
+            import gradio as gr
+            raise gr.Error(mensagem) from None
 
     _wrapper.__name__ = getattr(fn, "__name__", "handler")
     return _wrapper
@@ -109,7 +112,7 @@ def cabecalho_registro(sessao: Sessao) -> str:
     quem = reg.identificacao or reg.codigo
     if reg.eh_turma and reg.turma and reg.turma.nome:
         quem = reg.turma.nome
-    return f"<div class='percurso-painel'><b>{quem}</b> · código {reg.codigo} · {ctx.estado.total_aulas} aula(s) registrada(s)</div>"
+    return f"<div class='percurso-painel'><b>{escape(quem)}</b> · código {escape(reg.codigo)} · {ctx.estado.total_aulas} aula(s) registrada(s)</div>"
 
 
 def badge_modo(sessao: Sessao) -> str:

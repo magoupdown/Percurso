@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 from pathlib import Path
+import re
 
 SUBPASTAS = [
     "configuracoes",
@@ -63,7 +64,12 @@ class Caminhos:
         return self.configuracoes / "perfis"
 
     def perfil_editado(self, instrumento: str) -> Path:
-        return self.perfis_editados / f"{instrumento}.json"
+        if not re.fullmatch(r"[a-z][a-z0-9_]{0,79}", instrumento or ""):
+            raise ValueError("Identificador de instrumento inválido.")
+        destino = self.perfis_editados / f"{instrumento}.json"
+        if not self.dentro_da_base(destino):
+            raise ValueError("O perfil deve permanecer na pasta do Percurso.")
+        return destino
 
     @property
     def rubricas(self) -> Path:
