@@ -1,0 +1,54 @@
+{
+ "message": {
+  "items": [
+   {
+    "DOI": "10.1000/rec.2018.1",
+    "title": [
+     "Recorder Articulation Pedagogy for Beginners"
+    ],
+    "author": [
+     {
+      "given": "A.",
+      "family": "Smith"
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2018
+      ]
+     ]
+    },
+    "container-title": [
+     "Music Education Research"
+    ],
+    "URL": "https://doi.org/10.1000/rec.2018.1",
+    "abstract": "<jats:p>Study of tonguing.</jats:p>"
+   },
+   {
+    "DOI": "10.1000/orff.2001",
+    "title": [
+     "Orff-Schulwerk e a flauta doce"
+    ],
+    "author": [
+     {
+      "given": "M.",
+      "family": "Silva"
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2001,
+       5
+      ]
+     ]
+    },
+    "container-title": [
+     "Revista da ABEM"
+    ],
+    "URL": "https://doi.org/10.1000/orff.2001"
+   }
+  ]
+ }
+}

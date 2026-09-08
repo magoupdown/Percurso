@@ -1,0 +1,190 @@
+{
+  "documento": "BNCC — Educação Infantil",
+  "versao": "Resolução CNE/CP nº 2/2017 (versão homologada)",
+  "fonte_oficial": "Ministério da Educação — BNCC, Educação Infantil, campos de experiência",
+  "url": "http://basenacionalcomum.mec.gov.br/",
+  "data_obtencao": "2026-09-08",
+  "observacao": "Objetivos de aprendizagem e desenvolvimento relacionados a sons, música e movimento, transcritos da BNCC-EI. Grupos: bebês (EI01, 0–1a6m), crianças bem pequenas (EI02, 1a7m–3a11m), crianças pequenas (EI03, 4a–5a11m). Conferir contra o documento oficial.",
+  "habilidades": [
+    {
+      "codigo": "EI01TS01",
+      "etapa": "EI",
+      "anos": [
+        "bebes"
+      ],
+      "componente": "Educação Infantil",
+      "unidade_tematica": "Traços, sons, cores e formas",
+      "objeto": "",
+      "texto": "Explorar sons produzidos com o próprio corpo e com objetos do ambiente.",
+      "musica": true
+    },
+    {
+      "codigo": "EI01TS02",
+      "etapa": "EI",
+      "anos": [
+        "bebes"
+      ],
+      "componente": "Educação Infantil",
+      "unidade_tematica": "Traços, sons, cores e formas",
+      "objeto": "",
+      "texto": "Traçar marcas gráficas, em diferentes suportes, usando instrumentos riscantes e tintas.",
+      "musica": false
+    },
+    {
+      "codigo": "EI01TS03",
+      "etapa": "EI",
+      "anos": [
+        "bebes"
+      ],
+      "componente": "Educação Infantil",
+      "unidade_tematica": "Traços, sons, cores e formas",
+      "objeto": "",
+      "texto": "Explorar diferentes fontes sonoras e materiais para acompanhar brincadeiras cantadas, canções, músicas e melodias.",
+      "musica": true
+    },
+    {
+      "codigo": "EI02TS01",
+      "etapa": "EI",
+      "anos": [
+        "criancas_bem_pequenas"
+      ],
+      "componente": "Educação Infantil",
+      "unidade_tematica": "Traços, sons, cores e formas",
+      "objeto": "",
+      "texto": "Criar sons com materiais, objetos e instrumentos musicais, para acompanhar diversos ritmos de música.",
+      "musica": true
+    },
+    {
+      "codigo": "EI02TS02",
+      "etapa": "EI",
+      "anos": [
+        "criancas_bem_pequenas"
+      ],
+      "componente": "Educação Infantil",
+      "unidade_tematica": "Traços, sons, cores e formas",
+      "objeto": "",
+      "texto": "Utilizar materiais variados com possibilidades de manipulação (argila, massa de modelar), explorando cores, texturas, superfícies, planos, formas e volumes ao criar objetos tridimensionais.",
+      "musica": false
+    },
+    {
+      "codigo": "EI02TS03",
+      "etapa": "EI",
+      "anos": [
+        "criancas_bem_pequenas"
+      ],
+      "componente": "Educação Infantil",
+      "unidade_tematica": "Traços, sons, cores e formas",
+      "objeto": "",
+      "texto": "Utilizar diferentes fontes sonoras disponíveis no ambiente em brincadeiras cantadas, canções, músicas e melodias.",
+      "musica": true
+    },
+    {
+      "codigo": "EI03TS01",
+      "etapa": "EI",
+      "anos": [
+        "criancas_pequenas"
+      ],
+      "componente": "Educação Infantil",
+      "unidade_tematica": "Traços, sons, cores e formas",
+      "objeto": "",
+      "texto": "Utilizar sons produzidos por materiais, objetos e instrumentos musicais durante brincadeiras de faz de conta, encenações, criações musicais, festas.",
+      "musica": true
+    },
+    {
+      "codigo": "EI03TS02",
+      "etapa": "EI",
+      "anos": [
+        "criancas_pequenas"
+      ],
+      "componente": "Educação Infantil",
+      "unidade_tematica": "Traços, sons, cores e formas",
+      "objeto": "",
+      "texto": "Expressar-se livremente por meio de desenho, pintura, colagem, dobradura e escultura, criando produções bidimensionais e tridimensionais.",
+      "musica": false
+    },
+    {
+      "codigo": "EI03TS03",
+      "etapa": "EI",
+      "anos": [
+        "criancas_pequenas"
+      ],
+      "componente": "Educação Infantil",
+      "unidade_tematica": "Traços, sons, cores e formas",
+      "objeto": "",
+      "texto": "Reconhecer as qualidades do som (intensidade, duração, altura e timbre), utilizando-as em suas produções sonoras e ao ouvir músicas e sons.",
+      "musica": true
+    },
+    {
+      "codigo": "EI01CG03",
+      "etapa": "EI",
+      "anos": [
+        "bebes"
+      ],
+      "componente": "Educação Infantil",
+      "unidade_tematica": "Corpo, gestos e movimentos",
+      "objeto": "",
+      "texto": "Imitar gestos e movimentos de outras crianças, adultos e animais.",
+      "musica": true
+    },
+    {
+      "codigo": "EI02CG03",
+      "etapa": "EI",
+      "anos": [
+        "criancas_bem_pequenas"
+      ],
+      "componente": "Educação Infantil",
+      "unidade_tematica": "Corpo, gestos e movimentos",
+      "objeto": "",
+      "texto": "Explorar formas de deslocamento no espaço (pular, saltar, dançar), combinando movimentos e seguindo orientações.",
+      "musica": true
+    },
+    {
+      "codigo": "EI03CG03",
+      "etapa": "EI",
+      "anos": [
+        "criancas_pequenas"
+      ],
+      "componente": "Educação Infantil",
+      "unidade_tematica": "Corpo, gestos e movimentos",
+      "objeto": "",
+      "texto": "Criar movimentos, gestos, olhares e mímicas em brincadeiras, jogos e atividades artísticas como dança, teatro e música.",
+      "musica": true
+    },
+    {
+      "codigo": "EI01EF01",
+      "etapa": "EI",
+      "anos": [
+        "bebes"
+      ],
+      "componente": "Educação Infantil",
+      "unidade_tematica": "Escuta, fala, pensamento e imaginação",
+      "objeto": "",
+      "texto": "Reconhecer quando é chamado por seu nome e reconhecer os nomes de pessoas com quem convive.",
+      "musica": false
+    },
+    {
+      "codigo": "EI02EF02",
+      "etapa": "EI",
+      "anos": [
+        "criancas_bem_pequenas"
+      ],
+      "componente": "Educação Infantil",
+      "unidade_tematica": "Escuta, fala, pensamento e imaginação",
+      "objeto": "",
+      "texto": "Identificar e criar diferentes sons e reconhecer rimas e aliterações em cantigas de roda e textos poéticos.",
+      "musica": true
+    },
+    {
+      "codigo": "EI03EF02",
+      "etapa": "EI",
+      "anos": [
+        "criancas_pequenas"
+      ],
+      "componente": "Educação Infantil",
+      "unidade_tematica": "Escuta, fala, pensamento e imaginação",
+      "objeto": "",
+      "texto": "Inventar brincadeiras cantadas, poemas e canções, criando rimas, aliterações e ritmos.",
+      "musica": true
+    }
+  ]
+}

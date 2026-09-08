@@ -1,0 +1,66 @@
+{
+ "results": [
+  {
+   "id": "https://openalex.org/W1001",
+   "display_name": "Recorder articulation pedagogy for beginners",
+   "publication_year": 2018,
+   "doi": "https://doi.org/10.1000/rec.2018.1",
+   "authorships": [
+    {
+     "author": {
+      "display_name": "A. Smith"
+     }
+    },
+    {
+     "author": {
+      "display_name": "B. Jones"
+     }
+    }
+   ],
+   "primary_location": {
+    "source": {
+     "display_name": "Music Education Research"
+    }
+   },
+   "abstract_inverted_index": {
+    "Tonguing": [
+     0
+    ],
+    "and": [
+     1
+    ],
+    "articulation": [
+     2
+    ],
+    "in": [
+     3
+    ],
+    "beginner": [
+     4
+    ],
+    "recorder": [
+     5
+    ]
+   }
+  },
+  {
+   "id": "https://openalex.org/W1002",
+   "display_name": "Steady beat and pulse perception in children",
+   "publication_year": 2015,
+   "doi": "https://doi.org/10.1000/beat.2015",
+   "authorships": [
+    {
+     "author": {
+      "display_name": "C. Lima"
+     }
+    }
+   ],
+   "primary_location": {
+    "source": {
+     "display_name": "Psychology of Music"
+    }
+   },
+   "abstract_inverted_index": null
+  }
+ ]
+}

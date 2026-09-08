@@ -1,0 +1,23 @@
+{
+ "items": [
+  {
+   "id": "gb1",
+   "volumeInfo": {
+    "title": "Ensinando música musicalmente",
+    "authors": [
+     "Keith Swanwick"
+    ],
+    "publishedDate": "2003",
+    "publisher": "Moderna",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9788516037536"
+     }
+    ],
+    "infoLink": "https://books.google.com/books?id=gb1",
+    "description": "Livro sobre educação musical."
+   }
+  }
+ ]
+}
