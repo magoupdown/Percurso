@@ -16,7 +16,7 @@ GitHub → **Open in Colab** (`Percurso.ipynb`) → célula 1 → célula 2. Ou 
 
 ## Como testar
 
-`pytest` (102 testes, sem rede). Roteiro manual em `docs/TESTING.md`.
+`pytest` (103 testes, sem rede; `pytest -m online` exercita OpenAlex e Crossref reais). Roteiro manual em `docs/TESTING.md`.
 
 ## Configuração do Drive
 
@@ -32,7 +32,7 @@ Descritos em `README.md` e `docs/TUTORIAL_PROFESSOR.md`. Link do Mercado Pago em
 
 ## Dependências
 
-`gradio`, `pydantic>=2`, `pandas`, `numpy`, `PyMuPDF`, `pypdf`, `python-docx`, `rank-bm25`, `music21`, `matplotlib`, `reportlab`, `qrcode`, `Pillow`, `httpx`, `tenacity`, `google-genai`; opcional `sentence-transformers`. Versões **não fixadas** (SPEC §18) até o teste no Colab.
+`gradio`, `pydantic>=2`, `pandas`, `numpy`, `PyMuPDF`, `pypdf`, `python-docx`, `rank-bm25`, `music21`, `matplotlib`, `reportlab`, `qrcode`, `Pillow`, `httpx`, `tenacity`, `google-genai`; opcional `sentence-transformers`. Versões **fixadas** em `requirements.txt` a partir do ambiente do Colab testado em 08/09/2026 (SPEC §18).
 
 ## Limitações conhecidas
 
@@ -47,7 +47,7 @@ Descritos em `README.md` e `docs/TUTORIAL_PROFESSOR.md`. Link do Mercado Pago em
 
 ## Testes realizados (evidência)
 
-- `pytest`: **102 passed** em 08/09/2026 (Windows 11, Python 3.13.15).
+- `pytest`: **103 passed** em 08/09/2026 (Windows 11, Python 3.13.15).
 - Navegação real no navegador (servidor local Gradio): tela inicial → NOVO REGISTRO → registro criado com QR → Continuar (painel) → CRIAR PRIMEIRA AULA → GERAR PLANO (cronograma 50 min válido, atividades do perfil de piano) → REGISTRAR AULA A PARTIR DESTE PLANO → SALVAR AULA (Aula 1) → segunda aula com rendimento pelo menu (ritmo 4) → painel de retorno com "Aula 1/2", consolidado, dificuldade recorrente, última observação, próximo passo sugerido → Histórico com tabela. Erro de validação (aula sem conteúdo) exibido em PT-BR. Código digitado em minúsculas e sem hífen (`pcr4a6gvw`) aceito.
 - Aba Pesquisar no navegador com APIs reais: OpenAlex e Crossref devolveram fontes brasileiras sobre flauta doce com DOI, autor, ano e data de consulta; Google Books (HTTP 429) e Semantic Scholar indisponíveis geraram o aviso "temporariamente indisponível. Continuando com outras fontes." sem interromper a pesquisa. Base curricular sugeriu EF15AR14/15 e objetivos da EI para "pulsação"; LISTAR HABILIDADES exibiu as 13 de Música + Artes integradas.
 - Aba Relatórios no navegador: relatório de frequência gerado (100 %, 2 aulas, tabela por aula), PDF (37 KB) e DOCX (63 KB) oferecidos para download; material "folha do professor" sem plano na sessão exibiu a orientação correta.
