@@ -153,6 +153,14 @@ def gerar_plano(entrada: EntradaPlanejamento) -> Plano:
 
     # 3) atividades = exercícios do perfil filtrados por recursos e idade, distribuídos nos blocos
     exercicios = adaptador.exercicios_para(perfil, conteudo_principal, recursos, idade, maximo=4)
+    # exercícios exatos para o conteúdo que ficaram de fora por falta de recurso → aviso ao professor
+    sem_filtro = adaptador.exercicios_para(perfil, conteudo_principal, [], idade, maximo=6)
+    titulos = {e.get("titulo") for e in exercicios}
+    for e in sem_filtro:
+        if e.get("titulo") not in titulos and any(c.lower() == conteudo_principal.lower() for c in e.get("conteudos", [])):
+            faltam = [r for r in e.get("recursos", []) if r not in (recursos or [])]
+            if faltam:
+                avisos.append(f"O exercício '{e.get('titulo')}' seria o mais direto para este conteúdo, mas exige {', '.join(faltam)}.")
     atividades = _distribuir_atividades(cronograma, exercicios, conteudo_principal, est, reg, tipo, entrada)
 
     # 4) avaliação = rubrica ativa

@@ -34,7 +34,7 @@ def montar_app(sessao: Sessao):
 
         # ---------------------------------------------------------- navegação
         def ir(aba_id: str):
-            return lambda: gr.Tabs(selected=aba_id)
+            return lambda: gr.update(selected=aba_id)
 
         s_inicio["btn_continuar"].click(ir("continuar"), None, [abas])
         s_inicio["btn_novo"].click(ir("novo"), None, [abas])
@@ -51,7 +51,7 @@ def montar_app(sessao: Sessao):
         # botões do painel de retorno → planejar com tipo pré-selecionado
         def planejar_com(tipo: str):
             def _f():
-                return gr.Tabs(selected="planejar"), gr.update(value=tipo)
+                return gr.update(selected="planejar"), gr.update(value=tipo)
 
             return _f
 
@@ -66,10 +66,10 @@ def montar_app(sessao: Sessao):
 
         def aula_retroativa():
             sessao.formulario_aula = {"tipo_aula": "retroativa"}
-            return gr.Tabs(selected="aula")
+            return gr.update(selected="aula")
 
         s_continuar["btn_retroativa"].click(aula_retroativa, None, [abas])
-        s_planejar["btn_registrar"].click(lambda: gr.Tabs(selected="aula"), None, [abas])
+        s_planejar["btn_registrar"].click(lambda: gr.update(selected="aula"), None, [abas])
 
         # ----------------------------------------------------------- Gemini
         def usar_gemini():
