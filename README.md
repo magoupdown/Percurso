@@ -2,7 +2,7 @@
 
 **Plataforma de inteligência pedagógica.** *Cada aula começa de onde a anterior terminou.*
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/________/Percurso/blob/main/Percurso.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/magoupdown/Percurso/blob/main/Percurso.ipynb)
 
 O Percurso não é um gerador de planos de aula. É um sistema de **memória pedagógica longitudinal**: cada aula é registrada, o estado do aluno é atualizado, e o planejamento seguinte parte exatamente de onde o anterior terminou. Primeira especialização: Música (22 instrumentos e áreas, de piano a prática de conjunto). Gratuito, sem paywall.
 
