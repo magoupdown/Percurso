@@ -1,0 +1,10 @@
+Tarefa: responder à pergunta do professor sobre o histórico de {quem}, usando exclusivamente as aulas abaixo. Se a resposta não estiver no histórico, diga isso claramente. Cite as datas das aulas que sustentam a resposta.
+
+## Estado pedagógico atual
+{estado}
+
+## Histórico (aulas em ordem cronológica)
+{aulas}
+
+## Pergunta
+{pergunta}

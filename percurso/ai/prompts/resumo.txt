@@ -1,0 +1,15 @@
+Tarefa: reescrever o resumo pedagógico de {quem} como um texto corrido, claro e útil para o professor retomar a próxima aula. Máximo de 1500 caracteres. Não invente nada que não esteja abaixo.
+
+## Perfil
+{perfil}
+
+## Estado pedagógico atual
+{estado}
+
+## Últimas aulas (mais recente por último)
+{ultimas_aulas}
+
+## Resumo atual (por template)
+{resumo_atual}
+
+O texto deve cobrir: onde o aluno estava, o que foi trabalhado, o que consolidou, que dificuldade permanece, qual objetivo está em desenvolvimento e o que deve acontecer na próxima aula. Refira-se ao aluno apenas pelo código.

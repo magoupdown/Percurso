@@ -46,7 +46,10 @@ def montar(sessao: Sessao) -> dict:
         with gr.Row():
             conteudo_planejado = gr.Textbox(label=T.AULA_CONTEUDO_PLANEJADO, lines=3)
             conteudo_realizado = gr.Textbox(label=T.AULA_CONTEUDO_REALIZADO, lines=3)
-        btn_classificar = gr.Button(T.BTN_CLASSIFICAR)
+        with gr.Row():
+            btn_classificar = gr.Button(T.BTN_CLASSIFICAR)
+            btn_propor = gr.Button(T.BTN_PROPOR_CLASSIFICACAO)
+        proposta_msg = gr.HTML("")
         gr.Markdown(f"**{T.AULA_CLASSIFICACAO}**")
         classificacoes = []
         with gr.Group():
@@ -146,6 +149,27 @@ def montar(sessao: Sessao) -> dict:
             return upd
 
         btn_classificar.click(classificar, [conteudo_realizado], [c for tri in classificacoes for c in tri])
+
+        def propor(texto, aval, dif, conq, obs):
+            """Proposta da IA (SPEC §4.3): o modelo propõe, o professor confirma. Sem Gemini, usa o estado."""
+            ctx = sessao.contexto
+            itens = C.linhas(texto)[:MAX_CLASSIFICACAO]
+            if ctx is None:
+                return [C.aviso(T.NENHUM_REGISTRO_CARREGADO)] + classificar(texto)
+            if not (sessao.modo_ia == "gemini" and sessao.gemini_pronto):
+                return [C.aviso(T.SOMENTE_MODO_INTELIGENTE)] + classificar(texto)
+            from ...ai import classificacao as ai_cls
+
+            prop = ai_cls.propor(sessao, itens, avaliacao=aval or "", dificuldades=C.linhas(dif), conquistas=C.linhas(conq), observacoes=obs or "")
+            upd = []
+            for i in range(MAX_CLASSIFICACAO):
+                if i < len(prop):
+                    upd += [gr.update(visible=True), gr.update(value=prop[i]["conteudo"], info=prop[i].get("motivo", "")), gr.update(value=prop[i]["situacao"])]
+                else:
+                    upd += [gr.update(visible=False), gr.update(value="", info=""), gr.update(value="em_desenvolvimento")]
+            return [C.ok(T.CLASSIFICACAO_PROPOSTA)] + upd
+
+        btn_propor.click(C.protegido(propor), [conteudo_realizado, avaliacao, dificuldades, conquistas, observacoes], [proposta_msg] + [c for tri in classificacoes for c in tri])
 
         def salvar(*valores):
             ctx = sessao.contexto

@@ -1,0 +1,14 @@
+Tarefa: propor a classificação de cada conteúdo trabalhado na aula de hoje de {quem} como "consolidado", "em_desenvolvimento" ou "dificuldade". O professor confirmará ou corrigirá; você apenas propõe.
+
+## Estado pedagógico anterior
+{estado}
+
+## Aula de hoje (relato do professor)
+- Conteúdos trabalhados: {conteudos}
+- Avaliação qualitativa: {avaliacao}
+- Dificuldades observadas: {dificuldades}
+- Conquistas: {conquistas}
+- Observações: {observacoes}
+- Rendimento registrado: {rendimento}
+
+Critérios: "consolidado" só quando o relato indica execução estável e o conteúdo já vinha em desenvolvimento; "dificuldade" quando o relato cita erro recorrente ou instabilidade; caso contrário "em_desenvolvimento". Explique o motivo em uma frase por item. Devolva exatamente um item por conteúdo listado, com o texto do conteúdo idêntico.

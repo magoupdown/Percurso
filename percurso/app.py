@@ -77,34 +77,35 @@ def montar_app(sessao: Sessao):
 
             r = gemini.ativar(sessao)
             if r.ok:
-                return C.ok(T.GEMINI_ATIVADO), gr.update(visible=False), C.badge_modo(sessao), gr.update(visible=False)
+                return C.ok(T.GEMINI_ATIVADO), gr.update(visible=False), C.badge_modo(sessao), gr.update(visible=False), gr.update(visible=True)
             if r.motivo == "sem_chave":
-                return "", gr.update(visible=True), C.badge_modo(sessao), gr.update(visible=True)
-            return C.erro(r.mensagem), gr.update(visible=True), C.badge_modo(sessao), gr.update(visible=True)
+                return "", gr.update(visible=True), C.badge_modo(sessao), gr.update(visible=True), gr.update(visible=False)
+            return C.erro(r.mensagem), gr.update(visible=True), C.badge_modo(sessao), gr.update(visible=True), gr.update(visible=False)
 
         def usar_chave(chave):
             from .ai import gemini
 
             r = gemini.ativar(sessao, chave_sessao=(chave or "").strip() or None)
             if r.ok:
-                return C.ok(T.GEMINI_ATIVADO), gr.update(visible=False), C.badge_modo(sessao), gr.update(visible=False), ""
-            return C.erro(r.mensagem), gr.update(visible=True), C.badge_modo(sessao), gr.update(visible=True), ""
+                return C.ok(T.GEMINI_ATIVADO), gr.update(visible=False), C.badge_modo(sessao), gr.update(visible=False), gr.update(visible=True), ""
+            return C.erro(r.mensagem), gr.update(visible=True), C.badge_modo(sessao), gr.update(visible=True), gr.update(visible=False), ""
 
         def sem_gemini():
             sessao.modo_ia = "essencial"
             sessao.gemini_pronto = False
-            return C.aviso(T.AVISO_ESSENCIAL), gr.update(visible=False), C.badge_modo(sessao), gr.update(visible=False)
+            sessao.cliente_gemini = None
+            return C.aviso(T.AVISO_ESSENCIAL), gr.update(visible=False), C.badge_modo(sessao), gr.update(visible=False), gr.update(visible=False)
 
-        saidas_g = [s_inicio["resultado_gemini"], s_inicio["grupo_chave"], s_inicio["badge"], s_inicio["grupo_gemini"]]
-        s_inicio["btn_usar_gemini"].click(_seguro(usar_gemini), None, saidas_g)
-        s_inicio["btn_usar_chave"].click(_seguro(usar_chave), [s_inicio["chave_sessao"]], saidas_g + [s_inicio["chave_sessao"]])
+        saidas_g = [s_inicio["resultado_gemini"], s_inicio["grupo_chave"], s_inicio["badge"], s_inicio["grupo_gemini"], s_inicio["grupo_consentimento"]]
+        s_inicio["btn_usar_gemini"].click(_seguro(usar_gemini, len(saidas_g)), None, saidas_g)
+        s_inicio["btn_usar_chave"].click(_seguro(usar_chave, len(saidas_g) + 1), [s_inicio["chave_sessao"]], saidas_g + [s_inicio["chave_sessao"]])
         s_inicio["btn_sem_gemini"].click(sem_gemini, None, saidas_g)
         s_inicio["btn_sem_gemini2"].click(sem_gemini, None, saidas_g)
 
     return demo
 
 
-def _seguro(fn):
+def _seguro(fn, n_saidas: int):
     import gradio as gr
 
     def _w(*a):
@@ -114,7 +115,7 @@ def _seguro(fn):
             log.error("erro Gemini: %s", e)
             from .ui import common as C
 
-            return C.erro(T.GEMINI_SEM_RESPOSTA), gr.update(), gr.update(), gr.update()
+            return tuple([C.erro(T.GEMINI_SEM_RESPOSTA)] + [gr.update()] * (n_saidas - 1))
 
     return _w
 

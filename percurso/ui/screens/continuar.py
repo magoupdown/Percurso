@@ -31,18 +31,55 @@ def montar(sessao: Sessao) -> dict:
             btn_primeira = gr.Button(T.BTN_PRIMEIRA_AULA, variant="primary")
             btn_retroativa = gr.Button(T.BTN_AULA_JA_REALIZADA)
 
+        # --- resumo pedagógico (template no Essencial; narrativo com Gemini; editável) ---
+        with gr.Accordion(T.RESUMO_TITULO, open=False):
+            resumo_origem = gr.Markdown(_origem_resumo(sessao))
+            resumo_texto = gr.Textbox(label=T.RESUMO_TITULO, lines=6, value=_texto_resumo(sessao))
+            with gr.Row():
+                btn_reescrever = gr.Button(T.BTN_REESCREVER_RESUMO)
+                btn_salvar_resumo = gr.Button(T.BTN_SALVAR_RESUMO, variant="primary")
+            resumo_msg = gr.HTML("")
+
+        def reescrever():
+            if sessao.contexto is None:
+                return C.aviso(T.NENHUM_REGISTRO_CARREGADO), _texto_resumo(sessao), _origem_resumo(sessao)
+            if not (sessao.modo_ia == "gemini" and sessao.gemini_pronto):
+                return C.aviso(T.SOMENTE_MODO_INTELIGENTE), _texto_resumo(sessao), _origem_resumo(sessao)
+            from ...ai import resumo as ai_resumo
+
+            try:
+                novo = ai_resumo.reescrever(sessao)
+            except Exception as e:  # noqa: BLE001
+                C.log.warning("resumo Gemini falhou: %s", e)
+                return C.erro(str(e) or T.GEMINI_SEM_RESPOSTA), _texto_resumo(sessao), _origem_resumo(sessao)
+            return C.ok(T.RESUMO_REESCRITO), novo.texto, _origem_resumo(sessao)
+
+        def salvar_resumo(texto):
+            if sessao.contexto is None:
+                return C.aviso(T.NENHUM_REGISTRO_CARREGADO), _origem_resumo(sessao)
+            from ...ai import resumo as ai_resumo
+
+            ai_resumo.salvar_edicao(sessao, texto)
+            return C.ok(T.RESUMO_SALVO), _origem_resumo(sessao)
+
+        btn_reescrever.click(C.protegido(reescrever), None, [resumo_msg, resumo_texto, resumo_origem])
+        btn_salvar_resumo.click(C.protegido(salvar_resumo, T.ERRO_GRAVACAO), [resumo_texto], [resumo_msg, resumo_origem])
+
         def carregar(texto, escolhido):
             alvo = (texto or "").strip() or (escolhido or "")
+            def _falha(msg):
+                return msg, _painel_atual(sessao), gr.update(visible=False), gr.update(visible=False), gr.update(visible=False), gr.update(choices=_recentes(sessao)), _texto_resumo(sessao), _origem_resumo(sessao)
+
             if not alvo:
-                return C.aviso(T.DIGITE_CODIGO), _painel_atual(sessao), gr.update(visible=False), gr.update(visible=False), gr.update(visible=False), gr.update(choices=_recentes(sessao))
+                return _falha(C.aviso(T.DIGITE_CODIGO))
             try:
                 cod = codes.normalizar_e_validar(alvo)
             except ValueError:
-                return C.erro(T.CODIGO_INVALIDO), _painel_atual(sessao), gr.update(visible=False), gr.update(visible=False), gr.update(visible=False), gr.update(choices=_recentes(sessao))
+                return _falha(C.erro(T.CODIGO_INVALIDO))
             try:
                 ctx = sessao.carregar(cod)
             except RegistroNaoEncontrado:
-                return C.erro(T.CODIGO_NAO_ENCONTRADO), _painel_atual(sessao), gr.update(visible=False), gr.update(visible=False), gr.update(visible=False), gr.update(choices=_recentes(sessao))
+                return _falha(C.erro(T.CODIGO_NAO_ENCONTRADO))
             tem = ctx.estado.total_aulas > 0
             return (
                 C.ok(T.DADOS_RECUPERADOS),
@@ -51,9 +88,11 @@ def montar(sessao: Sessao) -> dict:
                 gr.update(visible=tem),
                 gr.update(visible=not tem),
                 gr.update(choices=_recentes(sessao)),
+                _texto_resumo(sessao),
+                _origem_resumo(sessao),
             )
 
-        saidas = [mensagem, painel, acoes_com_aulas, acoes_com_aulas2, acoes_sem_aulas, recentes]
+        saidas = [mensagem, painel, acoes_com_aulas, acoes_com_aulas2, acoes_sem_aulas, recentes, resumo_texto, resumo_origem]
         btn_carregar.click(C.protegido(carregar), [codigo, recentes], saidas)
         codigo.submit(C.protegido(carregar), [codigo, recentes], saidas)
 
@@ -66,9 +105,11 @@ def montar(sessao: Sessao) -> dict:
                 gr.update(visible=tem),
                 gr.update(visible=ctx is not None and not tem),
                 gr.update(choices=_recentes(sessao)),
+                _texto_resumo(sessao),
+                _origem_resumo(sessao),
             )
 
-        tab.select(ao_selecionar, None, [painel, acoes_com_aulas, acoes_com_aulas2, acoes_sem_aulas, recentes])
+        tab.select(ao_selecionar, None, [painel, acoes_com_aulas, acoes_com_aulas2, acoes_sem_aulas, recentes, resumo_texto, resumo_origem])
 
     return {
         "tab": tab,
@@ -85,7 +126,7 @@ def montar(sessao: Sessao) -> dict:
         "btn_primeira": btn_primeira,
         "btn_retroativa": btn_retroativa,
         "atualizar": ao_selecionar,
-        "saidas_atualizar": [painel, acoes_com_aulas, acoes_com_aulas2, acoes_sem_aulas, recentes],
+        "saidas_atualizar": [painel, acoes_com_aulas, acoes_com_aulas2, acoes_sem_aulas, recentes, resumo_texto, resumo_origem],
     }
 
 
@@ -105,3 +146,13 @@ def _recentes(sessao: Sessao) -> list:
         except Exception:
             saida.append((cod, cod))
     return saida
+
+
+def _texto_resumo(sessao: Sessao) -> str:
+    return sessao.contexto.resumo.texto if sessao.contexto else ""
+
+
+def _origem_resumo(sessao: Sessao) -> str:
+    if sessao.contexto is None:
+        return ""
+    return f"_{T.RESUMO_ORIGEM.get(sessao.contexto.resumo.gerado_por, sessao.contexto.resumo.gerado_por)}_"

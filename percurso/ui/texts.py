@@ -261,6 +261,20 @@ BTN_CONTINUAR_NO_PERCURSO = "CONTINUAR NO PERCURSO"
 APOIO_SEM_BLOQUEIO = "Nenhuma função será bloqueada."
 APOIO_LINK_NAO_CONFIGURADO = "O link de contribuição ainda não foi configurado pelo responsável pelo projeto."
 
+# --- Modo Inteligente (E2) -----------------------------------------------------
+BTN_CONSENTIR_TRECHOS_SIM = "SIM"
+BTN_CONSENTIR_TRECHOS_NAO = "NÃO"
+CONSENTIMENTO_REGISTRADO = "Preferência registrada para esta sessão."
+RESUMO_TITULO = "Resumo pedagógico"
+BTN_REESCREVER_RESUMO = "REESCREVER RESUMO COM GEMINI"
+BTN_SALVAR_RESUMO = "SALVAR MINHA EDIÇÃO DO RESUMO"
+RESUMO_REESCRITO = "Resumo reescrito com apoio de IA ✓ Você pode editar e salvar."
+RESUMO_SALVO = "Resumo salvo ✓"
+RESUMO_ORIGEM = {"template": "gerado por template (sem IA)", "gemini": "gerado com apoio de IA", "professor": "editado pelo professor"}
+BTN_PROPOR_CLASSIFICACAO = "PEDIR PROPOSTA DE CLASSIFICAÇÃO À IA"
+CLASSIFICACAO_PROPOSTA = "Proposta da IA aplicada. Confira cada item e corrija o que for preciso antes de salvar."
+SOMENTE_MODO_INTELIGENTE = "Este recurso precisa do Modo Inteligente (Gemini) ativo nesta sessão."
+
 # --- erros genéricos ---------------------------------------------------------
 ERRO_GENERICO = "Algo não saiu como esperado. Seus dados anteriores estão preservados. Se o problema continuar, use DIAGNÓSTICO em Configurações."
 ERRO_GRAVACAO = "Não foi possível gravar no Drive agora. Verifique a conexão e tente novamente. Nada do que já estava salvo foi alterado."

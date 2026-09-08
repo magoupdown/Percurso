@@ -1,0 +1,37 @@
+Tarefa: elaborar um plano de aula completo e contextual para {quem}, a partir do histórico pedagógico.
+
+## Perfil
+{perfil}
+
+## Estado pedagógico atual
+{estado}
+
+## Resumo pedagógico
+{resumo}
+
+## Últimas aulas (mais recente por último)
+{ultimas_aulas}
+
+## Perfil do instrumento/área (hipóteses pedagógicas do sistema)
+{perfil_instrumento}
+
+## Pedido do professor
+- Tipo de aula: {tipo_aula}
+- Conteúdo indicado: {conteudo} (se vazio, escolha com base no histórico e na progressão do instrumento; o sistema sugere: {sugestao})
+- Objetivo indicado: {objetivo}
+- Duração: {duracao} minutos (o cronograma DEVE começar em 0, ter blocos contíguos e terminar exatamente em {duracao})
+- Recursos disponíveis hoje: {recursos}
+- Metodologias do professor: {metodologias}
+- Adaptações registradas: {adaptacoes}
+- Observações para esta aula: {observacoes}
+- Estrutura de referência do cronograma (pode ajustar minutos, mantendo as etapas): {estrutura}
+
+## Habilidades disponíveis (use apenas estas; lista vazia = não cite nenhuma)
+{habilidades}
+
+## Fontes disponíveis (use apenas estes ids em "referencias")
+{fontes}
+
+{erro_anterior}
+
+Produza o JSON no schema pedido. Na justificativa pedagógica, responda explicitamente: "Por que esta aula foi estruturada assim?" (estrutura) e "Por que este exercício é adequado ao instrumento e ao estágio?" (adequacao), citando o histórico concreto do aluno.

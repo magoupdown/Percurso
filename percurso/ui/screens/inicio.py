@@ -41,6 +41,24 @@ def montar(sessao: Sessao) -> dict:
                     btn_sem_gemini2 = gr.Button(T.BTN_SEM_GEMINI, variant="secondary")
             resultado_gemini = gr.HTML("")
 
+        # --- consentimento de envio de trechos da biblioteca (SPEC §7.6) — só com Gemini ativo ---
+        with gr.Group(visible=False) as grupo_consentimento:
+            gr.Markdown(f"**{T.CONSENTIMENTO_TRECHOS}**")
+            with gr.Row():
+                btn_consentir_sim = gr.Button(T.BTN_CONSENTIR_TRECHOS_SIM, variant="primary")
+                btn_consentir_nao = gr.Button(T.BTN_CONSENTIR_TRECHOS_NAO, variant="secondary")
+            consentimento_msg = gr.HTML("")
+
+        def consentir(valor: bool):
+            def _f():
+                sessao.consentimento_trechos = valor
+                return C.ok(T.CONSENTIMENTO_REGISTRADO + (" Trechos poderão ser enviados." if valor else " Nenhum trecho da biblioteca será enviado."))
+
+            return _f
+
+        btn_consentir_sim.click(consentir(True), None, [consentimento_msg])
+        btn_consentir_nao.click(consentir(False), None, [consentimento_msg])
+
         gr.Markdown("### O que você quer fazer?")
         with gr.Row():
             btn_continuar = gr.Button(T.BTN_CONTINUAR, variant="primary")
@@ -70,6 +88,7 @@ def montar(sessao: Sessao) -> dict:
         "btn_aprender": btn_aprender,
         "btn_sem_gemini2": btn_sem_gemini2,
         "resultado_gemini": resultado_gemini,
+        "grupo_consentimento": grupo_consentimento,
         "btn_continuar": btn_continuar,
         "btn_novo": btn_novo,
         "btn_planejar": btn_planejar,
