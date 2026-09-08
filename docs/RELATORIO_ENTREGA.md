@@ -36,14 +36,14 @@ Descritos em `README.md` e `docs/TUTORIAL_PROFESSOR.md`. Link do Mercado Pago em
 
 ## Limitações conhecidas
 
-1. **Teste manual no Colab ainda não realizado** (SPEC §16.3). Todo o desenvolvimento foi validado localmente (Windows, Python 3.13, Gradio 6.26) com testes automatizados e navegação real da interface. O comportamento `inline=True` no Colab e o `drive.mount` precisam do roteiro manual.
+1. **Teste no Colab realizado em 08/09/2026** (abertura pelo GitHub, célula 1 e 2, Drive montado, interface inline estilizada, aba Novo registro aberta por clique). O roteiro pedagógico completo da SPEC §16.3 (3 aulas de piano, turma, biblioteca, Gemini) ainda deve ser percorrido por um professor no Colab.
 2. **Chamadas reais ao Gemini não exercitadas**: o cliente usa o SDK `google-genai` conforme a documentação atual, mas só foi testado com mock. Verificar `response_schema` com pydantic no modelo configurado.
 3. **CRMG**: a base contém o recorte equivalente à BNCC (mesmos códigos). Habilidades complementares específicas de Minas Gerais, se existirem no documento vigente, precisam ser acrescentadas após confirmação do proprietário (SPEC §21).
 4. **BNCC EI e EM** transcritas de conhecimento consolidado, não por extração automática do PDF oficial: conferir contra o documento oficial antes do beta.
 5. **APIs acadêmicas** testadas com respostas gravadas; formatos de resposta reais podem variar (o código tolera campos ausentes).
 6. **Frequência individual em turma** existe no relatório; "avançada" (por conteúdo/aluno) fica no roadmap.
 7. **Aba Ajuda** renderiza Markdown dos tutoriais; sem imagens (por decisão da SPEC §7.4).
-8. Placeholders da SPEC §21 (repositório GitHub, link Mercado Pago, e-mail OpenAlex) não preenchidos.
+8. Placeholders da SPEC §21 ainda abertos: link do Mercado Pago e e-mail OpenAlex. Repositório GitHub publicado: https://github.com/magoupdown/Percurso.
 
 ## Testes realizados (evidência)
 
@@ -53,10 +53,10 @@ Descritos em `README.md` e `docs/TUTORIAL_PROFESSOR.md`. Link do Mercado Pago em
 - Aba Relatórios no navegador: relatório de frequência gerado (100 %, 2 aulas, tabela por aula), PDF (37 KB) e DOCX (63 KB) oferecidos para download; material "folha do professor" sem plano na sessão exibiu a orientação correta.
 - `pytest -m online`: teste real de OpenAlex e Crossref passou em 08/09/2026.
 - Bug encontrado e corrigido durante a verificação: cabeçalho User-Agent com acento derrubava todos os provedores (`UnicodeEncodeError`); agora forçado a ASCII, com teste de regressão.
+- Colab (08/09/2026), dois bugs encontrados e corrigidos pelo próprio teste: (a) `pip install -e` não é visto pelo kernel sem reiniciar → o notebook acrescenta `/content/Percurso` ao `sys.path`; (b) atrás do proxy do Colab o Gradio calculava a URL raiz com um host interno inalcançável (tema e API não carregavam) → `percurso.iniciar()` obtém a URL pública com `google.colab.kernel.proxyPort` e a passa como `root_path`. Versões instaladas no Colab registradas em `requirements.txt`.
 
 ## Melhorias recomendadas
 
-- Fixar versões no `requirements.txt` após o primeiro teste no Colab.
-- Preencher SPEC §21 e o `REPO` na célula 1 do notebook.
-- Rodar o roteiro manual (piano, turma, biblioteca, Gemini) e registrar a data no README.
+- Preencher o link do Mercado Pago (SPEC §21).
+- Percorrer o roteiro pedagógico manual (piano, turma, biblioteca, Gemini) com um professor no Colab.
 - Considerar `verovio` (imagem de partitura) e OCR como primeiros itens do roadmap.

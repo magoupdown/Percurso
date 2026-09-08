@@ -73,6 +73,6 @@ Docs: [ARCHITECTURE](docs/ARCHITECTURE.md) · [DATA_MODEL](docs/DATA_MODEL.md) �
 | E4 | Currículo e pesquisa acadêmica | concluída (APIs testadas com respostas gravadas) |
 | E5 | Relatórios, exportação e fechamento | concluída |
 
-`pytest`: 102 testes verdes em 08/09/2026.
+`pytest`: 103 testes verdes em 08/09/2026 (+1 teste `online` com OpenAlex e Crossref reais).
 
-**Último teste no Colab:** ainda não realizado. Versões de dependências não fixadas até esse teste (SPEC §18). Pendências do proprietário (SPEC §21): repositório GitHub na célula 1 e no badge, link do Mercado Pago, e-mail para o OpenAlex.
+**Último teste no Colab:** 08/09/2026 (Python 3.13.15, Gradio 6.26.0) — abertura pelo badge, inicialização, conexão do Drive, interface inline estilizada e navegação entre abas verificadas. Versões fixadas em `requirements.txt` a partir desse teste. Pendências do proprietário (SPEC §21): link do Mercado Pago em `config/defaults.json` e e-mail para o OpenAlex (opcional).
