@@ -25,6 +25,10 @@ class Plataforma(ABC):
     def eh_colab(self) -> bool:
         return False
 
+    def url_proxy(self, porta: int) -> Optional[str]:
+        """URL pública pela qual o navegador alcança a porta local (só faz sentido no Colab)."""
+        return None
+
     def limpar_dados_locais(self) -> list:
         """Apaga arquivos temporários da sessão (SPEC §14.5). Devolve o que removeu."""
         return []

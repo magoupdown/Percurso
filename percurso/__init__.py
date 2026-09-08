@@ -54,10 +54,26 @@ def preparar(base_path: Optional[Path] = None, plataforma=None, informar=print):
     return sessao
 
 
+def porta_livre(inicio: int = 7860, tentativas: int = 30) -> int:
+    import socket
+
+    for p in range(inicio, inicio + tentativas):
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+            if s.connect_ex(("127.0.0.1", p)) != 0:
+                return p
+    return inicio
+
+
 def iniciar(base_path: Optional[Path] = None, inline: bool = True, share: bool = False, **kw):
     """Conecta o Drive (popup do Colab), cria a estrutura, migra, verifica o lembrete e abre a interface."""
     from . import app as app_mod
 
     sessao = preparar(base_path=base_path)
     demo = app_mod.montar_app(sessao)
+    if sessao.plataforma.eh_colab() and "root_path" not in kw:
+        porta = int(kw.pop("server_port", 0) or porta_livre())
+        url = sessao.plataforma.url_proxy(porta)
+        kw["server_port"] = porta
+        if url:
+            kw["root_path"] = url
     return app_mod.lancar(demo, inline=inline, share=share, **kw)
