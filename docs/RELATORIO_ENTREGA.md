@@ -1,0 +1,58 @@
+# Relatório de entrega — Percurso V1 (E1–E5)
+
+Formato da SPEC §19.4. Data: 08/09/2026.
+
+## O que foi desenvolvido
+
+- **E1 — Núcleo (Modo Essencial):** notebook fino (2 células), plataforma colab/local, storage com escrita atômica e `.bak`, estrutura do Drive, onboarding e perfil do professor, registros com código `PCR-XXXXXX` (individual, dupla, turma), registrar aula (inclusive retroativa), frequência, rendimento com rubrica (padrão do perfil + critérios próprios), estado atual e resumo determinísticos, histórico com busca estruturada, planejador por modelos pedagógicos com 22 perfis instrumentais editáveis, cronograma validado e adaptável, aula extraordinária/revisão/nova unidade, repertório, apoio (QR + lembrete mensal), LGPD (exportar/excluir/apagar locais), migração v0→v1 com backup, README.
+- **E2 — Modo Inteligente:** chave via Colab Secrets ou sessão, tutorial, schemas pydantic, ciclo de validação (3 tentativas + fallback), pseudonimização, consentimento de trechos, plano contextual, resumo narrativo editável, busca livre no histórico, proposta de classificação.
+- **E3 — Biblioteca:** PDF/DOCX/TXT/MD, hash e duplicidade, extração (PyMuPDF → pypdf → python-docx), trechos com página, metadados detectados e corrigíveis, catálogo, busca exata + BM25 com sinônimos pedagógicos, índice incremental com manifesto, embeddings Gemini e busca local opt-in, remoção com confirmação, integração ao plano.
+- **E4 — Currículo e pesquisa:** BNCC Arte (61 habilidades EF transcritas do documento oficial + 4 EM), BNCC EI (15 objetivos), CRMG (recorte Arte), validação em cadeia, sugestão por tema, provedores OpenAlex/Crossref/Google Books (+ Semantic Scholar opcional), expansão PT/EN, cache com validade, rastreabilidade, tela Pesquisar.
+- **E5 — Relatórios e fechamento:** 6 tipos de relatório por período, gráficos matplotlib, PDF/DOCX/MD/CSV, materiais (folhas, exercícios, rubrica, ficha, repertório, MIDI/MusicXML, QR), diagnóstico, docs (ARCHITECTURE, DATA_MODEL, TESTING, TUTORIAL_PROFESSOR, TUTORIAL_GEMINI, ROADMAP), README com badge.
+
+## Como abrir
+
+GitHub → **Open in Colab** (`Percurso.ipynb`) → célula 1 → célula 2. Ou localmente: `pip install -e .` e `python -c "import percurso; percurso.iniciar(inline=False)"`.
+
+## Como testar
+
+`pytest` (102 testes, sem rede). Roteiro manual em `docs/TESTING.md`.
+
+## Configuração do Drive
+
+Automática: popup do Colab na célula 2; pasta `Meu Drive/Percurso` criada com a estrutura da SPEC §4.1. Mensagem de transparência exibida antes.
+
+## Configuração do Gemini
+
+`docs/TUTORIAL_GEMINI.md` (aba Ajuda). Secret `GEMINI_API_KEY` ou campo de sessão. Modelo em `config/gemini.json` (`gemini-2.5-flash`).
+
+## Biblioteca · Cadastro de aluno · Continuidade · Relatórios · Mercado Pago
+
+Descritos em `README.md` e `docs/TUTORIAL_PROFESSOR.md`. Link do Mercado Pago em `config/defaults.json` (placeholder até o proprietário preencher a SPEC §21).
+
+## Dependências
+
+`gradio`, `pydantic>=2`, `pandas`, `numpy`, `PyMuPDF`, `pypdf`, `python-docx`, `rank-bm25`, `music21`, `matplotlib`, `reportlab`, `qrcode`, `Pillow`, `httpx`, `tenacity`, `google-genai`; opcional `sentence-transformers`. Versões **não fixadas** (SPEC §18) até o teste no Colab.
+
+## Limitações conhecidas
+
+1. **Teste manual no Colab ainda não realizado** (SPEC §16.3). Todo o desenvolvimento foi validado localmente (Windows, Python 3.13, Gradio 6.26) com testes automatizados e navegação real da interface. O comportamento `inline=True` no Colab e o `drive.mount` precisam do roteiro manual.
+2. **Chamadas reais ao Gemini não exercitadas**: o cliente usa o SDK `google-genai` conforme a documentação atual, mas só foi testado com mock. Verificar `response_schema` com pydantic no modelo configurado.
+3. **CRMG**: a base contém o recorte equivalente à BNCC (mesmos códigos). Habilidades complementares específicas de Minas Gerais, se existirem no documento vigente, precisam ser acrescentadas após confirmação do proprietário (SPEC §21).
+4. **BNCC EI e EM** transcritas de conhecimento consolidado, não por extração automática do PDF oficial: conferir contra o documento oficial antes do beta.
+5. **APIs acadêmicas** testadas com respostas gravadas; formatos de resposta reais podem variar (o código tolera campos ausentes).
+6. **Frequência individual em turma** existe no relatório; "avançada" (por conteúdo/aluno) fica no roadmap.
+7. **Aba Ajuda** renderiza Markdown dos tutoriais; sem imagens (por decisão da SPEC §7.4).
+8. Placeholders da SPEC §21 (repositório GitHub, link Mercado Pago, e-mail OpenAlex) não preenchidos.
+
+## Testes realizados (evidência)
+
+- `pytest`: **102 passed** em 08/09/2026 (Windows 11, Python 3.13.15).
+- Navegação real no navegador (servidor local Gradio): tela inicial → NOVO REGISTRO → registro criado com QR → Continuar (painel) → CRIAR PRIMEIRA AULA → GERAR PLANO (cronograma 50 min válido, atividades do perfil de piano) → REGISTRAR AULA A PARTIR DESTE PLANO → SALVAR AULA (Aula 1) → segunda aula com rendimento pelo menu (ritmo 4) → painel de retorno com "Aula 1/2", consolidado, última observação, próximo passo sugerido → Histórico com tabela. Erro de validação (aula sem conteúdo) exibido em PT-BR.
+
+## Melhorias recomendadas
+
+- Fixar versões no `requirements.txt` após o primeiro teste no Colab.
+- Preencher SPEC §21 e o `REPO` na célula 1 do notebook.
+- Rodar o roteiro manual (piano, turma, biblioteca, Gemini) e registrar a data no README.
+- Considerar `verovio` (imagem de partitura) e OCR como primeiros itens do roadmap.
