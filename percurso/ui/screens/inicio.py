@@ -34,13 +34,15 @@ def montar(sessao: Sessao) -> dict:
         # --- pergunta sobre Gemini (nunca persistida) ---
         with gr.Group(elem_classes=["percurso-gemini"]) as grupo_gemini:
             gr.Markdown(f"### {T.INICIO_GEMINI}")
+            with gr.Accordion("Como obter e configurar a chave do Gemini", open=False):
+                gr.Markdown(T.TUTORIAL_GEMINI)
             gr.Markdown(f"**{T.PERGUNTA_GEMINI}**")
             with gr.Row():
                 btn_usar_gemini = gr.Button("Usar Gemini", variant="primary")
                 btn_sem_gemini = gr.Button("Continuar sem Gemini", variant="secondary")
             with gr.Group(visible=False) as grupo_chave:
                 gr.Markdown(f"**{T.GEMINI_NAO_CONFIGURADO}**")
-                chave_sessao = gr.Textbox(label=T.GEMINI_CHAVE_SESSAO, type="password")
+                chave_sessao = gr.Textbox(label=T.GEMINI_CHAVE_SESSAO, type="password", placeholder="Cole somente a chave criada no Google AI Studio", info="Uso temporário. Para reutilizar em outras sessões, salve como GEMINI_API_KEY nos Segredos do Colab.")
                 with gr.Row():
                     btn_usar_chave = gr.Button("Usar Gemini", variant="primary")
                     btn_aprender = gr.Button(T.BTN_APRENDER_CONFIGURAR, variant="secondary")

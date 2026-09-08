@@ -6,6 +6,9 @@ no fuso configurado. Grava-se o mês ANTES de exibir.
 from __future__ import annotations
 
 import io
+from urllib.parse import urlsplit
+
+from ..storage.atomic import ler_json, escrever_json
 from datetime import datetime
 from pathlib import Path
 from typing import Optional, Tuple
@@ -31,7 +34,28 @@ TEXTO_LEMBRETE_RODAPE = "Nenhuma função será bloqueada."
 
 
 def link_configurado(link: Optional[str]) -> bool:
-    return bool(link) and "________" not in link and link.startswith("http")
+    if not isinstance(link, str) or not link or "________" in link or any(c.isspace() for c in link):
+        return False
+    try:
+        u = urlsplit(link)
+        return (u.scheme == "https" and u.hostname in {"link.mercadopago.com.br", "www.mercadopago.com.br", "mercadopago.com.br", "mpago.la"}
+                and not u.username and not u.password and u.port in (None, 443) and bool(u.path.strip("/")))
+    except ValueError:
+        return False
+
+
+def obter_link(repo) -> str:
+    from .. import config
+    dados = ler_json(repo.caminhos.configuracoes / "link_apoio.json", {})
+    return dados.get("link", "") or config.link_apoio()
+
+
+def salvar_link(repo, link: str) -> str:
+    valor = (link or "").strip()
+    if valor and not link_configurado(valor):
+        raise ValueError("Cole um link público HTTPS do Mercado Pago. Não informe chave de API, senha ou chave Pix.")
+    escrever_json(repo.caminhos.configuracoes / "link_apoio.json", {"link": valor})
+    return obter_link(repo)
 
 
 def gerar_qr_png(conteudo: str, tamanho_caixa: int = 8) -> bytes:

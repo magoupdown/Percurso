@@ -56,3 +56,11 @@ Diferenças intencionais: rótulos tradicionais das abas preservados onde o proj
 9. Avalie as telas com teclado, em notebook e celular, antes de integrar à branch principal.
 
 A revisão usa a mesma pasta de dados do Drive. A branch separa o código, não cria uma cópia dos dados pedagógicos. Para testar sem afetar registros reais, crie registros fictícios.
+
+## Ajuste de alinhamento e ajuda contextual
+
+Após o feedback com a captura de tela: a orientação de identificação foi movida para abaixo da linha compartilhada com idade. Os dois campos ficam sem alturas diferentes de texto auxiliar. Foram acrescentados tutorial de cadastro, orientação Gemini junto à ativação e ao campo de senha, e configuração do link público Mercado Pago com tutorial, persistência e atualização do QR Code.
+
+A API de imagem foi corrigida para o Gradio 6.26 (`buttons=[]`). Resultado desta atualização: **124 passed, 1 deselected**. Os três novos testes verificam persistência/validação do link, QR distinto ao trocar o endereço e atualização do callback da tela de apoio, incluindo remontagem com link já configurado. `git diff --check` passou.
+
+A imagem fornecida foi inspecionada diretamente. O alinhamento foi corrigido no código com base nessa evidência; não há nova captura renderizada, pois permanece a limitação do navegador registrada acima. Os tutoriais apontam para as páginas oficiais do Google e Mercado Pago consultadas nesta atualização.

@@ -99,3 +99,11 @@ CSS += """
 }
 @media (prefers-reduced-motion: reduce) { #percurso-app * { transition: none !important; animation: none !important; } }
 """
+
+CSS += """
+.percurso-identificacao .form { align-items: end; }
+.percurso-identificacao .block { align-self: end; }
+.percurso-identificacao input { min-height: 48px; box-sizing: border-box; }
+.percurso-ajuda-campo { margin-top: -6px; font-size: 14px; }
+.percurso-ajuda-campo p { font-size: 14px; line-height: 1.5; }
+"""

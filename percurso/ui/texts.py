@@ -460,3 +460,42 @@ INICIO_DADOS = "Primeiros passos e situação dos dados"
 CONTINUAR_INTRO = "Encontre um aluno ou uma turma para retomar seu trabalho."
 BUSCA_REGISTROS = "Buscar por nome, código ou instrumento"
 BUSCA_REGISTROS_VAZIA = "Nenhum registro corresponde à busca."
+
+# Orientações junto aos formulários, com fontes oficiais.
+TUTORIAL_GEMINI = """
+**1. Obtenha sua chave.** Abra o [Google AI Studio](https://aistudio.google.com/api-keys), entre na sua conta Google e escolha criar uma chave de API. Se solicitado, selecione ou crie um projeto. Copie a chave gerada.
+
+**2. Guarde no Colab.** Abra **Segredos**, no ícone de chave da barra lateral do Colab. Adicione um segredo com o nome **GEMINI_API_KEY** e cole a chave em **Valor**. Ative **Acesso do notebook**.
+
+**3. Conecte.** Volte ao Percurso e clique em **Usar Gemini**. A mensagem de ativação confirma que a conexão funcionou.
+
+**Alternativa para esta sessão:** se o segredo não for encontrado, aparece um campo de senha. Cole nele somente a chave e clique em **Usar Gemini**. Ela fica em memória e não é salva no Drive.
+
+**Se houver erro:** confira o nome do segredo, a permissão de acesso do notebook e a situação da chave no AI Studio. Uma chave bloqueada precisa ser substituída. Você pode continuar sem Gemini.
+
+Não compartilhe sua chave nem a inclua em capturas de tela. Disponibilidade, cotas e eventual cobrança são definidas pelo Google para seu projeto. [Orientação oficial sobre chaves](https://ai.google.dev/gemini-api/docs/api-key).
+"""
+TUTORIAL_MERCADO_PAGO = """
+**Este ajuste é para o responsável pelo projeto.** Para apenas apoiar, use o botão de contribuição quando ele estiver disponível.
+
+**O que preencher:** o link público que abre a página de pagamento no Mercado Pago. Este campo não recebe chave de API, Access Token, senha ou chave Pix.
+
+1. Entre na sua conta pelo aplicativo ou site do **Mercado Pago**.
+2. Procure **Cobrar** ou **Link de pagamento** e crie o link. Defina descrição, valor e demais condições conforme as opções da sua conta.
+3. Copie o link público para compartilhar, e não o endereço do painel da sua conta.
+4. Cole no campo abaixo e clique em **Salvar link de apoio**. O botão e o QR Code serão atualizados.
+5. Abra o botão de contribuição e confira o destinatário, o valor e as condições antes de divulgar. Salvar o link não realiza pagamento.
+
+O link fica salvo nesta instalação do Percurso, na pasta própria do Drive, e volta nas próximas sessões. Deixar o campo vazio e salvar restaura o link padrão do projeto, quando houver.
+
+[Passo a passo oficial do Mercado Pago](https://www.mercadopago.com.br/ferramentas-para-vender/link-de-pagamento).
+"""
+TUTORIAL_CADASTRO = """
+- **Tipo e identificação:** escolha aluno individual, dupla ou turma. Use primeiro nome, iniciais ou pseudônimo. Idade é opcional.
+- **Turma:** informe nome, quantidade e, se desejar, um aluno por linha. Essa lista permite registrar frequência individual.
+- **Instrumento, nível e modalidade:** selecione o que corresponde às aulas atuais. Ao escolher “Outro”, descreva no campo correspondente.
+- **Agenda:** informe o dia habitual, horário no formato **15:00** e duração em minutos.
+- **Conhecimentos e objetivos:** escreva um item por linha. Exemplo: “Manter pulsação regular” ou “Ler notas na clave de sol”.
+- **Recursos, metodologias e adaptações:** marque os recursos disponíveis e descreva os ajustes pedagógicos necessários. Evite incluir informações pessoais desnecessárias.
+- Ao terminar, clique em **Criar registro** e guarde o código recebido para continuar em outra sessão.
+"""
