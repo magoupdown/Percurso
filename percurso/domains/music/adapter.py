@@ -22,6 +22,15 @@ ORDEM_ESPECIALIDADES = [
     "pratica_conjunto", "outro",
 ]
 
+NOMES_EN = {
+    "piano": "piano", "teclado": "keyboard", "violao": "classical guitar", "guitarra": "electric guitar",
+    "flauta_doce": "recorder", "flauta_transversal": "flute", "clarinete": "clarinet", "saxofone": "saxophone",
+    "trompete": "trumpet", "trombone": "trombone", "violino": "violin", "viola": "viola", "violoncelo": "cello",
+    "canto": "singing voice", "coral": "choir", "bateria": "drum kit", "percussao": "percussion",
+    "percepcao_musical": "ear training", "musicalizacao": "early childhood music", "teoria_musical": "music theory",
+    "pratica_conjunto": "ensemble", "outro": "music instrument",
+}
+
 RUBRICA_INSTRUMENTO = ["leitura", "ritmo", "tecnica", "coordenacao", "percepcao", "autonomia"]
 RUBRICA_COLETIVA = ["participacao", "ritmo", "percepcao", "escuta", "cooperacao", "autonomia"]
 RUBRICA_PERCEPCAO = ["ritmo", "percepcao", "leitura", "solfejo", "ditado", "autonomia"]
@@ -263,8 +272,7 @@ class MusicAdapter(DomainAdapter):
     def expandir_consulta(self, tema: str, especialidade: str, nivel: str) -> List[str]:
         p = self.perfil_especialidade(especialidade)
         nome_pt = p.get("nome", especialidade)
-        voc_en = list(p.get("vocabulario_en") or [])
-        nome_en = voc_en[0] if voc_en else nome_pt
+        nome_en = NOMES_EN.get(especialidade) or p.get("nome_en") or nome_pt
         nivel_pt = {"iniciante": "iniciante", "basico": "básico", "intermediario": "intermediário", "avancado": "avançado"}.get(nivel, nivel)
         nivel_en = {"iniciante": "beginner", "basico": "elementary", "intermediario": "intermediate", "avancado": "advanced"}.get(nivel, "")
         tema_n = _norm(tema)

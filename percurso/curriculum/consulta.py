@@ -25,6 +25,15 @@ PALAVRAS_TEMA = {
     "tecnologia": ["tecnologia", "áudio", "audiovisual", "equipamentos"],
     "historia": ["contextos", "funções da música", "músicos e grupos", "estilos musicais"],
     "apreciacao": ["apreciar", "apreciação", "gêneros"],
+    "articulacao": ["execução", "instrumentos musicais", "fontes sonoras", "sons"],
+    "tecnica": ["execução", "instrumentos musicais"],
+    "flauta": ["instrumentos musicais", "fontes sonoras", "execução"],
+    "piano": ["instrumentos musicais", "execução"],
+    "violao": ["instrumentos musicais", "execução"],
+    "escala": ["elementos constitutivos", "altura", "melodia"],
+    "acorde": ["elementos constitutivos", "melodia", "harmonia"],
+    "dinamica": ["intensidade", "elementos constitutivos"],
+    "timbre": ["timbre", "fontes sonoras", "instrumentos musicais"],
 }
 
 
