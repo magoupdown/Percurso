@@ -138,6 +138,9 @@ def _montar_opcional(nome: str, sessao: Sessao) -> Optional[dict]:
 
 def lancar(demo, inline: bool = True, share: bool = False, **kw):
     """Lança inline no Colab (D1) ou em janela local."""
+    # ssr_mode=False: no Colab (que tem Node instalado) o Gradio liga a renderização no servidor e a
+    # interface aparece sem estilo nem interação dentro do iframe do proxy. O modo clássico funciona.
+    kw.setdefault("ssr_mode", False)
     return demo.launch(
         inline=inline,
         share=share,
