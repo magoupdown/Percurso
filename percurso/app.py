@@ -15,7 +15,7 @@ def montar_app(sessao: Sessao):
     import gradio as gr
 
     from .ui import common as C
-    from .ui.screens import ajuda, apoio, aula, configuracoes, continuar, historico, inicio, novo_registro, planejar
+    from .ui.screens import ajuda, apoio, aula, configuracoes, continuar, historico, inicio, gerenciar, novo_registro, planejar
 
     with gr.Blocks(elem_id="percurso-app", analytics_enabled=False, title=f"{T.APP_NOME} — {T.APP_SUBTITULO}") as demo:
         with gr.Tabs(elem_id="percurso-navegacao") as abas:
@@ -25,6 +25,7 @@ def montar_app(sessao: Sessao):
             s_planejar = planejar.montar(sessao)
             s_aula = aula.montar(sessao)
             s_historico = historico.montar(sessao)
+            gerenciar.montar(sessao)
             s_biblioteca = _montar_opcional("biblioteca", sessao)
             s_pesquisar = _montar_opcional("pesquisar", sessao)
             s_relatorios = _montar_opcional("relatorios", sessao)
@@ -77,7 +78,7 @@ def montar_app(sessao: Sessao):
 
             r = gemini.ativar(sessao)
             if r.ok:
-                return C.ok(T.GEMINI_ATIVADO), gr.update(visible=False), C.badge_modo(sessao), gr.update(visible=False), gr.update(visible=True)
+                return C.ok(r.mensagem), gr.update(visible=False), C.badge_modo(sessao), gr.update(visible=False), gr.update(visible=True)
             if r.motivo == "sem_chave":
                 return "", gr.update(visible=True), C.badge_modo(sessao), gr.update(visible=True), gr.update(visible=False)
             return C.erro(r.mensagem), gr.update(visible=True), C.badge_modo(sessao), gr.update(visible=True), gr.update(visible=False)
@@ -87,7 +88,7 @@ def montar_app(sessao: Sessao):
 
             r = gemini.ativar(sessao, chave_sessao=(chave or "").strip() or None)
             if r.ok:
-                return C.ok(T.GEMINI_ATIVADO), gr.update(visible=False), C.badge_modo(sessao), gr.update(visible=False), gr.update(visible=True), ""
+                return C.ok(r.mensagem), gr.update(visible=False), C.badge_modo(sessao), gr.update(visible=False), gr.update(visible=True), ""
             return C.erro(r.mensagem), gr.update(visible=True), C.badge_modo(sessao), gr.update(visible=True), gr.update(visible=False), ""
 
         def sem_gemini():
@@ -99,6 +100,7 @@ def montar_app(sessao: Sessao):
         s_inicio["btn_usar_chave"].click(_seguro(usar_chave, len(saidas_g) + 1), [s_inicio["chave_sessao"]], saidas_g + [s_inicio["chave_sessao"]])
         s_inicio["btn_sem_gemini"].click(sem_gemini, None, saidas_g)
         s_inicio["btn_sem_gemini2"].click(sem_gemini, None, saidas_g)
+        s_inicio["btn_desconectar"].click(sem_gemini, None, saidas_g)
 
     # Uma instância pertence a um professor. Evita trocar o contexto enquanto
     # outro callback ainda está gravando ou gerando um plano.

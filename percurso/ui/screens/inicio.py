@@ -47,7 +47,11 @@ def montar(sessao: Sessao) -> dict:
                     btn_usar_chave = gr.Button("Usar Gemini", variant="primary")
                     btn_aprender = gr.Button(T.BTN_APRENDER_CONFIGURAR, variant="secondary")
                     btn_sem_gemini2 = gr.Button("Continuar sem Gemini", variant="secondary")
-            resultado_gemini = gr.HTML("")
+        resultado_gemini = gr.HTML("")
+        with gr.Row():
+            btn_reconfigurar = gr.Button("Configurar ou trocar chave Gemini", size="sm")
+            btn_desconectar = gr.Button("Desconectar Gemini", size="sm")
+        btn_reconfigurar.click(lambda: (gr.update(visible=True), gr.update(visible=True)), None, [grupo_gemini, grupo_chave])
 
         # --- consentimento de envio de trechos da biblioteca (SPEC §7.6) — só com Gemini ativo ---
         with gr.Group(visible=False) as grupo_consentimento:
@@ -84,6 +88,7 @@ def montar(sessao: Sessao) -> dict:
 
     return {
         "tab": tab,
+        "btn_desconectar": btn_desconectar,
         "badge": badge,
         "mensagens": mensagens,
         "lembrete": lembrete,

@@ -76,3 +76,24 @@ Benefício: qualidade verificável na rotina do professor.
 Impacto: mantém a arquitetura atual e exige uma etapa explícita de avaliação antes da promoção desta revisão à versão principal.
 
 Compatível com os requisitos atuais? Sim.
+
+## Edição, reset e confirmação de chave (08/09/2026)
+
+Nova aba **Editar e resetar** com edição de cadastro, nomes dos integrantes da turma,
+aulas e planos ainda não realizados. Restaurar campos relê o item salvo; não remove
+histórico. Reset permite remover aula/plano, zerar histórico preservando cadastro,
+ou excluir o cadastro completo. Exige revisão, código digitado e seleção inalterada.
+Cada mutação gera backup com identificador único. Alunos com frequência histórica
+não podem ser removidos da lista da turma; seus nomes podem ser corrigidos mantendo
+os IDs. Alterações invalidam os formulários da sessão ativa. Documentos previamente
+exportados e resumos escritos pelo professor não são reescritos automaticamente.
+
+Mudança de data da aula grava o novo arquivo antes de remover o anterior. Planos
+realizados são corrigidos pela aula correspondente; remover a última aula vinculada
+libera o plano novamente. Alterar duração de plano reajusta seu cronograma.
+
+O retorno do Gemini permanece visível após conectar. O sucesso só é apresentado
+após a chamada de teste ao Google. Informa se a chave está somente em memória ou
+foi obtida da configuração de segredos do ambiente. O aplicativo não grava a chave.
+No Colab, salve GEMINI_API_KEY nos Segredos e habilite acesso ao notebook para não
+precisar colá-la em cada sessão. Há controles de trocar chave e desconectar.

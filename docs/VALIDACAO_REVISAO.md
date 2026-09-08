@@ -64,3 +64,15 @@ Após o feedback com a captura de tela: a orientação de identificação foi mo
 A API de imagem foi corrigida para o Gradio 6.26 (`buttons=[]`). Resultado desta atualização: **124 passed, 1 deselected**. Os três novos testes verificam persistência/validação do link, QR distinto ao trocar o endereço e atualização do callback da tela de apoio, incluindo remontagem com link já configurado. `git diff --check` passou.
 
 A imagem fornecida foi inspecionada diretamente. O alinhamento foi corrigido no código com base nessa evidência; não há nova captura renderizada, pois permanece a limitação do navegador registrada acima. Os tutoriais apontam para as páginas oficiais do Google e Mercado Pago consultadas nesta atualização.
+
+## Edição e reset (08/09/2026)
+
+Verificação adicional: edição e remoção com backup, preservação de cadastro no reset
+do histórico, rejeição de dados inválidos, falha de escrita preservando arquivo
+anterior, duração/data de plano, proteção de plano realizado, liberação de plano ao
+remover aula, confirmação de reset e bloqueio se a seleção mudar. Gemini verificado
+com cliente simulado, sem consumo de API ou credenciais reais. A montagem da
+interface está incluída na suíte. A inspeção visual em navegador continua pendente
+pelas limitações de acesso descritas anteriormente.
+
+Resultado da suíte completa: **132 testes passaram, 1 deselecionado**.
