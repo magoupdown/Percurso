@@ -76,3 +76,9 @@ Docs: [ARCHITECTURE](docs/ARCHITECTURE.md) · [DATA_MODEL](docs/DATA_MODEL.md) �
 `pytest`: 103 testes verdes em 08/09/2026 (+1 teste `online` com OpenAlex e Crossref reais).
 
 **Último teste no Colab:** 08/09/2026 (Python 3.13.15, Gradio 6.26.0) — abertura pelo badge, inicialização, conexão do Drive, interface inline estilizada e navegação entre abas verificadas. Versões fixadas em `requirements.txt` a partir desse teste. Pendências do proprietário (SPEC §21): link do Mercado Pago em `config/defaults.json` e e-mail para o OpenAlex (opcional).
+
+## Revisão de experiência e integridade
+
+A revisão adiciona busca por nome/instrumento, reorganiza a tela inicial e corrige troca de contexto, frequência implícita, mensagens HTML e exportações cumulativas. Consulte [a análise técnica](docs/REVISAO_TECNICA.md) e [a evidência de validação](docs/VALIDACAO_REVISAO.md).
+
+O notebook `Percurso_Revisao.ipynb` instala a branch de avaliação em uma pasta de código separada. Abra-o em uma sessão nova do Colab. Os dados pedagógicos continuam na pasta habitual do Drive. A validação visual e a homologação autenticada no Colab permanecem necessárias antes de promover a revisão à versão principal.

@@ -62,7 +62,7 @@ class Sessao:
         try:
             return self._montar_contexto(self.repo.ler_registro(self.contexto.codigo))
         except RegistroNaoEncontrado:
-            self.contexto = None
+            self.descarregar()
             return None
 
     def _montar_contexto(self, registro: Registro) -> ContextoRegistro:
@@ -76,6 +76,8 @@ class Sessao:
             repertorio=self.repo.ler_repertorio(codigo),
             numeros={a.id: n for n, a in numerados},
         )
+        if self.contexto is None or self.contexto.codigo != codigo:
+            self.descarregar()
         self.contexto = ctx
         return ctx
 
@@ -83,6 +85,18 @@ class Sessao:
         self.contexto = None
         self.ultimo_plano = None
         self.formulario_aula = {}
+        self.mapa_pseudonimos.clear()
+        self.cache_ia.clear()
+
+    def desativar_gemini(self) -> None:
+        """Revoga o consentimento e elimina credenciais e resultados da sessão."""
+        self.modo_ia = "essencial"
+        self.gemini_pronto = False
+        self.cliente_gemini = None
+        self.chave_temporaria = None
+        self.consentimento_trechos = False
+        self.mapa_pseudonimos.clear()
+        self.cache_ia.clear()
 
     # ------------------------------------------------------------- domínio
     def adaptador(self, dominio: str = "musica"):
@@ -140,19 +154,10 @@ class Sessao:
         ctx = self.contexto
         if ctx is None or not texto:
             return texto
-        saida = texto
-        reg = ctx.registro
-        pares = []
-        if reg.identificacao.strip():
-            pares.append((reg.identificacao.strip(), f"o aluno {reg.codigo}" if not reg.eh_turma else f"a turma {reg.codigo}"))
-        if reg.turma:
-            for al in reg.turma.alunos:
-                if al.identificacao.strip():
-                    pares.append((al.identificacao.strip(), f"aluno {al.id}"))
-        pares.sort(key=lambda p: -len(p[0]))
-        for nome, codigo in pares:
-            self.mapa_pseudonimos[codigo] = nome
-            saida = _substituir_palavra(saida, nome, codigo)
+        from ..ai.anonymize import Pseudonimizador
+        anon = Pseudonimizador(ctx.registro)
+        saida = anon.aplicar(texto)
+        self.mapa_pseudonimos.update(anon.mapa)
         return saida
 
     def restaurar_nomes(self, texto: str) -> str:

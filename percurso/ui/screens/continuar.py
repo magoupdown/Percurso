@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import gradio as gr
+import unicodedata
 
 from ...core import codes
 from ...storage.repo import RegistroNaoEncontrado
@@ -12,11 +13,20 @@ from ..session import Sessao
 
 def montar(sessao: Sessao) -> dict:
     with gr.Tab(T.ABA_CONTINUAR, id="continuar") as tab:
+        gr.Markdown(f"## {T.ABA_CONTINUAR}\n\n{T.CONTINUAR_INTRO}")
         with gr.Row():
             codigo = gr.Textbox(label=T.DIGITE_CODIGO, placeholder=T.PLACEHOLDER_CODIGO, scale=3)
             btn_carregar = gr.Button(T.BTN_CARREGAR, variant="primary", scale=1)
+        busca = gr.Textbox(label=T.BUSCA_REGISTROS, placeholder="Nome, PCR ou instrumento…")
         recentes = gr.Dropdown(label="Ou escolha um registro já criado neste Drive", choices=_recentes(sessao), value=None)
+        def filtrar_registros(consulta):
+            opcoes = _recentes(sessao, consulta)
+            return gr.update(choices=opcoes, value=None), "" if opcoes else C.aviso(T.BUSCA_REGISTROS_VAZIA)
+
         mensagem = gr.HTML("")
+        busca.submit(filtrar_registros, [busca], [recentes, mensagem])
+        busca.change(filtrar_registros, [busca], [recentes, mensagem], trigger_mode="always_last")
+        recentes.input(lambda escolhido: escolhido or "", [recentes], [codigo])
         painel = gr.Markdown(_painel_atual(sessao))
         with gr.Row(visible=sessao.contexto is not None and sessao.contexto.estado.total_aulas > 0) as acoes_com_aulas:
             btn_continuar = gr.Button(T.BTN_CONTINUAR_DE_ONDE_PARAMOS, variant="primary")
@@ -136,16 +146,19 @@ def _painel_atual(sessao: Sessao) -> str:
     return C.painel_retorno(sessao.contexto, sessao)
 
 
-def _recentes(sessao: Sessao) -> list:
+def _recentes(sessao: Sessao, consulta: str = "") -> list:
     saida = []
     for cod in sessao.repo.listar_codigos():
         try:
             reg = sessao.repo.ler_registro(cod)
             quem = reg.identificacao or (reg.turma.nome if reg.turma else "") or cod
-            saida.append((f"{cod} · {quem}", cod))
+            instrumento = sessao.adaptador(reg.dominio).nome_especialidade(reg.instrumento)
+            saida.append((f"{quem} · {instrumento} · {cod}", cod))
         except Exception:
             saida.append((cod, cod))
-    return saida
+    normalizar = lambda t: "".join(c for c in unicodedata.normalize("NFKD", t.casefold()) if not unicodedata.combining(c))
+    termos = normalizar(consulta or "").split()
+    return sorted([item for item in saida if all(t in normalizar(item[0]) for t in termos)], key=lambda item: normalizar(item[0]))
 
 
 def _texto_resumo(sessao: Sessao) -> str:

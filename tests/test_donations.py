@@ -43,3 +43,37 @@ def test_link_configurado():
     assert not donations.link_configurado("https://link.mercadopago.com.br/________")
     assert donations.link_configurado("https://link.mercadopago.com.br/percurso")
     assert not donations.link_configurado("")
+
+
+def test_link_salvo_persiste_e_nao_aceita_segredos(repo):
+    import pytest
+    from percurso.storage.repo import Repositorio
+    valor = 'https://link.mercadopago.com.br/percurso'
+    assert donations.salvar_link(repo, valor) == valor
+    assert donations.obter_link(Repositorio(repo.base)) == valor
+    for invalido in ['APP_USR-token-teste', 'https://link.mercadopago.com.br.evil.test/pagar', 'http://mpago.la/exemplo', 'https://usuario@mpago.la/teste', 'javascript:alert(1)']:
+        with pytest.raises(ValueError): donations.salvar_link(repo, invalido)
+    assert donations.obter_link(repo) == valor
+
+
+def test_qr_muda_quando_link_muda(sessao):
+    from percurso.ui.screens.apoio import _qr_path
+    a = _qr_path(sessao, 'https://mpago.la/primeiro')
+    b = _qr_path(sessao, 'https://mpago.la/segundo')
+    assert a != b and a.exists() and b.exists()
+    assert a.read_bytes() != b.read_bytes()
+
+
+def test_tela_apoio_atualiza_link_e_qr(sessao):
+    import gradio as gr
+    from percurso.ui.screens import apoio
+    with gr.Blocks() as demo:
+        apoio.montar(sessao)
+    evento = next(f for f in demo.fns.values() if f.fn and f.fn.__name__ == 'salvar_configuracao')
+    url = 'https://link.mercadopago.com.br/percurso'
+    saida = evento.fn(url)
+    assert saida[1]['visible'] and saida[2]['link'] == url
+    assert donations.obter_link(sessao.repo) == url
+    with gr.Blocks():
+        tela = apoio.montar(sessao)
+    assert tela['configurado']

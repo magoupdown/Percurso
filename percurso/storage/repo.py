@@ -208,10 +208,11 @@ class Repositorio:
         # se a data mudou, remove o arquivo antigo com o mesmo id
         pasta = self.caminhos.aulas(codigo)
         pasta.mkdir(parents=True, exist_ok=True)
-        for antigo in pasta.glob(f"*_{aula.id}.json"):
-            if antigo.name != aula.nome_arquivo():
-                antigo.unlink()
+        antigos = [p for p in pasta.glob(f"*_{aula.id}.json") if p.name != aula.nome_arquivo()]
         self._gravar(pasta / aula.nome_arquivo(), aula)
+        for antigo in antigos:
+            antigo.unlink()
+            antigo.with_name(antigo.name + ".bak").unlink(missing_ok=True)
         return aula
 
     def excluir_aula(self, codigo: str, id_aula: str) -> bool:
@@ -324,7 +325,9 @@ class Repositorio:
         with zipfile.ZipFile(destino, "w", zipfile.ZIP_DEFLATED) as z:
             for p in raiz.rglob("*"):
                 if p.is_file() and not p.name.endswith((".tmp",)):
-                    if apenas_registro is None and self.caminhos.backups in p.parents:
+                    if apenas_registro is None and (self.caminhos.backups in p.parents or self.caminhos.exportacoes in p.parents):
+                        continue
+                    if p.name.endswith((".log", ".log.1")):
                         continue
                     if apenas_registro is None and p.resolve() == destino.resolve():
                         continue

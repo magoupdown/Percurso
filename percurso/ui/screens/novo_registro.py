@@ -14,10 +14,13 @@ from ..session import Sessao
 def montar(sessao: Sessao) -> dict:
     with gr.Tab(T.ABA_NOVO, id="novo") as tab:
         gr.Markdown(f"## {T.NOVO_TITULO}")
+        with gr.Accordion("Como preencher este cadastro", open=False):
+            gr.Markdown(T.TUTORIAL_CADASTRO)
         tipo = gr.Radio(label=T.NOVO_TIPO, choices=T.opcoes(T.TIPOS_REGISTRO), value="individual")
-        with gr.Row():
-            identificacao = gr.Textbox(label=T.NOVO_IDENTIFICACAO, info=T.NOVO_IDENTIFICACAO_AJUDA)
-            idade = gr.Number(label=T.NOVO_IDADE, value=None, precision=0, minimum=2, maximum=120)
+        with gr.Row(equal_height=True, elem_classes=["percurso-identificacao"]):
+            identificacao = gr.Textbox(label=T.NOVO_IDENTIFICACAO, placeholder="Ex.: Ana ou A. S.")
+            idade = gr.Number(label=T.NOVO_IDADE, value=None, placeholder="Opcional", precision=0, minimum=2, maximum=120)
+        gr.Markdown(T.NOVO_IDENTIFICACAO_AJUDA + " A idade é opcional; deixe em branco se não quiser informar.", elem_classes=["percurso-ajuda-campo"])
         with gr.Group(visible=False) as grupo_turma:
             with gr.Row():
                 turma_nome = gr.Textbox(label=T.NOVO_TURMA_NOME)

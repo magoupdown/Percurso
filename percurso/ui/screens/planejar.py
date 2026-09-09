@@ -38,14 +38,20 @@ def montar(sessao: Sessao) -> dict:
             btn_registrar = gr.Button(T.BTN_REGISTRAR_A_PARTIR_DO_PLANO, variant="primary")
             btn_descartar = gr.Button(T.BTN_DESCARTAR_PLANO)
 
+        codigo_formulario = None
+
         def ao_selecionar():
+            nonlocal codigo_formulario
             ctx = sessao.recarregar()
+            codigo_atual = ctx.codigo if ctx else None
+            mudou = codigo_atual != codigo_formulario
+            codigo_formulario = codigo_atual
             dur = ctx.registro.agenda.duracao_min if ctx else 50
             rec = list(ctx.registro.recursos_habituais) if ctx else []
             md = planner.plano_como_markdown(sessao.ultimo_plano, rubricas=sessao.repo.ler_rubricas()) if sessao.ultimo_plano else T.NENHUM_PLANO
-            return C.cabecalho_registro(sessao), gr.update(value=dur), gr.update(value=dur), gr.update(value=rec), md, gr.update(visible=_pesquisa_disponivel())
+            return C.cabecalho_registro(sessao), gr.update(value=dur), gr.update(value=dur), gr.update(value=rec), md, gr.update(visible=_pesquisa_disponivel()), *[gr.update(value="") if mudou else gr.update() for _ in range(6)]
 
-        tab.select(ao_selecionar, None, [cabecalho, duracao, nova_duracao, recursos, plano_md, onde])
+        tab.select(ao_selecionar, None, [cabecalho, duracao, nova_duracao, recursos, plano_md, onde, conteudo, objetivo, nova_unidade, observacoes, sugestao, status])
 
         def sugerir():
             if sessao.contexto is None:
@@ -103,12 +109,12 @@ def montar(sessao: Sessao) -> dict:
 
         def registrar():
             p = sessao.ultimo_plano
-            if p is None or sessao.contexto is None:
-                return C.aviso(T.NENHUM_PLANO)
+            if p is None or sessao.contexto is None or p.codigo_registro != sessao.contexto.codigo or p.status != "gerado":
+                raise gr.Error(T.NENHUM_PLANO)
             sessao.formulario_aula = planner.aula_a_partir_do_plano(p, sessao.contexto.estado)
             return C.ok(T.PLANO_PREENCHIDO)
 
-        btn_registrar.click(C.protegido(registrar), None, [status])
+        evento_registrar = btn_registrar.click(C.protegido(registrar), None, [status])
 
         def descartar():
             p = sessao.ultimo_plano
@@ -121,7 +127,7 @@ def montar(sessao: Sessao) -> dict:
 
         btn_descartar.click(C.protegido(descartar), None, [status, plano_md])
 
-    return {"tab": tab, "tipo_aula": tipo_aula, "btn_registrar": btn_registrar, "status": status}
+    return {"tab": tab, "tipo_aula": tipo_aula, "btn_registrar": btn_registrar, "status": status, "evento_registrar": evento_registrar, "atualizar": ao_selecionar, "saidas_atualizar": [cabecalho, duracao, nova_duracao, recursos, plano_md, onde, conteudo, objetivo, nova_unidade, observacoes, sugestao, status]}
 
 
 def _pesquisa_disponivel() -> bool:

@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 dependencies = [
-  "gradio>=4.0",
+  "gradio>=6.26,<7",
   "pydantic>=2",
   "pandas",
   "numpy",

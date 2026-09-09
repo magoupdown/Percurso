@@ -7,6 +7,7 @@ from __future__ import annotations
 import json
 import os
 import shutil
+import tempfile
 from pathlib import Path
 from typing import Any, Callable, Optional
 
@@ -27,11 +28,12 @@ def escrever_json(caminho: Path, dados: Any, validador: Optional[Callable[[Any],
     """
     caminho = Path(caminho)
     caminho.parent.mkdir(parents=True, exist_ok=True)
-    tmp = caminho.with_name(caminho.name + ".tmp")
+    tmp = None
     bak = caminho.with_name(caminho.name + ".bak")
     try:
         texto = _serializar(dados)
-        with open(tmp, "w", encoding="utf-8", newline="\n") as f:
+        with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", newline="\n", dir=caminho.parent, prefix=caminho.name + ".", suffix=".tmp", delete=False) as f:
+            tmp = Path(f.name)
             f.write(texto)
             f.flush()
             os.fsync(f.fileno())
@@ -47,7 +49,7 @@ def escrever_json(caminho: Path, dados: Any, validador: Optional[Callable[[Any],
         os.replace(tmp, caminho)
     except Exception as e:
         try:
-            if tmp.exists():
+            if tmp is not None and tmp.exists():
                 tmp.unlink()
         except OSError:
             pass

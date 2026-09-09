@@ -116,7 +116,11 @@ def ativar(sessao, chave_sessao: Optional[str] = None, fabrica_cliente=None) -> 
     sessao.chave_temporaria = chave if chave_sessao else sessao.chave_temporaria
     sessao.modo_ia = "gemini"
     sessao.gemini_pronto = True
-    return ResultadoAtivacao(True, "ok", T.GEMINI_ATIVADO)
+    if sessao.chave_temporaria:
+        armazenamento = "Chave validada com uma chamada ao Google. Ela está somente na memória desta sessão e não foi salva. Ao reiniciar o Colab, será necessário inseri-la novamente. Para reutilizar, salve GEMINI_API_KEY nos Segredos do Colab e habilite o acesso ao notebook."
+    else:
+        armazenamento = "Chave validada com uma chamada ao Google e carregada da configuração de segredos do ambiente. Não é necessário colá-la novamente enquanto essa configuração estiver disponível. Ao iniciar uma nova sessão, clique em Usar Gemini para conectar."
+    return ResultadoAtivacao(True, "ok", T.GEMINI_ATIVADO + " " + armazenamento)
 
 
 def hash_prompt(*partes: Any) -> str:
